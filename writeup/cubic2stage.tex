@@ -361,18 +361,71 @@ unit, so $\cO_K^\times=\langle-1\rangle\times\varepsilon^{\Z}$, and put
 since $|\sigma_1(\varepsilon)||\sigma_2(\varepsilon)|^2=1$, multiplication by $\varepsilon$
 scales the two factors of $\R\times\C$ by $\lambda^{\pm1}$ and $\lambda^{\mp1/2}$.
 
-For $q_1,q_2\in\cO_K$ with $q_2\neq0$ write $[q_1,q_2]=q_1+1/q_2$. The following is a
-particular case of \cite[Corollary~1]{Co}, as in \cite[Proposition~2.1]{GM}.
+A \emph{$k$-stage division chain} for $\alpha,\beta\in\cO_K$, $\beta\ne0$, with quotients
+$q_1,\dots,q_k\in\cO_K$ is the sequence of equations
+\begin{equation}\label{eq:kchain}
+  r_{i-2}=q_ir_{i-1}+r_i\qquad(1\le i\le k),\qquad r_{-1}=\alpha,\ r_0=\beta;
+\end{equation}
+it is \emph{decreasing} if $|\Nm(r_k)|<|\Nm(\beta)|$. For $k=1,2$ this is the definition of the
+introduction. Define the continuants $P_i,Q_i\in\cO_K$ by $P_{-1}=0$, $P_0=1$, $Q_{-1}=1$,
+$Q_0=0$ and
+\[
+  P_i=q_iP_{i-1}+P_{i-2},\qquad Q_i=q_iQ_{i-1}+Q_{i-2}\qquad(1\le i\le k).
+\]
+When $Q_k\ne0$ we write $[q_1,\dots,q_k]=P_k/Q_k$. This is the value of the continued fraction
+of the introduction whenever all its partial denominators are nonzero. For instance
+$[q_1]=q_1$ with $Q_1=1$, and $[q_1,q_2]=(q_1q_2+1)/q_2=q_1+1/q_2$ with $Q_2=q_2$. The
+following is due to Cooke \cite{Co} (see also \cite[(0.8)--(0.9)]{Le2}); we include the short
+proof.
 
 \begin{proposition}\label{prop:cooke}
-The pair $\alpha,\beta$ has a $k$-stage decreasing chain with $k\le2$ if and only if there are
-$q_1,q_2\in\cO_K$ with $|\Nm(\alpha/\beta-[q_1,q_2])|<1/|\Nm(q_2)|$. In that case
+Let $k\ge1$ and $q_1,\dots,q_k\in\cO_K$.
+\begin{enumerate}
+\item[(i)] The pair $\alpha,\beta$ has a decreasing $k$-stage chain with quotients
+$q_1,\dots,q_k$ if and only if $Q_k\ne0$ and
+\[
+  \bigl|\Nm\bigl(\alpha/\beta-[q_1,\dots,q_k]\bigr)\bigr|<|\Nm(Q_k)|^{-1}.
+\]
+\item[(ii)] If $\alpha,\beta$ has a decreasing chain of length $j\le k$, it has one of length
+$k$. The values $[q_1,\dots]$ and the continuants $Q$ of the two chains are the same.
+\end{enumerate}
+In particular, $\alpha,\beta$ has a decreasing chain of length at most $2$ if and only if
+$|\Nm(\alpha/\beta-[q_1,q_2])|<1/|\Nm(q_2)|$ for some $q_1,q_2\in\cO_K$, and then
 $q_1,q_2$ are the quotients of a chain \eqref{eq:chain}.
 \end{proposition}
 
-Indeed, $\alpha/\beta-q_1=r_1/\beta$, so
-$r_2/\beta=1-q_2\,r_1/\beta=1-q_2(\alpha/\beta-q_1)=-q_2(\alpha/\beta-[q_1,q_2])$; if $q_2$ is a
-unit, the chain can be shortened to a $1$-stage chain. For $q=[q_1,q_2]$ let
+\begin{proof}
+(i) The equations \eqref{eq:kchain} define $r_1,\dots,r_k$ for any $q_1,\dots,q_k$. They say
+that $(r_{i-2},r_{i-1})^T=A_i\,(r_{i-1},r_i)^T$, where
+$A_i=\left(\begin{smallmatrix}q_i&1\\1&0\end{smallmatrix}\right)$. By induction on $k$,
+\[
+  A_1A_2\cdots A_k=\begin{pmatrix}P_k&P_{k-1}\\Q_k&Q_{k-1}\end{pmatrix},
+  \qquad\text{so}\qquad
+  \begin{pmatrix}\alpha\\\beta\end{pmatrix}=
+  \begin{pmatrix}P_k&P_{k-1}\\Q_k&Q_{k-1}\end{pmatrix}
+  \begin{pmatrix}r_{k-1}\\r_k\end{pmatrix}.
+\]
+Since $\det A_i=-1$, we have $P_kQ_{k-1}-P_{k-1}Q_k=(-1)^k$, and therefore
+\[
+  \alpha Q_k-\beta P_k=(P_{k-1}Q_k-Q_{k-1}P_k)\,r_k=(-1)^{k+1}r_k .
+\]
+If $Q_k=0$, then $P_kQ_{k-1}=(-1)^k$, so $P_k$ is a unit and $|\Nm(r_k)|=|\Nm(\beta)|$; the chain
+is not decreasing. If $Q_k\ne0$, then
+$r_k/\beta=(-1)^{k+1}Q_k\,(\alpha/\beta-[q_1,\dots,q_k])$, and $|\Nm(r_k)|<|\Nm(\beta)|$ is the
+stated inequality.
+
+(ii) It suffices to lengthen a decreasing chain by one step. Replace its last quotient $q_j$ by
+the two quotients $q_j-1,1$. The new continuants are $P'_j=P_j-P_{j-1}$ and
+$P'_{j+1}=P'_j+P_{j-1}=P_j$, and likewise $Q'_{j+1}=Q_j$. So the value and the continuant are
+unchanged, and the new chain is decreasing by (i).
+
+For the last assertion, apply (i) with $k=2$ and use (ii) for $j=1$.
+\end{proof}
+
+By (ii), a field is $k$-stage Euclidean, that is, every pair has a decreasing chain of length
+at most $k$, if and only if every point of $\sigma(K)$ lies in a set
+$\{x:|\Nm(x-\sigma(q))|<|\Nm(Q_k)|^{-1}\}$ with $q=[q_1,\dots,q_k]$. In this paper we use $k=2$.
+For $q=[q_1,q_2]$ let
 \[
   V(q)=\bigl\{x\in\R\times\C:\ |\Nm(x-\sigma(q))|<|\Nm(q_2)|^{-1}\bigr\}.
 \]
@@ -562,7 +615,12 @@ $g\in\cO_K$, so $y\in\sigma(K)$.
 The proof uses only that the unit group is infinite, and extends to every number field
 (Section~\ref{sec:general}). It shows more than Theorem~\ref{thm:equiv}: for any such field,
 of any class number, the points that lie in no region form finitely many classes modulo
-$\cO_K$, and all of them lie in $K$. The regions used in Lemma~\ref{lem:tower} have denominators
+$\cO_K$, and all of them lie in $K$. The same holds for $k$-stage chains with $k\ge2$. By
+Proposition~\ref{prop:cooke}(ii), every region $V(q)$ is also one of the sets
+$\{|\Nm(x-\sigma(q'))|<|\Nm(Q_k)|^{-1}\}$, $q'=[q_1,\dots,q_k]$, attached to $k$-stage chains.
+So the points lying in none of those sets form a subset of the finite set of
+Theorem~\ref{thm:uncovered}. Hence $K$ is $k$-stage Euclidean if and only if these sets cover
+$\R\times\C$. The regions used in Lemma~\ref{lem:tower} have denominators
 $\pi^{m+j}$ of unbounded norm, so the argument says nothing about a fixed bound $N$ on the
 denominators (Question~\ref{q:bounded}); for instance, it does not show that a norm-Euclidean
 field has $\Nmin=1$. When the unit rank is at least two and $K$ is not a CM field, the units
@@ -1121,8 +1179,11 @@ Section~\ref{sec:setting}.
 \begin{proposition}\label{prop:gen-basic}
 Let $K$ be as above.
 \begin{enumerate}
-\item[(i)] A pair $\alpha,\beta\in\cO_K$, $\beta\ne0$, has a decreasing chain of length at most two
-if and only if $|\Nm(\alpha/\beta-[q_1,q_2])|<|\Nm(q_2)|^{-1}$ for some $q_1,q_2\in\cO_K$.
+\item[(i)] For $k\ge1$, a pair $\alpha,\beta\in\cO_K$, $\beta\ne0$, has a decreasing $k$-stage
+chain with quotients $q_1,\dots,q_k\in\cO_K$ if and only if $Q_k\ne0$ and
+$|\Nm(\alpha/\beta-[q_1,\dots,q_k])|<|\Nm(Q_k)|^{-1}$, in the notation of
+Proposition~\ref{prop:cooke}. In particular it has a decreasing chain of length at most two if
+and only if $|\Nm(\alpha/\beta-[q_1,q_2])|<|\Nm(q_2)|^{-1}$ for some $q_1,q_2\in\cO_K$.
 \item[(ii)] For $\alpha\in\cO_K$ with $\mathrm N(\alpha\cO_K)=\nu$, the elements $[q_1,q_2]$ with
 $q_2\cO_K=\alpha\cO_K$ form the set $\{r/\alpha+g: r\in U_\alpha,\ g\in\cO_K\}$, where $U_\alpha$ is
 the image of $\cO_K^\times$ in $\cO_K/\alpha\cO_K$, and the corresponding regions have radius
@@ -1137,9 +1198,7 @@ $2$-stage Euclidean then $\overline D$ is covered by finitely many regions.
 \end{proposition}
 
 \begin{proof}
-(i) If $\alpha=q_1\beta+r_1$ and $\beta=q_2r_1+r_2$, then $r_2/\beta=-q_2(\alpha/\beta-[q_1,q_2])$,
-so $|\Nm(r_2)|<|\Nm(\beta)|$ is the stated inequality; conversely, given $q_1,q_2$, define
-$r_1,r_2$ by these equations. The case $q_2\in\cO_K^\times$ contains the $1$-stage chains.
+(i) is Proposition~\ref{prop:cooke}, whose proof does not use the degree.
 (ii) is the proof of Lemma~\ref{lem:classes}, which does not use the
 degree.
 (iii) The regions are open and $\overline D$ is compact. Since $V(q)-\sigma(g)=V(q-g)$ for
