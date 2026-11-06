@@ -1,0 +1,551 @@
+disc,poly,status,N,witness,wit_m,n1_level,lit_status,lit_M,t_n1,t_wit,t_cover,t_cert,t_total,boxes,maxdepth,cert
+-23,x^3 - x^2 + 1,norm-euclidean,1,,,0,E,1/5,0.34,0.0,0.0,0.01,0.63,36,2,data/certificates_k/cert_23_-1_0_1.pkl
+-31,x^3 + x - 1,norm-euclidean,1,,,0,E,1/3,0.35,0.0,0.0,0.01,0.63,64,2,data/certificates_k/cert_31_0_1_-1.pkl
+-44,x^3 - x^2 + x + 1,norm-euclidean,1,,,0,E,1/2,0.32,0.0,0.0,0.02,0.61,92,3,data/certificates_k/cert_44_-1_1_1.pkl
+-59,x^3 + 2*x - 1,norm-euclidean,1,,,0,E,1/2,0.33,0.0,0.0,0.03,0.62,78,3,data/certificates_k/cert_59_0_2_-1.pkl
+-76,x^3 - 2*x - 2,norm-euclidean,1,,,0,E,1/2,0.25,0.0,0.0,0.04,0.51,218,3,data/certificates_k/cert_76_0_-2_-2.pkl
+-83,x^3 - x^2 + x - 2,norm-euclidean,1,,,0,E,1/2,0.28,0.0,0.0,0.03,0.59,134,3,data/certificates_k/cert_83_-1_1_-2.pkl
+-87,x^3 - x^2 + 2*x + 1,norm-euclidean,1,,,0,E,1/3,0.33,0.0,0.0,0.03,0.61,120,3,data/certificates_k/cert_87_-1_2_1.pkl
+-104,x^3 - x - 2,norm-euclidean,1,,,0,E,1/2,0.27,0.0,0.0,0.04,0.58,176,3,data/certificates_k/cert_104_0_-1_-2.pkl
+-107,x^3 - x^2 + 3*x - 2,norm-euclidean,1,,,0,E,1/2,0.33,0.0,0.0,0.05,0.66,246,3,data/certificates_k/cert_107_-1_3_-2.pkl
+-108,x^3 - 2,norm-euclidean,1,,,0,E,1/2,0.29,0.0,0.0,0.05,0.61,232,3,data/certificates_k/cert_108_0_0_-2.pkl
+-116,x^3 - x^2 - 2,norm-euclidean,1,,,0,E,1/2,0.27,0.0,0.0,0.04,0.55,246,3,data/certificates_k/cert_116_-1_0_-2.pkl
+-135,x^3 + 3*x - 1,norm-euclidean,1,,,0,E,3/5,0.3,0.0,0.0,0.05,0.64,260,4,data/certificates_k/cert_135_0_3_-1.pkl
+-139,x^3 - x^2 + x + 2,norm-euclidean,1,,,0,E,1/2,0.45,0.0,0.0,0.09,0.84,302,4,data/certificates_k/cert_139_-1_1_2.pkl
+-140,x^3 + 2*x - 2,norm-euclidean,1,,,0,E,1/2,0.46,0.0,0.0,0.07,0.81,288,3,data/certificates_k/cert_140_0_2_-2.pkl
+-152,x^3 - x^2 - 2*x - 2,norm-euclidean,1,,,0,E,1/2,0.39,0.0,0.0,0.07,0.88,302,4,data/certificates_k/cert_152_-1_-2_-2.pkl
+-172,x^3 - x^2 - x + 3,norm-euclidean,1,,,0,E,3/4,0.4,0.0,0.0,0.14,0.82,694,5,data/certificates_k/cert_172_-1_-1_3.pkl
+-175,x^3 - x^2 + 2*x - 3,norm-euclidean,1,,,0,E,3/5,0.39,0.0,0.0,0.15,0.8,596,4,data/certificates_k/cert_175_-1_2_-3.pkl
+-199,x^3 - x^2 + 4*x - 1,NOT norm-euclidean,3,4/7*t^2 + 6/7*t + 3/7,7,,N,1,0.73,0.19,1.06,0.06,2.33,316,4,data/certificates_k/cert_199_-1_4_-1.pkl
+-200,x^3 - x^2 + 2*x + 2,norm-euclidean,1,,,0,E,1/2,0.36,0.0,0.0,0.1,0.73,540,4,data/certificates_k/cert_200_-1_2_2.pkl
+-204,x^3 - x^2 + x - 3,norm-euclidean,1,,,0,E,61/116,0.27,0.0,0.0,0.11,0.64,652,5,data/certificates_k/cert_204_-1_1_-3.pkl
+-211,x^3 - 2*x - 3,norm-euclidean,1,,,0,E,59/106,0.36,0.0,0.0,0.15,0.76,792,5,data/certificates_k/cert_211_0_-2_-3.pkl
+-212,x^3 - x^2 + 4*x - 2,norm-euclidean,1,,,0,E,5/8,0.36,0.0,0.0,0.11,0.75,568,4,data/certificates_k/cert_212_-1_4_-2.pkl
+-216,x^3 + 3*x - 2,norm-euclidean,1,,,0,E,1/2,0.34,0.0,0.0,0.12,0.74,596,4,data/certificates_k/cert_216_0_3_-2.pkl
+-231,x^3 - x^2 + 3,norm-euclidean,1,,,0,E,7/9,0.4,0.0,0.0,0.15,0.84,1030,6,data/certificates_k/cert_231_-1_0_3.pkl
+-239,x^3 - x - 3,norm-euclidean,1,,,0,E,8/9,0.44,0.0,0.0,0.26,0.98,1240,7,data/certificates_k/cert_239_0_-1_-3.pkl
+-243,x^3 - 3,norm-euclidean,1,,,0,E,11/18,0.47,0.0,0.0,0.18,0.96,974,5,data/certificates_k/cert_243_0_0_-3.pkl
+-244,x^3 + x - 6,norm-euclidean,1,,,0,E,1/2,0.83,0.0,0.0,0.39,1.56,2136,5,data/certificates_k/cert_244_0_1_-6.pkl
+-247,x^3 + x - 3,norm-euclidean,1,,,0,E,5/7,0.37,0.0,0.0,0.15,0.82,1142,6,data/certificates_k/cert_247_0_1_-3.pkl
+-255,x^3 - x^2 - 3,norm-euclidean,1,,,0,E,13/15,0.38,0.0,0.0,0.15,0.84,1142,6,data/certificates_k/cert_255_-1_0_-3.pkl
+-268,x^3 - x^2 - 3*x + 5,norm-euclidean,1,,,0,E,13/22,0.8,0.0,0.0,0.43,1.52,2206,6,data/certificates_k/cert_268_-1_-3_5.pkl
+-300,x^3 - x^2 - 3*x - 3,norm-euclidean,1,,,0,E,23/30,0.49,0.0,0.0,0.26,1.09,1310,6,data/certificates_k/cert_300_-1_-3_-3.pkl
+-307,x^3 - x^2 + 3*x + 2,NOT norm-euclidean,2,1/2*t^2 + 1/2,2,,N,9/8,1.09,0.06,0.53,0.15,2.1,652,4,data/certificates_k/cert_307_-1_3_2.pkl
+-324,x^3 - 3*x - 4,norm-euclidean,1,,,0,E,23/36,0.65,0.0,0.0,0.38,1.31,2192,6,data/certificates_k/cert_324_0_-3_-4.pkl
+-327,x^3 - x^2 - 2*x - 3,NOT norm-euclidean,3,5/11*t^2 + 20/33*t + 2/33,33,,N,101/99,3.32,1.14,1.4,0.06,6.15,484,4,data/certificates_k/cert_327_-1_-2_-3.pkl
+-335,x^3 - x^2 + 4*x + 1,NOT norm-euclidean,8,3/5*t^2 + 2/5,5,,N,1,1.48,0.06,7.59,0.15,9.5,792,5,data/certificates_k/cert_335_-1_4_1.pkl
+-339,x^3 - x^2 - x + 4,NOT norm-euclidean,3,1/2*t^2 + 1/2*t,2,,N,9/8,1.04,0.05,1.44,0.1,2.92,484,4,data/certificates_k/cert_339_-1_-1_4.pkl
+-351,x^3 + 3*x - 3,NOT norm-euclidean,3,5/11*t^2 + 10/11*t + 2/11,11,,N,1,0.79,0.11,1.1,0.16,2.48,1114,5,data/certificates_k/cert_351_0_3_-3.pkl
+-356,x^3 - x^2 + x + 7,norm-euclidean,1,,,0,E,7/8,1.53,0.0,0.0,1.35,3.25,7596,6,data/certificates_k/cert_356_-1_1_7.pkl
+-364,x^3 + 4*x - 2,NOT norm-euclidean,2,1/2*t^2 + 1/2*t + 1/2,2,,N,9/8,0.8,0.05,0.36,0.15,1.7,736,5,data/certificates_k/cert_364_0_4_-2.pkl
+-367,x^3 - x^2 + 2*x + 3,NOT norm-euclidean,3,7/13*t^2 + 5/13*t + 4/13,13,,N,1,0.85,0.1,1.12,0.21,2.57,1156,5,data/certificates_k/cert_367_-1_2_3.pkl
+-379,x^3 - x^2 + x - 4,norm-euclidean,1,,,0,E,397/648,0.58,0.0,0.0,0.36,1.2,2360,6,data/certificates_k/cert_379_-1_1_-4.pkl
+-411,x^3 - x^2 + 5*x - 2,norm-euclidean,1,,,0,E,17/22,0.6,0.0,0.0,0.43,1.26,2318,6,data/certificates_k/cert_411_-1_5_-2.pkl
+-419,x^3 - 4*x - 5,norm-euclidean,1,,,0,E,4/5,1.25,0.0,0.0,1.27,2.83,7610,9,data/certificates_k/cert_419_0_-4_-5.pkl
+-424,x^3 - x^2 + 8,norm-euclidean,1,,,0,E,19/27,1.06,0.0,0.0,1.11,2.45,6112,6,data/certificates_k/cert_424_-1_0_8.pkl
+-431,x^3 - x - 8,norm-euclidean,1,,,0,E,43/64,1.32,0.0,0.0,0.97,2.63,6602,7,data/certificates_k/cert_431_0_-1_-8.pkl
+-436,x^3 + x - 4,NOT norm-euclidean,2,43/78*t^2 + 77/78*t + 7/39,78,,N,79/78,3.95,72.98,0.53,0.17,77.9,862,5,data/certificates_k/cert_436_0_1_-4.pkl
+-439,x^3 - x^2 - 2*x + 5,NOT norm-euclidean,5,2/5*t^2 + 2/5*t,5,,N,17/15,0.73,0.06,4.38,0.22,5.71,1184,4,data/certificates_k/cert_439_-1_-2_5.pkl
+-440,x^3 + 2*x - 8,norm-euclidean,1,,,0,E,737/1090,0.54,0.0,0.0,0.4,1.29,2598,6,data/certificates_k/cert_440_0_2_-8.pkl
+-451,x^3 - x^2 - 5*x + 8,norm-euclidean,1,,,0,E,41/48,1.89,0.0,0.0,2.37,4.68,12636,8,data/certificates_k/cert_451_-1_-5_8.pkl
+-459,x^3 + 3*x - 8,NOT norm-euclidean,2,3/4*t^2 + 1/4*t + 1/2,2,,N,9/8,1.7,0.07,1.44,1.1,4.62,6056,6,data/certificates_k/cert_459_0_3_-8.pkl
+-460,x^3 - x^2 + 5*x - 3,norm-euclidean,1,,,0,E,43/50,0.63,0.0,0.0,0.67,1.67,3340,8,data/certificates_k/cert_460_-1_5_-3.pkl
+-472,x^3 - 5*x - 6,norm-euclidean,1,,,0,E,46/61,2.02,0.0,0.0,1.71,4.17,12286,8,data/certificates_k/cert_472_0_-5_-6.pkl
+-484,x^3 - x^2 + 4*x + 2,norm-euclidean,1,,,0,E,59/76,0.92,0.0,0.0,0.84,2.1,4796,8,data/certificates_k/cert_484_-1_4_2.pkl
+-492,x^3 - x^2 + 3*x + 3,norm-euclidean,1,,,0,E,25/32,0.77,0.0,0.0,0.83,1.88,4600,7,data/certificates_k/cert_492_-1_3_3.pkl
+-499,x^3 + 4*x - 3,norm-euclidean,1,,,0,E,23/27,0.68,0.0,0.0,0.6,1.59,4782,8,data/certificates_k/cert_499_0_4_-3.pkl
+-503,x^3 - x^2 + 2*x + 8,norm-euclidean,1,,,0,E,≥307/544,1.35,0.0,0.0,1.2,2.92,8478,7,data/certificates_k/cert_503_-1_2_8.pkl
+-515,x^3 - x^2 - x - 4,norm-euclidean,1,,,0,E,4/5,0.98,0.0,0.0,1.55,2.94,8086,8,data/certificates_k/cert_515_-1_-1_-4.pkl
+-516,x^3 - x^2 + x - 9,norm-euclidean,1,,,0,E,36/53,3.77,0.0,0.0,3.88,8.09,16080,7,data/certificates_k/cert_516_-1_1_-9.pkl
+-519,x^3 - x^2 - 4*x + 7,norm-euclidean,1,,,4:20000:150:20,E,44712/45747,96.03,57.09,6.57,17.85,179.68,79486,15,data/certificates_k/cert_519_-1_-4_7.pkl
+-524,x^3 - x^2 + 3*x - 5,NOT norm-euclidean,2,1/2*t^2 + 1/2*t,2,,N,5/4,1.75,0.06,0.75,0.63,3.5,2878,6,data/certificates_k/cert_524_-1_3_-5.pkl
+-527,x^3 + 5*x - 1,NOT norm-euclidean,8,2/5*t^2 + 2/5*t + 2/5,5,,N,13/7,0.91,0.11,7.65,0.23,9.33,1058,5,data/certificates_k/cert_527_0_5_-1.pkl
+-543,x^3 - x^2 + 2*x - 5,norm-euclidean,1,,,1,E,≥158664/170633,16.71,0.18,0.0,19.0,38.11,101186,16,data/certificates_k/cert_543_-1_2_-5.pkl
+-547,x^3 - x^2 - 3*x - 4,NOT norm-euclidean,3,1/2*t^2 + 1/2*t,2,,N,9/8,1.7,0.06,1.71,0.19,3.91,1086,5,data/certificates_k/cert_547_-1_-3_-4.pkl
+-567,x^3 - 3*x - 5,NOT norm-euclidean,5,9/17*t^2 + 13/17*t + 5/17,17,,N,25/17,3.6,0.2,6.55,0.26,10.94,2066,5,data/certificates_k/cert_567_0_-3_-5.pkl
+-620,x^3 - x^2 - 5*x - 5,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,N,13/8,0.98,0.07,13.03,0.39,14.82,2108,5,data/certificates_k/cert_620_-1_-5_-5.pkl
+-628,x^3 - x^2 + 4*x + 8,norm-euclidean,1,,,1,E,625/664,18.03,0.7,0.0,10.92,30.99,66788,14,data/certificates_k/cert_628_-1_4_8.pkl
+-652,x^3 - x^2 + 7*x + 5,norm-euclidean,1,,,0,E,21/23,5.08,0.0,0.0,4.15,10.05,31774,10,data/certificates_k/cert_652_-1_7_5.pkl
+-655,x^3 - x^2 + 5,NOT norm-euclidean,5,7/15*t^2 + 2/3*t + 1/3,15,,N,40/23,1.11,0.16,4.65,0.3,6.52,1828,5,data/certificates_k/cert_655_-1_0_5.pkl
+-671,x^3 - x - 5,NOT norm-euclidean,5,2/5*t^2 + 2/5*t,5,,N,25/19,1.04,0.06,4.82,0.53,6.75,2766,5,data/certificates_k/cert_671_0_-1_-5.pkl
+-675,x^3 - 5,NOT norm-euclidean,3,1/2*t^2,2,,N,9/8,0.64,0.06,2.16,0.3,3.45,2192,6,data/certificates_k/cert_675_0_0_-5.pkl
+-679,x^3 + x - 5,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,N,9/8,1.87,0.04,7.54,0.39,10.13,1912,5,data/certificates_k/cert_679_0_1_-5.pkl
+-680,x^3 - x^2 - 6*x + 10,open,2,,,,N,(*),32.32,182.64,1.63,0.85,217.73,4936,6,data/certificates_k/cert_680_-1_-6_10.pkl
+-687,x^3 - x^2 + 4*x + 3,norm-euclidean,1,,,5:100000:300:22,E,937/945,156.23,63.89,1.5,13.34,236.69,71254,18,data/certificates_k/cert_687_-1_4_3.pkl
+-695,x^3 - x^2 - 5,NOT norm-euclidean,7,2/5*t^2,5,,N,25/13,0.36,0.04,6.22,0.49,7.38,3704,6,data/certificates_k/cert_695_-1_0_-5.pkl
+-696,x^3 - x^2 - 2*x + 6,norm-euclidean,1,,,0,E,186/199,8.38,0.0,0.0,8.56,18.07,59396,12,data/certificates_k/cert_696_-1_-2_6.pkl
+-707,x^3 + 2*x - 5,open,2,,,,N,271/270,24.94,70.51,1.04,0.7,97.61,4922,7,data/certificates_k/cert_707_0_2_-5.pkl
+-716,x^3 - 4*x - 6,open,2,,,,N,121/109,137.02,155.42,1.87,1.42,296.18,6616,8,data/certificates_k/cert_716_0_-4_-6.pkl
+-728,x^3 - x^2 + 6*x - 2,norm-euclidean,1,,,4:20000:150:20,E,(§),32.24,121.2,0.4,4.28,158.84,21932,12,data/certificates_k/cert_728_-1_6_-2.pkl
+-743,x^3 + 5*x - 3,NOT norm-euclidean,3,16/27*t^2 + 1/27*t + 4/9,27,,N,1,4.41,1.09,2.19,0.22,8.19,932,4,data/certificates_k/cert_743_0_5_-3.pkl
+-744,x^3 - x^2 - 6*x - 6,norm-euclidean,1,,,4:20000:150:20,E,992/999,140.04,378.05,1.38,23.94,545.78,115172,17,data/certificates_k/cert_744_-1_-6_-6.pkl
+-748,x^3 - x^2 + x + 5,NOT norm-euclidean,2,29/51*t^2 + 7/17*t + 23/51,51,,N,62/51,3.4,13.09,1.29,1.92,20.22,9724,11,data/certificates_k/cert_748_-1_1_5.pkl
+-755,x^3 - x^2 + 5*x + 2,NOT norm-euclidean,2,1/2*t^2 + 1/2*t,2,,N,1,1.81,0.05,0.54,0.37,3.1,2318,6,data/certificates_k/cert_755_-1_5_2.pkl
+-756,x^3 - 6*x - 12,open,2,,,,N,306/293,61.55,167.5,1.59,0.66,231.73,3942,6,data/certificates_k/cert_756_0_-6_-12.pkl
+-759,x^3 - x^2 + 6*x - 3,NOT norm-euclidean,3,1/2*t^2,2,,N,11/8,0.99,0.06,1.61,0.35,3.41,1660,5,data/certificates_k/cert_759_-1_6_-3.pkl
+-771,x^3 - x^2 + 3*x - 6,norm-euclidean,1,,,0,E,223/252,8.25,0.0,0.0,11.61,21.31,57352,13,data/certificates_k/cert_771_-1_3_-6.pkl
+-780,x^3 - x^2 - x - 5,open,2,,,,N,499/498,20.4,127.1,0.81,0.57,149.27,5048,9,data/certificates_k/cert_780_-1_-1_-5.pkl
+-804,x^3 - x^2 + 4*x - 6,open,2,,,,N,≥2771/2568,19.71,284.64,0.74,0.47,306.0,2332,5,data/certificates_k/cert_804_-1_4_-6.pkl
+-808,x^3 - x^2 + 2*x - 6,open,2,,,,N,≥2031/1964,16.59,222.0,0.74,0.35,240.04,2276,6,data/certificates_k/cert_808_-1_2_-6.pkl
+-812,x^3 - x^2 - 7*x - 7,NOT norm-euclidean,2,11/31*t^2 + 25/31*t + 2/31,31,,N,44/31,33.46,2.2,21.86,38.39,99.77,200775,13,data/certificates_k/cert_812_-1_-7_-7.pkl
+-815,x^3 - 7*x - 9,could not check (N=1),3,,,,E,24543/25325,9545.14,142.6,8.98,0.74,9697.8,3662,5,data/certificates_k/cert_815_0_-7_-9.pkl
+-823,x^3 - 5*x - 7,NOT norm-euclidean,7,3/5*t^2 + 1/5*t,5,,N,37/25,2.06,0.05,16.15,0.74,19.4,5202,6,data/certificates_k/cert_823_0_-5_-7.pkl
+-835,x^3 - x^2 - x + 6,open,2,,,,N,110353/106265,26.25,111.32,2.15,2.89,143.17,22254,13,data/certificates_k/cert_835_-1_-1_6.pkl
+-839,x^3 - x^2 - 2*x - 5,NOT norm-euclidean,5,2/5*t^2 + 3/5*t + 1/5,5,,N,25/17,1.24,0.08,6.12,0.81,8.66,4502,7,data/certificates_k/cert_839_-1_-2_-5.pkl
+-843,x^3 - x^2 - 2*x + 12,open,2,,,,N,134/131,12.27,205.22,4.72,4.37,227.25,26314,8,data/certificates_k/cert_843_-1_-2_12.pkl
+-856,x^3 - x^2 + x + 11,open,2,,,,N,≥454951/428544,34.06,423.18,5.6,4.89,468.53,25040,7,data/certificates_k/cert_856_-1_1_11.pkl
+-863,x^3 - x^2 + 2*x + 5,NOT norm-euclidean,8,3/5*t^2 + 2/5*t + 1/5,5,,N,29/11,1.28,0.07,12.86,0.66,15.24,5342,6,data/certificates_k/cert_863_-1_2_5.pkl
+-867,x^3 - x^2 + 6*x - 12,open,2,,,,N,1115/1028,15.18,239.92,5.69,6.95,268.66,37430,8,data/certificates_k/cert_867_-1_6_-12.pkl
+-876,x^3 - x^2 - x - 11,norm-euclidean,1,,,5:100000:300:22,E,353/372,9745.69,271.26,7.97,45.57,10080.84,317584,12,data/certificates_k/cert_876_-1_-1_-11.pkl
+-883,x^3 - x^2 + 2*x - 12,NOT norm-euclidean,2,36/47*t^2 + 21/47*t + 23/47,47,,N,49/47,7.08,22.59,4.26,4.89,39.55,32306,8,data/certificates_k/cert_883_-1_2_-12.pkl
+-888,x^3 - x^2 + 9*x + 3,open,2,,,,N,2715/2602,12.23,133.78,2.52,0.86,149.67,5188,7,data/certificates_k/cert_888_-1_9_3.pkl
+-907,x^3 - x^2 - 7*x + 12,open,2,,,,N,≥113/108,12.32,223.6,7.96,8.43,253.36,38228,12,data/certificates_k/cert_907_-1_-7_12.pkl
+-908,x^3 - 4*x - 12,NOT norm-euclidean,2,1/4*t^2 + 1/2,2,,N,227/91,4.04,0.11,2.59,2.65,10.02,11796,10,data/certificates_k/cert_908_0_-4_-12.pkl
+-932,x^3 + 5*x - 4,NOT norm-euclidean,2,2/5*t^2 + 1/5,5,,N,68425/56788,1.15,0.15,0.89,0.67,3.37,2990,7,data/certificates_k/cert_932_0_5_-4.pkl
+-940,x^3 - 2*x - 6,NOT norm-euclidean,2,23/55*t^2 + 17/55*t + 12/55,55,,N,407/358,10.26,26.83,2.84,3.29,43.88,14722,10,data/certificates_k/cert_940_0_-2_-6.pkl
+-948,x^3 - x^2 + 6,open,2,,,,N,≥2120/1959,5.06,517.02,1.12,0.71,524.27,2962,6,data/certificates_k/cert_948_-1_0_6.pkl
+-959,x^3 - x^2 + 6*x + 1,NOT norm-euclidean,27,5/7*t^2 + 2/7,7,,N,19/7,1.0,0.09,105.72,0.43,107.62,2738,5,data/certificates_k/cert_959_-1_6_1.pkl
+-964,x^3 - 2*x - 12,open,2,,,,N,≥132/127,3.22,235.59,1.14,0.93,241.25,5048,7,data/certificates_k/cert_964_0_-2_-12.pkl
+-971,x^3 - x - 12,open,2,,,,N,829/778,23.31,560.81,7.94,6.75,599.73,32166,8,data/certificates_k/cert_971_0_-1_-12.pkl
+-972,x^3 - 12,NOT norm-euclidean,2,5/18*t^2 + 1/6*t + 1/3,18,,N,5/4/179/162,1.92,0.24,2.07,2.44,7.16,19034,10,data/certificates_k/cert_972_0_0_-12.pkl
+-972,x^3 - 6,NOT norm-euclidean,2,1/2*t^2 + 1/2*t,2,,N,5/4/179/162,0.5,0.05,1.43,1.5,3.94,12580,9,data/certificates_k/cert_972_0_0_-6.pkl
+-983,x^3 - x^2 + 6*x - 5,NOT norm-euclidean,13,2/5*t^2 + 1/5*t,5,,N,31/11,0.93,0.08,24.82,1.22,27.39,6014,7,data/certificates_k/cert_983_-1_6_-5.pkl
+-984,x^3 - x^2 - 12,open,2,,,,N,≥22367/21296,13.65,50.87,4.68,2.57,72.24,16850,7,data/certificates_k/cert_984_-1_0_-12.pkl
+-996,x^3 - x^2 - 6,open,2,,,,N,≥6713/5646,2.52,659.22,1.46,0.6,664.14,3382,5,data/certificates_k/cert_996_-1_0_-6.pkl
+-999,x^3 + 3*x - 12,open,2,,,,?,,13.71,291.73,1.71,1.07,308.59,7568,6,data/certificates_k/cert_999_0_3_-12.pkl
+-1004,x^3 + 2*x - 6,open,2,,,,N,3167/2298,6.19,291.03,2.55,3.26,303.63,15646,11,data/certificates_k/cert_1004_0_2_-6.pkl
+-1007,x^3 - x^2 - 2*x + 7,NOT norm-euclidean,7,3/7*t^2 + 1/7*t,7,,N,41/23,0.46,0.06,8.8,0.98,10.61,4684,6,data/certificates_k/cert_1007_-1_-2_7.pkl
+-1011,x^3 - x^2 - 5*x - 6,NOT norm-euclidean,2,26/69*t^2 + 4/23*t + 22/69,69,,N,271/207,8.9,123.47,5.89,0.53,139.19,16388,11,data/certificates_k/cert_1011_-1_-5_-6.pkl
+-1036,x^3 + 4*x - 12,open,2,,,,N,133/101,2.82,113.37,2.46,2.89,122.27,17004,8,data/certificates_k/cert_1036_0_4_-12.pkl
+-1048,x^3 - x^2 + 8*x - 12,open,2,,,,N,617/488,5.9,24.54,4.18,3.24,38.48,27602,8,data/certificates_k/cert_1048_-1_8_-12.pkl
+-1055,x^3 - x^2 - 6*x + 16,open,2,,,,?,,16.42,243.24,4.6,2.22,266.95,13448,6,data/certificates_k/cert_1055_-1_-6_16.pkl
+-1059,x^3 - x^2 + x + 6,open,2,,,,N,2381/1854,4.69,206.47,2.51,2.58,216.81,13686,9,data/certificates_k/cert_1059_-1_1_6.pkl
+-1067,x^3 - 4*x - 7,NOT norm-euclidean,4,9/22*t^2 + 19/22*t + 9/22,22,,N,≥160/121,3.3,0.93,6.87,0.71,12.29,4726,7,data/certificates_k/cert_1067_0_-4_-7.pkl
+-1068,x^3 - x^2 - x + 13,NOT norm-euclidean,2,31/50*t^2 + 9/25*t + 1/10,25,,N,≥1499/1350,5.94,3.89,19.93,20.98,53.37,114150,10,data/certificates_k/cert_1068_-1_-1_13.pkl
+-1075,x^3 - x^2 + 2*x + 12,NOT norm-euclidean,2,3/4*t^2 + 1/4*t,2,,N,777/680,2.59,0.13,8.25,10.47,22.93,51864,10,data/certificates_k/cert_1075_-1_2_12.pkl
+-1080,x^3 + 3*x - 6,open,2,,,,N,≥10253/1000,2.87,32.19,1.07,0.78,37.22,4460,6,data/certificates_k/cert_1080_0_3_-6.pkl
+-1087,x^3 - x^2 + 4*x - 7,NOT norm-euclidean,7,1/2*t^2,2,,N,15/8,0.77,0.06,5.27,0.78,7.23,5188,6,data/certificates_k/cert_1087_-1_4_-7.pkl
+-1096,x^3 - x^2 + x - 13,open,2,,,,N,≥207/199,5.45,43.8,8.44,7.32,65.97,39488,8,data/certificates_k/cert_1096_-1_1_-13.pkl
+-1108,x^3 - x^2 - 8*x + 14,open,2,,,,N,≥4995/4384,4.86,43.03,5.61,4.35,58.4,23822,8,data/certificates_k/cert_1108_-1_-8_14.pkl
+-1135,x^3 - x^2 - 6*x + 11,NOT norm-euclidean,7,3/5*t^2 + 2/5,5,,N,5115/4033,1.31,0.08,24.45,3.14,29.52,18082,8,data/certificates_k/cert_1135_-1_-6_11.pkl
+-1144,x^3 - x^2 + 6*x + 2,open,2,,,,N,4867/3222,3.09,25.62,1.16,0.84,31.25,4390,7,data/certificates_k/cert_1144_-1_6_2.pkl
+-1147,x^3 - x^2 - 3*x + 8,NOT norm-euclidean,3,2/7*t^2 + 5/7*t + 3/7,7,,N,136/99,0.52,0.1,3.82,1.87,6.69,9234,7,data/certificates_k/cert_1147_-1_-3_8.pkl
+-1164,x^3 - x^2 - x + 7,open,3,,,,N,≥1064/918,4.17,8.8,3.03,0.8,17.22,3480,6,data/certificates_k/cert_1164_-1_-1_7.pkl
+-1172,x^3 - x^2 + 5*x + 11,open,2,,,,N,572/443,7.29,38.86,7.38,6.34,60.76,33300,9,data/certificates_k/cert_1172_-1_5_11.pkl
+-1175,x^3 + 5*x - 5,NOT norm-euclidean,11,2/5*t^2,5,,N,37/13,0.7,0.06,17.44,2.0,20.73,9430,8,data/certificates_k/cert_1175_0_5_-5.pkl
+-1187,x^3 - x^2 + 7*x - 2,NOT norm-euclidean,2,1/2*t^2 + 1/2*t,2,,N,11/8,0.71,0.05,3.57,1.02,5.76,18110,13,data/certificates_k/cert_1187_-1_7_-2.pkl
+-1188,x^3 + 6*x - 12,open,2,,,,N,≥22319/14072,5.93,27.11,1.78,1.57,36.86,10032,8,data/certificates_k/cert_1188_0_6_-12.pkl
+-1191,x^3 - x^2 - 10*x - 11,NOT norm-euclidean,3,1/2*t^2,2,,N,11/9,1.71,0.08,8.6,2.48,13.42,13938,7,data/certificates_k/cert_1191_-1_-10_-11.pkl
+-1196,x^3 - x^2 + 5*x - 7,NOT norm-euclidean,4,14/29*t^2 + 16/29*t + 9/29,29,,N,197/94,2.71,0.97,55.72,0.66,60.43,42666,14,data/certificates_k/cert_1196_-1_5_-7.pkl
+-1203,x^3 - x^2 - 3*x - 6,open,3,,,,N,≥4775/4608,19.17,13.57,3.08,0.62,36.89,3200,6,data/certificates_k/cert_1203_-1_-3_-6.pkl
+-1207,x^3 - x^2 - 6*x - 7,NOT norm-euclidean,5,3/7*t^2 + 4/7*t + 3/7,7,,N,13/9,1.47,0.1,17.02,2.63,21.75,13364,10,data/certificates_k/cert_1207_-1_-6_-7.pkl
+-1208,x^3 - x^2 + 8*x + 8,NOT norm-euclidean,2,1/4*t^2 + 1/4*t + 1/2,2,,N,845/656,1.73,0.4,3.92,3.82,10.51,18824,9,data/certificates_k/cert_1208_-1_8_8.pkl
+-1219,x^3 - 8*x - 11,NOT norm-euclidean,3,5/14*t^2 + 13/14*t + 5/14,14,,N,≥709/622,2.31,0.4,12.72,3.36,19.32,17046,8,data/certificates_k/cert_1219_0_-8_-11.pkl
+-1231,x^3 - x^2 - 4*x + 9,NOT norm-euclidean,9,1/2*t^2,2,,,,1.09,0.07,26.76,1.37,29.7,6266,7,data/certificates_k/cert_1231_-1_-4_9.pkl
+-1235,x^3 - x^2 - 5*x + 10,NOT norm-euclidean,4,8/13*t^2 + 9/13*t + 1/13,13,,,,0.87,0.25,10.01,2.92,14.5,14932,9,data/certificates_k/cert_1235_-1_-5_10.pkl
+-1236,x^3 - x^2 + 4*x + 12,open,2,,,,,,11.1,283.74,3.77,4.44,303.82,25432,8,data/certificates_k/cert_1236_-1_4_12.pkl
+-1259,x^3 - x^2 - 9*x + 16,NOT norm-euclidean,4,1/2*t^2 + 1/2*t,2,,,,1.57,0.09,17.85,7.36,28.05,39866,9,data/certificates_k/cert_1259_-1_-9_16.pkl
+-1267,x^3 - x^2 + 7*x - 4,NOT norm-euclidean,3,1/2*t^2 + 1/2*t,2,,,,0.85,0.07,1.62,0.47,3.4,3788,7,data/certificates_k/cert_1267_-1_7_-4.pkl
+-1272,x^3 - x^2 - 3*x + 15,open,2,,,,,,5.14,287.1,12.58,18.33,325.58,102642,12,data/certificates_k/cert_1272_-1_-3_15.pkl
+-1291,x^3 - 2*x - 7,open,3,,,,,,3.32,10.74,6.87,1.66,23.02,8632,9,data/certificates_k/cert_1291_0_-2_-7.pkl
+-1292,x^3 - 10*x - 14,open,5,,,,,,5.87,7.31,18.75,3.51,36.13,23318,8,data/certificates_k/cert_1292_0_-10_-14.pkl
+-1295,x^3 - x^2 + 7,NOT norm-euclidean,8,3/5*t^2 + 4/5*t + 1/5,5,,,,0.8,0.08,13.01,2.6,16.99,13476,8,data/certificates_k/cert_1295_-1_0_7.pkl
+-1300,x^3 - x^2 - 3*x - 13,open,2,,,,,,3.95,62.86,8.05,6.47,82.39,42386,9,data/certificates_k/cert_1300_-1_-3_-13.pkl
+-1315,x^3 + 7*x - 12,NOT norm-euclidean,3,1/2*t^2,2,,,,1.18,0.17,11.87,6.54,20.57,37080,12,data/certificates_k/cert_1315_0_7_-12.pkl
+-1316,x^3 - x^2 + 9*x + 7,open,2,,,,,,9.61,43.56,5.63,7.35,67.22,40034,10,data/certificates_k/cert_1316_-1_9_7.pkl
+-1319,x^3 - x - 7,NOT norm-euclidean,13,2/7*t^2 + 2/7*t,7,,,,0.75,0.05,52.77,1.37,55.34,8184,6,data/certificates_k/cert_1319_0_-1_-7.pkl
+-1327,x^3 + x - 7,NOT norm-euclidean,5,7/17*t^2 + 3/17*t + 1/17,17,,,,22.09,0.25,8.01,2.15,32.95,11460,8,data/certificates_k/cert_1327_0_1_-7.pkl
+-1336,x^3 - x^2 + 9*x - 13,open,2,,,,,,7.21,56.81,5.82,7.44,78.24,36975,9,data/certificates_k/cert_1336_-1_9_-13.pkl
+-1347,x^3 - x^2 - 7*x - 8,NOT norm-euclidean,3,3/10*t^2 + 9/10*t + 3/10,10,,,,0.75,0.48,5.98,1.07,8.68,6420,7,data/certificates_k/cert_1347_-1_-7_-8.pkl
+-1351,x^3 - x^2 - 7,NOT norm-euclidean,7,5/9*t^2 + 8/9*t + 1/9,9,,,,0.64,0.06,8.51,1.49,11.11,7176,6,data/certificates_k/cert_1351_-1_0_-7.pkl
+-1355,x^3 + 2*x - 7,open,4,,,,,,2.3,6.82,6.7,2.09,18.39,10620,8,data/certificates_k/cert_1355_0_2_-7.pkl
+-1363,x^3 - x^2 - 9*x - 10,open,3,,,,,,17.88,15.33,21.69,4.12,59.67,18922,8,data/certificates_k/cert_1363_-1_-9_-10.pkl
+-1383,x^3 - x^2 + 6*x + 3,NOT norm-euclidean,5,6/19*t^2 + 15/19*t + 3/19,19,,,,3.65,0.48,4.92,0.61,10.0,2850,5,data/certificates_k/cert_1383_-1_6_3.pkl
+-1388,x^3 - x^2 + 7*x - 5,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,,,1.81,0.09,6.56,1.4,10.35,7078,8,data/certificates_k/cert_1388_-1_7_-5.pkl
+-1407,x^3 - x^2 - 8*x - 9,NOT norm-euclidean,5,1/2*t^2,2,,,,1.02,0.08,12.36,1.37,15.31,8338,6,data/certificates_k/cert_1407_-1_-8_-9.pkl
+-1419,x^3 - x^2 + 10*x - 12,open,3,,,,,,11.77,21.37,10.36,2.66,46.73,14302,6,data/certificates_k/cert_1419_-1_10_-12.pkl
+-1420,x^3 - x^2 - 5*x + 17,NOT norm-euclidean,4,3/11*t^2 + 4/11*t + 2/11,11,,,,1.06,0.39,24.74,7.03,34.13,56106,9,data/certificates_k/cert_1420_-1_-5_17.pkl
+-1427,x^3 - x^2 + 3*x - 8,NOT norm-euclidean,4,2/5*t^2,5,,,,0.76,0.09,6.59,1.49,9.38,7344,7,data/certificates_k/cert_1427_-1_3_-8.pkl
+-1431,x^3 + 3*x - 7,NOT norm-euclidean,7,6/11*t^2 + 8/11*t + 2/11,11,,,,0.76,0.15,27.15,1.24,29.74,6210,6,data/certificates_k/cert_1431_0_3_-7.pkl
+-1432,x^3 + 10*x - 8,open,3,,,,,,3.07,55.76,1.97,0.58,61.73,2766,7,data/certificates_k/cert_1432_0_10_-8.pkl
+-1439,x^3 + 11*x - 4,open,2,,,,,,3.61,125.65,0.86,0.61,130.99,7848,7,data/certificates_k/cert_1439_0_11_-4.pkl
+-1448,x^3 + 5*x - 14,NOT norm-euclidean,2,3/4*t^2 + 1/4*t + 1/2,2,,,,0.51,0.32,40.79,74.27,123.59,419308,13,data/certificates_k/cert_1448_0_5_-14.pkl
+-1452,x^3 - x^2 - 7*x + 13,open,3,,,,,,4.15,24.02,8.63,2.56,39.89,15884,7,data/certificates_k/cert_1452_-1_-7_13.pkl
+-1464,x^3 - x^2 - 7*x + 19,open,2,,,,,,2.76,179.94,13.31,13.53,211.15,237728,13,data/certificates_k/cert_1464_-1_-7_19.pkl
+-1480,x^3 + 7*x - 2,open,2,,,,,,2.79,76.9,0.93,0.79,81.79,4082,7,data/certificates_k/cert_1480_0_7_-2.pkl
+-1484,x^3 + 8*x - 12,open,2,,,,,,3.11,35.58,9.79,0.44,49.15,67894,12,data/certificates_k/cert_1484_0_8_-12.pkl
+-1491,x^3 - x^2 + 6*x + 12,open,3,,,,,,7.28,82.3,12.02,2.75,104.9,13924,7,data/certificates_k/cert_1491_-1_6_12.pkl
+-1512,x^3 - 6*x - 16,open,2,,,,,,4.19,68.84,5.35,1.49,80.38,87732,16,data/certificates_k/cert_1512_0_-6_-16.pkl
+-1515,x^3 - x^2 + 5*x - 8,open,3,,,,,,4.22,38.9,3.22,1.6,48.37,5860,7,data/certificates_k/cert_1515_-1_5_-8.pkl
+-1539,x^3 + 6*x - 5,NOT norm-euclidean,2,5/12*t^2 + 3/4*t + 1/12,12,,,,0.8,1.09,14.26,3.34,20.13,88397,15,data/certificates_k/cert_1539_0_6_-5.pkl
+-1547,x^3 - x^2 - x + 8,NOT norm-euclidean,4,3/7*t^2 + 1/7*t,7,,,,1.31,0.14,5.62,1.18,8.83,5944,6,data/certificates_k/cert_1547_-1_-1_8.pkl
+-1559,x^3 - x^2 - 2*x + 16,NOT norm-euclidean,2,8/11*t^2 + 2/11*t + 5/11,11,,,,0.67,2.98,1.58,1.1,6.52,17130,8,data/certificates_k/cert_1559_-1_-2_16.pkl
+-1567,x^3 - x^2 - 2*x - 7,NOT norm-euclidean,7,4/9*t^2 + 1/9,9,,,,1.0,0.12,34.5,0.89,36.96,4362,6,data/certificates_k/cert_1567_-1_-2_-7.pkl
+-1579,x^3 + 4*x - 7,NOT norm-euclidean,4,5/9*t^2 + 1/9*t + 4/9,9,,,,0.79,0.27,6.9,1.3,9.76,6000,8,data/certificates_k/cert_1579_0_4_-7.pkl
+-1580,x^3 - x^2 + 5*x + 5,NOT norm-euclidean,5,3/10*t^2 + 1/2,10,,,,2.76,0.16,9.72,2.18,15.23,8926,7,data/certificates_k/cert_1580_-1_5_5.pkl
+-1583,x^3 - x^2 - 4*x - 7,NOT norm-euclidean,11,2/5*t^2 + 1/5*t + 1/5,5,,,,1.71,0.12,54.49,1.94,59.19,6840,6,data/certificates_k/cert_1583_-1_-4_-7.pkl
+-1599,x^3 + 3*x - 23,NOT norm-euclidean,9,1/2*t,2,,,,1.14,0.04,33.58,5.39,40.86,88894,9,data/certificates_k/cert_1599_0_3_-23.pkl
+-1603,x^3 - 5*x - 16,NOT norm-euclidean,3,29/27*t^2 + 13/27*t + 7/27,27,,,,5.99,7.42,18.28,4.18,36.91,81012,12,data/certificates_k/cert_1603_0_-5_-16.pkl
+-1607,x^3 - x^2 + 2*x - 16,open,2,,,,,,2.25,313.47,2.17,1.34,319.44,21736,8,data/certificates_k/cert_1607_-1_2_-16.pkl
+-1612,x^3 - x^2 - 3*x - 7,open,3,,,,,,1.44,3.5,14.73,5.44,27.09,29674,15,data/certificates_k/cert_1612_-1_-3_-7.pkl
+-1615,x^3 + 7*x - 3,NOT norm-euclidean,5,7/15*t^2 + 2/5*t + 7/15,15,,,,2.59,0.29,10.98,0.97,16.35,4880,7,data/certificates_k/cert_1615_0_7_-3.pkl
+-1619,x^3 - x^2 + x - 8,NOT norm-euclidean,4,3/5*t^2 + 1/5*t,5,,,,1.41,0.08,5.79,0.88,8.38,9318,7,data/certificates_k/cert_1619_-1_1_-8.pkl
+-1647,x^3 - 9*x - 13,NOT norm-euclidean,7,16/23*t^2 + 22/23*t + 7/23,23,,,,3.29,0.36,19.58,1.55,25.03,25754,8,data/certificates_k/cert_1647_0_-9_-13.pkl
+-1668,x^3 - x^2 - 4*x + 10,open,2,,,,,,0.88,160.47,1.68,1.3,164.55,20910,10,data/certificates_k/cert_1668_-1_-4_10.pkl
+-1675,x^3 - x^2 + 7*x + 2,NOT norm-euclidean,3,1/2*t^2 + 1/2*t,2,,,,0.68,0.34,6.01,0.74,8.0,12482,10,data/certificates_k/cert_1675_-1_7_2.pkl
+-1687,x^3 - 5*x - 9,NOT norm-euclidean,7,2/5*t^2 + 3/5*t + 2/5,5,,,,1.12,0.07,16.88,2.28,20.68,12650,8,data/certificates_k/cert_1687_0_-5_-9.pkl
+-1691,x^3 - x^2 + x - 24,open,3,,,,,,2.94,110.3,5.27,1.5,120.26,23836,7,data/certificates_k/cert_1691_-1_1_-24.pkl
+-1700,x^3 - x^2 + 12*x - 8,NOT norm-euclidean,4,3/4*t^2 + 1/4*t + 1/2,2,,,,1.39,0.37,6.74,2.01,10.88,16276,8,data/certificates_k/cert_1700_-1_12_-8.pkl
+-1704,x^3 - x^2 + 5*x - 17,open,2,,,,,,1.92,234.75,154.53,1.74,393.17,1052598,15,data/certificates_k/cert_1704_-1_5_-17.pkl
+-1708,x^3 - x^2 - 5*x + 11,NOT norm-euclidean,5,5/11*t^2 + 1/11*t,11,,,,1.48,0.5,30.01,5.17,38.09,21680,10,data/certificates_k/cert_1708_-1_-5_11.pkl
+-1720,x^3 - 2*x - 16,NOT norm-euclidean,2,1/4*t^2 + 3/7*t + 2/7,14,,,,0.46,14.12,18.3,142.29,191.81,192816,14,data/certificates_k/cert_1720_0_-2_-16.pkl
+-1727,x^3 - x - 16,open,2,,,,,,1.73,343.3,2.38,1.53,349.16,24928,10,data/certificates_k/cert_1727_0_-1_-16.pkl
+-1736,x^3 + 2*x - 16,open,4,,,,,,2.82,20.03,5.65,0.55,29.35,7666,7,data/certificates_k/cert_1736_0_2_-16.pkl
+-1740,x^3 - x^2 - 5*x - 15,open,3,,,,,,1.75,29.88,7.7,4.35,44.26,76728,14,data/certificates_k/cert_1740_-1_-5_-15.pkl
+-1743,x^3 - x^2 - 8*x + 15,NOT norm-euclidean,3,4/7*t^2 + 3/7*t,7,,,,0.72,0.18,23.8,6.7,32.23,102110,12,data/certificates_k/cert_1743_-1_-8_15.pkl
+-1751,x^3 - x^2 - 4*x - 23,NOT norm-euclidean,3,22/27*t^2 + 2/27,9,,,,1.0,0.61,27.02,124.81,836.79,80564,7,data/certificates_k/cert_1751_-1_-4_-23.pkl
+-1755,x^3 + 3*x - 16,NOT norm-euclidean,3,1/4*t^2 + 1/4*t,2,,,,3.24,0.4,29.23,97.36,168.87,192382,13,data/certificates_k/cert_1755_0_3_-16.pkl
+-1759,x^3 - x^2 + 10*x + 8,open,2,,,,,,2.92,4088.74,1.59,1.09,4094.53,17466,8,data/certificates_k/cert_1759_-1_10_8.pkl
+-1763,x^3 + 11*x - 8,NOT norm-euclidean,4,1/2*t^2,2,,,,1.22,0.06,16.74,18.12,40.03,103608,13,data/certificates_k/cert_1763_0_11_-8.pkl
+-1772,x^3 - x^2 + 3*x + 7,NOT norm-euclidean,7,1/2*t^2 + 1/2*t,2,,,,0.61,0.06,10.54,2.72,14.28,15884,8,data/certificates_k/cert_1772_-1_3_7.pkl
+-1807,x^3 - x^2 + 8*x - 3,NOT norm-euclidean,8,2/5*t^2 + 1/5,5,,,,0.43,0.04,5.35,0.44,6.41,6098,7,data/certificates_k/cert_1807_-1_8_-3.pkl
+-1812,x^3 - x^2 + 8*x - 2,open,2,,,,,,1.27,227.0,1.43,1.77,231.7,25208,12,data/certificates_k/cert_1812_-1_8_-2.pkl
+-1815,x^3 - x^2 + 4*x - 9,NOT norm-euclidean,5,2/3*t^2 + 1/3*t,3,,,,1.28,0.08,10.33,2.53,14.57,15632,8,data/certificates_k/cert_1815_-1_4_-9.pkl
+-1843,x^3 - x^2 + x + 8,open,3,,,,,,4.27,21.51,7.51,1.03,34.58,52494,13,data/certificates_k/cert_1843_-1_1_8.pkl
+-1844,x^3 - 7*x - 18,open,3,,,,,,2.53,780.71,9.33,0.68,793.39,11334,6,data/certificates_k/cert_1844_0_-7_-18.pkl
+-1868,x^3 - x^2 + 7*x + 13,NOT norm-euclidean,11,3/4*t^2 + 1/4,2,,,,1.09,0.09,448.18,34.42,484.28,48238,8,data/certificates_k/cert_1868_-1_7_13.pkl
+-1871,x^3 - x^2 + 8*x - 1,NOT norm-euclidean,27,2/7*t^2 + 2/7,7,,,,0.45,0.04,240.89,1.81,243.36,9360,7,data/certificates_k/cert_1871_-1_8_-1.pkl
+-1892,x^3 - x^2 + x - 17,open,2,,,,,,4.47,52.64,297.37,248.71,700.72,435436,13,data/certificates_k/cert_1892_-1_1_-17.pkl
+-1895,x^3 - 7*x - 11,NOT norm-euclidean,11,3/5*t^2 + 1/5*t,5,,,,0.76,0.06,73.28,50.86,127.57,56344,9,data/certificates_k/cert_1895_0_-7_-11.pkl
+-1915,x^3 - x^2 - 6*x + 20,open,3,,,,,,2.1,39.3,35.78,30.61,111.3,497876,13,data/certificates_k/cert_1915_-1_-6_20.pkl
+-1932,x^3 - x^2 + 7*x + 3,open,3,,,,,,11.06,225.84,5.17,0.39,242.99,6070,8,data/certificates_k/cert_1932_-1_7_3.pkl
+-1951,x^3 - x^2 - 6*x - 16,open,2,,,,,,1.35,1860.97,2.67,1.28,1866.49,22436,8,data/certificates_k/cert_1951_-1_-6_-16.pkl
+-1955,x^3 - x^2 - 5*x - 8,NOT norm-euclidean,4,7/13*t^2 + 4/13,13,,,,15.35,0.14,17.11,14.26,75.85,19706,9,data/certificates_k/cert_1955_-1_-5_-8.pkl
+-1959,x^3 - x^2 + 8*x - 5,NOT norm-euclidean,3,7/13*t^2 + 4/13*t + 1/13,13,,,,2.32,0.12,4.33,0.24,7.13,39026,15,data/certificates_k/cert_1959_-1_8_-5.pkl
+-1967,x^3 - x^2 + 2*x + 25,NOT norm-euclidean,3,1/7*t^2 + 1/7*t,7,,,,4.98,168.25,185.96,24.62,387.36,130474,8,data/certificates_k/cert_1967_-1_2_25.pkl
+-1971,x^3 - 9*x - 20,open,3,,,,,,1.86,352.67,8.34,2.93,366.15,167000,13,data/certificates_k/cert_1971_0_-9_-20.pkl
+-1988,x^3 - x^2 + 9*x - 17,open,4,,,,,,19.28,190.15,88.47,3.62,310.62,53502,9,data/certificates_k/cert_1988_-1_9_-17.pkl
+-2003,x^3 - x^2 - 3*x + 10,NOT norm-euclidean,4,7/16*t^2 + 15/16*t + 1/16,16,,,,0.25,0.16,22.32,15.51,45.35,81054,12,data/certificates_k/cert_2003_-1_-3_10.pkl
+-2023,x^3 - x^2 + 6*x + 5,NOT norm-euclidean,5,6/11*t^2 + 3/11*t + 2/11,11,,,,0.42,0.1,71.51,1.75,73.99,15604,9,data/certificates_k/cert_2023_-1_6_5.pkl
+-2036,x^3 - x^2 + 13*x - 5,open,4,,,,,,3.02,130.31,3.24,0.73,137.45,10886,7,data/certificates_k/cert_2036_-1_13_-5.pkl
+-2039,x^3 - x^2 + 4*x + 7,NOT norm-euclidean,27,2/7*t^2 + 5/7*t + 1/7,7,,,,0.44,0.06,273.15,1.66,275.67,23094,7,data/certificates_k/cert_2039_-1_4_7.pkl
+-2047,x^3 + 7*x - 5,NOT norm-euclidean,8,2/3*t^2 + 1/3,3,,,,0.34,0.03,35.34,0.88,36.76,13294,9,data/certificates_k/cert_2047_0_7_-5.pkl
+-2052,x^3 + 9*x - 14,open,2,,,,,,121.62,566.23,95.16,90.63,874.47,102166,12,data/certificates_k/cert_2052_0_9_-14.pkl
+-2063,x^3 - x^2 - 2*x + 27,NOT norm-euclidean,3,1/2*t^2,2,,,,0.64,0.14,5.72,4.46,42.17,71716,9,data/certificates_k/cert_2063_-1_-2_27.pkl
+-2071,x^3 + 7*x - 16,open,2,,,,,,2.29,4263.41,2.46,2.1,4270.54,37122,7,data/certificates_k/cert_2071_0_7_-16.pkl
+-2091,x^3 - x^2 - x - 26,NOT norm-euclidean,3,4/17*t^2 + 7/17*t,17,,,,5.52,250.83,56.66,82.23,396.67,162352,9,data/certificates_k/cert_2091_-1_-1_-26.pkl
+-2132,x^3 - x^2 - 3*x + 19,open,4,,,,,,23.79,185.44,33.6,23.04,272.03,62966,8,data/certificates_k/cert_2132_-1_-3_19.pkl
+-2148,x^3 - x^2 - 7*x - 17,open,3,,,,,,1.5,666.11,11.4,3.26,682.7,55910,9,data/certificates_k/cert_2148_-1_-7_-17.pkl
+-2155,x^3 - 2*x - 9,NOT norm-euclidean,4,4/9*t^2 + 1/9,9,,,,0.42,0.99,3.12,1.14,5.89,13070,9,data/certificates_k/cert_2155_0_-2_-9.pkl
+-2159,x^3 - x^2 - 4*x + 11,NOT norm-euclidean,7,6/13*t^2 + 1/13*t + 1/13,13,,,,0.39,0.15,13.93,20.43,35.4,58430,13,data/certificates_k/cert_2159_-1_-4_11.pkl
+-2167,x^3 - x^2 - 12*x + 23,NOT norm-euclidean,8,5/7*t^2 + 2/7*t,7,,,,0.63,0.07,139.2,5.77,160.79,82986,8,data/certificates_k/cert_2167_-1_-12_23.pkl
+-2168,x^3 - x^2 - 3*x - 17,NOT norm-euclidean,4,3/4*t^2 + 1/4,2,,,,0.5,0.64,75.32,45.91,127.43,87872,9,data/certificates_k/cert_2168_-1_-3_-17.pkl
+-2184,x^3 - x^2 + 13*x - 9,open,2,,,,,,2.83,1121.29,2.82,1.07,1128.22,181826,14,data/certificates_k/cert_2184_-1_13_-9.pkl
+-2199,x^3 + 3*x - 27,NOT norm-euclidean,7,2/9*t^2 + 1/3*t + 1/3,3,,,,0.24,0.02,29.32,1.42,31.2,14022,8,data/certificates_k/cert_2199_0_3_-27.pkl
+-2200,x^3 - 5*x - 10,open,3,,,,,,1.11,109.41,6.34,1.75,118.83,25348,9,data/certificates_k/cert_2200_0_-5_-10.pkl
+-2207,x^3 - x^2 - 6*x + 13,NOT norm-euclidean,13,2/5*t^2 + 1/5*t,5,,,,0.31,0.03,174.44,3.33,189.48,42708,9,data/certificates_k/cert_2207_-1_-6_13.pkl
+-2220,x^3 - x^2 - 11*x + 21,NOT norm-euclidean,3,1/2*t^2 + 1/3*t + 1/2,6,,,,6.11,19.67,48.61,7.32,82.53,108228,14,data/certificates_k/cert_2220_-1_-11_21.pkl
+-2227,x^3 - x^2 + 3*x + 8,open,4,,,,,,3.4,102.63,3.44,0.76,110.38,10452,7,data/certificates_k/cert_2227_-1_3_8.pkl
+-2228,x^3 + 5*x - 8,NOT norm-euclidean,4,10/23*t^2 + 2/23*t + 9/23,23,,,,20.55,22.9,3.5,1.02,48.18,16374,8,data/certificates_k/cert_2228_0_5_-8.pkl
+-2235,x^3 - x^2 - 5*x + 12,NOT norm-euclidean,3,1/2*t^2,2,,,,0.35,140.71,10.29,3.32,155.17,18502,9,data/certificates_k/cert_2235_-1_-5_12.pkl
+-2260,x^3 - x^2 + 4*x - 10,open,3,,,,,,1.11,196.05,5.41,1.55,204.4,27280,11,data/certificates_k/cert_2260_-1_4_-10.pkl
+-2264,x^3 - x^2 - 2*x + 10,NOT norm-euclidean,4,19/40*t^2 + 3/10*t + 1/4,40,,,,6.01,726.82,3.8,56.0,793.04,17326,9,data/certificates_k/cert_2264_-1_-2_10.pkl
+-2283,x^3 - x^2 - x + 28,open,3,,,,,,5.41,188.32,34.78,13.75,243.84,242810,9,data/certificates_k/cert_2283_-1_-1_28.pkl
+-2291,x^3 + 8*x - 3,open,3,,,,,,1.31,144.85,0.81,0.19,147.27,3452,7,data/certificates_k/cert_2291_0_8_-3.pkl
+-2315,x^3 - x^2 + 5*x - 10,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,,,0.73,0.05,24.43,1.21,26.77,14792,8,data/certificates_k/cert_2315_-1_5_-10.pkl
+-2316,x^3 - x^2 + x + 9,NOT norm-euclidean,3,2/3*t^2 + 1/3*t,3,,,,0.48,13.37,1.77,0.78,16.58,13322,7,data/certificates_k/cert_2316_-1_1_9.pkl
+-2344,x^3 + 7*x - 6,open,3,,,,,,1.05,182.44,3.43,1.14,188.28,19944,9,data/certificates_k/cert_2344_0_7_-6.pkl
+-2348,x^3 - x^2 + 3*x + 27,open,3,,,,,,4.94,403.32,13.94,5.3,428.15,81110,8,data/certificates_k/cert_2348_-1_3_27.pkl
+-2351,x^3 - x^2 + 6*x + 16,open,4,,,,,,2.12,1591.52,8.45,1.38,1603.7,22758,8,data/certificates_k/cert_2351_-1_6_16.pkl
+-2355,x^3 + 12*x - 23,open,3,,,,,,3.43,491.21,8.62,5.51,509.48,93640,9,data/certificates_k/cert_2355_0_12_-23.pkl
+-2372,x^3 - x^2 + 8*x + 2,NOT norm-euclidean,4,1/2*t^2 + 1/2*t + 1/2,2,,,,7.23,3.25,2.11,0.52,28.36,9164,8,data/certificates_k/cert_2372_-1_8_2.pkl
+-2376,x^3 - 9*x - 14,open,3,,,,,,5.57,209.0,6.54,1.61,222.96,83980,11,data/certificates_k/cert_2376_0_-9_-14.pkl
+-2380,x^3 - x^2 - x - 9,open,4,,,,,,51.3,73.65,69.5,49.3,342.43,254108,14,data/certificates_k/cert_2380_-1_-1_-9.pkl
+-2387,x^3 - x^2 + 6*x - 20,NOT norm-euclidean,4,11/14*t^2 + 3/14*t,7,,,,9.58,0.18,72.39,123.18,282.11,133064,12,data/certificates_k/cert_2387_-1_6_-20.pkl
+-2388,x^3 - x^2 + 13*x + 3,open,3,,,,,,7.82,0.08,8.04,1.65,18.0,9710,7,data/certificates_k/cert_2388_-1_13_3.pkl
+-2403,x^3 - 6*x - 11,NOT norm-euclidean,6,1/2*t^2,2,,,,0.23,11.0,5.92,1.44,46.32,27056,8,data/certificates_k/cert_2403_0_-6_-11.pkl
+-2408,x^3 - x^2 + 2*x - 10,open,4,,,,,,1.51,288.3,125.45,4.37,459.72,20546,8,data/certificates_k/cert_2408_-1_2_-10.pkl
+-2420,x^3 - x^2 + 4*x - 20,open,4,,,,,,8.8,263.18,90.62,9.38,435.17,130824,13,data/certificates_k/cert_2420_-1_4_-20.pkl
+-2423,x^3 - x^2 + 2*x - 29,NOT norm-euclidean,3,67/81*t^2 + 7/9*t + 8/81,27,,,,37.8,14.85,146.72,128.39,331.83,547310,14,data/certificates_k/cert_2423_-1_2_-29.pkl
+-2424,x^3 - x^2 + 6*x + 6,open,3,,,,,,1.57,875.02,1.8,0.56,879.17,9206,7,data/certificates_k/cert_2424_-1_6_6.pkl
+-2440,x^3 + 13*x - 6,open,3,,,,,,4.26,582.62,2.6,1.56,591.3,26440,10,data/certificates_k/cert_2440_0_13_-6.pkl
+-2444,x^3 - 4*x - 10,open,5,,,,,,18.56,44.46,40.43,1.37,104.99,12846,9,data/certificates_k/cert_2444_0_-4_-10.pkl
+-2468,x^3 - x^2 - 7*x + 23,open,4,,,,,,32.59,141.04,26.61,45.32,364.25,161386,9,data/certificates_k/cert_2468_-1_-7_23.pkl
+-2472,x^3 - x^2 - 8*x + 24,open,3,,,,,,7.24,2466.11,9.5,5.4,2488.94,95222,10,data/certificates_k/cert_2472_-1_-8_24.pkl
+-2476,x^3 - x^2 - 9*x - 19,open,7,,,,,,12.7,32.42,100.99,234.71,381.31,38816,7,data/certificates_k/cert_2476_-1_-9_-19.pkl
+-2479,x^3 - 11*x - 17,NOT norm-euclidean,11,1/2*t^2,2,,,,0.55,0.03,97.57,6.68,105.79,99660,11,data/certificates_k/cert_2479_0_-11_-17.pkl
+-2484,x^3 - 6*x - 20,open,3,,,,,,1.3,378.28,2.86,0.41,382.98,51318,11,data/certificates_k/cert_2484_0_-6_-20.pkl
+-2491,x^3 - x^2 - 2*x + 20,NOT norm-euclidean,4,5/26*t^2 + 1/26*t + 6/13,13,,,,0.39,102.0,8.92,5.32,117.29,60908,10,data/certificates_k/cert_2491_-1_-2_20.pkl
+-2503,x^3 - x^2 + 2*x + 9,NOT norm-euclidean,8,3/5*t^2 + 4/5*t + 2/5,5,,,,0.68,0.05,6.09,1.09,8.13,17228,7,data/certificates_k/cert_2503_-1_2_9.pkl
+-2504,x^3 - x^2 + x + 19,open,4,,,,,,2.22,201.15,13.44,6.75,224.42,116810,10,data/certificates_k/cert_2504_-1_1_19.pkl
+-2508,x^3 - x^2 - 5*x - 9,open,3,,,,,,0.7,41.76,3.1,1.76,47.6,23528,10,data/certificates_k/cert_2508_-1_-5_-9.pkl
+-2515,x^3 - 8*x - 13,open,4,,,,,,1.33,98.63,4.22,1.36,105.75,19202,7,data/certificates_k/cert_2515_0_-8_-13.pkl
+-2516,x^3 - 7*x - 12,open,3,,,,,,3.85,0.08,6.55,2.08,12.94,10004,7,data/certificates_k/cert_2516_0_-7_-12.pkl
+-2540,x^3 - x^2 - x - 19,NOT norm-euclidean,5,3/4*t^2 + 1/4,2,,,,0.87,0.06,53.17,12.06,67.59,164046,11,data/certificates_k/cert_2540_-1_-1_-19.pkl
+-2555,x^3 - x^2 + 14*x - 4,open,4,,,,,,4.28,70.68,5.13,4.44,85.11,75454,11,data/certificates_k/cert_2555_-1_14_-4.pkl
+-2575,x^3 - 5*x - 20,open,2,,,,,,4.46,0.1,24.35,18.95,50.3,102026,11,data/certificates_k/cert_2575_0_-5_-20.pkl
+-2579,x^3 - x^2 - 7*x - 10,open,4,,,,,,1.24,15.4,12.67,0.63,30.22,62784,12,data/certificates_k/cert_2579_-1_-7_-10.pkl
+-2591,x^3 - x^2 - 4*x + 31,NOT norm-euclidean,7,20/27*t^2 + 1/3*t + 1/27,9,,,,0.62,0.95,85.47,132.27,270.63,206354,9,data/certificates_k/cert_2591_-1_-4_31.pkl
+-2599,x^3 - x^2 - 4*x - 9,NOT norm-euclidean,9,4/9*t^2 + 5/9*t + 2/9,9,,,,0.68,0.06,16.47,1.14,18.56,20308,10,data/certificates_k/cert_2599_-1_-4_-9.pkl
+-2604,x^3 - x^2 + 9*x - 3,NOT norm-euclidean,3,2/3*t^2 + 2/3*t + 1/3,3,,,,0.37,4.33,3.07,20.02,28.04,18684,12,data/certificates_k/cert_2604_-1_9_-3.pkl
+-2627,x^3 - x^2 + 9*x - 2,NOT norm-euclidean,4,6/13*t^2 + 1/13*t + 1/13,13,,,,0.37,0.28,1.78,0.85,3.48,11278,9,data/certificates_k/cert_2627_-1_9_-2.pkl
+-2631,x^3 - x^2 + 14*x - 8,open,2,,,,,,8.54,0.08,7.75,7.07,24.42,41350,10,data/certificates_k/cert_2631_-1_14_-8.pkl
+-2635,x^3 - x^2 + 9*x - 4,NOT norm-euclidean,4,9/20*t^2 + 11/20*t + 1/4,20,,,,1.21,26.9,1.48,0.8,30.56,10508,10,data/certificates_k/cert_2635_-1_9_-4.pkl
+-2636,x^3 - 4*x - 20,NOT norm-euclidean,5,7/25*t^2 + 1/5*t + 2/25,25,,,,2.58,1.01,3.12,1.24,8.18,22548,9,data/certificates_k/cert_2636_0_-4_-20.pkl
+-2644,x^3 - x^2 + 5*x - 21,NOT norm-euclidean,3,5/24*t^2 + 1/24,12,,,,0.41,16.32,11.37,9.05,38.25,148576,10,data/certificates_k/cert_2644_-1_5_-21.pkl
+-2647,x^3 - x^2 + 8*x + 3,NOT norm-euclidean,7,15/29*t^2 + 23/29*t + 12/29,29,,,,7.86,1.53,3.91,1.4,14.91,23318,9,data/certificates_k/cert_2647_-1_8_3.pkl
+-2660,x^3 - x^2 + 10,open,4,,,,,,1.73,101.32,5.4,1.97,110.68,27840,14,data/certificates_k/cert_2660_-1_0_10.pkl
+-2668,x^3 - 2*x - 10,NOT norm-euclidean,5,3/10*t^2,10,,,,0.37,0.27,5.45,3.66,10.22,50464,12,data/certificates_k/cert_2668_0_-2_-10.pkl
+-2676,x^3 - x^2 - 11*x - 21,NOT norm-euclidean,3,1/4*t^2 + 7/12*t + 1/6,12,,,,0.75,37.55,16.45,6.3,61.8,103314,10,data/certificates_k/cert_2676_-1_-11_-21.pkl
+-2680,x^3 - x^2 + 20,open,3,,,,,,4.31,676.96,12.09,3.28,697.06,490960,15,data/certificates_k/cert_2680_-1_0_20.pkl
+-2699,x^3 - x - 20,NOT norm-euclidean,5,1/2*t^2,2,,,,0.4,0.66,36.66,3.7,41.88,43226,9,data/certificates_k/cert_2699_0_-1_-20.pkl
+-2708,x^3 + 2*x - 20,NOT norm-euclidean,4,1/2*t + 1/2,2,,,,0.37,1.12,3.95,1.66,7.34,22478,9,data/certificates_k/cert_2708_0_2_-20.pkl
+-2723,x^3 + 8*x - 5,NOT norm-euclidean,5,5/13*t^2 + 7/13*t + 3/13,13,,,,0.33,0.3,6.35,1.57,8.82,21512,10,data/certificates_k/cert_2723_0_8_-5.pkl
+-2727,x^3 + 3*x - 20,open,2,,,,,,5.24,0.1,19.06,14.84,41.15,82118,10,data/certificates_k/cert_2727_0_3_-20.pkl
+-2728,x^3 + 10*x - 16,open,3,,,,,,1.06,283.21,1.58,1.12,287.17,17620,9,data/certificates_k/cert_2728_0_10_-16.pkl
+-2732,x^3 + 2*x - 10,NOT norm-euclidean,7,7/10*t^2 + 2/5,10,,,,0.29,0.12,45.4,3.67,112.86,66802,13,data/certificates_k/cert_2732_0_2_-10.pkl
+-2740,x^3 - x^2 - 10,NOT norm-euclidean,3,19/30*t^2 + 1/30*t + 1/6,30,,,,0.91,128.05,12.6,15.61,159.15,252064,13,data/certificates_k/cert_2740_-1_0_-10.pkl
+-2747,x^3 - x^2 + x + 30,open,3,,,,,,3.18,1186.63,7.76,3.96,1202.07,64478,8,data/certificates_k/cert_2747_-1_1_30.pkl
+-2759,x^3 - x^2 + 4*x - 11,NOT norm-euclidean,27,2/7*t^2 + 1/7,7,,,,0.19,0.02,204.58,4.53,209.89,52088,9,data/certificates_k/cert_2759_-1_4_-11.pkl
+-2791,x^3 - x^2 - 2*x + 11,NOT norm-euclidean,9,12/23*t^2 + 1/23*t + 2/23,23,,,,1.21,0.3,86.8,4.93,95.31,49918,13,data/certificates_k/cert_2791_-1_-2_11.pkl
+-2795,x^3 - x^2 + 10*x - 20,NOT norm-euclidean,4,3/5*t^2 + 1/10*t,10,,,,0.51,0.4,41.55,169.99,214.25,212458,14,data/certificates_k/cert_2795_-1_10_-20.pkl
+-2796,x^3 - x^2 + 5*x - 11,NOT norm-euclidean,4,2/3*t^2 + 1/3*t,3,,,,0.29,1.43,6.12,30.81,67.79,54419,14,data/certificates_k/cert_2796_-1_5_-11.pkl
+-2803,x^3 - x^2 + 7*x - 10,NOT norm-euclidean,4,25/38*t^2 + 15/38*t + 9/38,38,,,,1.13,43.51,24.45,63.64,133.04,21246,10,data/certificates_k/cert_2803_-1_7_-10.pkl
+-2808,x^3 + 3*x - 10,open,3,,,,,,18.15,335.87,8.43,1.01,363.64,157816,15,data/certificates_k/cert_2808_0_3_-10.pkl
+-2820,x^3 - x^2 + 9*x + 15,NOT norm-euclidean,3,5/24*t^2 + 1/4*t + 1/8,12,,,,0.67,412.2,9.94,6.26,429.89,88488,11,data/certificates_k/cert_2820_-1_9_15.pkl
+-2852,x^3 + 14*x - 4,NOT norm-euclidean,4,1/2*t + 1/2,2,,,,0.36,1.77,1.58,0.94,4.91,9780,10,data/certificates_k/cert_2852_0_14_-4.pkl
+-2855,x^3 - x^2 - 10*x - 13,NOT norm-euclidean,19,2/5*t^2 + 2/5*t,5,,,,0.6,0.04,85.79,4.65,91.68,160532,14,data/certificates_k/cert_2855_-1_-10_-13.pkl
+-2860,x^3 - x^2 - x + 21,NOT norm-euclidean,5,3/4*t^2 + 1/2*t + 1/4,2,,,,0.58,0.32,17.8,4.46,23.75,78520,8,data/certificates_k/cert_2860_-1_-1_21.pkl
+-2867,x^3 - x^2 + 2*x + 20,open,5,,,,,,3.18,17.91,76.37,8.37,122.76,329456,15,data/certificates_k/cert_2867_-1_2_20.pkl
+-2872,x^3 + 13*x - 10,open,3,,,,,,7.16,0.08,22.26,25.67,57.86,147470,14,data/certificates_k/cert_2872_0_13_-10.pkl
+-2879,x^3 - x^2 + 6*x + 7,NOT norm-euclidean,27,2/7*t^2,7,,,,0.25,0.03,36.8,3.08,40.55,54314,12,data/certificates_k/cert_2879_-1_6_7.pkl
+-2892,x^3 - x^2 - 13*x - 17,open,4,,,,,,2.62,57.97,12.77,9.59,97.32,506052,16,data/certificates_k/cert_2892_-1_-13_-17.pkl
+-2895,x^3 + 3*x - 31,NOT norm-euclidean,7,19/21*t^2 + 10/21*t + 1/21,7,,,,0.88,0.81,209.67,179.58,551.6,322183,14,data/certificates_k/cert_2895_0_3_-31.pkl
+-2915,x^3 - x^2 - x - 10,open,5,,,,,,1.17,11.08,6.53,1.43,20.48,25194,9,data/certificates_k/cert_2915_-1_-1_-10.pkl
+-2920,x^3 - x^2 - 6*x - 10,open,3,,,,,,1.85,1547.63,6.42,1.05,1557.34,49260,13,data/certificates_k/cert_2920_-1_-6_-10.pkl
+-2923,x^3 - x^2 + 14*x - 12,open,3,,,,,,3.15,42.3,41.13,3.81,90.88,842759,14,data/certificates_k/cert_2923_-1_14_-12.pkl
+-2951,x^3 - x^2 + 6*x - 11,NOT norm-euclidean,8,2/5*t^2 + 2/5*t + 1/5,5,,,,0.35,0.05,10.26,1.53,12.43,25950,8,data/certificates_k/cert_2951_-1_6_-11.pkl
+-2955,x^3 - x^2 - 5*x - 30,open,3,,,,,,1.91,815.31,48.55,50.5,922.7,610450,13,data/certificates_k/cert_2955_-1_-5_-30.pkl
+-2956,x^3 + 4*x - 10,open,4,,,,,,277.18,1244.35,81.06,131.84,1736.58,63008,11,data/certificates_k/cert_2956_0_4_-10.pkl
+-2964,x^3 - x^2 + 5*x + 19,open,3,,,,,,7.51,0.1,55.43,37.58,103.84,136634,12,data/certificates_k/cert_2964_-1_5_19.pkl
+-2991,x^3 - x^2 - 6*x + 24,open,3,,,,,,4.44,0.09,26.75,7.07,39.2,44948,9,data/certificates_k/cert_2991_-1_-6_24.pkl
+-3011,x^3 - 4*x - 11,NOT norm-euclidean,7,5/14*t^2 + 3/7*t + 2/7,14,,,,0.29,0.18,6.27,1.88,8.94,20840,10,data/certificates_k/cert_3011_0_-4_-11.pkl
+-3012,x^3 - x^2 - 4*x - 20,open,3,,,,,,2.81,0.09,50.43,28.84,86.83,350876,13,data/certificates_k/cert_3012_-1_-4_-20.pkl
+-3027,x^3 - x^2 + 7*x + 6,open,4,,,,,,3.05,470.55,4.52,0.91,479.45,8226,7,data/certificates_k/cert_3027_-1_7_6.pkl
+-3035,x^3 - x^2 - 6*x - 20,NOT norm-euclidean,5,3/20*t^2,20,,,,1.89,2.56,324.95,5.39,370.4,99758,11,data/certificates_k/cert_3035_-1_-6_-20.pkl
+-3039,x^3 - x^2 + 4*x + 9,NOT norm-euclidean,8,1/2*t^2,2,,,,0.43,0.05,89.63,77.82,181.96,112946,11,data/certificates_k/cert_3039_-1_4_9.pkl
+-3043,x^3 + 7*x - 20,open,4,,,,,,6.16,620.89,22.28,11.44,662.34,132546,10,data/certificates_k/cert_3043_0_7_-20.pkl
+-3055,x^3 - x^2 + 10*x - 33,NOT norm-euclidean,9,11/15*t^2 + 2/15*t + 1/5,5,,,,0.85,0.18,696.23,420.05,1266.92,531658,14,data/certificates_k/cert_3055_-1_10_-33.pkl
+-3059,x^3 + 11*x - 16,NOT norm-euclidean,8,11/14*t^2 + 3/14*t + 3/7,7,,,,0.39,0.1,161.56,5.15,167.79,90504,11,data/certificates_k/cert_3059_0_11_-16.pkl
+-3064,x^3 - x^2 - 2*x - 10,NOT norm-euclidean,4,3/5*t^2 + 11/15*t + 7/15,15,,,,0.88,74.96,4.57,1.47,82.39,15870,7,data/certificates_k/cert_3064_-1_-2_-10.pkl
+-3075,x^3 - x^2 - 3*x + 12,NOT norm-euclidean,3,1/2*t^2,2,,,,0.72,1.18,84.5,3.56,90.99,79192,15,data/certificates_k/cert_3075_-1_-3_12.pkl
+-3095,x^3 - 13*x - 28,open,4,,,,,,4.18,0.1,136.04,5.2,146.53,58934,8,data/certificates_k/cert_3095_0_-13_-28.pkl
+-3107,x^3 - x^2 - 13*x + 26,NOT norm-euclidean,8,3/5*t^2 + 2/5*t + 2/5,5,,,,1.86,0.34,945.11,5.65,954.07,242558,12,data/certificates_k/cert_3107_-1_-13_26.pkl
+-3115,x^3 - x^2 - 5*x - 10,open,4,,,,,,3.05,204.53,5.95,2.49,216.71,30430,12,data/certificates_k/cert_3115_-1_-5_-10.pkl
+-3116,x^3 - x^2 + x - 11,open,5,,,,,,148.1,9.12,76.75,1.42,235.61,25026,8,data/certificates_k/cert_3116_-1_1_-11.pkl
+-3127,x^3 - x^2 - 16*x + 33,NOT norm-euclidean,9,2/5*t^2 + 2/5*t + 2/5,5,,,,0.33,0.04,573.35,176.48,848.62,240094,11,data/certificates_k/cert_3127_-1_-16_33.pkl
+-3128,x^3 - x^2 + 13*x - 17,NOT norm-euclidean,4,17/20*t^2 + 7/10*t + 3/20,10,,,,1.75,3.45,55.48,9.22,71.08,161736,13,data/certificates_k/cert_3128_-1_13_-17.pkl
+-3148,x^3 - x^2 - 13*x + 33,NOT norm-euclidean,8,3/5*t^2 + 2/5*t,5,,,,1.21,1.32,614.21,90.35,717.49,475672,12,data/certificates_k/cert_3148_-1_-13_33.pkl
+-3159,x^3 + 9*x - 3,NOT norm-euclidean,19,1/3*t^2 + 1/3*t,3,,,,0.39,0.03,80.2,0.84,81.66,9192,7,data/certificates_k/cert_3159_0_9_-3.pkl
+-3159,x^3 - 9*x - 15,NOT norm-euclidean,7,4/9*t^2,9,,,,0.27,0.1,38.11,2.75,53.84,42022,10,data/certificates_k/cert_3159_0_-9_-15.pkl
+-3159,x^3 - 9*x - 24,open,3,,,,,,4.2,0.09,38.42,12.12,56.34,62966,9,data/certificates_k/cert_3159_0_-9_-24.pkl
+-3176,x^3 + 14*x - 8,NOT norm-euclidean,7,1/4*t^2 + 1/2*t,2,,,,0.4,1025.08,7.58,0.42,1033.62,4670,7,data/certificates_k/cert_3176_0_14_-8.pkl
+-3179,x^3 - x^2 - 11*x + 22,NOT norm-euclidean,11,1/2*t^2 + 1/2*t,2,,,,0.42,0.04,586.01,3.62,590.52,61566,8,data/certificates_k/cert_3179_-1_-11_22.pkl
+-3180,x^3 - x^2 + 15*x - 3,NOT norm-euclidean,4,3/5*t^2 + 3/5*t + 1/5,5,,,,1.78,14.52,15.08,8.01,40.27,29814,11,data/certificates_k/cert_3180_-1_15_-3.pkl
+-3191,x^3 - 7*x - 13,NOT norm-euclidean,11,4/7*t^2 + 5/7*t + 1/7,7,,,,0.24,0.06,434.76,31.06,466.83,68258,12,data/certificates_k/cert_3191_0_-7_-13.pkl
+-3208,x^3 - x^2 - 3*x + 23,open,4,,,,,,5.4,1820.51,38.69,11.02,1877.24,73690,8,data/certificates_k/cert_3208_-1_-3_23.pkl
+-3212,x^3 + 8*x - 20,NOT norm-euclidean,11,3/20*t^2 + 1/5,10,,,,21.16,0.06,50.34,1.33,101.85,20224,11,data/certificates_k/cert_3212_0_8_-20.pkl
+-3235,x^3 - 2*x - 11,NOT norm-euclidean,5,1/2*t^2,2,,,,0.35,761.48,23.3,165.65,955.89,16374,10,data/certificates_k/cert_3235_0_-2_-11.pkl
+-3240,x^3 - 3*x - 22,open,3,,,,,,5.61,3341.31,104.21,8.98,3461.33,732180,15,data/certificates_k/cert_3240_0_-3_-22.pkl
+-3244,x^3 - 8*x - 14,NOT norm-euclidean,7,1/2*t^2 + 1/2*t,2,,,,0.74,91.75,97.55,1.7,192.05,21344,7,data/certificates_k/cert_3244_0_-8_-14.pkl
+-3252,x^3 - x^2 - 3*x - 21,open,3,,,,,,4.59,0.09,75.62,29.41,111.37,128654,9,data/certificates_k/cert_3252_-1_-3_-21.pkl
+-3256,x^3 - x^2 + 14*x + 22,open,3,,,,,,14.94,0.09,100.86,66.79,191.0,369552,12,data/certificates_k/cert_3256_-1_14_22.pkl
+-3259,x^3 - x^2 + 9*x + 2,NOT norm-euclidean,6,1/2*t^2 + 1/2*t,2,,,,0.61,2.31,62.39,14.07,79.68,40454,13,data/certificates_k/cert_3259_-1_9_2.pkl
+-3263,x^3 - x - 11,open,11,,,,,,1.22,2.72,38.2,1.43,44.0,20406,7,data/certificates_k/cert_3263_0_-1_-11.pkl
+-3268,x^3 + x - 22,open,3,,,,,,4.65,2203.49,16.46,6.49,2232.17,370322,12,data/certificates_k/cert_3268_0_1_-22.pkl
+-3300,x^3 - x^2 + 12*x + 12,open,3,,,,,,9.85,0.1,23.09,7.49,41.69,38522,10,data/certificates_k/cert_3300_-1_12_12.pkl
+-3307,x^3 - 14*x - 23,NOT norm-euclidean,5,14/23*t^2 + 11/23,23,,,,1.54,5.38,88.83,4.73,101.04,65318,8,data/certificates_k/cert_3307_0_-14_-23.pkl
+-3308,x^3 - x^2 + 3*x - 23,NOT norm-euclidean,7,1/2*t,2,,,,78.44,0.05,349.52,196.01,704.01,596380,13,data/certificates_k/cert_3308_-1_3_-23.pkl
+-3311,x^3 - x^2 - 11,NOT norm-euclidean,27,2/7*t^2 + 1/7*t,7,,,,0.3,0.04,950.31,130.69,1087.74,29464,7,data/certificates_k/cert_3311_-1_0_-11.pkl
+-3331,x^3 - x^2 + 5*x - 12,NOT norm-euclidean,6,3/7*t^2 + 1/7,7,,,,0.24,238.81,61.12,5.26,306.06,70554,11,data/certificates_k/cert_3331_-1_5_-12.pkl
+-3348,x^3 + 9*x - 4,open,4,,,,,,3.41,1297.66,8.9,0.98,1311.45,10998,10,data/certificates_k/cert_3348_0_9_-4.pkl
+-3351,x^3 - x^2 + 8*x - 35,open,5,,,,,,11.13,576.14,91.54,23.15,705.27,297144,11,data/certificates_k/cert_3351_-1_8_-35.pkl
+-3359,x^3 - x^2 + 8*x + 5,NOT norm-euclidean,8,2/5*t^2 + 2/5*t,5,,,,0.4,0.05,111.86,2.17,114.88,24956,9,data/certificates_k/cert_3359_-1_8_5.pkl
+-3371,x^3 + 8*x - 7,NOT norm-euclidean,11,1/2*t^2,2,,,,0.71,0.05,211.89,14.26,227.49,67838,13,data/certificates_k/cert_3371_0_8_-7.pkl
+-3387,x^3 - x^2 + 3*x - 12,open,3,,,,,,3.11,371.55,8.49,1.63,385.34,137474,16,data/certificates_k/cert_3387_-1_3_-12.pkl
+-3404,x^3 - x^2 + 15*x - 11,open,13,,,,,,7.97,21.43,118.08,10.73,159.7,58024,10,data/certificates_k/cert_3404_-1_15_-11.pkl
+-3427,x^3 - x^2 + 6*x + 20,NOT norm-euclidean,4,2/3*t^2 + 4/15*t + 1/3,15,,,,1.2,18.64,40.62,31.33,95.14,165404,14,data/certificates_k/cert_3427_-1_6_20.pkl
+-3439,x^3 - x^2 - 14*x - 19,open,8,,,,,,5.02,20.47,124.23,47.95,204.64,605102,14,data/certificates_k/cert_3439_-1_-14_-19.pkl
+-3444,x^3 - x^2 - 12*x - 24,open,3,,,,,,2.98,0.09,67.54,25.33,98.99,137551,14,data/certificates_k/cert_3444_-1_-12_-24.pkl
+-3451,x^3 - x^2 - 5*x + 14,NOT norm-euclidean,7,7/16*t^2 + 15/16*t + 3/16,16,,,,22.59,4.67,18.64,1.58,47.7,19930,8,data/certificates_k/cert_3451_-1_-5_14.pkl
+-3459,x^3 + 18*x - 17,open,3,,,,,,10.21,1545.75,25.74,8.27,1591.41,615000,15,data/certificates_k/cert_3459_0_18_-17.pkl
+-3471,x^3 - x^2 + 6*x - 24,open,3,,,,,,5.62,0.07,37.51,9.31,53.62,50282,8,data/certificates_k/cert_3471_-1_6_-24.pkl
+-3483,x^3 + 15*x - 4,NOT norm-euclidean,5,1/4*t^2 + 1/4*t,2,,,,0.57,16.33,6.83,4.58,28.78,52466,11,data/certificates_k/cert_3483_0_15_-4.pkl
+-3495,x^3 - x^2 - 6*x + 15,NOT norm-euclidean,8,7/9*t^2 + 1/3*t + 1/3,9,,,,1.0,0.27,36.41,2.61,40.66,35764,9,data/certificates_k/cert_3495_-1_-6_15.pkl
+-3523,x^3 + 4*x - 11,open,4,,,,,,8.33,164.66,4.56,3.15,181.31,33090,10,data/certificates_k/cert_3523_0_4_-11.pkl
+-3540,x^3 - x^2 + 4*x - 24,open,3,,,,,,3.64,0.06,17.88,8.32,30.83,191458,12,data/certificates_k/cert_3540_-1_4_-24.pkl
+-3543,x^3 - x^2 + 4*x + 33,NOT norm-euclidean,7,8/39*t^2 + 2/39*t + 5/13,13,,,,0.55,0.78,37.79,87.87,166.48,172866,10,data/certificates_k/cert_3543_-1_4_33.pkl
+-3547,x^3 - x^2 + 7*x - 36,NOT norm-euclidean,6,2/3*t^2 + 1/6*t,2,,,,1.19,5.18,274.66,178.69,481.78,371456,11,data/certificates_k/cert_3547_-1_7_-36.pkl
+-3560,x^3 - x^2 - 11*x + 31,NOT norm-euclidean,5,3/4*t^2 + 1/4,2,,,,1.05,7.0,105.57,32.06,150.55,316030,9,data/certificates_k/cert_3560_-1_-11_31.pkl
+-3575,x^3 - x^2 - 8*x - 33,NOT norm-euclidean,5,3/5*t^2 + 1/5*t + 1/5,5,,,,0.4,1.14,63.52,54.89,145.77,91876,9,data/certificates_k/cert_3575_-1_-8_-33.pkl
+-3591,x^3 + 9*x - 5,NOT norm-euclidean,5,1/2*t^2,2,,,,0.39,0.1,2.38,0.79,3.9,10956,9,data/certificates_k/cert_3591_0_9_-5.pkl
+-3592,x^3 - x^2 + 2*x + 34,open,3,,,,,,10.8,0.09,271.48,169.9,464.39,1196182,12,data/certificates_k/cert_3592_-1_2_34.pkl
+-3596,x^3 - x^2 - 9*x + 19,open,8,,,,,,15.23,10.49,82.88,35.21,152.83,125210,14,data/certificates_k/cert_3596_-1_-9_19.pkl
+-3599,x^3 - x^2 - 6*x - 11,NOT norm-euclidean,11,11/17*t^2 + 2/17,17,,,,0.78,0.13,242.89,21.09,265.24,34630,9,data/certificates_k/cert_3599_-1_-6_-11.pkl
+-3604,x^3 - x^2 + 13*x + 11,open,4,,,,,,9.84,0.09,34.46,9.57,55.28,48560,9,data/certificates_k/cert_3604_-1_13_11.pkl
+-3615,x^3 - x^2 + 10*x - 3,open,5,,,,,,1.67,223.42,3.42,0.25,228.89,24830,12,data/certificates_k/cert_3615_-1_10_-3.pkl
+-3619,x^3 - x^2 - x + 12,NOT norm-euclidean,4,10/21*t^2 + 2/21*t + 5/21,21,,,,1.4,518.63,28.07,34.78,583.26,49029,11,data/certificates_k/cert_3619_-1_-1_12.pkl
+-3620,x^3 - x^2 + 4*x + 10,open,4,,,,,,4.08,880.25,9.62,7.5,902.77,93360,13,data/certificates_k/cert_3620_-1_4_10.pkl
+-3623,x^3 - x^2 + 14*x + 8,open,4,,,,,,8.09,0.1,20.98,5.52,35.48,29212,9,data/certificates_k/cert_3623_-1_14_8.pkl
+-3643,x^3 - x^2 - 3*x + 36,open,4,,,,,,6.22,344.8,175.3,22.71,552.15,920494,14,data/certificates_k/cert_3643_-1_-3_36.pkl
+-3647,x^3 - x^2 + 2*x + 11,NOT norm-euclidean,8,7/13*t^2 + 1/13,13,,,,0.56,0.07,32.74,3.65,37.48,64072,10,data/certificates_k/cert_3647_-1_2_11.pkl
+-3652,x^3 - x^2 + x + 23,open,4,,,,,,5.41,0.09,65.58,23.24,97.03,121150,9,data/certificates_k/cert_3652_-1_1_23.pkl
+-3656,x^3 - x^2 + 10*x - 2,NOT norm-euclidean,7,19/34*t^2 + 9/34*t + 5/17,34,,,,2.96,75.23,10.1,1.82,90.46,8996,7,data/certificates_k/cert_3656_-1_10_-2.pkl
+-3660,x^3 - x^2 - 11*x - 15,NOT norm-euclidean,4,2/3*t^2 + 1/3*t,3,,,,0.81,3.02,48.89,4.59,57.99,70162,13,data/certificates_k/cert_3660_-1_-11_-15.pkl
+-3671,x^3 - x^2 - 2*x - 11,NOT norm-euclidean,13,3/11*t^2 + 3/11*t,11,,,,16.2,0.13,154.71,35.1,247.7,112092,14,data/certificates_k/cert_3671_-1_-2_-11.pkl
+-3672,x^3 - 6*x - 24,NOT norm-euclidean,4,1/4*t^2 + 1/2*t,2,,,,0.88,5.79,13.82,3.48,24.55,19048,10,data/certificates_k/cert_3672_0_-6_-24.pkl
+-3687,x^3 - x^2 - 8*x + 39,NOT norm-euclidean,5,43/93*t^2 + 19/93*t + 1/31,31,,,,3.21,40.03,117.28,148.93,451.21,283396,11,data/certificates_k/cert_3687_-1_-8_39.pkl
+-3688,x^3 - x^2 - 7*x + 27,open,4,,,,,,2.71,3536.66,34.15,15.88,3591.44,201748,10,data/certificates_k/cert_3688_-1_-7_27.pkl
+-3692,x^3 - x^2 - 3*x + 13,open,7,,,,,,13.82,99.05,7.48,0.94,121.44,16514,7,data/certificates_k/cert_3692_-1_-3_13.pkl
+-3695,x^3 - x^2 + 10*x - 5,NOT norm-euclidean,27,1/2*t^2,2,,,,0.28,0.03,266.73,38.58,310.4,44346,10,data/certificates_k/cert_3695_-1_10_-5.pkl
+-3700,x^3 + 10*x - 20,open,4,,,,,,1.49,3468.36,4.81,1.69,3476.77,20322,10,data/certificates_k/cert_3700_0_10_-20.pkl
+-3711,x^3 - x^2 + 8*x - 11,NOT norm-euclidean,9,1/2*t^2,2,,,,2.1,0.05,71.45,7.17,85.33,27084,9,data/certificates_k/cert_3711_-1_8_-11.pkl
+-3716,x^3 + 14*x - 12,open,3,,,,,,2.65,0.07,3.46,1.03,7.53,5216,6,data/certificates_k/cert_3716_0_14_-12.pkl
+-3720,x^3 - x^2 + 10*x + 30,open,3,,,,,,7.05,0.08,36.93,10.63,55.9,365730,12,data/certificates_k/cert_3720_-1_10_30.pkl
+-3756,x^3 - x^2 + 11*x - 23,NOT norm-euclidean,6,1/4*t^2 + 1/4,2,,,,0.97,1.78,63.11,33.6,103.2,205318,13,data/certificates_k/cert_3756_-1_11_-23.pkl
+-3763,x^3 - 5*x - 24,open,5,,,,,,5.82,400.5,26.44,7.97,441.95,100500,9,data/certificates_k/cert_3763_0_-5_-24.pkl
+-3767,x^3 + 5*x - 11,NOT norm-euclidean,19,1/2*t^2,2,,,,44.87,0.04,226.29,113.75,428.96,195630,12,data/certificates_k/cert_3767_0_5_-11.pkl
+-3780,x^3 - 3*x - 12,open,4,,,,,,2.03,0.07,30.18,4.97,38.02,28036,10,data/certificates_k/cert_3780_0_-3_-12.pkl
+-3783,x^3 - 9*x - 37,NOT norm-euclidean,8,23/27*t^2 + 26/27*t + 2/27,9,,,,0.84,0.64,216.15,52.16,275.4,559882,13,data/certificates_k/cert_3783_0_-9_-37.pkl
+-3788,x^3 - x^2 - 3*x - 11,open,7,,,,,,0.8,44.01,333.23,1.42,379.68,81978,16,data/certificates_k/cert_3788_-1_-3_-11.pkl
+-3796,x^3 - x^2 + 8*x + 6,NOT norm-euclidean,6,23/36*t^2 + 4/9*t + 5/18,36,,,,1.77,1089.43,6.72,1.53,1099.84,18012,10,data/certificates_k/cert_3796_-1_8_6.pkl
+-3803,x^3 - 10*x - 17,open,7,,,,,,75.59,11.32,155.4,48.71,319.79,120422,11,data/certificates_k/cert_3803_0_-10_-17.pkl
+-3820,x^3 - x^2 + 15*x + 5,NOT norm-euclidean,5,1/6*t^2 + 1/6,3,,,,1.71,1.94,24.79,18.21,48.24,84890,11,data/certificates_k/cert_3820_-1_15_5.pkl
+-3831,x^3 - x^2 - 4*x - 11,NOT norm-euclidean,5,3/7*t^2 + 2/7*t + 3/7,7,,,,1.49,0.86,10.37,2.72,16.05,34966,11,data/certificates_k/cert_3831_-1_-4_-11.pkl
+-3835,x^3 - 17*x - 36,open,5,,,,,,4.79,917.99,83.7,18.63,1027.62,239044,10,data/certificates_k/cert_3835_0_-17_-36.pkl
+-3864,x^3 - x^2 + 24,open,4,,,,,,3.99,0.06,33.12,15.03,53.87,97322,9,data/certificates_k/cert_3864_-1_0_24.pkl
+-3876,x^3 - 3*x - 36,open,3,,,,,,2.37,5669.01,6.75,3.87,5682.66,25264,9,data/certificates_k/cert_3876_0_-3_-36.pkl
+-3880,x^3 - 2*x - 24,open,4,,,,,,2.05,0.08,4.51,1.42,8.48,14428,7,data/certificates_k/cert_3880_0_-2_-24.pkl
+-3892,x^3 + x - 12,open,4,,,,,,2.87,0.1,17.81,9.6,31.56,47566,10,data/certificates_k/cert_3892_0_1_-12.pkl
+-3912,x^3 - x^2 - 24,open,3,,,,,,3.13,0.09,49.49,6.1,59.8,401710,12,data/certificates_k/cert_3912_-1_0_-24.pkl
+-3915,x^3 + 3*x - 24,NOT norm-euclidean,5,1/2*t^2,2,,,,1.28,2.77,70.76,21.32,98.99,223742,11,data/certificates_k/cert_3915_0_3_-24.pkl
+-3916,x^3 - x^2 + 3*x + 11,NOT norm-euclidean,7,4/11*t^2 + 5/11*t,11,,,,25.28,148.14,183.37,1.6,382.8,21512,8,data/certificates_k/cert_3916_-1_3_11.pkl
+-3935,x^3 - x^2 - 10*x - 35,NOT norm-euclidean,5,13/15*t^2 + 2/15,5,,,,0.91,3.21,241.4,66.08,315.89,440742,11,data/certificates_k/cert_3935_-1_-10_-35.pkl
+-3940,x^3 - x^2 + 9*x - 25,open,4,,,,,,5.58,0.08,55.39,28.46,92.76,155702,10,data/certificates_k/cert_3940_-1_9_-25.pkl
+-3943,x^3 - x^2 - 10*x + 21,NOT norm-euclidean,9,2/7*t^2 + 5/7*t + 1/7,7,,,,0.5,0.08,226.08,69.55,297.43,150004,12,data/certificates_k/cert_3943_-1_-10_21.pkl
+-3948,x^3 - x^2 + 7*x + 21,NOT norm-euclidean,5,2/3*t^2 + 1/3*t,3,,,,1.05,13.32,260.25,186.7,483.18,1526316,14,data/certificates_k/cert_3948_-1_7_21.pkl
+-3956,x^3 - x^2 - 4*x + 14,NOT norm-euclidean,5,9/14*t^2 + 5/14*t + 3/7,14,,,,0.59,26.2,11.2,2.03,40.57,18670,7,data/certificates_k/cert_3956_-1_-4_14.pkl
+-3972,x^3 - x^2 - 8*x + 18,open,4,,,,,,2.84,0.08,32.73,4.43,40.79,40314,8,data/certificates_k/cert_3972_-1_-8_18.pkl
+-3980,x^3 - x^2 - 5*x - 23,NOT norm-euclidean,13,3/4*t^2 + 1/4,2,,,,0.39,0.2,563.4,267.12,852.48,223784,10,data/certificates_k/cert_3980_-1_-5_-23.pkl
+-3991,x^3 - x^2 + 10*x - 7,open,9,,,,,,18.09,2.09,8.46,1.35,86.28,23346,9,data/certificates_k/cert_3991_-1_10_-7.pkl
+-3999,x^3 + 9*x - 35,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,,,1.06,1.34,83.0,28.25,117.27,321840,10,data/certificates_k/cert_3999_0_9_-35.pkl
+-4007,x^3 - x^2 - 2*x + 13,NOT norm-euclidean,17,3/5*t^2 + 1/5*t + 2/5,5,,,,1.24,0.09,782.11,5.3,789.54,157326,13,data/certificates_k/cert_4007_-1_-2_13.pkl
+-4012,x^3 - x^2 + 3*x - 13,NOT norm-euclidean,7,16/31*t^2 + 23/31*t + 13/31,31,,,,1.14,174.84,82.72,4.36,296.09,79157,14,data/certificates_k/cert_4012_-1_3_-13.pkl
+-4023,x^3 + 15*x - 29,NOT norm-euclidean,15,100/117*t^2 + 35/117*t + 1/117,39,,,,8.95,32.61,759.6,35.43,841.23,977110,16,data/certificates_k/cert_4023_0_15_-29.pkl
+-4035,x^3 - x^2 + 5*x + 10,NOT norm-euclidean,3,8/15*t^2 + 1/3*t,15,,,,1.02,146.49,20.0,6.2,174.69,105834,12,data/certificates_k/cert_4035_-1_5_10.pkl
+-4039,x^3 - x^2 + 6*x - 13,NOT norm-euclidean,9,5/7*t^2 + 2/7*t,7,,,,0.37,0.07,15.86,3.62,20.37,46488,10,data/certificates_k/cert_4039_-1_6_-13.pkl
+-4072,x^3 + 7*x - 10,open,4,,,,,,2.73,2521.92,5.4,4.67,2535.7,56204,13,data/certificates_k/cert_4072_0_7_-10.pkl
+-4075,x^3 - x^2 - 13*x - 18,NOT norm-euclidean,6,2/5*t^2 + 2/5*t + 1/10,10,,,,0.25,153.68,76.01,2.53,232.95,87508,10,data/certificates_k/cert_4075_-1_-13_-18.pkl
+-4076,x^3 - x^2 + 11*x + 17,NOT norm-euclidean,14,1/2*t,2,,,,1.15,0.2,1155.86,23.29,1183.19,534192,15,data/certificates_k/cert_4076_-1_11_17.pkl
+-4087,x^3 - x^2 + 2*x + 24,open,3,,,,,,5.58,0.09,66.08,26.08,101.52,324962,12,data/certificates_k/cert_4087_-1_2_24.pkl
+-4091,x^3 - x^2 + 11*x - 38,open,4,,,,,,10.71,0.09,381.61,16.56,411.02,324976,13,data/certificates_k/cert_4091_-1_11_-38.pkl
+-4099,x^3 - x^2 + 3*x + 36,open,6,,,,,,10.38,478.73,146.29,73.99,717.72,815074,12,data/certificates_k/cert_4099_-1_3_36.pkl
+-4104,x^3 + 6*x - 24,NOT norm-euclidean,4,2/11*t^2 + 7/11*t + 1/11,11,,,,1.32,33.69,16.59,6.02,58.42,22422,9,data/certificates_k/cert_4104_0_6_-24.pkl
+-4111,x^3 - x^2 - 14*x + 29,NOT norm-euclidean,8,3/5*t^2 + 1/5*t + 1/5,5,,,,0.73,0.42,266.52,40.97,312.96,228831,12,data/certificates_k/cert_4111_-1_-14_29.pkl
+-4119,x^3 - x^2 - 2*x - 24,open,3,,,,,,5.34,0.1,40.9,14.19,62.38,77764,9,data/certificates_k/cert_4119_-1_-2_-24.pkl
+-4120,x^3 - x^2 - 11*x - 25,open,4,,,,,,3.02,0.06,128.53,15.6,149.14,366458,15,data/certificates_k/cert_4120_-1_-11_-25.pkl
+-4132,x^3 - x^2 + x - 25,open,4,,,,,,4.05,0.09,91.63,28.26,127.33,151712,9,data/certificates_k/cert_4132_-1_1_-25.pkl
+-4147,x^3 - x^2 - x - 12,NOT norm-euclidean,4,3/8*t^2 + 1/8*t + 1/8,8,,,,34.26,214.8,12.83,2.52,264.89,85548,13,data/certificates_k/cert_4147_-1_-1_-12.pkl
+-4155,x^3 - x^2 + 14*x - 20,open,4,,,,,,5.94,0.06,25.39,21.47,55.41,138860,11,data/certificates_k/cert_4155_-1_14_-20.pkl
+-4164,x^3 - x^2 - 15*x + 39,open,4,,,,,,5.69,0.08,285.0,65.71,363.65,342490,10,data/certificates_k/cert_4164_-1_-15_39.pkl
+-4168,x^3 - 14*x - 32,open,4,,,,,,3.19,2781.42,9.4,5.54,2800.53,68846,13,data/certificates_k/cert_4168_0_-14_-32.pkl
+-4172,x^3 - x^2 - 7*x + 17,open,7,,,,,,2.52,71.85,17.32,5.55,97.94,65388,9,data/certificates_k/cert_4172_-1_-7_17.pkl
+-4175,x^3 - x^2 + 2*x - 13,NOT norm-euclidean,11,3/5*t^2 + 3/5*t + 2/5,5,,,,4.0,3.13,100.32,41.44,149.9,110671,11,data/certificates_k/cert_4175_-1_2_-13.pkl
+-4191,x^3 - x^2 - 12*x + 45,NOT norm-euclidean,5,1/2*t^2,2,,,,2.08,1.53,220.33,99.27,332.52,481860,10,data/certificates_k/cert_4191_-1_-12_45.pkl
+-4200,x^3 - x^2 + 2*x - 38,open,3,,,,,,7.32,0.09,171.89,152.76,343.72,717144,12,data/certificates_k/cert_4200_-1_2_-38.pkl
+-4212,x^3 + 9*x - 36,open,4,,,,,,2.23,2660.34,9.98,2.82,2675.92,27098,8,data/certificates_k/cert_4212_0_9_-36.pkl
+-4231,x^3 + 7*x - 24,open,3,,,,,,6.62,0.08,48.69,11.79,68.66,370980,13,data/certificates_k/cert_4231_0_7_-24.pkl
+-4232,x^3 - x^2 - 15*x - 29,NOT norm-euclidean,5,13/20*t^2 + 1/5*t + 1/20,10,,,,1.02,23.0,336.27,46.16,412.04,831300,16,data/certificates_k/cert_4232_-1_-15_-29.pkl
+-4239,x^3 + 9*x - 7,NOT norm-euclidean,17,1/3*t^2,3,,,,0.34,0.04,42.49,2.53,45.73,29142,8,data/certificates_k/cert_4239_0_9_-7.pkl
+-4243,x^3 + 10*x - 3,open,5,,,,,,323.05,1661.19,30.65,219.73,2234.89,15954,12,data/certificates_k/cert_4243_0_10_-3.pkl
+-4255,x^3 - x^2 + 4*x + 11,NOT norm-euclidean,9,7/15*t^2 + 2/5*t + 7/15,15,,,,0.63,0.25,38.93,4.25,44.69,53208,11,data/certificates_k/cert_4255_-1_4_11.pkl
+-4276,x^3 - x^2 - 4*x - 24,open,7,,,,,,3.09,0.07,242.8,6.95,253.86,38480,7,data/certificates_k/cert_4276_-1_-4_-24.pkl
+-4280,x^3 - 13*x - 22,NOT norm-euclidean,5,6/19*t^2 + 2/19,19,,,,2.57,70.42,67.69,20.65,163.71,112610,10,data/certificates_k/cert_4280_0_-13_-22.pkl
+-4283,x^3 - x^2 - 6*x + 28,open,7,,,,,,2.24,122.24,360.61,1685.12,2179.2,109460,9,data/certificates_k/cert_4283_-1_-6_28.pkl
+-4291,x^3 - x^2 - 14*x - 28,NOT norm-euclidean,7,1/4*t^2 + 1/4*t,2,,,,1.73,2.18,242.63,38.39,287.8,164746,12,data/certificates_k/cert_4291_-1_-14_-28.pkl
+-4292,x^3 - 10*x - 28,open,7,,,,,,6.06,324.96,23.48,6.3,361.47,27574,8,data/certificates_k/cert_4292_0_-10_-28.pkl
+-4295,x^3 - x^2 + 4*x - 39,NOT norm-euclidean,5,7/9*t^2 + 2/9*t + 4/9,9,,,,0.95,12.45,84.85,31.88,133.3,175624,10,data/certificates_k/cert_4295_-1_4_-39.pkl
+-4299,x^3 - x^2 + 15*x - 36,open,4,,,,,,12.38,0.05,87.69,52.24,158.29,649496,12,data/certificates_k/cert_4299_-1_15_-36.pkl
+-4307,x^3 - 4*x - 13,NOT norm-euclidean,8,1/2*t^2,2,,,,0.38,0.22,52.09,24.09,116.39,82111,12,data/certificates_k/cert_4307_0_-4_-13.pkl
+-4308,x^3 - x^2 + 12*x - 24,open,3,,,,,,8.74,0.07,57.47,59.1,130.68,316142,14,data/certificates_k/cert_4308_-1_12_-24.pkl
+-4347,x^3 + 15*x - 12,NOT norm-euclidean,7,1/2*t^2,2,,,,1.35,4.48,34.79,6.78,48.11,34364,7,data/certificates_k/cert_4347_0_15_-12.pkl
+-4359,x^3 - x^2 - 16*x - 23,NOT norm-euclidean,9,4/11*t^2 + 1/11*t,11,,,,0.65,0.33,372.4,372.45,888.23,394948,13,data/certificates_k/cert_4359_-1_-16_-23.pkl
+-4360,x^3 - x^2 + 10*x + 2,open,4,,,,,,3.41,0.07,8.06,4.37,16.49,25292,12,data/certificates_k/cert_4360_-1_10_2.pkl
+-4363,x^3 - x^2 - 3*x + 14,open,6,,,,,,2.54,482.23,51.1,1.79,538.07,43135,11,data/certificates_k/cert_4363_-1_-3_14.pkl
+-4364,x^3 - x^2 + 9*x - 11,NOT norm-euclidean,11,7/17*t^2 + 14/17*t + 3/17,17,,,,1.35,0.16,68.4,31.26,114.08,56785,13,data/certificates_k/cert_4364_-1_9_-11.pkl
+-4388,x^3 + 5*x - 12,open,3,,,,,,2.55,0.07,19.16,23.85,48.06,122970,13,data/certificates_k/cert_4388_0_5_-12.pkl
+-4411,x^3 - x^2 + 14*x + 12,NOT norm-euclidean,7,27/22*t^2 + 7/22*t + 5/11,11,,,,2.66,19.17,31.83,4.24,58.51,54174,10,data/certificates_k/cert_4411_-1_14_12.pkl
+-4415,x^3 - x^2 - 10*x + 32,open,4,,,,,,5.41,0.06,93.32,31.44,133.36,171382,9,data/certificates_k/cert_4415_-1_-10_32.pkl
+-4424,x^3 - x^2 + 16*x + 4,open,5,,,,,,4.52,0.04,10.33,2.03,17.29,26874,8,data/certificates_k/cert_4424_-1_16_4.pkl
+-4431,x^3 + 9*x - 37,open,7,,,,,,36.35,685.87,151.26,247.3,1193.67,557236,11,data/certificates_k/cert_4431_0_9_-37.pkl
+-4455,x^3 - 3*x - 13,NOT norm-euclidean,9,2/3*t^2 + 1/3*t,3,,,,0.28,0.05,122.0,2.77,125.44,184206,14,data/certificates_k/cert_4455_0_-3_-13.pkl
+-4460,x^3 - x^2 - 11*x + 45,open,4,,,,,,4.66,0.05,123.18,73.4,212.24,744710,13,data/certificates_k/cert_4460_-1_-11_45.pkl
+-4467,x^3 - x^2 - 3*x - 12,open,4,,,,,,2.64,1553.27,7.09,3.34,1566.98,41910,10,data/certificates_k/cert_4467_-1_-3_-12.pkl
+-4483,x^3 - x^2 - 9*x + 20,NOT norm-euclidean,4,6/11*t^2 + 14/33*t + 1/33,33,,,,3.77,146.25,24.15,7.5,182.72,198402,14,data/certificates_k/cert_4483_-1_-9_20.pkl
+-4487,x^3 - x^2 - 12*x - 17,NOT norm-euclidean,25,1/2*t^2,2,,,,0.22,0.02,886.8,13.11,901.0,101984,12,data/certificates_k/cert_4487_-1_-12_-17.pkl
+-4511,x^3 - x^2 + 13,NOT norm-euclidean,59,6/11*t^2 + 10/11*t + 1/11,11,,,,0.29,0.05,852.93,13.9,868.73,185648,12,data/certificates_k/cert_4511_-1_0_13.pkl
+-4523,x^3 - x^2 + 7*x + 36,open,3,,,,,,5.94,0.05,70.67,44.86,124.76,377462,13,data/certificates_k/cert_4523_-1_7_36.pkl
+-4524,x^3 - x^2 + 13*x - 39,NOT norm-euclidean,6,41/87*t^2 + 17/87*t + 1/29,29,,,,9.66,198.78,62.08,40.63,315.9,494992,12,data/certificates_k/cert_4524_-1_13_-39.pkl
+-4531,x^3 - 2*x - 13,NOT norm-euclidean,7,10/17*t^2 + 14/17*t + 3/17,17,,,,1.1,312.42,64.71,2.64,395.49,28288,8,data/certificates_k/cert_4531_0_-2_-13.pkl
+-4552,x^3 - x^2 - 3*x - 25,open,4,,,,,,4.54,0.06,67.3,30.37,106.25,378680,13,data/certificates_k/cert_4552_-1_-3_-25.pkl
+-4555,x^3 - x^2 + 10*x + 20,NOT norm-euclidean,5,1/4*t^2 + 1/4*t + 1/2,2,,,,1.7,10.27,133.0,6.55,152.51,207124,16,data/certificates_k/cert_4555_-1_10_20.pkl
+-4556,x^3 - x^2 + 3*x + 25,NOT norm-euclidean,5,3/4*t^2 + 1/4,2,,,,1.02,1.84,98.99,9.4,112.48,517882,13,data/certificates_k/cert_4556_-1_3_25.pkl
+-4559,x^3 - x - 13,NOT norm-euclidean,31,1/2*t^2,2,,,,0.34,0.03,923.77,40.74,965.62,82006,9,data/certificates_k/cert_4559_0_-1_-13.pkl
+-4567,x^3 + x - 13,NOT norm-euclidean,11,1/3*t^2 + 1/3*t,3,,,,0.6,0.14,18.81,2.19,68.73,36954,9,data/certificates_k/cert_4567_0_1_-13.pkl
+-4575,x^3 - 15*x - 45,NOT norm-euclidean,8,2/9*t^2 + 1/3,3,,,,0.39,0.08,63.04,5.83,70.15,77176,14,data/certificates_k/cert_4575_0_-15_-45.pkl
+-4580,x^3 - x^2 + 4*x - 14,open,5,,,,,,2.51,1039.07,7.0,2.88,1052.05,35876,12,data/certificates_k/cert_4580_-1_4_-14.pkl
+-4587,x^3 - x^2 + 3*x + 12,open,4,,,,,,2.21,3704.06,15.67,2.62,3725.07,52270,11,data/certificates_k/cert_4587_-1_3_12.pkl
+-4619,x^3 - x^2 - 9*x - 14,NOT norm-euclidean,7,9/14*t^2 + 3/14*t + 1/2,14,,,,0.35,0.55,71.47,9.96,128.15,57744,10,data/certificates_k/cert_4619_-1_-9_-14.pkl
+-4620,x^3 + 18*x - 26,open,5,,,,,,9.92,0.07,71.01,10.44,92.87,133176,8,data/certificates_k/cert_4620_0_18_-26.pkl
+-4623,x^3 - x^2 - 18*x + 39,NOT norm-euclidean,7,2/7*t^2 + 2/7*t + 3/7,7,,,,0.46,0.76,223.26,35.56,261.56,469120,13,data/certificates_k/cert_4623_-1_-18_39.pkl
+-4632,x^3 - x^2 + 17*x - 5,open,3,,,,,,8.7,0.07,14.41,10.13,34.5,58668,12,data/certificates_k/cert_4632_-1_17_-5.pkl
+-4639,x^3 + 7*x - 11,NOT norm-euclidean,11,2/3*t^2 + 1/3*t,3,,,,0.32,0.06,13.1,24.63,38.6,49932,9,data/certificates_k/cert_4639_0_7_-11.pkl
+-4664,x^3 - x^2 + 6*x - 14,NOT norm-euclidean,11,3/8*t^2 + 1/4,8,,,,0.37,52.01,16.23,1.71,70.6,22394,8,data/certificates_k/cert_4664_-1_6_-14.pkl
+-4676,x^3 - x^2 - 7*x - 25,open,5,,,,,,3.4,0.06,75.39,7.34,87.46,95292,9,data/certificates_k/cert_4676_-1_-7_-25.pkl
+-4684,x^3 - x^2 - 17*x - 25,NOT norm-euclidean,5,7/31*t^2 + 26/31*t + 8/31,31,,,,2.45,242.37,33.7,8.29,287.97,109978,10,data/certificates_k/cert_4684_-1_-17_-25.pkl
+-4691,x^3 - x^2 + 3*x - 14,NOT norm-euclidean,14,1/2*t^2 + 1/2*t,2,,,,0.27,0.07,317.74,26.41,345.22,179124,16,data/certificates_k/cert_4691_-1_3_-14.pkl
+-4692,x^3 - x^2 - 4*x + 28,open,3,,,,,,5.38,0.06,31.9,10.0,48.7,463940,14,data/certificates_k/cert_4692_-1_-4_28.pkl
+-4696,x^3 - x^2 - 2*x + 14,open,6,,,,,,4.91,0.06,37.43,8.97,52.34,52074,11,data/certificates_k/cert_4696_-1_-2_14.pkl
+-4699,x^3 - x^2 - 11*x - 16,NOT norm-euclidean,7,4/9*t^2 + 1/9,9,,,,0.44,2.61,51.33,4.12,59.03,107626,15,data/certificates_k/cert_4699_-1_-11_-16.pkl
+-4708,x^3 - x^2 + 17*x - 9,open,4,,,,,,9.42,0.06,40.7,11.39,62.71,117230,12,data/certificates_k/cert_4708_-1_17_-9.pkl
+-4715,x^3 - 13*x - 32,NOT norm-euclidean,5,3/22*t^2 + 3/22*t + 4/11,11,,,,0.41,35.9,373.19,14.07,425.06,811392,15,data/certificates_k/cert_4715_0_-13_-32.pkl
+-4723,x^3 - x^2 - 7*x - 38,open,6,,,,,,5.09,705.47,358.93,164.61,1244.3,830012,11,data/certificates_k/cert_4723_-1_-7_-38.pkl
+-4727,x^3 - x^2 + 8*x - 13,NOT norm-euclidean,47,1/2*t^2,2,,,,0.43,0.03,380.39,21.6,403.15,78548,9,data/certificates_k/cert_4727_-1_8_-13.pkl
+-4735,x^3 - x^2 - 10*x - 15,NOT norm-euclidean,7,1/2*t^2,2,,,,0.51,0.13,39.45,4.36,44.95,60362,9,data/certificates_k/cert_4735_-1_-10_-15.pkl
+-4755,x^3 - x^2 + 9*x + 6,NOT norm-euclidean,4,13/20*t^2 + 9/20*t + 3/20,20,,,,1.91,1063.16,9.29,1.77,1076.55,22800,11,data/certificates_k/cert_4755_-1_9_6.pkl
+-4771,x^3 - x^2 + 6*x - 28,NOT norm-euclidean,7,1/4*t^2 + 1/4*t + 1/2,2,,,,0.41,816.28,25.61,11.87,855.58,278020,13,data/certificates_k/cert_4771_-1_6_-28.pkl
+-4792,x^3 - 5*x - 14,NOT norm-euclidean,4,24/29*t^2 + 20/29*t + 3/29,29,,,,1.65,1568.35,14.48,4.16,1589.37,78562,11,data/certificates_k/cert_4792_0_-5_-14.pkl
+-4795,x^3 - x^2 - 5*x + 42,open,5,,,,,,2.46,1322.07,47.61,25.34,1400.19,322596,10,data/certificates_k/cert_4795_-1_-5_42.pkl
+-4808,x^3 - x^2 + 8*x - 28,open,7,,,,,,3.06,3820.26,70.43,14.1,3909.26,119960,9,data/certificates_k/cert_4808_-1_8_-28.pkl
+-4819,x^3 + 4*x - 13,NOT norm-euclidean,8,16/29*t^2 + 24/29*t + 13/29,29,,,,28.53,284.2,44.23,8.81,366.97,125238,13,data/certificates_k/cert_4819_0_4_-13.pkl
+-4823,x^3 - x^2 - 8*x + 19,NOT norm-euclidean,19,1/3*t^2,3,,,,0.41,0.04,457.87,3.81,462.65,66116,10,data/certificates_k/cert_4823_-1_-8_19.pkl
+-4827,x^3 - x^2 + 9*x - 12,NOT norm-euclidean,5,5/8*t^2 + 3/8*t,8,,,,0.83,24.09,4.16,2.13,31.59,24368,9,data/certificates_k/cert_4827_-1_9_-12.pkl
+-4831,x^3 - x^2 + 16*x + 27,open,13,,,,,,4.72,48.91,346.0,58.8,461.12,418734,14,data/certificates_k/cert_4831_-1_16_27.pkl
+-4835,x^3 - x^2 + 9*x + 36,open,4,,,,,,10.5,0.08,86.45,18.38,117.62,197562,9,data/certificates_k/cert_4835_-1_9_36.pkl
+-4844,x^3 - x^2 - x - 13,NOT norm-euclidean,13,1/2*t,2,,,,0.36,0.05,136.45,23.21,186.02,59774,9,data/certificates_k/cert_4844_-1_-1_-13.pkl
+-4859,x^3 - x^2 + 11*x - 4,NOT norm-euclidean,11,2/3*t^2 + 1/3*t,3,,,,0.41,0.36,44.75,1.53,47.28,10284,7,data/certificates_k/cert_4859_-1_11_-4.pkl
+-4872,x^3 - x^2 + 2*x - 14,open,4,,,,,,0.43,45.56,8.28,2.66,57.36,36898,9,data/certificates_k/cert_4872_-1_2_-14.pkl
+-4883,x^3 - x^2 - 5*x + 16,open,7,,,,,,0.95,63.8,49.92,4.93,120.16,58738,12,data/certificates_k/cert_4883_-1_-5_16.pkl
+-4888,x^3 + 10*x - 24,NOT norm-euclidean,4,11/28*t^2 + 5/14*t + 3/14,14,,,,0.79,651.21,4.73,2.92,660.15,36996,11,data/certificates_k/cert_4888_0_10_-24.pkl
+-4903,x^3 - x^2 + 8*x + 37,NOT norm-euclidean,15,8/39*t^2 + 8/13*t + 4/39,13,,,,0.76,0.7,3922.37,90.59,4030.36,1866656,14,data/certificates_k/cert_4903_-1_8_37.pkl
+-4904,x^3 - x^2 + 10*x - 42,open,3,,,,,,3.85,0.04,19.57,13.28,38.13,187356,9,data/certificates_k/cert_4904_-1_10_-42.pkl
+-4908,x^3 - x^2 + 11*x - 5,NOT norm-euclidean,5,1/2*t^2 + 1/2*t,2,,,,0.41,1.63,8.36,1.65,12.3,38200,11,data/certificates_k/cert_4908_-1_11_-5.pkl
+-4920,x^3 - x^2 - 10*x + 22,open,3,,,,,,1.57,10927.48,53.08,7.33,10990.73,298257,14,data/certificates_k/cert_4920_-1_-10_22.pkl
+-4935,x^3 - x^2 + 14*x + 31,NOT norm-euclidean,5,17/37*t^2 + 36/37*t + 2/37,37,,,,8.37,587.77,376.28,221.79,1205.98,1495894,14,data/certificates_k/cert_4935_-1_14_31.pkl
+-4936,x^3 - x^2 + 13*x - 25,open,4,,,,,,7.24,0.09,142.16,13.11,164.15,345374,14,data/certificates_k/cert_4936_-1_13_-25.pkl
+-4952,x^3 - x^2 - 10*x + 46,open,3,,,,,,1.09,129.1,117.53,139.76,399.51,865698,12,data/certificates_k/cert_4952_-1_-10_46.pkl
+-4963,x^3 - 20*x - 37,NOT norm-euclidean,5,5/7*t^2 + 1/7*t + 1/7,7,,,,0.42,187.63,123.89,11.24,324.24,483904,15,data/certificates_k/cert_4963_0_-20_-37.pkl
+-4968,x^3 + 15*x - 34,open,5,,,,,,3.99,0.03,41.51,19.46,66.99,267828,11,data/certificates_k/cert_4968_0_15_-34.pkl
+-4972,x^3 + 10*x - 6,NOT norm-euclidean,7,2/3*t^2 + 1/5*t + 7/15,15,,,,0.34,150.4,9.58,3.39,163.94,81516,15,data/certificates_k/cert_4972_0_10_-6.pkl
+-4987,x^3 - x^2 - 7*x + 18,open,6,,,,,,2.54,421.51,91.25,13.65,530.31,77806,11,data/certificates_k/cert_4987_-1_-7_18.pkl
+-4995,x^3 - 12*x - 21,NOT norm-euclidean,6,1/2*t^2,2,,,,0.47,1.96,51.06,71.24,131.65,475035,13,data/certificates_k/cert_4995_0_-12_-21.pkl

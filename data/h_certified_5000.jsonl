@@ -1,0 +1,729 @@
+{"poly": "x^3 + 2*x - 1", "disc": -59, "h": 1, "certified": true, "t": 0.003271818161010742}
+{"poly": "x^3 + x - 1", "disc": -31, "h": 1, "certified": true, "t": 0.0038909912109375}
+{"poly": "x^3 + 2*x - 2", "disc": -140, "h": 1, "certified": true, "t": 0.0038149356842041016}
+{"poly": "x^3 + 3*x - 1", "disc": -135, "h": 1, "certified": true, "t": 0.0033829212188720703}
+{"poly": "x^3 + 3*x - 3", "disc": -351, "h": 1, "certified": true, "t": 0.002988100051879883}
+{"poly": "x^3 + 3*x - 2", "disc": -216, "h": 1, "certified": true, "t": 0.004002809524536133}
+{"poly": "x^3 + 4*x - 2", "disc": -364, "h": 1, "certified": true, "t": 0.0024919509887695312}
+{"poly": "x^3 + 4*x - 1", "disc": -283, "h": 2, "certified": true, "t": 0.0027670860290527344}
+{"poly": "x^3 + 5*x - 1", "disc": -527, "h": 1, "certified": true, "t": 0.0019981861114501953}
+{"poly": "x^3 + 4*x - 3", "disc": -499, "h": 1, "certified": true, "t": 0.003771066665649414}
+{"poly": "x^3 + 5*x - 3", "disc": -743, "h": 1, "certified": true, "t": 0.003222227096557617}
+{"poly": "x^3 + 5*x - 5", "disc": -1175, "h": 1, "certified": true, "t": 0.00229644775390625}
+{"poly": "x^3 + 6*x - 1", "disc": -891, "h": 3, "certified": true, "t": 0.002493619918823242}
+{"poly": "x^3 + 6*x - 3", "disc": -1107, "h": 2, "certified": true, "t": 0.0024385452270507812}
+{"poly": "x^3 + 6*x - 6", "disc": -1836, "h": 3, "certified": true, "t": 0.0024602413177490234}
+{"poly": "x^3 + 5*x - 4", "disc": -932, "h": 1, "certified": true, "t": 0.008875370025634766}
+{"poly": "x^3 + 7*x - 1", "disc": -1399, "h": 2, "certified": true, "t": 0.0022568702697753906}
+{"poly": "x^3 + 6*x - 5", "disc": -1539, "h": 1, "certified": true, "t": 0.008121490478515625}
+{"poly": "x^3 + 7*x - 3", "disc": -1615, "h": 1, "certified": true, "t": 0.002193927764892578}
+{"poly": "x^3 + 7*x - 5", "disc": -2047, "h": 1, "certified": true, "t": 0.0023436546325683594}
+{"poly": "x^3 + 7*x - 2", "disc": -1480, "h": 1, "certified": true, "t": 0.008083343505859375}
+{"poly": "x^3 + 7*x - 7", "disc": -2695, "h": 3, "certified": true, "t": 0.0026941299438476562}
+{"poly": "x^3 + 7*x - 6", "disc": -2344, "h": 1, "certified": true, "t": 0.008231163024902344}
+{"poly": "x^3 + 8*x - 6", "disc": -3020, "h": 3, "certified": true, "t": 0.003715038299560547}
+{"poly": "x^3 + 8*x - 3", "disc": -2291, "h": 1, "certified": true, "t": 0.008794546127319336}
+{"poly": "x^3 + 8*x - 5", "disc": -2723, "h": 1, "certified": true, "t": 0.008979320526123047}
+{"poly": "x^3 + 9*x - 3", "disc": -3159, "h": 1, "certified": true, "t": 0.0023975372314453125}
+{"poly": "x^3 + 8*x - 7", "disc": -3371, "h": 1, "certified": true, "t": 0.009073972702026367}
+{"poly": "x^3 + 9*x - 4", "disc": -3348, "h": 1, "certified": true, "t": 0.008615255355834961}
+{"poly": "x^3 + 9*x - 7", "disc": -4239, "h": 1, "certified": true, "t": 0.0028204917907714844}
+{"poly": "x^3 + 9*x - 5", "disc": -3591, "h": 1, "certified": true, "t": 0.008917570114135742}
+{"poly": "x^3 + 10*x - 1", "disc": -4027, "h": 6, "certified": true, "t": 0.002957582473754883}
+{"poly": "x^3 + 10*x - 2", "disc": -4108, "h": 2, "certified": true, "t": 0.0033295154571533203}
+{"poly": "x^3 + 10*x - 5", "disc": -4675, "h": 4, "certified": true, "t": 0.0029647350311279297}
+{"poly": "x^3 - x^2 - 2", "disc": -116, "h": 1, "certified": true, "t": 0.002412557601928711}
+{"poly": "x^3 - x^2 - 3", "disc": -255, "h": 1, "certified": true, "t": 0.0019724369049072266}
+{"poly": "x^3 + 10*x - 3", "disc": -4243, "h": 1, "certified": true, "t": 0.008985519409179688}
+{"poly": "x^3 - x^2 + x - 2", "disc": -83, "h": 1, "certified": true, "t": 0.0016353130340576172}
+{"poly": "x^3 - x^2 + x - 3", "disc": -204, "h": 1, "certified": true, "t": 0.002130270004272461}
+{"poly": "x^3 + 10*x - 6", "disc": -4972, "h": 1, "certified": true, "t": 0.009337186813354492}
+{"poly": "x^3 - x^2 + x - 4", "disc": -379, "h": 1, "certified": true, "t": 0.0022590160369873047}
+{"poly": "x^3 - x^2 + 1", "disc": -23, "h": 1, "certified": true, "t": 0.0018229484558105469}
+{"poly": "x^3 - x^2 + 2*x - 3", "disc": -175, "h": 1, "certified": true, "t": 0.002195119857788086}
+{"poly": "x^3 - x^2 + 2*x - 5", "disc": -543, "h": 1, "certified": true, "t": 0.002319812774658203}
+{"poly": "x^3 - 2*x - 2", "disc": -76, "h": 1, "certified": true, "t": 0.0019330978393554688}
+{"poly": "x^3 - x^2 + 3*x - 2", "disc": -107, "h": 1, "certified": true, "t": 0.002599954605102539}
+{"poly": "x^3 - x^2 + 3*x - 4", "disc": -331, "h": 2, "certified": true, "t": 0.002843618392944336}
+{"poly": "x^3 - x^2 + 3*x - 5", "disc": -524, "h": 1, "certified": true, "t": 0.0026123523712158203}
+{"poly": "x^3 - x^2 + 3*x - 8", "disc": -1427, "h": 1, "certified": true, "t": 0.002921581268310547}
+{"poly": "x^3 - x^2 + 2*x - 6", "disc": -808, "h": 1, "certified": true, "t": 0.011276483535766602}
+{"poly": "x^3 - x^2 + 3*x - 6", "disc": -771, "h": 1, "certified": true, "t": 0.005631446838378906}
+{"poly": "x^3 - x^2 + 4*x - 1", "disc": -199, "h": 1, "certified": true, "t": 0.0023970603942871094}
+{"poly": "x^3 - x^2 + 4*x - 2", "disc": -212, "h": 1, "certified": true, "t": 0.0026226043701171875}
+{"poly": "x^3 - x^2 + 4*x - 7", "disc": -1087, "h": 1, "certified": true, "t": 0.002995729446411133}
+{"poly": "x^3 - x^2 + 4*x - 9", "disc": -1815, "h": 1, "certified": true, "t": 0.0067138671875}
+{"poly": "x^3 - x^2 + 4*x - 6", "disc": -804, "h": 1, "certified": true, "t": 0.010335922241210938}
+{"poly": "x^3 - x^2 + 4*x - 11", "disc": -2759, "h": 1, "certified": true, "t": 0.002424478530883789}
+{"poly": "x^3 - x^2 + 5*x - 2", "disc": -411, "h": 1, "certified": true, "t": 0.002351999282836914}
+{"poly": "x^3 - x^2 + 4*x - 10", "disc": -2260, "h": 1, "certified": true, "t": 0.009069442749023438}
+{"poly": "x^3 - x^2 + 5*x - 3", "disc": -460, "h": 1, "certified": true, "t": 0.0023026466369628906}
+{"poly": "x^3 - x^2 + 5*x - 4", "disc": -563, "h": 2, "certified": true, "t": 0.0030417442321777344}
+{"poly": "x^3 - x^2 + 5*x - 6", "disc": -931, "h": 3, "certified": true, "t": 0.0028159618377685547}
+{"poly": "x^3 - x^2 + 5*x - 7", "disc": -1196, "h": 1, "certified": true, "t": 0.0029306411743164062}
+{"poly": "x^3 - x^2 + 5*x - 10", "disc": -2315, "h": 1, "certified": true, "t": 0.00884389877319336}
+{"poly": "x^3 - x^2 + 5*x - 8", "disc": -1515, "h": 1, "certified": true, "t": 0.009407281875610352}
+{"poly": "x^3 - x^2 + 5*x - 11", "disc": -2796, "h": 1, "certified": true, "t": 0.009736776351928711}
+{"poly": "x^3 - x^2 + 6*x - 1", "disc": -751, "h": 2, "certified": true, "t": 0.003180980682373047}
+{"poly": "x^3 - x^2 + 6*x - 2", "disc": -728, "h": 1, "certified": true, "t": 0.004893064498901367}
+{"poly": "x^3 - x^2 + 6*x - 3", "disc": -759, "h": 1, "certified": true, "t": 0.003249645233154297}
+{"poly": "x^3 - x^2 + 6*x - 5", "disc": -983, "h": 1, "certified": true, "t": 0.002286672592163086}
+{"poly": "x^3 - x^2 + 5*x - 12", "disc": -3331, "h": 1, "certified": true, "t": 0.009748697280883789}
+{"poly": "x^3 - x^2 + 6*x - 7", "disc": -1423, "h": 2, "certified": true, "t": 0.004375457763671875}
+{"poly": "x^3 - x^2 + 6*x - 10", "disc": -2488, "h": 4, "certified": true, "t": 0.0032777786254882812}
+{"poly": "x^3 - x^2 + 6*x - 11", "disc": -2951, "h": 1, "certified": true, "t": 0.004416704177856445}
+{"poly": "x^3 - x^2 + 7*x - 1", "disc": -1228, "h": 3, "certified": true, "t": 0.002652883529663086}
+{"poly": "x^3 - x^2 + 6*x - 13", "disc": -4039, "h": 1, "certified": true, "t": 0.006432294845581055}
+{"poly": "x^3 - x^2 + 7*x - 2", "disc": -1187, "h": 1, "certified": true, "t": 0.0029854774475097656}
+{"poly": "x^3 - x^2 + 6*x - 14", "disc": -4664, "h": 1, "certified": true, "t": 0.00966787338256836}
+{"poly": "x^3 - x^2 + 7*x - 5", "disc": -1388, "h": 1, "certified": true, "t": 0.0026154518127441406}
+{"poly": "x^3 - x^2 + 7*x - 8", "disc": -2075, "h": 3, "certified": true, "t": 0.0025260448455810547}
+{"poly": "x^3 - x^2 + 7*x - 6", "disc": -1563, "h": 5, "certified": true, "t": 0.0031702518463134766}
+{"poly": "x^3 - x^2 + 7*x - 4", "disc": -1267, "h": 1, "certified": true, "t": 0.009386301040649414}
+{"poly": "x^3 - x^2 + 7*x - 13", "disc": -4300, "h": 3, "certified": true, "t": 0.0034956932067871094}
+{"poly": "x^3 - x^2 + 7*x - 10", "disc": -2803, "h": 1, "certified": true, "t": 0.008733987808227539}
+{"poly": "x^3 - x^2 + 7*x - 14", "disc": -4907, "h": 2, "certified": true, "t": 0.0037839412689208984}
+{"poly": "x^3 - x^2 + 7*x - 12", "disc": -3747, "h": 2, "certified": true, "t": 0.009552478790283203}
+{"poly": "x^3 - x^2 + 8*x - 1", "disc": -1871, "h": 1, "certified": true, "t": 0.0022470951080322266}
+{"poly": "x^3 - x^2 + 8*x - 3", "disc": -1807, "h": 1, "certified": true, "t": 0.003749370574951172}
+{"poly": "x^3 - x^2 + 8*x - 2", "disc": -1812, "h": 1, "certified": true, "t": 0.010556697845458984}
+{"poly": "x^3 - x^2 + 8*x - 6", "disc": -2116, "h": 2, "certified": true, "t": 0.006972789764404297}
+{"poly": "x^3 - x^2 + 8*x - 5", "disc": -1959, "h": 1, "certified": true, "t": 0.010628461837768555}
+{"poly": "x^3 - x^2 + 8*x - 7", "disc": -2327, "h": 2, "certified": true, "t": 0.004010677337646484}
+{"poly": "x^3 - x^2 + 8*x - 9", "disc": -2911, "h": 2, "certified": true, "t": 0.0035495758056640625}
+{"poly": "x^3 - x^2 + 8*x - 13", "disc": -4727, "h": 1, "certified": true, "t": 0.002657175064086914}
+{"poly": "x^3 - x^2 + 8*x - 10", "disc": -3284, "h": 2, "certified": true, "t": 0.011519193649291992}
+{"poly": "x^3 - x^2 + 8*x - 11", "disc": -3711, "h": 1, "certified": true, "t": 0.010883331298828125}
+{"poly": "x^3 - x^2 + 9*x - 2", "disc": -2627, "h": 1, "certified": true, "t": 0.010566949844360352}
+{"poly": "x^3 - x^2 + 9*x - 3", "disc": -2604, "h": 1, "certified": true, "t": 0.009903907775878906}
+{"poly": "x^3 - x^2 + 9*x - 6", "disc": -2859, "h": 2, "certified": true, "t": 0.005225658416748047}
+{"poly": "x^3 - x^2 + 9*x - 4", "disc": -2635, "h": 1, "certified": true, "t": 0.010284423828125}
+{"poly": "x^3 - x^2 + 9*x - 8", "disc": -3299, "h": 3, "certified": true, "t": 0.0036182403564453125}
+{"poly": "x^3 - x^2 + 9*x - 7", "disc": -3052, "h": 2, "certified": true, "t": 0.004111289978027344}
+{"poly": "x^3 - x^2 + 9*x - 10", "disc": -3955, "h": 7, "certified": true, "t": 0.003864765167236328}
+{"poly": "x^3 - x^2 + 9*x - 11", "disc": -4364, "h": 1, "certified": true, "t": 0.003453493118286133}
+{"poly": "x^3 - x^2 + 9*x - 12", "disc": -4827, "h": 1, "certified": true, "t": 0.009439706802368164}
+{"poly": "x^3 - x^2 + 10*x - 2", "disc": -3656, "h": 1, "certified": true, "t": 0.00965571403503418}
+{"poly": "x^3 - x^2 + 10*x - 5", "disc": -3695, "h": 1, "certified": true, "t": 0.0025374889373779297}
+{"poly": "x^3 - x^2 + 10*x - 3", "disc": -3615, "h": 1, "certified": true, "t": 0.009690523147583008}
+{"poly": "x^3 - x^2 + 10*x - 9", "disc": -4503, "h": 4, "certified": true, "t": 0.0030677318572998047}
+{"poly": "x^3 - x^2 + 10*x - 7", "disc": -3991, "h": 1, "certified": true, "t": 0.00412750244140625}
+{"poly": "x^3 - x^2 - 2*x + 5", "disc": -439, "h": 1, "certified": true, "t": 0.0030977725982666016}
+{"poly": "x^3 - x^2 + 11*x - 4", "disc": -4859, "h": 1, "certified": true, "t": 0.009441375732421875}
+{"poly": "x^3 - x^2 + 11*x - 5", "disc": -4908, "h": 1, "certified": true, "t": 0.008983612060546875}
+{"poly": "x^3 - x^2 - 2*x + 7", "disc": -1007, "h": 1, "certified": true, "t": 0.0025675296783447266}
+{"poly": "x^3 - x^2 - x + 4", "disc": -339, "h": 1, "certified": true, "t": 0.0023305416107177734}
+{"poly": "x^3 - x^2 - 2*x + 6", "disc": -696, "h": 1, "certified": true, "t": 0.009679317474365234}
+{"poly": "x^3 - x^2 - x + 6", "disc": -835, "h": 1, "certified": true, "t": 0.005600690841674805}
+{"poly": "x^3 - x^2 + 3", "disc": -231, "h": 1, "certified": true, "t": 0.0024607181549072266}
+{"poly": "x^3 - x^2 - x + 8", "disc": -1547, "h": 1, "certified": true, "t": 0.0061740875244140625}
+{"poly": "x^3 - x^2 + 5", "disc": -655, "h": 1, "certified": true, "t": 0.002979278564453125}
+{"poly": "x^3 - x^2 - x + 7", "disc": -1164, "h": 1, "certified": true, "t": 0.010599851608276367}
+{"poly": "x^3 - x^2 + 7", "disc": -1295, "h": 1, "certified": true, "t": 0.004243135452270508}
+{"poly": "x^3 - x^2 + 11", "disc": -3223, "h": 2, "certified": true, "t": 0.002984762191772461}
+{"poly": "x^3 - x^2 + 6", "disc": -948, "h": 1, "certified": true, "t": 0.010962486267089844}
+{"poly": "x^3 - x^2 + x + 1", "disc": -44, "h": 1, "certified": true, "t": 0.002451181411743164}
+{"poly": "x^3 - x^2 + 10", "disc": -2660, "h": 1, "certified": true, "t": 0.01045680046081543}
+{"poly": "x^3 - x^2 + x + 2", "disc": -139, "h": 1, "certified": true, "t": 0.0019419193267822266}
+{"poly": "x^3 - x^2 + x + 4", "disc": -491, "h": 2, "certified": true, "t": 0.003500223159790039}
+{"poly": "x^3 - x^2 + x + 5", "disc": -748, "h": 1, "certified": true, "t": 0.0028972625732421875}
+{"poly": "x^3 - x^2 + x + 6", "disc": -1059, "h": 1, "certified": true, "t": 0.010134220123291016}
+{"poly": "x^3 - x^2 + x + 8", "disc": -1843, "h": 1, "certified": true, "t": 0.010067462921142578}
+{"poly": "x^3 - x^2 + x + 9", "disc": -2316, "h": 1, "certified": true, "t": 0.009892463684082031}
+{"poly": "x^3 - x^2 + x + 10", "disc": -2843, "h": 2, "certified": true, "t": 0.003927469253540039}
+{"poly": "x^3 - x^2 + x + 13", "disc": -4748, "h": 3, "certified": true, "t": 0.003613710403442383}
+{"poly": "x^3 - x^2 + 2*x + 1", "disc": -87, "h": 1, "certified": true, "t": 0.0028357505798339844}
+{"poly": "x^3 - x^2 + 2*x + 5", "disc": -863, "h": 1, "certified": true, "t": 0.002218008041381836}
+{"poly": "x^3 - x^2 + 2*x + 3", "disc": -367, "h": 1, "certified": true, "t": 0.0023179054260253906}
+{"poly": "x^3 - x^2 + 2*x + 2", "disc": -200, "h": 1, "certified": true, "t": 0.0036535263061523438}
+{"poly": "x^3 - x^2 + 2*x + 6", "disc": -1192, "h": 2, "certified": true, "t": 0.0042765140533447266}
+{"poly": "x^3 - x^2 + 2*x + 10", "disc": -3048, "h": 5, "certified": true, "t": 0.004392147064208984}
+{"poly": "x^3 - x^2 + 2*x + 9", "disc": -2503, "h": 1, "certified": true, "t": 0.0051686763763427734}
+{"poly": "x^3 - x^2 + 3*x + 3", "disc": -492, "h": 1, "certified": true, "t": 0.0032548904418945312}
+{"poly": "x^3 - x^2 + 3*x + 2", "disc": -307, "h": 1, "certified": true, "t": 0.004030704498291016}
+{"poly": "x^3 - x^2 + 2*x + 11", "disc": -3647, "h": 1, "certified": true, "t": 0.004452943801879883}
+{"poly": "x^3 - x^2 + 3*x + 6", "disc": -1371, "h": 4, "certified": true, "t": 0.0033702850341796875}
+{"poly": "x^3 - x^2 + 3*x + 4", "disc": -731, "h": 2, "certified": true, "t": 0.0034368038177490234}
+{"poly": "x^3 - x^2 + 3*x + 7", "disc": -1772, "h": 1, "certified": true, "t": 0.0038237571716308594}
+{"poly": "x^3 - x^2 + 3*x + 10", "disc": -3299, "h": 3, "certified": true, "t": 0.003600597381591797}
+{"poly": "x^3 - x^2 + 3*x + 8", "disc": -2227, "h": 1, "certified": true, "t": 0.010221719741821289}
+{"poly": "x^3 - x^2 + 3*x + 11", "disc": -3916, "h": 1, "certified": true, "t": 0.010068416595458984}
+{"poly": "x^3 - x^2 + 4*x + 1", "disc": -335, "h": 1, "certified": true, "t": 0.002637624740600586}
+{"poly": "x^3 - x^2 + 3*x + 12", "disc": -4587, "h": 1, "certified": true, "t": 0.009996652603149414}
+{"poly": "x^3 - x^2 + 4*x + 2", "disc": -484, "h": 1, "certified": true, "t": 0.0037527084350585938}
+{"poly": "x^3 - x^2 + 4*x + 3", "disc": -687, "h": 1, "certified": true, "t": 0.0024878978729248047}
+{"poly": "x^3 - x^2 + 4*x + 5", "disc": -1255, "h": 2, "certified": true, "t": 0.0028543472290039062}
+{"poly": "x^3 - x^2 + 4*x + 7", "disc": -2039, "h": 1, "certified": true, "t": 0.0026082992553710938}
+{"poly": "x^3 - x^2 + 4*x + 9", "disc": -3039, "h": 1, "certified": true, "t": 0.010772943496704102}
+{"poly": "x^3 - x^2 + 4*x + 10", "disc": -3620, "h": 1, "certified": true, "t": 0.010179519653320312}
+{"poly": "x^3 - x^2 + 4*x + 11", "disc": -4255, "h": 1, "certified": true, "t": 0.009860992431640625}
+{"poly": "x^3 - x^2 + 5*x + 1", "disc": -588, "h": 3, "certified": true, "t": 0.003622770309448242}
+{"poly": "x^3 - x^2 + 5*x + 2", "disc": -755, "h": 1, "certified": true, "t": 0.003790616989135742}
+{"poly": "x^3 - x^2 + 5*x + 5", "disc": -1580, "h": 1, "certified": true, "t": 0.0036554336547851562}
+{"poly": "x^3 - x^2 + 5*x + 6", "disc": -1963, "h": 4, "certified": true, "t": 0.0035152435302734375}
+{"poly": "x^3 - x^2 + 5*x + 8", "disc": -2891, "h": 3, "certified": true, "t": 0.003114938735961914}
+{"poly": "x^3 - x^2 + 5*x + 9", "disc": -3436, "h": 2, "certified": true, "t": 0.00432896614074707}
+{"poly": "x^3 - x^2 + 6*x + 1", "disc": -959, "h": 1, "certified": true, "t": 0.0024688243865966797}
+{"poly": "x^3 - x^2 + 6*x + 3", "disc": -1383, "h": 1, "certified": true, "t": 0.0029349327087402344}
+{"poly": "x^3 - x^2 + 5*x + 10", "disc": -4035, "h": 1, "certified": true, "t": 0.010295629501342773}
+{"poly": "x^3 - x^2 + 6*x + 5", "disc": -2023, "h": 1, "certified": true, "t": 0.004355669021606445}
+{"poly": "x^3 - x^2 + 6*x + 2", "disc": -1144, "h": 1, "certified": true, "t": 0.00988626480102539}
+{"poly": "x^3 - x^2 + 6*x + 7", "disc": -2879, "h": 1, "certified": true, "t": 0.0023512840270996094}
+{"poly": "x^3 - x^2 + 6*x + 6", "disc": -2424, "h": 1, "certified": true, "t": 0.011487483978271484}
+{"poly": "x^3 - x^2 + 6*x + 10", "disc": -4568, "h": 2, "certified": true, "t": 0.011941909790039062}
+{"poly": "x^3 - x^2 + 7*x + 2", "disc": -1675, "h": 1, "certified": true, "t": 0.010974407196044922}
+{"poly": "x^3 - x^2 + 7*x + 4", "disc": -2243, "h": 2, "certified": true, "t": 0.0034575462341308594}
+{"poly": "x^3 - x^2 + 7*x + 8", "disc": -4027, "h": 6, "certified": true, "t": 0.0037224292755126953}
+{"poly": "x^3 - x^2 + 7*x + 3", "disc": -1932, "h": 1, "certified": true, "t": 0.010127544403076172}
+{"poly": "x^3 - x^2 + 7*x + 6", "disc": -3027, "h": 1, "certified": true, "t": 0.010246992111206055}
+{"poly": "x^3 - x^2 + 8*x + 3", "disc": -2647, "h": 1, "certified": true, "t": 0.004374980926513672}
+{"poly": "x^3 - x^2 + 8*x + 5", "disc": -3359, "h": 1, "certified": true, "t": 0.003372669219970703}
+{"poly": "x^3 - x^2 + 8*x + 7", "disc": -4287, "h": 2, "certified": true, "t": 0.003500223159790039}
+{"poly": "x^3 - x^2 + 8*x + 2", "disc": -2372, "h": 1, "certified": true, "t": 0.010378360748291016}
+{"poly": "x^3 - x^2 + 9*x + 1", "disc": -3020, "h": 3, "certified": true, "t": 0.003017902374267578}
+{"poly": "x^3 - x^2 + 9*x + 4", "disc": -3899, "h": 2, "certified": true, "t": 0.0033779144287109375}
+{"poly": "x^3 - x^2 + 8*x + 6", "disc": -3796, "h": 1, "certified": true, "t": 0.011307954788208008}
+{"poly": "x^3 - x^2 + 9*x + 6", "disc": -4755, "h": 1, "certified": true, "t": 0.003470182418823242}
+{"poly": "x^3 - x^2 + 9*x + 2", "disc": -3259, "h": 1, "certified": true, "t": 0.01008296012878418}
+{"poly": "x^3 - x^2 + 10*x + 1", "disc": -4103, "h": 2, "certified": true, "t": 0.0045833587646484375}
+{"poly": "x^3 - x^2 + 10*x + 2", "disc": -4360, "h": 1, "certified": true, "t": 0.0031952857971191406}
+{"poly": "x^3 - 5*x - 9", "disc": -1687, "h": 1, "certified": true, "t": 0.0033102035522460938}
+{"poly": "x^3 - 5*x - 11", "disc": -2767, "h": 2, "certified": true, "t": 0.004037618637084961}
+{"poly": "x^3 - 4*x - 7", "disc": -1067, "h": 1, "certified": true, "t": 0.006446123123168945}
+{"poly": "x^3 - 4*x - 9", "disc": -1931, "h": 2, "certified": true, "t": 0.0071218013763427734}
+{"poly": "x^3 - 5*x - 10", "disc": -2200, "h": 1, "certified": true, "t": 0.013594627380371094}
+{"poly": "x^3 - 4*x - 10", "disc": -2444, "h": 1, "certified": true, "t": 0.010837078094482422}
+{"poly": "x^3 - 3*x - 8", "disc": -1620, "h": 3, "certified": true, "t": 0.003179311752319336}
+{"poly": "x^3 - 4*x - 13", "disc": -4307, "h": 1, "certified": true, "t": 0.010341882705688477}
+{"poly": "x^3 - 4*x - 11", "disc": -3011, "h": 1, "certified": true, "t": 0.010460376739501953}
+{"poly": "x^3 - 3*x - 12", "disc": -3780, "h": 1, "certified": true, "t": 0.0033037662506103516}
+{"poly": "x^3 - 2*x - 5", "disc": -643, "h": 2, "certified": true, "t": 0.0030410289764404297}
+{"poly": "x^3 - 2*x - 6", "disc": -940, "h": 1, "certified": true, "t": 0.006565093994140625}
+{"poly": "x^3 - 3*x - 13", "disc": -4455, "h": 1, "certified": true, "t": 0.012071609497070312}
+{"poly": "x^3 - 2*x - 7", "disc": -1291, "h": 1, "certified": true, "t": 0.01166987419128418}
+{"poly": "x^3 - 2*x - 9", "disc": -2155, "h": 1, "certified": true, "t": 0.010889291763305664}
+{"poly": "x^3 - 2*x - 10", "disc": -2668, "h": 1, "certified": true, "t": 0.010640621185302734}
+{"poly": "x^3 - x - 3", "disc": -239, "h": 1, "certified": true, "t": 0.002100229263305664}
+{"poly": "x^3 - 2*x - 11", "disc": -3235, "h": 1, "certified": true, "t": 0.010576009750366211}
+{"poly": "x^3 - x - 5", "disc": -671, "h": 1, "certified": true, "t": 0.0026001930236816406}
+{"poly": "x^3 - x - 7", "disc": -1319, "h": 1, "certified": true, "t": 0.0026297569274902344}
+{"poly": "x^3 - 2*x - 13", "disc": -4531, "h": 1, "certified": true, "t": 0.010259151458740234}
+{"poly": "x^3 - x - 9", "disc": -2183, "h": 2, "certified": true, "t": 0.003389596939086914}
+{"poly": "x^3 - x - 10", "disc": -2696, "h": 4, "certified": true, "t": 0.0034570693969726562}
+{"poly": "x^3 - 2", "disc": -108, "h": 1, "certified": true, "t": 0.0017037391662597656}
+{"poly": "x^3 - x - 11", "disc": -3263, "h": 1, "certified": true, "t": 0.003659486770629883}
+{"poly": "x^3 - x - 13", "disc": -4559, "h": 1, "certified": true, "t": 0.003314495086669922}
+{"poly": "x^3 - 3", "disc": -243, "h": 1, "certified": true, "t": 0.0017955303192138672}
+{"poly": "x^3 - 5", "disc": -675, "h": 1, "certified": true, "t": 0.0024569034576416016}
+{"poly": "x^3 - 7", "disc": -1323, "h": 3, "certified": true, "t": 0.0028848648071289062}
+{"poly": "x^3 - 6", "disc": -972, "h": 1, "certified": true, "t": 0.004599809646606445}
+{"poly": "x^3 - 11", "disc": -3267, "h": 2, "certified": true, "t": 0.0034341812133789062}
+{"poly": "x^3 + x - 3", "disc": -247, "h": 1, "certified": true, "t": 0.002176523208618164}
+{"poly": "x^3 - 13", "disc": -4563, "h": 3, "certified": true, "t": 0.004918098449707031}
+{"poly": "x^3 + x - 4", "disc": -436, "h": 1, "certified": true, "t": 0.003532886505126953}
+{"poly": "x^3 + x - 5", "disc": -679, "h": 1, "certified": true, "t": 0.0028634071350097656}
+{"poly": "x^3 + x - 7", "disc": -1327, "h": 1, "certified": true, "t": 0.003884553909301758}
+{"poly": "x^3 + x - 9", "disc": -2191, "h": 2, "certified": true, "t": 0.003420591354370117}
+{"poly": "x^3 + x - 8", "disc": -1732, "h": 2, "certified": true, "t": 0.0050945281982421875}
+{"poly": "x^3 + x - 11", "disc": -3271, "h": 2, "certified": true, "t": 0.0045659542083740234}
+{"poly": "x^3 + x - 12", "disc": -3892, "h": 1, "certified": true, "t": 0.0045702457427978516}
+{"poly": "x^3 + 2*x - 5", "disc": -707, "h": 1, "certified": true, "t": 0.0035147666931152344}
+{"poly": "x^3 + x - 13", "disc": -4567, "h": 1, "certified": true, "t": 0.013264894485473633}
+{"poly": "x^3 + 2*x - 7", "disc": -1355, "h": 1, "certified": true, "t": 0.007494926452636719}
+{"poly": "x^3 + 2*x - 6", "disc": -1004, "h": 1, "certified": true, "t": 0.010817766189575195}
+{"poly": "x^3 + 2*x - 11", "disc": -3299, "h": 3, "certified": true, "t": 0.0033168792724609375}
+{"poly": "x^3 + 2*x - 10", "disc": -2732, "h": 1, "certified": true, "t": 0.00560760498046875}
+{"poly": "x^3 + 2*x - 13", "disc": -4595, "h": 4, "certified": true, "t": 0.0034914016723632812}
+{"poly": "x^3 + 3*x - 7", "disc": -1431, "h": 1, "certified": true, "t": 0.0030236244201660156}
+{"poly": "x^3 + 2*x - 9", "disc": -2219, "h": 2, "certified": true, "t": 0.013027191162109375}
+{"poly": "x^3 + 4*x - 6", "disc": -1228, "h": 3, "certified": true, "t": 0.0036535263061523438}
+{"poly": "x^3 + 3*x - 6", "disc": -1080, "h": 1, "certified": true, "t": 0.012165307998657227}
+{"poly": "x^3 + 3*x - 10", "disc": -2808, "h": 1, "certified": true, "t": 0.010787487030029297}
+{"poly": "x^3 + 4*x - 9", "disc": -2443, "h": 2, "certified": true, "t": 0.00469207763671875}
+{"poly": "x^3 + 4*x - 7", "disc": -1579, "h": 1, "certified": true, "t": 0.012076139450073242}
+{"poly": "x^3 + 4*x - 10", "disc": -2956, "h": 1, "certified": true, "t": 0.011745452880859375}
+{"poly": "x^3 + 4*x - 11", "disc": -3523, "h": 1, "certified": true, "t": 0.011582374572753906}
+{"poly": "x^3 + 5*x - 7", "disc": -1823, "h": 2, "certified": true, "t": 0.0038366317749023438}
+{"poly": "x^3 + 4*x - 13", "disc": -4819, "h": 1, "certified": true, "t": 0.01079869270324707}
+{"poly": "x^3 + 5*x - 9", "disc": -2687, "h": 2, "certified": true, "t": 0.0034952163696289062}
+{"poly": "x^3 + 5*x - 11", "disc": -3767, "h": 1, "certified": true, "t": 0.0028972625732421875}
+{"poly": "x^3 + 6*x - 10", "disc": -3564, "h": 3, "certified": true, "t": 0.003863811492919922}
+{"poly": "x^3 + 5*x - 12", "disc": -4388, "h": 1, "certified": true, "t": 0.005604743957519531}
+{"poly": "x^3 + 5*x - 8", "disc": -2228, "h": 1, "certified": true, "t": 0.014490604400634766}
+{"poly": "x^3 + 7*x - 9", "disc": -3559, "h": 2, "certified": true, "t": 0.004408597946166992}
+{"poly": "x^3 + 8*x - 10", "disc": -4748, "h": 3, "certified": true, "t": 0.003410816192626953}
+{"poly": "x^3 + 7*x - 11", "disc": -4639, "h": 1, "certified": true, "t": 0.005190134048461914}
+{"poly": "x^3 - x^2 - 7*x - 12", "disc": -4027, "h": 3, "certified": true, "t": 0.004183292388916016}
+{"poly": "x^3 + 7*x - 10", "disc": -4072, "h": 1, "certified": true, "t": 0.01307225227355957}
+{"poly": "x^3 - x^2 - 6*x - 11", "disc": -3599, "h": 1, "certified": true, "t": 0.003397226333618164}
+{"poly": "x^3 - x^2 - 7*x - 10", "disc": -2579, "h": 1, "certified": true, "t": 0.01153874397277832}
+{"poly": "x^3 - x^2 - 6*x - 10", "disc": -2920, "h": 1, "certified": true, "t": 0.011995792388916016}
+{"poly": "x^3 - x^2 - 5*x - 8", "disc": -1955, "h": 1, "certified": true, "t": 0.014529228210449219}
+{"poly": "x^3 - x^2 - 5*x - 9", "disc": -2508, "h": 1, "certified": true, "t": 0.012068748474121094}
+{"poly": "x^3 - x^2 - 4*x - 7", "disc": -1583, "h": 1, "certified": true, "t": 0.0032727718353271484}
+{"poly": "x^3 - x^2 - 4*x - 9", "disc": -2599, "h": 1, "certified": true, "t": 0.00410914421081543}
+{"poly": "x^3 - x^2 - 5*x - 10", "disc": -3115, "h": 1, "certified": true, "t": 0.012771844863891602}
+{"poly": "x^3 - x^2 - 4*x - 11", "disc": -3831, "h": 1, "certified": true, "t": 0.010884284973144531}
+{"poly": "x^3 - x^2 - 4*x - 10", "disc": -3188, "h": 2, "certified": true, "t": 0.01178884506225586}
+{"poly": "x^3 - x^2 - 3*x - 6", "disc": -1203, "h": 1, "certified": true, "t": 0.011002779006958008}
+{"poly": "x^3 - x^2 - 3*x - 8", "disc": -2075, "h": 3, "certified": true, "t": 0.0035851001739501953}
+{"poly": "x^3 - x^2 - 3*x - 10", "disc": -3163, "h": 4, "certified": true, "t": 0.0035452842712402344}
+{"poly": "x^3 - x^2 - 3*x - 7", "disc": -1612, "h": 1, "certified": true, "t": 0.011113643646240234}
+{"poly": "x^3 - x^2 - 2*x - 5", "disc": -839, "h": 1, "certified": true, "t": 0.0024132728576660156}
+{"poly": "x^3 - x^2 - 3*x - 11", "disc": -3788, "h": 1, "certified": true, "t": 0.011543750762939453}
+{"poly": "x^3 - x^2 - 3*x - 12", "disc": -4467, "h": 1, "certified": true, "t": 0.011528253555297852}
+{"poly": "x^3 - x^2 - 2*x - 6", "disc": -1176, "h": 3, "certified": true, "t": 0.0039615631103515625}
+{"poly": "x^3 - x^2 - 2*x - 7", "disc": -1567, "h": 1, "certified": true, "t": 0.0044825077056884766}
+{"poly": "x^3 - x^2 - 2*x - 11", "disc": -3671, "h": 1, "certified": true, "t": 0.0035262107849121094}
+{"poly": "x^3 - x^2 - x - 4", "disc": -515, "h": 1, "certified": true, "t": 0.003308534622192383}
+{"poly": "x^3 - x^2 - x - 6", "disc": -1099, "h": 2, "certified": true, "t": 0.003310680389404297}
+{"poly": "x^3 - x^2 - x - 5", "disc": -780, "h": 1, "certified": true, "t": 0.006356477737426758}
+{"poly": "x^3 - x^2 - 2*x - 10", "disc": -3064, "h": 1, "certified": true, "t": 0.011912345886230469}
+{"poly": "x^3 - x^2 - x - 10", "disc": -2915, "h": 1, "certified": true, "t": 0.011996269226074219}
+{"poly": "x^3 - x^2 - x - 12", "disc": -4147, "h": 1, "certified": true, "t": 0.011564254760742188}
+{"poly": "x^3 - x^2 - x - 9", "disc": -2380, "h": 1, "certified": true, "t": 0.014556646347045898}
+{"poly": "x^3 - x^2 - 5", "disc": -695, "h": 1, "certified": true, "t": 0.003077983856201172}
+{"poly": "x^3 - x^2 - 7", "disc": -1351, "h": 1, "certified": true, "t": 0.0029261112213134766}
+{"poly": "x^3 - x^2 - x - 13", "disc": -4844, "h": 1, "certified": true, "t": 0.012445688247680664}
+{"poly": "x^3 - x^2 - 11", "disc": -3311, "h": 1, "certified": true, "t": 0.0037050247192382812}
+{"poly": "x^3 - x^2 - 6", "disc": -996, "h": 1, "certified": true, "t": 0.016952037811279297}
+{"poly": "x^3 - x^2 - 10", "disc": -2740, "h": 1, "certified": true, "t": 0.012503862380981445}
+{"poly": "x^3 - x^2 - 13", "disc": -4615, "h": 2, "certified": true, "t": 0.004502534866333008}
+{"poly": "x^3 - x^2 + x - 7", "disc": -1228, "h": 3, "certified": true, "t": 0.004015207290649414}
+{"poly": "x^3 - x^2 + x - 8", "disc": -1619, "h": 1, "certified": true, "t": 0.004405498504638672}
+{"poly": "x^3 - x^2 + x - 10", "disc": -2563, "h": 2, "certified": true, "t": 0.004268169403076172}
+{"poly": "x^3 - x^2 + x - 12", "disc": -3723, "h": 4, "certified": true, "t": 0.0035347938537597656}
+{"poly": "x^3 - x^2 + 2*x - 9", "disc": -1927, "h": 2, "certified": true, "t": 0.0032949447631835938}
+{"poly": "x^3 - x^2 + 2*x - 13", "disc": -4175, "h": 1, "certified": true, "t": 0.0032379627227783203}
+{"poly": "x^3 - x^2 + x - 11", "disc": -3116, "h": 1, "certified": true, "t": 0.010703086853027344}
+{"poly": "x^3 - x^2 + 2*x - 14", "disc": -4872, "h": 1, "certified": true, "t": 0.003416776657104492}
+{"poly": "x^3 - x^2 + 2*x - 10", "disc": -2408, "h": 1, "certified": true, "t": 0.010775327682495117}
+{"poly": "x^3 - x^2 + 3*x - 12", "disc": -3387, "h": 1, "certified": true, "t": 0.011976480484008789}
+{"poly": "x^3 - x^2 + 3*x - 13", "disc": -4012, "h": 1, "certified": true, "t": 0.011820793151855469}
+{"poly": "x^3 - x^2 + 4*x - 13", "disc": -3919, "h": 2, "certified": true, "t": 0.004149198532104492}
+{"poly": "x^3 - x^2 + 3*x - 14", "disc": -4691, "h": 1, "certified": true, "t": 0.012414216995239258}
+{"poly": "x^3 - x^2 - 10*x + 22", "disc": -4920, "h": 1, "certified": true, "t": 0.0033905506134033203}
+{"poly": "x^3 - x^2 - 8*x + 18", "disc": -3972, "h": 1, "certified": true, "t": 0.0033593177795410156}
+{"poly": "x^3 - x^2 + 4*x - 14", "disc": -4580, "h": 1, "certified": true, "t": 0.010843992233276367}
+{"poly": "x^3 - x^2 - 8*x + 19", "disc": -4823, "h": 1, "certified": true, "t": 0.004053354263305664}
+{"poly": "x^3 - x^2 - 9*x + 20", "disc": -4483, "h": 1, "certified": true, "t": 0.011131525039672852}
+{"poly": "x^3 - x^2 - 6*x + 13", "disc": -2207, "h": 1, "certified": true, "t": 0.002450227737426758}
+{"poly": "x^3 - x^2 - 7*x + 17", "disc": -4172, "h": 1, "certified": true, "t": 0.010755538940429688}
+{"poly": "x^3 - x^2 - 7*x + 18", "disc": -4987, "h": 1, "certified": true, "t": 0.01064300537109375}
+{"poly": "x^3 - x^2 - 6*x + 17", "disc": -4999, "h": 2, "certified": true, "t": 0.004338979721069336}
+{"poly": "x^3 - x^2 - 6*x + 14", "disc": -2824, "h": 2, "certified": true, "t": 0.012653827667236328}
+{"poly": "x^3 - x^2 - 6*x + 15", "disc": -3495, "h": 1, "certified": true, "t": 0.012453794479370117}
+{"poly": "x^3 - x^2 - 5*x + 11", "disc": -1708, "h": 1, "certified": true, "t": 0.012648820877075195}
+{"poly": "x^3 - x^2 - 5*x + 12", "disc": -2235, "h": 1, "certified": true, "t": 0.011412858963012695}
+{"poly": "x^3 - x^2 - 4*x + 9", "disc": -1231, "h": 1, "certified": true, "t": 0.003322124481201172}
+{"poly": "x^3 - x^2 - 5*x + 14", "disc": -3451, "h": 1, "certified": true, "t": 0.010664701461791992}
+{"poly": "x^3 - x^2 - 4*x + 11", "disc": -2159, "h": 1, "certified": true, "t": 0.0029964447021484375}
+{"poly": "x^3 - x^2 - 5*x + 16", "disc": -4883, "h": 1, "certified": true, "t": 0.011339902877807617}
+{"poly": "x^3 - x^2 - 4*x + 10", "disc": -1668, "h": 1, "certified": true, "t": 0.010506391525268555}
+{"poly": "x^3 - x^2 - 4*x + 15", "disc": -4663, "h": 2, "certified": true, "t": 0.0037729740142822266}
+{"poly": "x^3 - x^2 - 4*x + 14", "disc": -3956, "h": 1, "certified": true, "t": 0.010498046875}
+{"poly": "x^3 - x^2 - 3*x + 8", "disc": -1147, "h": 1, "certified": true, "t": 0.009441137313842773}
+{"poly": "x^3 - x^2 - 3*x + 10", "disc": -2003, "h": 1, "certified": true, "t": 0.009819984436035156}
+{"poly": "x^3 - x^2 - 3*x + 12", "disc": -3075, "h": 1, "certified": true, "t": 0.011302471160888672}
+{"poly": "x^3 - x^2 - 3*x + 13", "disc": -3692, "h": 1, "certified": true, "t": 0.011663675308227539}
+{"poly": "x^3 - x^2 - 3*x + 14", "disc": -4363, "h": 1, "certified": true, "t": 0.011200666427612305}
+{"poly": "x^3 - x^2 - 2*x + 11", "disc": -2791, "h": 1, "certified": true, "t": 0.0032749176025390625}
+{"poly": "x^3 - x^2 - 2*x + 10", "disc": -2264, "h": 1, "certified": true, "t": 0.011028528213500977}
+{"poly": "x^3 - x^2 - 2*x + 13", "disc": -4007, "h": 1, "certified": true, "t": 0.004567384719848633}
+{"poly": "x^3 - x^2 - 2*x + 14", "disc": -4696, "h": 1, "certified": true, "t": 0.003929615020751953}
+{"poly": "x^3 - x^2 - x + 11", "disc": -3020, "h": 3, "certified": true, "t": 0.003958940505981445}
+{"poly": "x^3 - x^2 - x + 14", "disc": -4979, "h": 2, "certified": true, "t": 0.003444671630859375}
+{"poly": "x^3 - x^2 + 13", "disc": -4511, "h": 1, "certified": true, "t": 0.0034186840057373047}
+{"poly": "x^3 - 10*x - 18", "disc": -4748, "h": 6, "certified": true, "t": 0.003765106201171875}
+{"poly": "x^3 - x^2 - x + 12", "disc": -3619, "h": 1, "certified": true, "t": 0.011027336120605469}
+{"poly": "x^3 - 8*x - 15", "disc": -4027, "h": 3, "certified": true, "t": 0.005143165588378906}
+{"poly": "x^3 - 7*x - 12", "disc": -2516, "h": 1, "certified": true, "t": 0.0035436153411865234}
+{"poly": "x^3 - 7*x - 13", "disc": -3191, "h": 1, "certified": true, "t": 0.004074811935424805}
+{"poly": "x^3 - 8*x - 14", "disc": -3244, "h": 1, "certified": true, "t": 0.012443780899047852}
+{"poly": "x^3 - 6*x - 10", "disc": -1836, "h": 3, "certified": true, "t": 0.003560781478881836}
+{"poly": "x^3 - 5*x - 13", "disc": -4063, "h": 2, "certified": true, "t": 0.0038001537322998047}
+{"poly": "x^3 - 7*x - 15", "disc": -4703, "h": 2, "certified": true, "t": 0.011838436126708984}
+{"poly": "x^3 - 5*x - 14", "disc": -4792, "h": 1, "certified": true, "t": 0.003126382827758789}
+{"poly": "x^3 - 6*x - 11", "disc": -2403, "h": 1, "certified": true, "t": 0.010807037353515625}
+{"poly": "x^3 - x^2 - 9*x - 13", "disc": -3724, "h": 3, "certified": true, "t": 0.0035390853881835938}
+{"poly": "x^3 + 2*x - 8", "disc": -440, "h": 1, "certified": true, "t": 0.003307342529296875}
+{"poly": "x^3 - x^2 - 10*x - 15", "disc": -4735, "h": 1, "certified": true, "t": 0.010511636734008789}
+{"poly": "x^3 - x^2 - x + 3", "disc": -172, "h": 1, "certified": true, "t": 0.0025968551635742188}
+{"poly": "x^3 - x^2 - 9*x - 14", "disc": -4619, "h": 1, "certified": true, "t": 0.010286569595336914}
+{"poly": "x^3 + 4*x - 12", "disc": -1036, "h": 1, "certified": true, "t": 0.003741741180419922}
+{"poly": "x^3 - 3*x - 4", "disc": -324, "h": 1, "certified": true, "t": 0.002835988998413086}
+{"poly": "x^3 - 3*x - 10", "disc": -648, "h": 3, "certified": true, "t": 0.0038475990295410156}
+{"poly": "x^3 - x^2 - 5*x - 5", "disc": -620, "h": 1, "certified": true, "t": 0.0030596256256103516}
+{"poly": "x^3 + 8*x - 20", "disc": -3212, "h": 1, "certified": true, "t": 0.007317781448364258}
+{"poly": "x^3 + 6*x - 12", "disc": -1188, "h": 1, "certified": true, "t": 0.012199640274047852}
+{"poly": "x^3 + 8*x - 12", "disc": -1484, "h": 1, "certified": true, "t": 0.011745929718017578}
+{"poly": "x^3 + 10*x - 12", "disc": -1972, "h": 5, "certified": true, "t": 0.003885030746459961}
+{"poly": "x^3 + 10*x - 8", "disc": -1432, "h": 1, "certified": true, "t": 0.011524677276611328}
+{"poly": "x^3 - x^2 - 8*x + 14", "disc": -1108, "h": 1, "certified": true, "t": 0.017208099365234375}
+{"poly": "x^3 + 10*x - 16", "disc": -2728, "h": 1, "certified": true, "t": 0.011237621307373047}
+{"poly": "x^3 + 10*x - 24", "disc": -4888, "h": 1, "certified": true, "t": 0.004379987716674805}
+{"poly": "x^3 + 12*x - 20", "disc": -4428, "h": 3, "certified": true, "t": 0.004412412643432617}
+{"poly": "x^3 + 10*x - 20", "disc": -3700, "h": 1, "certified": true, "t": 0.015273332595825195}
+{"poly": "x^3 + 14*x - 12", "disc": -3716, "h": 1, "certified": true, "t": 0.005575656890869141}
+{"poly": "x^3 + 14*x - 4", "disc": -2852, "h": 1, "certified": true, "t": 0.013699054718017578}
+{"poly": "x^3 + 14*x - 16", "disc": -4472, "h": 5, "certified": true, "t": 0.004494428634643555}
+{"poly": "x^3 + 14*x - 8", "disc": -3176, "h": 1, "certified": true, "t": 0.014580965042114258}
+{"poly": "x^3 + 16*x - 4", "disc": -4204, "h": 2, "certified": true, "t": 0.005843162536621094}
+{"poly": "x^3 - x^2 + 2*x - 12", "disc": -883, "h": 1, "certified": true, "t": 0.005441188812255859}
+{"poly": "x^3 - x^2 + x + 7", "disc": -356, "h": 1, "certified": true, "t": 0.0039250850677490234}
+{"poly": "x^3 - x^2 - 12", "disc": -984, "h": 1, "certified": true, "t": 0.012076854705810547}
+{"poly": "x^3 - x^2 + 2*x - 16", "disc": -1607, "h": 1, "certified": true, "t": 0.011736154556274414}
+{"poly": "x^3 - x^2 + 4*x - 24", "disc": -3540, "h": 1, "certified": true, "t": 0.0041844844818115234}
+{"poly": "x^3 - 4*x - 5", "disc": -419, "h": 1, "certified": true, "t": 0.002932310104370117}
+{"poly": "x^3 - 2*x - 3", "disc": -211, "h": 1, "certified": true, "t": 0.002976655960083008}
+{"poly": "x^3 - x^2 + 4*x - 20", "disc": -2420, "h": 1, "certified": true, "t": 0.012316703796386719}
+{"poly": "x^3 - x - 8", "disc": -431, "h": 1, "certified": true, "t": 0.008639097213745117}
+{"poly": "x^3 - x^2 + 6*x - 24", "disc": -3471, "h": 1, "certified": true, "t": 0.003920316696166992}
+{"poly": "x^3 - x^2 + 6*x - 12", "disc": -867, "h": 1, "certified": true, "t": 0.012471437454223633}
+{"poly": "x^3 - x^2 + 6*x - 20", "disc": -2387, "h": 1, "certified": true, "t": 0.012334346771240234}
+{"poly": "x^3 - x^2 + 6*x - 28", "disc": -4771, "h": 1, "certified": true, "t": 0.010962963104248047}
+{"poly": "x^3 - x^2 + 8*x + 8", "disc": -1208, "h": 1, "certified": true, "t": 0.010901689529418945}
+{"poly": "x^3 - x^2 - 6*x - 6", "disc": -744, "h": 1, "certified": true, "t": 0.01044607162475586}
+{"poly": "x^3 - x^2 + 8*x - 12", "disc": -1048, "h": 1, "certified": true, "t": 0.011672019958496094}
+{"poly": "x^3 - x^2 + 8*x - 24", "disc": -3544, "h": 2, "certified": true, "t": 0.011966705322265625}
+{"poly": "x^3 - x^2 + 8*x - 28", "disc": -4808, "h": 1, "certified": true, "t": 0.012032508850097656}
+{"poly": "x^3 - x^2 - 9*x + 16", "disc": -1259, "h": 1, "certified": true, "t": 0.004015922546386719}
+{"poly": "x^3 - x^2 - 7*x + 12", "disc": -907, "h": 1, "certified": true, "t": 0.005640268325805664}
+{"poly": "x^3 - x^2 + 10*x + 8", "disc": -1759, "h": 1, "certified": true, "t": 0.012769460678100586}
+{"poly": "x^3 - x^2 - 6*x + 16", "disc": -1055, "h": 1, "certified": true, "t": 0.01181650161743164}
+{"poly": "x^3 - x^2 + 10*x - 16", "disc": -1999, "h": 5, "certified": true, "t": 0.004022836685180664}
+{"poly": "x^3 - x^2 + 12*x + 12", "disc": -3300, "h": 1, "certified": true, "t": 0.003683328628540039}
+{"poly": "x^3 - x^2 + 10*x - 12", "disc": -1419, "h": 1, "certified": true, "t": 0.011936426162719727}
+{"poly": "x^3 - x^2 + 12*x + 8", "disc": -2548, "h": 3, "certified": true, "t": 0.0044040679931640625}
+{"poly": "x^3 - 11*x - 16", "disc": -1588, "h": 2, "certified": true, "t": 0.004584312438964844}
+{"poly": "x^3 - x^2 + 10*x - 20", "disc": -2795, "h": 1, "certified": true, "t": 0.011146068572998047}
+{"poly": "x^3 - x^2 + 12*x - 20", "disc": -3332, "h": 3, "certified": true, "t": 0.0038275718688964844}
+{"poly": "x^3 - x^2 + 12*x - 24", "disc": -4308, "h": 1, "certified": true, "t": 0.004114389419555664}
+{"poly": "x^3 - x^2 + 14*x + 8", "disc": -3623, "h": 1, "certified": true, "t": 0.0045664310455322266}
+{"poly": "x^3 - x^2 + 12*x - 8", "disc": -1700, "h": 1, "certified": true, "t": 0.012095212936401367}
+{"poly": "x^3 - x^2 + 14*x - 8", "disc": -2631, "h": 1, "certified": true, "t": 0.0038061141967773438}
+{"poly": "x^3 - x^2 + 14*x + 12", "disc": -4411, "h": 1, "certified": true, "t": 0.012535333633422852}
+{"poly": "x^3 - x^2 + 14*x - 4", "disc": -2555, "h": 1, "certified": true, "t": 0.011165142059326172}
+{"poly": "x^3 - x^2 + 14*x - 12", "disc": -2923, "h": 1, "certified": true, "t": 0.011166095733642578}
+{"poly": "x^3 - x^2 + 14*x - 16", "disc": -3431, "h": 2, "certified": true, "t": 0.01186823844909668}
+{"poly": "x^3 - x^2 + 16*x - 8", "disc": -3896, "h": 3, "certified": true, "t": 0.00370025634765625}
+{"poly": "x^3 - x^2 + 14*x - 20", "disc": -4155, "h": 1, "certified": true, "t": 0.010819673538208008}
+{"poly": "x^3 - x^2 + 16*x + 4", "disc": -4424, "h": 1, "certified": true, "t": 0.011026144027709961}
+{"poly": "x^3 - x^2 + 16*x - 12", "disc": -4152, "h": 4, "certified": true, "t": 0.006941318511962891}
+{"poly": "x^3 - x^2 - 3*x + 19", "disc": -2132, "h": 1, "certified": true, "t": 0.01232600212097168}
+{"poly": "x^3 - x^2 - 3*x + 23", "disc": -3208, "h": 1, "certified": true, "t": 0.011786222457885742}
+{"poly": "x^3 - x^2 - x + 21", "disc": -2860, "h": 1, "certified": true, "t": 0.011852741241455078}
+{"poly": "x^3 - x^2 + x + 15", "disc": -1572, "h": 5, "certified": true, "t": 0.003987550735473633}
+{"poly": "x^3 - x^2 + x + 11", "disc": -856, "h": 1, "certified": true, "t": 0.011744260787963867}
+{"poly": "x^3 - x^2 + 3*x + 17", "disc": -2188, "h": 3, "certified": true, "t": 0.0037755966186523438}
+{"poly": "x^3 - x^2 + x + 19", "disc": -2504, "h": 1, "certified": true, "t": 0.010970354080200195}
+{"poly": "x^3 - x - 2", "disc": -104, "h": 1, "certified": true, "t": 0.002784252166748047}
+{"poly": "x^3 - x^2 + x + 23", "disc": -3652, "h": 1, "certified": true, "t": 0.011705160140991211}
+{"poly": "x^3 + x - 6", "disc": -244, "h": 1, "certified": true, "t": 0.003530740737915039}
+{"poly": "x^3 - x^2 + 5*x + 15", "disc": -1960, "h": 3, "certified": true, "t": 0.004966020584106445}
+{"poly": "x^3 - x^2 + 3*x + 25", "disc": -4556, "h": 1, "certified": true, "t": 0.014249801635742188}
+{"poly": "x^3 - x^2 + 5*x + 23", "disc": -4184, "h": 5, "certified": true, "t": 0.0044672489166259766}
+{"poly": "x^3 - x^2 + 5*x + 11", "disc": -1172, "h": 1, "certified": true, "t": 0.01595616340637207}
+{"poly": "x^3 - x^2 - 3*x - 3", "disc": -300, "h": 1, "certified": true, "t": 0.002965688705444336}
+{"poly": "x^3 - x^2 + 7*x + 5", "disc": -652, "h": 1, "certified": true, "t": 0.004120349884033203}
+{"poly": "x^3 - x^2 + 5*x + 19", "disc": -2964, "h": 1, "certified": true, "t": 0.01313924789428711}
+{"poly": "x^3 - x^2 + 7*x + 13", "disc": -1868, "h": 1, "certified": true, "t": 0.004323720932006836}
+{"poly": "x^3 - x^2 - 4*x + 12", "disc": -676, "h": 3, "certified": true, "t": 0.0036706924438476562}
+{"poly": "x^3 - x^2 - 6*x + 10", "disc": -680, "h": 1, "certified": true, "t": 0.006109714508056641}
+{"poly": "x^3 - x^2 + 7*x + 21", "disc": -3948, "h": 1, "certified": true, "t": 0.012987613677978516}
+{"poly": "x^3 - x^2 + 9*x + 3", "disc": -888, "h": 1, "certified": true, "t": 0.011063098907470703}
+{"poly": "x^3 - x^2 + 9*x + 15", "disc": -2820, "h": 1, "certified": true, "t": 0.0036897659301757812}
+{"poly": "x^3 - x^2 + 9*x + 7", "disc": -1316, "h": 1, "certified": true, "t": 0.011285066604614258}
+{"poly": "x^3 - 10*x - 14", "disc": -1292, "h": 1, "certified": true, "t": 0.0031757354736328125}
+{"poly": "x^3 - x^2 + 9*x + 19", "disc": -3896, "h": 3, "certified": true, "t": 0.0045125484466552734}
+{"poly": "x^3 - x^2 + 11*x + 1", "disc": -1356, "h": 3, "certified": true, "t": 0.004366159439086914}
+{"poly": "x^3 - x^2 + 11*x + 9", "disc": -2284, "h": 2, "certified": true, "t": 0.005197286605834961}
+{"poly": "x^3 - x^2 + 11*x + 17", "disc": -4076, "h": 1, "certified": true, "t": 0.00494694709777832}
+{"poly": "x^3 - x^2 + 13*x - 1", "disc": -2104, "h": 5, "certified": true, "t": 0.003888845443725586}
+{"poly": "x^3 - x^2 + 13*x - 9", "disc": -2184, "h": 1, "certified": true, "t": 0.011390209197998047}
+{"poly": "x^3 - x^2 + 13*x - 5", "disc": -2036, "h": 1, "certified": true, "t": 0.011491060256958008}
+{"poly": "x^3 - x^2 + 13*x + 7", "disc": -2888, "h": 3, "certified": true, "t": 0.0037147998809814453}
+{"poly": "x^3 - x^2 + 13*x + 3", "disc": -2388, "h": 1, "certified": true, "t": 0.010940074920654297}
+{"poly": "x^3 - x^2 + 15*x - 11", "disc": -3404, "h": 1, "certified": true, "t": 0.0040514469146728516}
+{"poly": "x^3 - x^2 + 13*x + 11", "disc": -3604, "h": 1, "certified": true, "t": 0.011398792266845703}
+{"poly": "x^3 - x^2 + 15*x - 3", "disc": -3180, "h": 1, "certified": true, "t": 0.010983467102050781}
+{"poly": "x^3 - x^2 + 17*x - 9", "disc": -4708, "h": 1, "certified": true, "t": 0.00399470329284668}
+{"poly": "x^3 - x^2 + 15*x + 5", "disc": -3820, "h": 1, "certified": true, "t": 0.011359453201293945}
+{"poly": "x^3 - x^2 + 17*x - 5", "disc": -4632, "h": 1, "certified": true, "t": 0.004107952117919922}
+{"poly": "x^3 - x^2 + 17*x - 1", "disc": -4772, "h": 5, "certified": true, "t": 0.004641294479370117}
+{"poly": "x^3 - 3*x - 26", "disc": -4536, "h": 3, "certified": true, "t": 0.008303642272949219}
+{"poly": "x^3 - 5*x - 24", "disc": -3763, "h": 1, "certified": true, "t": 0.012450933456420898}
+{"poly": "x^3 - 3*x - 22", "disc": -3240, "h": 1, "certified": true, "t": 0.011574983596801758}
+{"poly": "x^3 - x - 16", "disc": -1727, "h": 1, "certified": true, "t": 0.01061391830444336}
+{"poly": "x^3 - x - 20", "disc": -2699, "h": 1, "certified": true, "t": 0.01057577133178711}
+{"poly": "x^3 + x - 22", "disc": -3268, "h": 1, "certified": true, "t": 0.01090550422668457}
+{"poly": "x^3 + 3*x - 8", "disc": -459, "h": 1, "certified": true, "t": 0.002878427505493164}
+{"poly": "x^3 + x - 26", "disc": -4564, "h": 2, "certified": true, "t": 0.012424468994140625}
+{"poly": "x^3 + 3*x - 12", "disc": -999, "h": 1, "certified": true, "t": 0.01118016242980957}
+{"poly": "x^3 + 3*x - 16", "disc": -1755, "h": 1, "certified": true, "t": 0.01183629035949707}
+{"poly": "x^3 + 3*x - 20", "disc": -2727, "h": 1, "certified": true, "t": 0.0044023990631103516}
+{"poly": "x^3 - x^2 - 2*x - 2", "disc": -152, "h": 1, "certified": true, "t": 0.00316619873046875}
+{"poly": "x^3 - x^2 - 5*x + 8", "disc": -451, "h": 1, "certified": true, "t": 0.0028562545776367188}
+{"poly": "x^3 + 3*x - 24", "disc": -3915, "h": 1, "certified": true, "t": 0.011514902114868164}
+{"poly": "x^3 + 5*x - 14", "disc": -1448, "h": 1, "certified": true, "t": 0.011443853378295898}
+{"poly": "x^3 + 7*x - 12", "disc": -1315, "h": 1, "certified": true, "t": 0.011216878890991211}
+{"poly": "x^3 + 7*x - 16", "disc": -2071, "h": 1, "certified": true, "t": 0.011343717575073242}
+{"poly": "x^3 + 7*x - 24", "disc": -4231, "h": 1, "certified": true, "t": 0.0038459300994873047}
+{"poly": "x^3 + 7*x - 20", "disc": -3043, "h": 1, "certified": true, "t": 0.01188802719116211}
+{"poly": "x^3 + 9*x - 14", "disc": -2052, "h": 1, "certified": true, "t": 0.01120138168334961}
+{"poly": "x^3 - 6*x - 12", "disc": -756, "h": 1, "certified": true, "t": 0.014177560806274414}
+{"poly": "x^3 + 11*x - 4", "disc": -1439, "h": 1, "certified": true, "t": 0.01186990737915039}
+{"poly": "x^3 + 11*x - 8", "disc": -1763, "h": 1, "certified": true, "t": 0.005548954010009766}
+{"poly": "x^3 + 11*x - 20", "disc": -4031, "h": 7, "certified": true, "t": 0.005011320114135742}
+{"poly": "x^3 + 11*x - 16", "disc": -3059, "h": 1, "certified": true, "t": 0.011772394180297852}
+{"poly": "x^3 + 13*x - 6", "disc": -2440, "h": 1, "certified": true, "t": 0.011601448059082031}
+{"poly": "x^3 + 13*x - 10", "disc": -2872, "h": 1, "certified": true, "t": 0.011066436767578125}
+{"poly": "x^3 + 15*x - 4", "disc": -3483, "h": 1, "certified": true, "t": 0.011205196380615234}
+{"poly": "x^3 + 15*x - 8", "disc": -3807, "h": 3, "certified": true, "t": 0.011986255645751953}
+{"poly": "x^3 + 15*x - 12", "disc": -4347, "h": 1, "certified": true, "t": 0.011731386184692383}
+{"poly": "x^3 - x^2 - 3*x - 21", "disc": -3252, "h": 1, "certified": true, "t": 0.004587888717651367}
+{"poly": "x^3 - x^2 - 3*x - 25", "disc": -4552, "h": 1, "certified": true, "t": 0.004679679870605469}
+{"poly": "x^3 - x^2 - 5*x - 23", "disc": -3980, "h": 1, "certified": true, "t": 0.012642383575439453}
+{"poly": "x^3 - x^2 - x - 19", "disc": -2540, "h": 1, "certified": true, "t": 0.008974313735961914}
+{"poly": "x^3 - x^2 + x - 13", "disc": -1096, "h": 1, "certified": true, "t": 0.013971805572509766}
+{"poly": "x^3 - x^2 + x - 17", "disc": -1892, "h": 1, "certified": true, "t": 0.015114307403564453}
+{"poly": "x^3 - x^2 - 3*x + 5", "disc": -268, "h": 1, "certified": true, "t": 0.004033565521240234}
+{"poly": "x^3 - x^2 + x - 25", "disc": -4132, "h": 1, "certified": true, "t": 0.014167070388793945}
+{"poly": "x^3 - x^2 + 3*x - 15", "disc": -1356, "h": 3, "certified": true, "t": 0.004492282867431641}
+{"poly": "x^3 - 5*x - 6", "disc": -472, "h": 1, "certified": true, "t": 0.005014896392822266}
+{"poly": "x^3 - x^2 + 5*x - 13", "disc": -980, "h": 3, "certified": true, "t": 0.004477024078369141}
+{"poly": "x^3 - x^2 + 3*x - 23", "disc": -3308, "h": 1, "certified": true, "t": 0.009918451309204102}
+{"poly": "x^3 - x^2 - 7*x - 7", "disc": -812, "h": 1, "certified": true, "t": 0.003616809844970703}
+{"poly": "x^3 - x^2 + 7*x - 19", "disc": -2188, "h": 3, "certified": true, "t": 0.005185127258300781}
+{"poly": "x^3 - x^2 + 5*x - 17", "disc": -1704, "h": 1, "certified": true, "t": 0.015192747116088867}
+{"poly": "x^3 - x^2 + 5*x - 21", "disc": -2644, "h": 1, "certified": true, "t": 0.016162872314453125}
+{"poly": "x^3 - x^2 + 9*x - 21", "disc": -2856, "h": 7, "certified": true, "t": 0.0040435791015625}
+{"poly": "x^3 - x^2 + 9*x - 25", "disc": -3940, "h": 1, "certified": true, "t": 0.0038356781005859375}
+{"poly": "x^3 - x^2 + 9*x - 13", "disc": -1336, "h": 1, "certified": true, "t": 0.014217138290405273}
+{"poly": "x^3 - x^2 + 9*x - 17", "disc": -1988, "h": 1, "certified": true, "t": 0.011250019073486328}
+{"poly": "x^3 - x^2 + 11*x - 15", "disc": -2092, "h": 2, "certified": true, "t": 0.004312992095947266}
+{"poly": "x^3 - x^2 + 13*x - 25", "disc": -4936, "h": 1, "certified": true, "t": 0.005341768264770508}
+{"poly": "x^3 - x^2 + 11*x - 23", "disc": -3756, "h": 1, "certified": true, "t": 0.012092828750610352}
+{"poly": "x^3 - x^2 + 13*x - 17", "disc": -3128, "h": 1, "certified": true, "t": 0.012267827987670898}
+{"poly": "x^3 - x^2 + 15*x - 19", "disc": -4492, "h": 2, "certified": true, "t": 0.0051212310791015625}
+{"poly": "x^3 - x^2 - 4*x + 28", "disc": -4692, "h": 1, "certified": true, "t": 0.004158973693847656}
+{"poly": "x^3 - x^2 - 2*x + 24", "disc": -3639, "h": 7, "certified": true, "t": 0.0044596195220947266}
+{"poly": "x^3 - x^2 + 24", "disc": -3864, "h": 1, "certified": true, "t": 0.003589630126953125}
+{"poly": "x^3 - x^2 - 2*x + 20", "disc": -2491, "h": 1, "certified": true, "t": 0.010966300964355469}
+{"poly": "x^3 - x^2 + 20", "disc": -2680, "h": 1, "certified": true, "t": 0.011049509048461914}
+{"poly": "x^3 - x^2 + 2*x + 12", "disc": -1075, "h": 1, "certified": true, "t": 0.008779525756835938}
+{"poly": "x^3 - x^2 + 2*x + 8", "disc": -503, "h": 1, "certified": true, "t": 0.011054515838623047}
+{"poly": "x^3 - x^2 + 2*x + 24", "disc": -4087, "h": 1, "certified": true, "t": 0.0053863525390625}
+{"poly": "x^3 - x^2 + 2*x + 20", "disc": -2867, "h": 1, "certified": true, "t": 0.012529373168945312}
+{"poly": "x^3 - x^2 + 4*x + 8", "disc": -628, "h": 1, "certified": true, "t": 0.013361692428588867}
+{"poly": "x^3 - x^2 + 4*x + 12", "disc": -1236, "h": 1, "certified": true, "t": 0.012135982513427734}
+{"poly": "x^3 - x^2 + 6*x + 12", "disc": -1491, "h": 1, "certified": true, "t": 0.01269984245300293}
+{"poly": "x^3 - x^2 + 8*x + 20", "disc": -3896, "h": 3, "certified": true, "t": 0.005151033401489258}
+{"poly": "x^3 - x^2 + 6*x + 16", "disc": -2351, "h": 1, "certified": true, "t": 0.011459589004516602}
+{"poly": "x^3 - x^2 + 6*x + 20", "disc": -3427, "h": 1, "certified": true, "t": 0.011126995086669922}
+{"poly": "x^3 - x^2 + 10*x + 16", "disc": -3407, "h": 4, "certified": true, "t": 0.004940986633300781}
+{"poly": "x^3 - 2*x - 20", "disc": -2692, "h": 5, "certified": true, "t": 0.003861665725708008}
+{"poly": "x^3 - x^2 + 10*x + 20", "disc": -4555, "h": 1, "certified": true, "t": 0.011478662490844727}
+{"poly": "x^3 - 2*x - 24", "disc": -3880, "h": 1, "certified": true, "t": 0.0055942535400390625}
+{"poly": "x^3 - 12", "disc": -972, "h": 1, "certified": true, "t": 0.0041844844818115234}
+{"poly": "x^3 - 2*x - 16", "disc": -1720, "h": 1, "certified": true, "t": 0.012950658798217773}
+{"poly": "x^3 - 20", "disc": -2700, "h": 3, "certified": true, "t": 0.004787445068359375}
+{"poly": "x^3 + 2*x - 16", "disc": -1736, "h": 1, "certified": true, "t": 0.01793980598449707}
+{"poly": "x^3 + 2*x - 20", "disc": -2708, "h": 1, "certified": true, "t": 0.01956486701965332}
+{"poly": "x^3 + 2*x - 24", "disc": -3896, "h": 3, "certified": true, "t": 0.020734786987304688}
+{"poly": "x^3 + 4*x - 20", "disc": -2764, "h": 2, "certified": true, "t": 0.007794618606567383}
+{"poly": "x^3 - x^2 - 4*x - 20", "disc": -3012, "h": 1, "certified": true, "t": 0.004508256912231445}
+{"poly": "x^3 - x^2 - 2*x - 16", "disc": -1879, "h": 4, "certified": true, "t": 0.004317045211791992}
+{"poly": "x^3 - x^2 - 4*x - 24", "disc": -4276, "h": 1, "certified": true, "t": 0.006248950958251953}
+{"poly": "x^3 + 6*x - 24", "disc": -4104, "h": 1, "certified": true, "t": 0.013580799102783203}
+{"poly": "x^3 - x^2 - 2*x - 20", "disc": -2891, "h": 3, "certified": true, "t": 0.005001544952392578}
+{"poly": "x^3 - x^2 - 24", "disc": -3912, "h": 1, "certified": true, "t": 0.0041081905364990234}
+{"poly": "x^3 - x^2 - 2*x - 24", "disc": -4119, "h": 1, "certified": true, "t": 0.005551576614379883}
+{"poly": "x^3 + 3*x - 27", "disc": -2199, "h": 1, "certified": true, "t": 0.00763702392578125}
+{"poly": "x^3 - 3*x - 5", "disc": -567, "h": 1, "certified": true, "t": 0.004672050476074219}
+{"poly": "x^3 - x^2 - x + 13", "disc": -1068, "h": 1, "certified": true, "t": 0.012004375457763672}
+{"poly": "x^3 - x^2 - x + 28", "disc": -2283, "h": 1, "certified": true, "t": 0.011926412582397461}
+{"poly": "x^3 - x^2 - 5*x - 6", "disc": -1011, "h": 1, "certified": true, "t": 0.012470245361328125}
+{"poly": "x^3 - x^2 - 5*x - 15", "disc": -1740, "h": 1, "certified": true, "t": 0.01223897933959961}
+{"poly": "x^3 + 9*x - 36", "disc": -4212, "h": 1, "certified": true, "t": 0.01597905158996582}
+{"poly": "x^3 - x^2 - 8*x + 15", "disc": -1743, "h": 1, "certified": true, "t": 0.005468130111694336}
+{"poly": "x^3 - x^2 - 5*x - 30", "disc": -2955, "h": 1, "certified": true, "t": 0.011800050735473633}
+{"poly": "x^3 - x^2 - 8*x + 24", "disc": -2472, "h": 1, "certified": true, "t": 0.010686874389648438}
+{"poly": "x^3 - 12*x - 19", "disc": -2835, "h": 3, "certified": true, "t": 0.003516674041748047}
+{"poly": "x^3 - x^2 - 8*x + 39", "disc": -3687, "h": 1, "certified": true, "t": 0.011352777481079102}
+{"poly": "x^3 - 12*x - 28", "disc": -3564, "h": 3, "certified": true, "t": 0.003856658935546875}
+{"poly": "x^3 - x^2 - 16*x - 23", "disc": -4359, "h": 1, "certified": true, "t": 0.011320352554321289}
+{"poly": "x^3 - x^2 + 2*x + 25", "disc": -1967, "h": 1, "certified": true, "t": 0.011414766311645508}
+{"poly": "x^3 - x^2 - 3*x + 15", "disc": -1272, "h": 1, "certified": true, "t": 0.01215219497680664}
+{"poly": "x^3 - 4*x - 6", "disc": -716, "h": 1, "certified": true, "t": 0.010202884674072266}
+{"poly": "x^3 - 5*x - 16", "disc": -1603, "h": 1, "certified": true, "t": 0.01673150062561035}
+{"poly": "x^3 - 26", "disc": -2028, "h": 3, "certified": true, "t": 0.004316091537475586}
+{"poly": "x^3 - x - 12", "disc": -971, "h": 1, "certified": true, "t": 0.014573812484741211}
+{"poly": "x^3 - x^2 + 9*x - 36", "disc": -3571, "h": 2, "certified": true, "t": 0.0067365169525146484}
+{"poly": "x^3 - x^2 - 6*x - 7", "disc": -1207, "h": 1, "certified": true, "t": 0.0032613277435302734}
+{"poly": "x^3 - x^2 - 7*x - 17", "disc": -2148, "h": 1, "certified": true, "t": 0.011411905288696289}
+{"poly": "x^3 - x^2 - 8*x - 33", "disc": -3575, "h": 1, "certified": true, "t": 0.012415409088134766}
+{"poly": "x^3 - x^2 - 2*x - 27", "disc": -2303, "h": 3, "certified": true, "t": 0.0036830902099609375}
+{"poly": "x^3 - x^2 - 11*x + 45", "disc": -4460, "h": 1, "certified": true, "t": 0.004190921783447266}
+{"poly": "x^3 - x^2 - 3*x - 13", "disc": -1300, "h": 1, "certified": true, "t": 0.012273311614990234}
+{"poly": "x^3 - x^2 - 7*x + 13", "disc": -1452, "h": 1, "certified": true, "t": 0.013590574264526367}
+{"poly": "x^3 - x^2 - 6*x + 20", "disc": -1915, "h": 1, "certified": true, "t": 0.013686180114746094}
+{"poly": "x^3 - x^2 + 15*x - 36", "disc": -4299, "h": 1, "certified": true, "t": 0.011618375778198242}
+{"poly": "x^3 - 13*x - 21", "disc": -3119, "h": 2, "certified": true, "t": 0.004090785980224609}
+{"poly": "x^3 - 11*x - 17", "disc": -2479, "h": 1, "certified": true, "t": 0.003137826919555664}
+{"poly": "x^3 - 14*x - 32", "disc": -4168, "h": 1, "certified": true, "t": 0.011325597763061523}
+{"poly": "x^3 - 9*x - 37", "disc": -3783, "h": 1, "certified": true, "t": 0.010816812515258789}
+{"poly": "x^3 - x^2 - 17*x - 25", "disc": -4684, "h": 1, "certified": true, "t": 0.010764837265014648}
+{"poly": "x^3 - 5*x - 7", "disc": -823, "h": 1, "certified": true, "t": 0.002855062484741211}
+{"poly": "x^3 - x^2 - 14*x - 28", "disc": -4291, "h": 1, "certified": true, "t": 0.014455080032348633}
+{"poly": "x^3 + 3*x - 23", "disc": -1599, "h": 1, "certified": true, "t": 0.005227565765380859}
+{"poly": "x^3 - x^2 + 2*x + 34", "disc": -3592, "h": 1, "certified": true, "t": 0.012135028839111328}
+{"poly": "x^3 - x^2 - 3*x - 4", "disc": -547, "h": 1, "certified": true, "t": 0.0033910274505615234}
+{"poly": "x^3 - x^2 + 8*x + 37", "disc": -4903, "h": 1, "certified": true, "t": 0.007637500762939453}
+{"poly": "x^3 - x^2 - x - 11", "disc": -876, "h": 1, "certified": true, "t": 0.006265401840209961}
+{"poly": "x^3 - x^2 - 7*x - 8", "disc": -1347, "h": 1, "certified": true, "t": 0.012328624725341797}
+{"poly": "x^3 - x^2 - 6*x + 11", "disc": -1135, "h": 1, "certified": true, "t": 0.003971099853515625}
+{"poly": "x^3 - x^2 + x - 24", "disc": -1691, "h": 1, "certified": true, "t": 0.012391328811645508}
+{"poly": "x^3 - x^2 - 2*x + 27", "disc": -2063, "h": 1, "certified": true, "t": 0.011782646179199219}
+{"poly": "x^3 - x^2 + 14*x + 22", "disc": -3256, "h": 1, "certified": true, "t": 0.011644840240478516}
+{"poly": "x^3 - x^2 + 14*x + 31", "disc": -4935, "h": 1, "certified": true, "t": 0.014462709426879883}
+{"poly": "x^3 - 16*x - 36", "disc": -4652, "h": 2, "certified": true, "t": 0.012665271759033203}
+{"poly": "x^3 - 10*x - 15", "disc": -2075, "h": 3, "certified": true, "t": 0.0046727657318115234}
+{"poly": "x^3 - 14*x - 23", "disc": -3307, "h": 1, "certified": true, "t": 0.012273073196411133}
+{"poly": "x^3 - 8*x - 20", "disc": -2188, "h": 3, "certified": true, "t": 0.00458216667175293}
+{"poly": "x^3 - x^2 - 14*x - 19", "disc": -3439, "h": 1, "certified": true, "t": 0.004909992218017578}
+{"poly": "x^3 - x^2 - 12*x - 24", "disc": -3444, "h": 1, "certified": true, "t": 0.0038242340087890625}
+{"poly": "x^3 + 6*x - 29", "disc": -2619, "h": 2, "certified": true, "t": 0.0037436485290527344}
+{"poly": "x^3 - 6*x - 31", "disc": -2787, "h": 2, "certified": true, "t": 0.012313127517700195}
+{"poly": "x^3 + 6*x - 38", "disc": -4428, "h": 3, "certified": true, "t": 0.0037736892700195312}
+{"poly": "x^3 - x^2 - 2*x - 3", "disc": -327, "h": 1, "certified": true, "t": 0.002897500991821289}
+{"poly": "x^3 - x^2 - 10*x - 35", "disc": -3935, "h": 1, "certified": true, "t": 0.011233806610107422}
+{"poly": "x^3 - x^2 - 10*x - 11", "disc": -1191, "h": 1, "certified": true, "t": 0.0030968189239501953}
+{"poly": "x^3 - x^2 + x - 9", "disc": -516, "h": 1, "certified": true, "t": 0.010109186172485352}
+{"poly": "x^3 - x^2 + x + 21", "disc": -1356, "h": 3, "certified": true, "t": 0.004153251647949219}
+{"poly": "x^3 + 9*x - 35", "disc": -3999, "h": 1, "certified": true, "t": 0.012091875076293945}
+{"poly": "x^3 - x^2 - 2*x + 12", "disc": -843, "h": 1, "certified": true, "t": 0.011675834655761719}
+{"poly": "x^3 - 9*x - 13", "disc": -1647, "h": 1, "certified": true, "t": 0.003033161163330078}
+{"poly": "x^3 + 15*x - 29", "disc": -4023, "h": 1, "certified": true, "t": 0.0037522315979003906}
+{"poly": "x^3 + 12*x - 23", "disc": -2355, "h": 1, "certified": true, "t": 0.011368751525878906}
+{"poly": "x^3 - 6*x - 16", "disc": -1512, "h": 1, "certified": true, "t": 0.011410713195800781}
+{"poly": "x^3 - x^2 - 10*x - 20", "disc": -2595, "h": 5, "certified": true, "t": 0.004063844680786133}
+{"poly": "x^3 - x^2 - 13*x - 17", "disc": -2892, "h": 1, "certified": true, "t": 0.010763168334960938}
+{"poly": "x^3 + 18*x - 17", "disc": -3459, "h": 1, "certified": true, "t": 0.010978221893310547}
+{"poly": "x^3 + 18*x - 26", "disc": -4620, "h": 1, "certified": true, "t": 0.011874198913574219}
+{"poly": "x^3 - x^2 - 15*x + 39", "disc": -4164, "h": 1, "certified": true, "t": 0.004912853240966797}
+{"poly": "x^3 - x^2 - 18*x + 39", "disc": -4623, "h": 1, "certified": true, "t": 0.011912107467651367}
+{"poly": "x^3 - x^2 - 12*x + 45", "disc": -4191, "h": 1, "certified": true, "t": 0.01212167739868164}
+{"poly": "x^3 - x^2 + 4*x - 39", "disc": -4295, "h": 1, "certified": true, "t": 0.011507511138916016}
+{"poly": "x^3 - x^2 + 7*x - 36", "disc": -3547, "h": 1, "certified": true, "t": 0.011363029479980469}
+{"poly": "x^3 - 7*x - 9", "disc": -815, "h": 1, "certified": true, "t": 0.0036058425903320312}
+{"poly": "x^3 - x^2 + 8", "disc": -424, "h": 1, "certified": true, "t": 0.004097461700439453}
+{"poly": "x^3 - x^2 + 10*x - 42", "disc": -4904, "h": 1, "certified": true, "t": 0.0037469863891601562}
+{"poly": "x^3 - x^2 - 6*x - 12", "disc": -1083, "h": 3, "certified": true, "t": 0.0034503936767578125}
+{"poly": "x^3 - x^2 + 10*x - 33", "disc": -3055, "h": 1, "certified": true, "t": 0.011255979537963867}
+{"poly": "x^3 - 4*x - 12", "disc": -908, "h": 1, "certified": true, "t": 0.010932207107543945}
+{"poly": "x^3 - x^2 - 16*x + 33", "disc": -3127, "h": 1, "certified": true, "t": 0.004113912582397461}
+{"poly": "x^3 - x^2 - 4*x - 23", "disc": -1751, "h": 1, "certified": true, "t": 0.008281469345092773}
+{"poly": "x^3 - x^2 - 9*x + 36", "disc": -2891, "h": 3, "certified": true, "t": 0.005095720291137695}
+{"poly": "x^3 - x^2 + 13*x - 39", "disc": -4524, "h": 1, "certified": true, "t": 0.014959573745727539}
+{"poly": "x^3 - 17*x - 36", "disc": -3835, "h": 1, "certified": true, "t": 0.012423992156982422}
+{"poly": "x^3 - 15*x - 45", "disc": -4575, "h": 1, "certified": true, "t": 0.012174129486083984}
+{"poly": "x^3 - x^2 + 4*x + 33", "disc": -3543, "h": 1, "certified": true, "t": 0.012366771697998047}
+{"poly": "x^3 - x^2 + 7*x + 36", "disc": -4523, "h": 1, "certified": true, "t": 0.0041942596435546875}
+{"poly": "x^3 - x^2 - 4*x + 7", "disc": -519, "h": 1, "certified": true, "t": 0.003602743148803711}
+{"poly": "x^3 - x^2 - 12*x + 23", "disc": -2167, "h": 1, "certified": true, "t": 0.003755331039428711}
+{"poly": "x^3 - x^2 - 9*x - 10", "disc": -1363, "h": 1, "certified": true, "t": 0.011353731155395508}
+{"poly": "x^3 - x^2 + 10*x + 30", "disc": -3720, "h": 1, "certified": true, "t": 0.0038759708404541016}
+{"poly": "x^3 - x^2 - 12*x - 15", "disc": -2319, "h": 2, "certified": true, "t": 0.003569364547729492}
+{"poly": "x^3 - 16*x - 27", "disc": -3299, "h": 3, "certified": true, "t": 0.005212545394897461}
+{"poly": "x^3 - 8*x - 11", "disc": -1219, "h": 1, "certified": true, "t": 0.008300065994262695}
+{"poly": "x^3 - x^2 + 16*x + 27", "disc": -4831, "h": 1, "certified": true, "t": 0.00530242919921875}
+{"poly": "x^3 - x^2 - 13*x + 33", "disc": -3148, "h": 1, "certified": true, "t": 0.0125579833984375}
+{"poly": "x^3 - x^2 - 17*x + 36", "disc": -3891, "h": 2, "certified": true, "t": 0.010663986206054688}
+{"poly": "x^3 + 3*x - 31", "disc": -2895, "h": 1, "certified": true, "t": 0.01124119758605957}
+{"poly": "x^3 - x^2 - 8*x - 9", "disc": -1407, "h": 1, "certified": true, "t": 0.003745555877685547}
+{"poly": "x^3 - 9*x - 20", "disc": -1971, "h": 1, "certified": true, "t": 0.011426687240600586}
+{"poly": "x^3 - x^2 - 11*x - 21", "disc": -2676, "h": 1, "certified": true, "t": 0.011511087417602539}
+{"poly": "x^3 + 9*x - 37", "disc": -4431, "h": 1, "certified": true, "t": 0.011283159255981445}
+{"poly": "x^3 - x^2 - 14*x + 36", "disc": -3651, "h": 5, "certified": true, "t": 0.00417637825012207}
+{"poly": "x^3 - x^2 - 11*x + 21", "disc": -2220, "h": 1, "certified": true, "t": 0.011723756790161133}
+{"poly": "x^3 - x^2 + 2*x - 38", "disc": -4200, "h": 1, "certified": true, "t": 0.004342794418334961}
+{"poly": "x^3 + 15*x - 34", "disc": -4968, "h": 1, "certified": true, "t": 0.012332439422607422}
+{"poly": "x^3 - x^2 + 5*x - 32", "disc": -2819, "h": 5, "certified": true, "t": 0.0047414302825927734}
+{"poly": "x^3 - x^2 - 5*x + 17", "disc": -1420, "h": 1, "certified": true, "t": 0.011923074722290039}
+{"poly": "x^3 - 7*x - 18", "disc": -1844, "h": 1, "certified": true, "t": 0.011119604110717773}
+{"poly": "x^3 - x^2 + 8*x - 35", "disc": -3351, "h": 1, "certified": true, "t": 0.011031627655029297}
+{"poly": "x^3 - x^2 - 9*x - 19", "disc": -2476, "h": 1, "certified": true, "t": 0.011181116104125977}
+{"poly": "x^3 - x^2 + 3*x + 27", "disc": -2348, "h": 1, "certified": true, "t": 0.010716915130615234}
+{"poly": "x^3 - x^2 + 11*x - 38", "disc": -4091, "h": 1, "certified": true, "t": 0.011299610137939453}
+{"poly": "x^3 - x^2 + 9*x + 36", "disc": -4835, "h": 1, "certified": true, "t": 0.0040988922119140625}
+{"poly": "x^3 - x^2 + 3*x + 36", "disc": -4099, "h": 1, "certified": true, "t": 0.011777639389038086}
+{"poly": "x^3 - 6*x - 41", "disc": -4947, "h": 5, "certified": true, "t": 0.0045659542083740234}
+{"poly": "x^3 - 5*x - 20", "disc": -2575, "h": 1, "certified": true, "t": 0.004162788391113281}
+{"poly": "x^3 - 35", "disc": -3675, "h": 3, "certified": true, "t": 0.0038781166076660156}
+{"poly": "x^3 - x^2 - 4*x + 31", "disc": -2591, "h": 1, "certified": true, "t": 0.013330698013305664}
+{"poly": "x^3 - x^2 - 7*x - 21", "disc": -3304, "h": 5, "certified": true, "t": 0.004101753234863281}
+{"poly": "x^3 - x^2 - 10*x + 32", "disc": -4415, "h": 1, "certified": true, "t": 0.004036426544189453}
+{"poly": "x^3 - x^2 - 7*x + 14", "disc": -2051, "h": 2, "certified": true, "t": 0.0036678314208984375}
+{"poly": "x^3 - x^2 - 6*x + 24", "disc": -2991, "h": 1, "certified": true, "t": 0.004189014434814453}
+{"poly": "x^3 - x^2 - 3*x - 17", "disc": -2168, "h": 1, "certified": true, "t": 0.011937856674194336}
+{"poly": "x^3 - x^2 - 5*x + 42", "disc": -4795, "h": 1, "certified": true, "t": 0.011099100112915039}
+{"poly": "x^3 - 13*x - 22", "disc": -4280, "h": 1, "certified": true, "t": 0.01110219955444336}
+{"poly": "x^3 - x^2 - 8*x - 10", "disc": -2068, "h": 4, "certified": true, "t": 0.003735065460205078}
+{"poly": "x^3 - 10*x - 28", "disc": -4292, "h": 1, "certified": true, "t": 0.010788202285766602}
+{"poly": "x^3 - x^2 - 5*x + 10", "disc": -1235, "h": 1, "certified": true, "t": 0.0066721439361572266}
+{"poly": "x^3 - x^2 - 11*x + 22", "disc": -3179, "h": 1, "certified": true, "t": 0.011714935302734375}
+{"poly": "x^3 - x^2 - 2*x + 16", "disc": -1559, "h": 1, "certified": true, "t": 0.011809825897216797}
+{"poly": "x^3 - x^2 + x + 30", "disc": -2747, "h": 1, "certified": true, "t": 0.011834144592285156}
+{"poly": "x^3 - x^2 + 4*x + 52", "disc": -4799, "h": 2, "certified": true, "t": 0.012423515319824219}
+{"poly": "x^3 - 9*x - 14", "disc": -2376, "h": 1, "certified": true, "t": 0.010900259017944336}
+{"poly": "x^3 - 6*x - 20", "disc": -2484, "h": 1, "certified": true, "t": 0.011174678802490234}
+{"poly": "x^3 - x^2 - 13*x - 18", "disc": -4075, "h": 1, "certified": true, "t": 0.01124715805053711}
+{"poly": "x^3 - x^2 - 10*x - 24", "disc": -3967, "h": 2, "certified": true, "t": 0.011656522750854492}
+{"poly": "x^3 - x^2 - 7*x - 38", "disc": -4723, "h": 1, "certified": true, "t": 0.012387752532958984}
+{"poly": "x^3 - 2*x - 12", "disc": -964, "h": 1, "certified": true, "t": 0.012768983840942383}
+{"poly": "x^3 - x^2 - 7*x + 19", "disc": -1464, "h": 1, "certified": true, "t": 0.012554168701171875}
+{"poly": "x^3 - 13*x - 28", "disc": -3095, "h": 1, "certified": true, "t": 0.0035386085510253906}
+{"poly": "x^3 - x^2 - 6*x - 16", "disc": -1951, "h": 1, "certified": true, "t": 0.010962724685668945}
+{"poly": "x^3 - x^2 - x - 26", "disc": -2091, "h": 1, "certified": true, "t": 0.010783672332763672}
+{"poly": "x^3 - 20*x - 37", "disc": -4963, "h": 1, "certified": true, "t": 0.01046609878540039}
+{"poly": "x^3 - x^2 - 11*x + 31", "disc": -3560, "h": 1, "certified": true, "t": 0.011179685592651367}
+{"poly": "x^3 - x^2 - 13*x + 26", "disc": -3107, "h": 1, "certified": true, "t": 0.010619640350341797}
+{"poly": "x^3 - 9*x - 24", "disc": -3159, "h": 1, "certified": true, "t": 0.003682374954223633}
+{"poly": "x^3 - x^2 - 11*x - 25", "disc": -4120, "h": 1, "certified": true, "t": 0.004144430160522461}
+{"poly": "x^3 - x^2 - 8*x + 17", "disc": -3175, "h": 2, "certified": true, "t": 0.004471302032470703}
+{"poly": "x^3 - 17*x - 30", "disc": -4648, "h": 2, "certified": true, "t": 0.010979413986206055}
+{"poly": "x^3 - x^2 - 7*x - 25", "disc": -4676, "h": 1, "certified": true, "t": 0.0038177967071533203}
+{"poly": "x^3 - 12*x - 21", "disc": -4995, "h": 1, "certified": true, "t": 0.010275840759277344}
+{"poly": "x^3 - x^2 - 9*x + 19", "disc": -3596, "h": 1, "certified": true, "t": 0.010564804077148438}
+{"poly": "x^3 - 11*x - 19", "disc": -4423, "h": 2, "certified": true, "t": 0.0030472278594970703}
+{"poly": "x^3 - x^2 - 6*x + 28", "disc": -4283, "h": 1, "certified": true, "t": 0.010501623153686523}
+{"poly": "x^3 - x^2 - 10*x + 21", "disc": -3943, "h": 1, "certified": true, "t": 0.005755424499511719}
+{"poly": "x^3 - 10*x - 17", "disc": -3803, "h": 1, "certified": true, "t": 0.010105609893798828}
+{"poly": "x^3 - 8*x - 28", "disc": -4780, "h": 2, "certified": true, "t": 0.011438131332397461}
+{"poly": "x^3 - 9*x - 15", "disc": -3159, "h": 1, "certified": true, "t": 0.010279655456542969}
+{"poly": "x^3 - x^2 - 12*x + 25", "disc": -4319, "h": 2, "certified": true, "t": 0.00464177131652832}
+{"poly": "x^3 - 6*x - 24", "disc": -3672, "h": 1, "certified": true, "t": 0.010962486267089844}
+{"poly": "x^3 - 37", "disc": -4107, "h": 3, "certified": true, "t": 0.003696441650390625}
+{"poly": "x^3 - 8*x - 13", "disc": -2515, "h": 1, "certified": true, "t": 0.010808706283569336}
+{"poly": "x^3 - 7*x - 11", "disc": -1895, "h": 1, "certified": true, "t": 0.002927064895629883}
+{"poly": "x^3 - x^2 - 12*x - 17", "disc": -4487, "h": 1, "certified": true, "t": 0.003793001174926758}
+{"poly": "x^3 - 4*x - 20", "disc": -2636, "h": 1, "certified": true, "t": 0.011513233184814453}
+{"poly": "x^3 - x^2 - 11*x - 15", "disc": -3660, "h": 1, "certified": true, "t": 0.01045989990234375}
+{"poly": "x^3 - x^2 - 6*x - 20", "disc": -3035, "h": 1, "certified": true, "t": 0.010960102081298828}
+{"poly": "x^3 - x^2 + 2*x - 29", "disc": -2423, "h": 1, "certified": true, "t": 0.011413097381591797}
+{"poly": "x^3 - x^2 - 9*x + 29", "disc": -3724, "h": 3, "certified": true, "t": 0.004242897033691406}
+{"poly": "x^3 - x^2 - 9*x - 36", "disc": -4219, "h": 5, "certified": true, "t": 0.0039215087890625}
+{"poly": "x^3 - x^2 - 15*x - 29", "disc": -4232, "h": 1, "certified": true, "t": 0.011831998825073242}
+{"poly": "x^3 - x^2 - 3*x + 36", "disc": -3643, "h": 1, "certified": true, "t": 0.015208721160888672}
+{"poly": "x^3 - x^2 - 7*x + 23", "disc": -2468, "h": 1, "certified": true, "t": 0.015045642852783203}
+{"poly": "x^3 - x^2 - 14*x + 29", "disc": -4111, "h": 1, "certified": true, "t": 0.013278961181640625}
+{"poly": "x^3 - x^2 - 10*x - 13", "disc": -2855, "h": 1, "certified": true, "t": 0.0033364295959472656}
+{"poly": "x^3 - x^2 - 13*x + 27", "disc": -4300, "h": 3, "certified": true, "t": 0.0036330223083496094}
+{"poly": "x^3 - 13*x - 32", "disc": -4715, "h": 1, "certified": true, "t": 0.0147247314453125}
+{"poly": "x^3 - x^2 - 10*x - 14", "disc": -3768, "h": 7, "certified": true, "t": 0.0034301280975341797}
+{"poly": "x^3 - 3*x - 36", "disc": -3876, "h": 1, "certified": true, "t": 0.0034596920013427734}
+{"poly": "x^3 - x^2 - 11*x - 16", "disc": -4699, "h": 1, "certified": true, "t": 0.011103630065917969}
+{"poly": "x^3 - x^2 - 10*x + 46", "disc": -4952, "h": 1, "certified": true, "t": 0.0040242671966552734}
+{"poly": "x^3 - x^2 - 7*x + 27", "disc": -3688, "h": 1, "certified": true, "t": 0.012331008911132812}
+{"poly": "x^3 - 11*x - 30", "disc": -4744, "h": 4, "certified": true, "t": 0.007193326950073242}

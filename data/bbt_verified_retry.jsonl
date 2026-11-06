@@ -1,0 +1,22 @@
+{"poly": "x^3 - 9*x - 24", "disc": -3159, "kind": "b", "m": 18, "a": [15, 15, 16], "ok": true, "method": "translates", "nD": 2144054, "orbit": 2, "t": 32.42443251609802}
+{"poly": "x^3 - x^2 - 6*x + 24", "disc": -2991, "kind": "b", "m": 9968, "a": [3219, 4423, 391], "ok": null, "error": "Unable to allocate 2.79 GiB for an array with shape (124601780, 3) and data type int64", "t": 121.47120094299316}
+{"poly": "x^3 - x^2 + 14*x - 8", "disc": -2631, "kind": "b", "m": 164019, "a": [20816, 4797, 46858], "ok": true, "method": "translates", "nD": 8431906, "orbit": 2, "t": 126.00288319587708}
+{"poly": "x^3 - x^2 + 6*x - 24", "disc": -3471, "kind": "b", "m": 38013, "a": [3972, 3983, 9763], "ok": null, "error": "Unable to allocate 3.93 MiB for an array with shape (171720, 3) and data type float64", "t": 100.62270069122314}
+{"poly": "x^3 - 13*x - 28", "disc": -3095, "kind": "b", "m": 2777, "a": [820, 1818, 2741], "ok": true, "method": "translates", "nD": 1276890, "orbit": 2, "t": 21.643853425979614}
+{"poly": "x^3 - x^2 + 14*x + 8", "disc": -3623, "kind": "b", "m": 116, "a": [36, 2, 83], "ok": true, "method": "translates", "nD": 2989394, "orbit": 2, "t": 31.268422842025757}
+{"poly": "x^3 + 14*x - 12", "disc": -3716, "kind": "b", "m": 4909, "a": [2731, 2611, 1757], "ok": true, "method": "translates", "nD": 2645448, "orbit": 2, "t": 27.951526403427124}
+{"poly": "x^3 - x^2 + 10*x + 30", "disc": -3720, "kind": "b", "m": 1966, "a": [954, 966, 1039], "ok": true, "method": "translates", "nD": 5431226, "orbit": 2, "t": 65.00510025024414}
+{"poly": "x^3 - x^2 + 2*x + 24", "disc": -4087, "kind": "b", "m": 526, "a": [6, 53, 373], "ok": null, "error": "Unable to allocate 8.33 MiB for an array with shape (363906, 3) and data type float64", "t": 104.90872144699097}
+{"poly": "x^3 - x^2 - 2*x - 24", "disc": -4119, "kind": "b", "m": 2396, "a": [10, 1899, 2162], "ok": null, "error": "Unable to allocate 17.3 MiB for an array with shape (755328, 3) and data type float64", "t": 99.66426491737366}
+{"poly": "x^3 + 7*x - 24", "disc": -4231, "kind": "b", "m": 571, "a": [319, 308, 3], "ok": null, "error": "Unable to allocate 2.10 GiB for an array with shape (94110602, 3) and data type int64", "t": 57.99196648597717}
+{"poly": "x^3 - x^2 + 12*x - 24", "disc": -4308, "kind": "b", "m": 905, "a": [27, 901, 526], "ok": true, "method": "translates", "nD": 1434892, "orbit": 2, "t": 20.5905122756958}
+{"poly": "x^3 + 5*x - 12", "disc": -4388, "kind": "b", "m": 1383, "a": [666, 701, 797], "ok": null, "error": "Unable to allocate 3.21 GiB for an array with shape (143720270, 3) and data type int64", "t": 115.25808191299438}
+{"poly": "x^3 - x^2 + 7*x + 36", "disc": -4523, "kind": "b", "m": 123, "a": [75, 22, 67], "ok": true, "method": "translates", "nD": 2333992, "orbit": 2, "t": 28.6074481010437}
+{"poly": "x^3 - x^2 - 10*x + 22", "disc": -4920, "kind": "b", "m": 773, "a": [230, 77, 303], "ok": null, "error": "Unable to allocate 1.81 GiB for an array with shape (80897618, 3) and data type int64", "t": 62.18980121612549}
+{"poly": "x^3 - x^2 - 4*x + 28", "disc": -4692, "kind": "b", "m": 9719, "a": [5236, 7277, 2839], "ok": null, "error": "Unable to allocate 280. MiB for an array with shape (12246000, 3) and data type int64", "t": 9.80485200881958}
+{"poly": "x^3 - x^2 + 17*x - 5", "disc": -4632, "kind": "b", "m": 426, "a": [74, 27, 250], "ok": true, "method": "translates", "nD": 6959168, "orbit": 2, "t": 121.584233045578}
+{"poly": "x^3 - x^2 + 10*x - 42", "disc": -4904, "kind": "b", "m": 16333, "a": [7701, 3427, 10834], "ok": null, "error": "Unable to allocate 6.26 MiB for an array with shape (273700, 3) and data type float64", "t": 121.55991506576538}
+{"poly": "x^3 - x^2 + 2*x - 14", "disc": -4872, "kind": "b", "m": 129, "a": [92, 92, 38], "ok": null, "error": "Unable to allocate 740. MiB for an array with shape (32326012, 3) and data type int64", "t": 22.09777021408081}
+{"poly": "x^3 - x^2 + 13*x - 25", "disc": -4936, "kind": "b", "m": 90, "a": [70, 3, 81], "ok": null, "error": "Unable to allocate 965. MiB for an array with shape (42152578, 3) and data type int64", "t": 40.966142892837524}
+{"poly": "x^3 - x^2 - 10*x + 46", "disc": -4952, "kind": "b", "m": 108, "a": [68, 64, 41], "ok": null, "error": "Unable to allocate 12.5 MiB for an array with shape (546060, 3) and data type float64", "t": 148.55213522911072}
+{"poly": "x^3 - x^2 + 9*x + 36", "disc": -4835, "kind": "b", "m": 1468, "a": [981, 493, 359], "ok": true, "method": "translates", "nD": 13081052, "orbit": 2, "t": 162.88999247550964}

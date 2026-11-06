@@ -1,0 +1,491 @@
+{"poly": "x^3 - x^2 + 2*x + 1", "disc": -87, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.21683573722839355}
+{"poly": "x^3 - x^2 + x + 2", "disc": -139, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.06658530235290527}
+{"poly": "x^3 + 2*x - 2", "disc": -140, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.060730934143066406}
+{"poly": "x^3 - x^2 - 2*x - 2", "disc": -152, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.0685572624206543}
+{"poly": "x^3 - x^2 - x + 3", "disc": -172, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.06303596496582031}
+{"poly": "x^3 - x^2 + 2*x - 3", "disc": -175, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.05352449417114258}
+{"poly": "x^3 - x^2 + x + 1", "disc": -44, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4720017910003662}
+{"poly": "x^3 - 2", "disc": -108, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4643564224243164}
+{"poly": "x^3 + x - 1", "disc": -31, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.47097015380859375}
+{"poly": "x^3 - x^2 + 4*x - 1", "disc": -199, "N": 3, "consistent": true, "lw": "4/7*t^2 + 6/7*t + 3/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.11896443367004395}
+{"poly": "x^3 - x^2 + 4*x - 2", "disc": -212, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.06506586074829102}
+{"poly": "x^3 - x^2 + 2*x + 2", "disc": -200, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.1758882999420166}
+{"poly": "x^3 - x^2 + x - 3", "disc": -204, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16391992568969727}
+{"poly": "x^3 - 2*x - 3", "disc": -211, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.17267704010009766}
+{"poly": "x^3 + 3*x - 2", "disc": -216, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.13322901725769043}
+{"poly": "x^3 - x^2 + 1", "disc": -23, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4055025577545166}
+{"poly": "x^3 - x^2 + 3", "disc": -231, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.13803434371948242}
+{"poly": "x^3 - x - 2", "disc": -104, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.3855326175689697}
+{"poly": "x^3 - x^2 + 3*x - 2", "disc": -107, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.5313725471496582}
+{"poly": "x^3 - x - 3", "disc": -239, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.14178991317749023}
+{"poly": "x^3 + 3*x - 1", "disc": -135, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4173746109008789}
+{"poly": "x^3 + 2*x - 1", "disc": -59, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.37923431396484375}
+{"poly": "x^3 - 3", "disc": -243, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16719436645507812}
+{"poly": "x^3 + x - 3", "disc": -247, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.1351780891418457}
+{"poly": "x^3 + x - 6", "disc": -244, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16325902938842773}
+{"poly": "x^3 - x^2 - 3*x + 5", "disc": -268, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.1340787410736084}
+{"poly": "x^3 - x^2 - 3", "disc": -255, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.14408159255981445}
+{"poly": "x^3 - x^2 - 3*x - 3", "disc": -300, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.19913911819458008}
+{"poly": "x^3 - 3*x - 4", "disc": -324, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.1908111572265625}
+{"poly": "x^3 - x^2 + x - 2", "disc": -83, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4717223644256592}
+{"poly": "x^3 + 3*x - 3", "disc": -351, "N": 3, "consistent": true, "lw": "5/11*t^2 + 10/11*t + 2/11", "lw_m": 11, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.197617769241333}
+{"poly": "x^3 - 2*x - 2", "disc": -76, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.46732521057128906}
+{"poly": "x^3 - x^2 + x + 7", "disc": -356, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.22187113761901855}
+{"poly": "x^3 - x^2 + 3*x + 2", "disc": -307, "N": 2, "consistent": true, "lw": "1/2*t^2 + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.3713722229003906}
+{"poly": "x^3 - x^2 + x - 4", "disc": -379, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16532444953918457}
+{"poly": "x^3 - x^2 - 2", "disc": -116, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4390404224395752}
+{"poly": "x^3 - 4*x - 5", "disc": -419, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.13695406913757324}
+{"poly": "x^3 + 4*x - 2", "disc": -364, "N": 2, "consistent": true, "lw": "1/2*t^2 + 1/2*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.335496187210083}
+{"poly": "x^3 - x^2 + 5*x - 2", "disc": -411, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.19299936294555664}
+{"poly": "x^3 - x^2 + 2*x + 3", "disc": -367, "N": 3, "consistent": true, "lw": "7/13*t^2 + 5/13*t + 4/13", "lw_m": 13, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.3169522285461426}
+{"poly": "x^3 - x^2 + 8", "disc": -424, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.2641336917877197}
+{"poly": "x^3 - x^2 - 5*x + 8", "disc": -451, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16620683670043945}
+{"poly": "x^3 + 2*x - 8", "disc": -440, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.1809983253479004}
+{"poly": "x^3 - x^2 + 5*x - 3", "disc": -460, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.16656017303466797}
+{"poly": "x^3 - x - 8", "disc": -431, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.32162904739379883}
+{"poly": "x^3 + 4*x - 3", "disc": -499, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.13754773139953613}
+{"poly": "x^3 - x^2 + 3*x + 3", "disc": -492, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.15127325057983398}
+{"poly": "x^3 - 5*x - 6", "disc": -472, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.28486061096191406}
+{"poly": "x^3 - x^2 - x - 4", "disc": -515, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.14386320114135742}
+{"poly": "x^3 - x^2 - 2*x - 3", "disc": -327, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.7852969169616699}
+{"poly": "x^3 - x^2 + 4*x + 2", "disc": -484, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.24675679206848145}
+{"poly": "x^3 - x^2 - x + 4", "disc": -339, "N": 3, "consistent": true, "lw": "1/2*t^2 + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.7791140079498291}
+{"poly": "x^3 - x^2 - 4*x + 7", "disc": -519, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.12428474426269531}
+{"poly": "x^3 - x^2 + 2*x - 5", "disc": -543, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.13710594177246094}
+{"poly": "x^3 + 3*x - 8", "disc": -459, "N": 2, "consistent": true, "lw": "3/4*t^2 + 1/4*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.5220239162445068}
+{"poly": "x^3 - x^2 + x - 9", "disc": -516, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.36841487884521484}
+{"poly": "x^3 - x^2 + 3*x - 5", "disc": -524, "N": 2, "consistent": true, "lw": "1/2*t^2 + 1/2*t", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.3779776096343994}
+{"poly": "x^3 - x^2 + 2*x + 8", "disc": -503, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.5439639091491699}
+{"poly": "x^3 - x^2 + 7*x + 5", "disc": -652, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.330416202545166}
+{"poly": "x^3 - x^2 + 4*x + 8", "disc": -628, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4441385269165039}
+{"poly": "x^3 - x^2 - 3*x - 4", "disc": -547, "N": 3, "consistent": true, "lw": "1/2*t^2 + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 1.005237340927124}
+{"poly": "x^3 + x - 4", "disc": -436, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 1.5193226337432861}
+{"poly": "x^3 - x^2 + 4*x + 3", "disc": -687, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.18461394309997559}
+{"poly": "x^3 - x^2 - 2*x + 5", "disc": -439, "N": 5, "consistent": true, "lw": "2/5*t^2 + 2/5*t", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.7594733238220215}
+{"poly": "x^3 - 5", "disc": -675, "N": 3, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 1.102595567703247}
+{"poly": "x^3 - 3*x - 5", "disc": -567, "N": 5, "consistent": true, "lw": "11/17*t^2 + 14/17*t + 8/17", "lw_m": 17, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.5330357551574707}
+{"poly": "x^3 - x^2 - 2*x + 6", "disc": -696, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.4381980895996094}
+{"poly": "x^3 - x^2 + 6*x - 2", "disc": -728, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.27873873710632324}
+{"poly": "x^3 - x - 5", "disc": -671, "N": 5, "consistent": true, "lw": "2/5*t^2 + 2/5*t", "lw_m": 5, "lw_npts": 6, "lw_mmax": 24, "N_exact": true, "t": 1.5648534297943115}
+{"poly": "x^3 - x^2 - 6*x - 6", "disc": -744, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.5682744979858398}
+{"poly": "x^3 + 2*x - 5", "disc": -707, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.244445562362671}
+{"poly": "x^3 - x^2 + 5*x + 2", "disc": -755, "N": 2, "consistent": true, "lw": "1/2*t^2 + 1/2*t", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.5124545097351074}
+{"poly": "x^3 + 5*x - 3", "disc": -743, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.4386799335479736}
+{"poly": "x^3 + x - 5", "disc": -679, "N": 5, "consistent": true, "lw": "3/5*t^2 + 1/5*t", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 2.6963117122650146}
+{"poly": "x^3 - x^2 - 6*x + 10", "disc": -680, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.7340619564056396}
+{"poly": "x^3 - x^2 + x + 5", "disc": -748, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 1.4498114585876465}
+{"poly": "x^3 - x^2 + 3*x - 6", "disc": -771, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.2912130355834961}
+{"poly": "x^3 - x^2 + 6*x - 3", "disc": -759, "N": 3, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 0.4808499813079834}
+{"poly": "x^3 - 4*x - 6", "disc": -716, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.5461511611938477}
+{"poly": "x^3 - x^2 - 5*x - 5", "disc": -620, "N": 5, "consistent": true, "lw": "1/2*t^2 + 1/2*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 4.039558410644531}
+{"poly": "x^3 - x^2 + 4*x + 1", "disc": -335, "N": 8, "consistent": true, "lw": "3/5*t^2 + 2/5", "lw_m": 5, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 4.886744499206543}
+{"poly": "x^3 - x^2 + 5", "disc": -655, "N": 5, "consistent": true, "lw": "10/23*t^2 + 14/23*t + 6/23", "lw_m": 23, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 3.972374677658081}
+{"poly": "x^3 - x^2 - 7*x - 7", "disc": -812, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 1.447904109954834}
+{"poly": "x^3 - x^2 - x - 5", "disc": -780, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.084791898727417}
+{"poly": "x^3 - 6*x - 12", "disc": -756, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.716153621673584}
+{"poly": "x^3 - x^2 - x + 6", "disc": -835, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.4941349029541016}
+{"poly": "x^3 - 7*x - 9", "disc": -815, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.1660313606262207}
+{"poly": "x^3 - x^2 - 2*x - 5", "disc": -839, "N": 5, "consistent": true, "lw": "2/5*t^2 + 3/5*t + 1/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.5522854328155518}
+{"poly": "x^3 - x^2 - x - 11", "disc": -876, "N": 1, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 0.38365602493286133}
+{"poly": "x^3 - x^2 - 5", "disc": -695, "N": 7, "consistent": true, "lw": "2/5*t^2", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 5.303758859634399}
+{"poly": "x^3 - x^2 + 2*x - 6", "disc": -808, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.3566198348999023}
+{"poly": "x^3 - x^2 - 2*x + 12", "disc": -843, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.6872544288635254}
+{"poly": "x^3 - x^2 + 4*x - 6", "disc": -804, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.754406213760376}
+{"poly": "x^3 - 4*x - 12", "disc": -908, "N": 2, "consistent": true, "lw": "1/4*t^2 + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.8464958667755127}
+{"poly": "x^3 + 5*x - 4", "disc": -932, "N": 2, "consistent": true, "lw": "2/5*t^2 + 1/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.7625100612640381}
+{"poly": "x^3 + 5*x - 1", "disc": -527, "N": 8, "consistent": true, "lw": "2/5*t^2 + 2/5*t + 2/5", "lw_m": 5, "lw_npts": 8, "lw_mmax": 24, "N_exact": true, "t": 8.131868124008179}
+{"poly": "x^3 - 2*x - 6", "disc": -940, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 1.5640888214111328}
+{"poly": "x^3 - x^2 + 2*x - 12", "disc": -883, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 2.9855551719665527}
+{"poly": "x^3 - x^2 - 7*x + 12", "disc": -907, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.755495071411133}
+{"poly": "x^3 - 6", "disc": -972, "N": 2, "consistent": true, "lw": "1/2*t^2 + 1/2*t", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 0.44513750076293945}
+{"poly": "x^3 - x^2 + 6*x - 12", "disc": -867, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.7217447757720947}
+{"poly": "x^3 - 12", "disc": -972, "N": 2, "consistent": true, "lw": "5/18*t^2 + 1/6*t + 1/3", "lw_m": 18, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 0.6751916408538818}
+{"poly": "x^3 - 5*x - 7", "disc": -823, "N": 7, "consistent": true, "lw": "3/5*t^2 + 4/5*t + 2/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 6.280541658401489}
+{"poly": "x^3 - 2*x - 12", "disc": -964, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.3261704444885254}
+{"poly": "x^3 - x^2 + x + 11", "disc": -856, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.476903915405273}
+{"poly": "x^3 - x^2 + 2*x + 5", "disc": -863, "N": 8, "consistent": true, "lw": "3/5*t^2 + 2/5*t + 1/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 7.404685974121094}
+{"poly": "x^3 + 2*x - 6", "disc": -1004, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.7652876377105713}
+{"poly": "x^3 - x^2 + 6", "disc": -948, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.992981195449829}
+{"poly": "x^3 + 4*x - 12", "disc": -1036, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.5755558013916016}
+{"poly": "x^3 - x^2 - 5*x - 6", "disc": -1011, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.2073419094085693}
+{"poly": "x^3 - x - 12", "disc": -971, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.853094577789307}
+{"poly": "x^3 - x^2 - 6", "disc": -996, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.648738861083984}
+{"poly": "x^3 - x^2 + x + 6", "disc": -1059, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.9859559535980225}
+{"poly": "x^3 - 4*x - 7", "disc": -1067, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.1910598278045654}
+{"poly": "x^3 - x^2 + 2*x + 12", "disc": -1075, "N": 2, "consistent": true, "lw": "3/4*t^2 + 1/4*t", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 1.0947284698486328}
+{"poly": "x^3 - x^2 - x + 13", "disc": -1068, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": true, "t": 4.033488512039185}
+{"poly": "x^3 - x^2 - 12", "disc": -984, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 11.237979412078857}
+{"poly": "x^3 - x^2 + 8*x - 12", "disc": -1048, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.228917360305786}
+{"poly": "x^3 + 3*x - 6", "disc": -1080, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.434258460998535}
+{"poly": "x^3 - x^2 - 3*x + 8", "disc": -1147, "N": 3, "consistent": true, "lw": "5/9*t^2 + 8/9*t + 4/9", "lw_m": 9, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.4354991912841797}
+{"poly": "x^3 - x^2 + 4*x - 7", "disc": -1087, "N": 7, "consistent": true, "lw": "1/2*t^2 + 1/2*t", "lw_m": 2, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 9.668316125869751}
+{"poly": "x^3 - x^2 + 6*x + 2", "disc": -1144, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.422314167022705}
+{"poly": "x^3 - x^2 + x - 13", "disc": -1096, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.923317432403564}
+{"poly": "x^3 - x^2 - 8*x + 14", "disc": -1108, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.164306402206421}
+{"poly": "x^3 - x^2 - x + 7", "disc": -1164, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.623260021209717}
+{"poly": "x^3 - x^2 - 10*x - 11", "disc": -1191, "N": 3, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 3, "lw_mmax": 24, "N_exact": true, "t": 1.4251904487609863}
+{"poly": "x^3 - x^2 - 6*x + 11", "disc": -1135, "N": 7, "consistent": true, "lw": "8/15*t^2 + 2/15*t + 4/15", "lw_m": 15, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 12.121703386306763}
+{"poly": "x^3 - x^2 + 6*x - 5", "disc": -983, "N": 13, "consistent": true, "lw": "7/11*t^2 + 7/11*t + 1/11", "lw_m": 11, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 23.820581197738647}
+{"poly": "x^3 - x^2 + 5*x - 7", "disc": -1196, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.5476737022399902}
+{"poly": "x^3 - x^2 - 6*x - 7", "disc": -1207, "N": 5, "consistent": true, "lw": "3/7*t^2 + 4/7*t + 3/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.9527673721313477}
+{"poly": "x^3 - x^2 + 9*x + 3", "disc": -888, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 28.547303915023804}
+{"poly": "x^3 - x^2 + 8*x + 8", "disc": -1208, "N": 2, "consistent": true, "lw": "1/4*t^2 + 1/4*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 2.773282051086426}
+{"poly": "x^3 - x^2 - 3*x - 6", "disc": -1203, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.559499740600586}
+{"poly": "x^3 - x^2 + 7*x - 2", "disc": -1187, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.546896457672119}
+{"poly": "x^3 + 6*x - 12", "disc": -1188, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.156397819519043}
+{"poly": "x^3 - 8*x - 11", "disc": -1219, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.2875287532806396}
+{"poly": "x^3 - x^2 + 5*x + 11", "disc": -1172, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.877310514450073}
+{"poly": "x^3 - x^2 - 9*x + 16", "disc": -1259, "N": 4, "consistent": true, "lw": "3/7*t^2 + 1/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.7913641929626465}
+{"poly": "x^3 - x^2 - 5*x + 10", "disc": -1235, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.826420783996582}
+{"poly": "x^3 - x^2 + 7*x - 4", "disc": -1267, "N": 3, "consistent": true, "lw": "1/2*t^2 + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 2.453986406326294}
+{"poly": "x^3 - 2*x - 7", "disc": -1291, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.9214084148406982}
+{"poly": "x^3 - 10*x - 14", "disc": -1292, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.228166341781616}
+{"poly": "x^3 - x^2 - 2*x + 7", "disc": -1007, "N": 7, "consistent": true, "lw": "14/23*t^2 + 13/23*t + 2/23", "lw_m": 23, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 31.329951286315918}
+{"poly": "x^3 + 5*x - 5", "disc": -1175, "N": 11, "consistent": true, "lw": "9/13*t^2 + 5/13*t + 3/13", "lw_m": 13, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 21.312775373458862}
+{"poly": "x^3 + x - 7", "disc": -1327, "N": 5, "consistent": true, "lw": "7/17*t^2 + 3/17*t + 1/17", "lw_m": 17, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 2.189405679702759}
+{"poly": "x^3 - x^2 + 7", "disc": -1295, "N": 8, "consistent": true, "lw": "3/5*t^2 + 4/5*t + 1/5", "lw_m": 5, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 13.629311800003052}
+{"poly": "x^3 - x^2 + 9*x + 7", "disc": -1316, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 11.735674381256104}
+{"poly": "x^3 - x - 7", "disc": -1319, "N": 13, "consistent": true, "lw": "2/7*t^2 + 2/7*t", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 12.066148281097412}
+{"poly": "x^3 - x^2 - 4*x + 9", "disc": -1231, "N": 9, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 20.879647254943848}
+{"poly": "x^3 - x^2 - 3*x - 13", "disc": -1300, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 16.39003014564514}
+{"poly": "x^3 - x^2 - 7", "disc": -1351, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.5093560218811035}
+{"poly": "x^3 + 2*x - 7", "disc": -1355, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.3825185298919678}
+{"poly": "x^3 - x^2 - 9*x - 10", "disc": -1363, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.5322446823120117}
+{"poly": "x^3 - x^2 - 6*x + 16", "disc": -1055, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 44.51942801475525}
+{"poly": "x^3 - x^2 + 10*x - 12", "disc": -1419, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.1925599575042725}
+{"poly": "x^3 - x^2 + 6*x + 3", "disc": -1383, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.7836692333221436}
+{"poly": "x^3 - x^2 + 3*x - 8", "disc": -1427, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.6906094551086426}
+{"poly": "x^3 + 3*x - 12", "disc": -999, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 52.780617237091064}
+{"poly": "x^3 - x^2 + 7*x - 5", "disc": -1388, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.624860048294067}
+{"poly": "x^3 - x^2 + 9*x - 13", "disc": -1336, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.893663167953491}
+{"poly": "x^3 + 10*x - 8", "disc": -1432, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.5399510860443115}
+{"poly": "x^3 - x^2 - 7*x - 8", "disc": -1347, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 13.452633619308472}
+{"poly": "x^3 + 5*x - 14", "disc": -1448, "N": 2, "consistent": true, "lw": "3/4*t^2 + 1/4*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 3.463124990463257}
+{"poly": "x^3 + 3*x - 7", "disc": -1431, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 5.637246131896973}
+{"poly": "x^3 - x^2 - 7*x + 13", "disc": -1452, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.128875732421875}
+{"poly": "x^3 - x^2 - 5*x + 17", "disc": -1420, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.425750494003296}
+{"poly": "x^3 - x^2 - 3*x + 15", "disc": -1272, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 34.34322643280029}
+{"poly": "x^3 - x^2 - 8*x - 9", "disc": -1407, "N": 5, "consistent": true, "lw": "11/18*t^2 + 1/9*t", "lw_m": 18, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 14.885573148727417}
+{"poly": "x^3 - x^2 - x + 8", "disc": -1547, "N": 4, "consistent": true, "lw": "5/7*t^2 + 2/7*t", "lw_m": 7, "lw_npts": 6, "lw_mmax": 24, "N_exact": true, "t": 1.0120530128479004}
+{"poly": "x^3 + 7*x - 12", "disc": -1315, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 33.51330089569092}
+{"poly": "x^3 - 6*x - 16", "disc": -1512, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.654742956161499}
+{"poly": "x^3 - x^2 + 4*x + 12", "disc": -1236, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 38.7647910118103}
+{"poly": "x^3 + 8*x - 12", "disc": -1484, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.331309080123901}
+{"poly": "x^3 - x^2 + 6*x + 12", "disc": -1491, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 11.227088928222656}
+{"poly": "x^3 - x^2 + 5*x + 5", "disc": -1580, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.462108850479126}
+{"poly": "x^3 + 4*x - 7", "disc": -1579, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 5.893162250518799}
+{"poly": "x^3 - x^2 + 5*x - 8", "disc": -1515, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.031059265136719}
+{"poly": "x^3 - x^2 - 2*x - 7", "disc": -1567, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.549628496170044}
+{"poly": "x^3 + 7*x - 2", "disc": -1480, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 15.808017015457153}
+{"poly": "x^3 + 7*x - 3", "disc": -1615, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.0843093395233154}
+{"poly": "x^3 - x^2 - 3*x - 7", "disc": -1612, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.487286329269409}
+{"poly": "x^3 + 6*x - 5", "disc": -1539, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.108365058898926}
+{"poly": "x^3 - x^2 + x - 8", "disc": -1619, "N": 4, "consistent": true, "lw": "3/5*t^2 + 2/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 2.278110980987549}
+{"poly": "x^3 - 5*x - 16", "disc": -1603, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.703020811080933}
+{"poly": "x^3 - x^2 - 2*x + 16", "disc": -1559, "N": 2, "consistent": true, "lw": "8/11*t^2 + 2/11*t + 5/11", "lw_m": 11, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 15.47016429901123}
+{"poly": "x^3 - 5*x - 9", "disc": -1687, "N": 7, "consistent": true, "lw": "2/5*t^2 + 3/5*t + 2/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 7.954536199569702}
+{"poly": "x^3 - x^2 - 7*x + 19", "disc": -1464, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 29.2662672996521}
+{"poly": "x^3 + 11*x - 4", "disc": -1439, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 48.80660676956177}
+{"poly": "x^3 - 2*x - 16", "disc": -1720, "N": 2, "consistent": true, "lw": "1/4*t^2 + 3/7*t + 2/7", "lw_m": 14, "lw_npts": 6, "lw_mmax": 24, "N_exact": true, "t": 7.110495090484619}
+{"poly": "x^3 - 9*x - 13", "disc": -1647, "N": 7, "consistent": true, "lw": "14/23*t^2 + 2/23*t + 9/23", "lw_m": 23, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 37.25699019432068}
+{"poly": "x^3 + 2*x - 16", "disc": -1736, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.129927396774292}
+{"poly": "x^3 - x^2 - 5*x + 11", "disc": -1708, "N": 5, "consistent": true, "lw": "7/22*t^2 + 7/11*t + 5/22", "lw_m": 22, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 31.637728929519653}
+{"poly": "x^3 - x^2 + 7*x + 2", "disc": -1675, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 44.96122741699219}
+{"poly": "x^3 - x^2 - 4*x - 23", "disc": -1751, "N": 3, "consistent": true, "lw": "22/27*t^2 + 2/27", "lw_m": 9, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 2.9743642807006836}
+{"poly": "x^3 - x^2 - 8*x + 15", "disc": -1743, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.911369323730469}
+{"poly": "x^3 - x^2 + 10*x + 8", "disc": -1759, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.050498008728027344}
+{"poly": "x^3 + 11*x - 8", "disc": -1763, "N": 4, "consistent": true, "lw": "1/4*t^2 + 1/4", "lw_m": 4, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 0.8203856945037842}
+{"poly": "x^3 - x^2 + x - 24", "disc": -1691, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 49.07274055480957}
+{"poly": "x^3 - x^2 + 2*x - 16", "disc": -1607, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 56.75011157989502}
+{"poly": "x^3 - x^2 - 5*x - 15", "disc": -1740, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.48723554611206}
+{"poly": "x^3 + 3*x - 16", "disc": -1755, "N": 3, "consistent": true, "lw": "1/4*t^2 + 1/4*t", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 8.159990310668945}
+{"poly": "x^3 + 3*x - 23", "disc": -1599, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 63.33981919288635}
+{"poly": "x^3 - x^2 + 3*x + 7", "disc": -1772, "N": 7, "consistent": true, "lw": "1/2*t^2 + 1/2*t + 1/2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 7.555648565292358}
+{"poly": "x^3 - x^2 + 12*x - 8", "disc": -1700, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 54.43551254272461}
+{"poly": "x^3 - x^2 + x + 8", "disc": -1843, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.746540546417236}
+{"poly": "x^3 - x^2 + 8*x - 3", "disc": -1807, "N": 8, "consistent": true, "lw": "2/5*t^2 + 1/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 13.789249897003174}
+{"poly": "x^3 - x^2 + 7*x + 13", "disc": -1868, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.622650384902954}
+{"poly": "x^3 - x^2 + 4*x - 9", "disc": -1815, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 19.251006364822388}
+{"poly": "x^3 - x^2 - 6*x + 20", "disc": -1915, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.604409217834473}
+{"poly": "x^3 - x^2 - 4*x + 10", "disc": -1668, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 77.56509256362915}
+{"poly": "x^3 - x^2 - 5*x - 8", "disc": -1955, "N": 4, "consistent": true, "lw": "7/13*t^2 + 4/13", "lw_m": 13, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 1.3657267093658447}
+{"poly": "x^3 - x^2 + 7*x + 3", "disc": -1932, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.692349672317505}
+{"poly": "x^3 - x^2 + x - 17", "disc": -1892, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 18.114142656326294}
+{"poly": "x^3 - x^2 + 2*x + 25", "disc": -1967, "N": 3, "consistent": true, "lw": "1/7*t^2 + 1/7*t", "lw_m": 7, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 1.9360806941986084}
+{"poly": "x^3 - x^2 + 8*x - 5", "disc": -1959, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.515277147293091}
+{"poly": "x^3 - x^2 - 3*x + 10", "disc": -2003, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.133852481842041}
+{"poly": "x^3 - x^2 + 9*x - 17", "disc": -1988, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.646966457366943}
+{"poly": "x^3 - x^2 + 6*x + 5", "disc": -2023, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.87079405784607}
+{"poly": "x^3 - 9*x - 20", "disc": -1971, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 20.8241024017334}
+{"poly": "x^3 + 7*x - 5", "disc": -2047, "N": 8, "consistent": true, "lw": "5/9*t^2 + 2/9*t + 4/9", "lw_m": 9, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 7.423426151275635}
+{"poly": "x^3 - x^2 + 13*x - 5", "disc": -2036, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 24.01681399345398}
+{"poly": "x^3 - x^2 - 2*x + 27", "disc": -2063, "N": 3, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 3, "lw_mmax": 24, "N_exact": true, "t": 1.7190744876861572}
+{"poly": "x^3 + 7*x - 16", "disc": -2071, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04886031150817871}
+{"poly": "x^3 - x^2 + 8*x - 2", "disc": -1812, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 75.67515635490417}
+{"poly": "x^3 - x^2 + 5*x - 17", "disc": -1704, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 124.79464340209961}
+{"poly": "x^3 - x^2 - x - 26", "disc": -2091, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 23.710179805755615}
+{"poly": "x^3 - x^2 - 3*x + 19", "disc": -2132, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 16.80959415435791}
+{"poly": "x^3 - x^2 - 4*x + 11", "disc": -2159, "N": 7, "consistent": true, "lw": "6/13*t^2 + 1/13*t + 1/13", "lw_m": 13, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 0.45392370223999023}
+{"poly": "x^3 - 2*x - 9", "disc": -2155, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 17.0817654132843}
+{"poly": "x^3 + 9*x - 14", "disc": -2052, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 78.4302351474762}
+{"poly": "x^3 - 7*x - 11", "disc": -1895, "N": 11, "consistent": true, "lw": "17/23*t^2 + 20/23*t + 6/23", "lw_m": 23, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 125.30152988433838}
+{"poly": "x^3 - 7*x - 18", "disc": -1844, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 139.7389485836029}
+{"poly": "x^3 + 3*x - 27", "disc": -2199, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.551082134246826}
+{"poly": "x^3 - x - 16", "disc": -1727, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 170.42870545387268}
+{"poly": "x^3 - x^2 - 3*x - 17", "disc": -2168, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 51.07086777687073}
+{"poly": "x^3 - x^2 + 3*x + 8", "disc": -2227, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.624511241912842}
+{"poly": "x^3 - 5*x - 10", "disc": -2200, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 22.232414484024048}
+{"poly": "x^3 + 5*x - 8", "disc": -2228, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 13.230298042297363}
+{"poly": "x^3 - x^2 - 5*x + 12", "disc": -2235, "N": 3, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 1, "lw_mmax": 24, "N_exact": true, "t": 14.761688709259033}
+{"poly": "x^3 - x^2 - 2*x + 10", "disc": -2264, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.930219173431396}
+{"poly": "x^3 - x^2 + 4*x - 10", "disc": -2260, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 33.51480221748352}
+{"poly": "x^3 - x^2 - 4*x - 7", "disc": -1583, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 267.70395946502686}
+{"poly": "x^3 - x^2 + 5*x - 10", "disc": -2315, "N": 5, "consistent": true, "lw": "1/4*t^2 + 3/4*t + 1/4", "lw_m": 4, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 7.175173997879028}
+{"poly": "x^3 - x^2 - x + 28", "disc": -2283, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 35.3751745223999}
+{"poly": "x^3 - x^2 + x + 9", "disc": -2316, "N": 3, "consistent": true, "lw": "2/3*t^2 + 1/3*t", "lw_m": 3, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 12.398695468902588}
+{"poly": "x^3 + 8*x - 3", "disc": -2291, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 24.840620279312134}
+{"poly": "x^3 - x^2 - 7*x - 17", "disc": -2148, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 156.54730939865112}
+{"poly": "x^3 - x^2 - 11*x + 21", "disc": -2220, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 87.05172300338745}
+{"poly": "x^3 + 7*x - 6", "disc": -2344, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 31.70943021774292}
+{"poly": "x^3 - x^2 - 12*x + 23", "disc": -2167, "N": 8, "consistent": true, "lw": "11/21*t^2 + 17/21*t + 4/21", "lw_m": 21, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 179.01768493652344}
+{"poly": "x^3 - x^2 - x - 9", "disc": -2380, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.3980531692504883}
+{"poly": "x^3 - x^2 + 6*x - 20", "disc": -2387, "N": 4, "consistent": true, "lw": "11/14*t^2 + 1/14*t + 1/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 1.3913612365722656}
+{"poly": "x^3 - x^2 + 13*x + 3", "disc": -2388, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.042144775390625}
+{"poly": "x^3 - 9*x - 14", "disc": -2376, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 33.03791522979736}
+{"poly": "x^3 - x^2 + 2*x - 10", "disc": -2408, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.8824462890625}
+{"poly": "x^3 - x^2 + 4*x - 20", "disc": -2420, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 13.408081293106079}
+{"poly": "x^3 - x^2 + 8*x + 2", "disc": -2372, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 77.91119074821472}
+{"poly": "x^3 + 12*x - 23", "disc": -2355, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 80.97284460067749}
+{"poly": "x^3 + 13*x - 6", "disc": -2440, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04491710662841797}
+{"poly": "x^3 - 4*x - 10", "disc": -2444, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.4967377185821533}
+{"poly": "x^3 - x^2 + 2*x - 29", "disc": -2423, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.894838809967041}
+{"poly": "x^3 - 6*x - 11", "disc": -2403, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 44.6013617515564}
+{"poly": "x^3 - x^2 - 9*x - 19", "disc": -2476, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.398903131484985}
+{"poly": "x^3 - x^2 - 7*x + 23", "disc": -2468, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 14.799368858337402}
+{"poly": "x^3 - x^2 - 6*x + 13", "disc": -2207, "N": 13, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 193.29517483711243}
+{"poly": "x^3 - x^2 - 2*x + 20", "disc": -2491, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 13.30250597000122}
+{"poly": "x^3 - x^2 + 2*x + 9", "disc": -2503, "N": 8, "consistent": true, "lw": "3/5*t^2 + 4/5*t + 2/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 11.534130573272705}
+{"poly": "x^3 - x^2 + x + 19", "disc": -2504, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 32.64235758781433}
+{"poly": "x^3 - 6*x - 20", "disc": -2484, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 67.07218074798584}
+{"poly": "x^3 - x^2 - 5*x - 9", "disc": -2508, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 5.1589648723602295}
+{"poly": "x^3 - 7*x - 12", "disc": -2516, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.0394291877746582}
+{"poly": "x^3 - 8*x - 13", "disc": -2515, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.67754077911377}
+{"poly": "x^3 - x^2 - x - 19", "disc": -2540, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.066967725753784}
+{"poly": "x^3 - 5*x - 20", "disc": -2575, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04082155227661133}
+{"poly": "x^3 - x^2 + 3*x + 27", "disc": -2348, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 189.5629186630249}
+{"poly": "x^3 - x^2 - 7*x - 10", "disc": -2579, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.615647077560425}
+{"poly": "x^3 - x^2 + 14*x - 4", "disc": -2555, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.520357608795166}
+{"poly": "x^3 - x^2 - 4*x - 9", "disc": -2599, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.469603061676025}
+{"poly": "x^3 - x^2 + 9*x - 3", "disc": -2604, "N": 3, "consistent": true, "lw": "2/3*t^2 + 2/3*t + 1/3", "lw_m": 3, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 3.980396032333374}
+{"poly": "x^3 - x^2 + 14*x - 8", "disc": -2631, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04276871681213379}
+{"poly": "x^3 - x^2 + 9*x - 2", "disc": -2627, "N": 4, "consistent": true, "lw": "6/13*t^2 + 1/13*t + 1/13", "lw_m": 13, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 0.7908647060394287}
+{"poly": "x^3 - 4*x - 20", "disc": -2636, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.36912202835083}
+{"poly": "x^3 - x^2 + 9*x - 4", "disc": -2635, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.172009468078613}
+{"poly": "x^3 - x^2 + 8*x + 3", "disc": -2647, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.0593621730804443}
+{"poly": "x^3 - x^2 - 4*x + 31", "disc": -2591, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 36.869943380355835}
+{"poly": "x^3 - x^2 + 10", "disc": -2660, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 18.61254096031189}
+{"poly": "x^3 - 2*x - 10", "disc": -2668, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 14.253834009170532}
+{"poly": "x^3 - x^2 + 6*x + 16", "disc": -2351, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 247.24241733551025}
+{"poly": "x^3 - x - 20", "disc": -2699, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 53.34085416793823}
+{"poly": "x^3 + 2*x - 20", "disc": -2708, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 32.51711463928223}
+{"poly": "x^3 + 8*x - 5", "disc": -2723, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.100564956665039}
+{"poly": "x^3 + 3*x - 20", "disc": -2727, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.042913198471069336}
+{"poly": "x^3 - x^2 + 6*x + 1", "disc": -959, "N": 27, "consistent": true, "lw": "2/7*t^2 + 3/7*t + 2/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 699.1400127410889}
+{"poly": "x^3 - x^2 + 20", "disc": -2680, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 107.79727077484131}
+{"poly": "x^3 + 2*x - 10", "disc": -2732, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.4639732837677}
+{"poly": "x^3 - 11*x - 17", "disc": -2479, "N": 11, "consistent": true, "lw": "2/9*t^2 + 2/9*t + 5/18", "lw_m": 18, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 254.36476874351501}
+{"poly": "x^3 + 10*x - 16", "disc": -2728, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 43.7621533870697}
+{"poly": "x^3 - x^2 - 2*x + 11", "disc": -2791, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.750455856323242}
+{"poly": "x^3 - x^2 + 10*x - 20", "disc": -2795, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.353881120681763}
+{"poly": "x^3 - x^2 - 10", "disc": -2740, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 70.7507061958313}
+{"poly": "x^3 - x^2 + 7*x - 10", "disc": -2803, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.824767589569092}
+{"poly": "x^3 - x^2 + 13*x - 9", "disc": -2184, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 517.112096786499}
+{"poly": "x^3 - x^2 + 9*x + 15", "disc": -2820, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.08216738700866699}
+{"poly": "x^3 - x^2 + 4*x - 11", "disc": -2759, "N": 27, "consistent": true, "lw": "2/7*t^2 + 1/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 82.9815456867218}
+{"poly": "x^3 - x^2 + 6*x + 6", "disc": -2424, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 359.96335220336914}
+{"poly": "x^3 - x^2 - 6*x - 16", "disc": -1951, "N": 2, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 656.4952614307404}
+{"poly": "x^3 - x^2 + 2*x + 20", "disc": -2867, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.397385120391846}
+{"poly": "x^3 + 13*x - 10", "disc": -2872, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.10843062400817871}
+{"poly": "x^3 - x^2 - 10*x - 13", "disc": -2855, "N": 23, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 45.05320501327515}
+{"poly": "x^3 + 14*x - 4", "disc": -2852, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 59.0940420627594}
+{"poly": "x^3 + 3*x - 10", "disc": -2808, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 62.6739935874939}
+{"poly": "x^3 - x^2 - x - 10", "disc": -2915, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.996067762374878}
+{"poly": "x^3 - x^2 + 5*x - 11", "disc": -2796, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 95.27193880081177}
+{"poly": "x^3 - x^2 - 13*x - 17", "disc": -2892, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.40888500213623}
+{"poly": "x^3 - x^2 + 14*x - 12", "disc": -2923, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 8.57887578010559}
+{"poly": "x^3 - x^2 + 6*x - 11", "disc": -2951, "N": 8, "consistent": true, "lw": "2/5*t^2 + 2/5*t + 1/5", "lw_m": 5, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 11.323827981948853}
+{"poly": "x^3 - x^2 + 6*x + 7", "disc": -2879, "N": 27, "consistent": true, "lw": "5/7*t^2 + 2/7*t + 2/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 51.46703243255615}
+{"poly": "x^3 - x^2 + 5*x + 19", "disc": -2964, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.0942387580871582}
+{"poly": "x^3 - x^2 - 6*x + 24", "disc": -2991, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.07247400283813477}
+{"poly": "x^3 + 4*x - 10", "disc": -2956, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.462117195129395}
+{"poly": "x^3 - x^2 - 4*x - 20", "disc": -3012, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04221224784851074}
+{"poly": "x^3 - 4*x - 11", "disc": -3011, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 3.485015392303467}
+{"poly": "x^3 - x^2 + 8*x - 1", "disc": -1871, "N": 27, "consistent": true, "lw": "2/7*t^2 + 2/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 750.3890817165375}
+{"poly": "x^3 - x^2 - 6*x - 20", "disc": -3035, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 18.246806383132935}
+{"poly": "x^3 - x^2 - 8*x + 24", "disc": -2472, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 450.0801386833191}
+{"poly": "x^3 - x^2 + 7*x + 6", "disc": -3027, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 28.97241449356079}
+{"poly": "x^3 + 3*x - 31", "disc": -2895, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 71.09512257575989}
+{"poly": "x^3 + 11*x - 16", "disc": -3059, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 43.03006601333618}
+{"poly": "x^3 - x^2 - 5*x - 30", "disc": -2955, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 92.22200584411621}
+{"poly": "x^3 - 13*x - 28", "disc": -3095, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.037787675857543945}
+{"poly": "x^3 - x^2 - x + 21", "disc": -2860, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 152.44535279273987}
+{"poly": "x^3 + 7*x - 20", "disc": -3043, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 81.47582054138184}
+{"poly": "x^3 - x^2 + x - 11", "disc": -3116, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.827574968338013}
+{"poly": "x^3 - x^2 - 13*x + 26", "disc": -3107, "N": 16, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 45.47082161903381}
+{"poly": "x^3 - x^2 - 6*x - 10", "disc": -2920, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 157.2682888507843}
+{"poly": "x^3 - x^2 + 4*x + 7", "disc": -2039, "N": 27, "consistent": true, "lw": "2/7*t^2 + 5/7*t + 1/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 828.6251838207245}
+{"poly": "x^3 - 9*x - 24", "disc": -3159, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.06837296485900879}
+{"poly": "x^3 - x^2 - 5*x - 10", "disc": -3115, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 46.41875696182251}
+{"poly": "x^3 - x^2 + 13*x - 17", "disc": -3128, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 35.30148363113403}
+{"poly": "x^3 - x^2 + 4*x + 9", "disc": -3039, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 146.0305118560791}
+{"poly": "x^3 - 9*x - 15", "disc": -3159, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 41.609538316726685}
+{"poly": "x^3 - x^2 - 13*x + 33", "disc": -3148, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 52.445245027542114}
+{"poly": "x^3 - x^2 + 5*x - 21", "disc": -2644, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 520.0388774871826}
+{"poly": "x^3 - x^2 + 10*x - 33", "disc": -3055, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 216.94004559516907}
+{"poly": "x^3 + 8*x - 20", "disc": -3212, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.7704799175262451}
+{"poly": "x^3 + 14*x - 8", "disc": -3176, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 108.98188090324402}
+{"poly": "x^3 - x^2 - 3*x + 23", "disc": -3208, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 150.9353048801422}
+{"poly": "x^3 - x^2 + x + 30", "disc": -2747, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 557.0746147632599}
+{"poly": "x^3 - x^2 - 3*x - 21", "disc": -3252, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.10431814193725586}
+{"poly": "x^3 - x^2 + 14*x + 22", "disc": -3256, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.10267233848571777}
+{"poly": "x^3 - 8*x - 14", "disc": -3244, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 49.233192682266235}
+{"poly": "x^3 - x - 11", "disc": -3263, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.0250558853149414}
+{"poly": "x^3 - 7*x - 13", "disc": -3191, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 336.43686056137085}
+{"poly": "x^3 - x^2 + 12*x + 12", "disc": -3300, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.040944576263427734}
+{"poly": "x^3 - x^2 + 9*x + 2", "disc": -3259, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 138.0617070198059}
+{"poly": "x^3 - 14*x - 23", "disc": -3307, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 37.81993651390076}
+{"poly": "x^3 - x^2 + 15*x - 3", "disc": -3180, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 387.04862546920776}
+{"poly": "x^3 + x - 22", "disc": -3268, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 173.24474549293518}
+{"poly": "x^3 - 3*x - 22", "disc": -3240, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 330.50261211395264}
+{"poly": "x^3 - x^2 + 8*x - 35", "disc": -3351, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 34.35822892189026}
+{"poly": "x^3 - x^2 + 8*x + 5", "disc": -3359, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 18.799018144607544}
+{"poly": "x^3 - x^2 - 2*x - 10", "disc": -3064, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 647.8569076061249}
+{"poly": "x^3 + 9*x - 4", "disc": -3348, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 114.19008922576904}
+{"poly": "x^3 - x^2 + 15*x - 11", "disc": -3404, "N": 13, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.4166290760040283}
+{"poly": "x^3 - x^2 - 11*x + 22", "disc": -3179, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 551.5284373760223}
+{"poly": "x^3 + 8*x - 7", "disc": -3371, "N": 16, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 64.40951013565063}
+{"poly": "x^3 - x^2 - 12*x - 24", "disc": -3444, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.041742801666259766}
+{"poly": "x^3 - x^2 - 14*x - 19", "disc": -3439, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.382915019989014}
+{"poly": "x^3 - x^2 + 3*x - 12", "disc": -3387, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 31.804981470108032}
+{"poly": "x^3 - x^2 + 6*x - 24", "disc": -3471, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.0488429069519043}
+{"poly": "x^3 - x^2 - 5*x + 14", "disc": -3451, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 11.314697980880737}
+{"poly": "x^3 + 9*x - 3", "disc": -3159, "N": 19, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 594.9832010269165}
+{"poly": "x^3 - x^2 - 6*x + 15", "disc": -3495, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 12.002970218658447}
+{"poly": "x^3 - x^2 + 4*x - 24", "disc": -3540, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.041269779205322266}
+{"poly": "x^3 + 4*x - 11", "disc": -3523, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 43.72156739234924}
+{"poly": "x^3 - x^2 + 4*x + 33", "disc": -3543, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 42.853882789611816}
+{"poly": "x^3 - x^2 - 16*x + 33", "disc": -3127, "N": 9, "consistent": true, "lw": "6/17*t^2 + 6/17", "lw_m": 17, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 719.7868311405182}
+{"poly": "x^3 - x^2 + 6*x + 20", "disc": -3427, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 136.12857580184937}
+{"poly": "x^3 + 9*x - 5", "disc": -3591, "N": 5, "consistent": true, "lw": "1/2*t^2", "lw_m": 2, "lw_npts": 3, "lw_mmax": 24, "N_exact": true, "t": 7.36127781867981}
+{"poly": "x^3 - x^2 + 2*x + 34", "disc": -3592, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.05483412742614746}
+{"poly": "x^3 - x^2 - 9*x + 19", "disc": -3596, "N": 10, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.697070837020874}
+{"poly": "x^3 - x^2 - 6*x - 11", "disc": -3599, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 16.023856163024902}
+{"poly": "x^3 - x^2 + 13*x + 11", "disc": -3604, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.05472278594970703}
+{"poly": "x^3 - x^2 + 10*x - 3", "disc": -3615, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.970618963241577}
+{"poly": "x^3 - x^2 + 5*x - 12", "disc": -3331, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 318.57084131240845}
+{"poly": "x^3 - x^2 - 8*x - 33", "disc": -3575, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 78.48511362075806}
+{"poly": "x^3 - x^2 + 14*x + 8", "disc": -3623, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04672670364379883}
+{"poly": "x^3 - x^2 - x + 12", "disc": -3619, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 67.2465124130249}
+{"poly": "x^3 - x^2 - 3*x + 36", "disc": -3643, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 23.487126111984253}
+{"poly": "x^3 - x^2 + x + 23", "disc": -3652, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.05432295799255371}
+{"poly": "x^3 - x^2 + 10*x - 2", "disc": -3656, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 7.982048988342285}
+{"poly": "x^3 - x^2 + 4*x + 10", "disc": -3620, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 58.419227838516235}
+{"poly": "x^3 - x^2 - 2*x - 11", "disc": -3671, "N": 13, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 24.344918489456177}
+{"poly": "x^3 - x^2 - 11*x - 21", "disc": -2676, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1272.6671497821808}
+{"poly": "x^3 - x^2 - 8*x + 39", "disc": -3687, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 9.186589002609253}
+{"poly": "x^3 + 15*x - 4", "disc": -3483, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 306.4282305240631}
+{"poly": "x^3 - x^2 - 3*x + 13", "disc": -3692, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.980757474899292}
+{"poly": "x^3 - x^2 + 3*x - 23", "disc": -3308, "N": 10, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 543.925600528717}
+{"poly": "x^3 + 18*x - 17", "disc": -3459, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 372.42987418174744}
+{"poly": "x^3 - x^2 - 3*x + 12", "disc": -3075, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1237.3424470424652}
+{"poly": "x^3 + 14*x - 12", "disc": -3716, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.08901453018188477}
+{"poly": "x^3 - x^2 + 10*x + 30", "disc": -3720, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.08932638168334961}
+{"poly": "x^3 - x^2 + 2*x + 11", "disc": -3647, "N": 8, "consistent": true, "lw": "5/19*t^2 + 16/19*t + 5/19", "lw_m": 19, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 391.5715868473053}
+{"poly": "x^3 - 5*x - 24", "disc": -3763, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 21.14311385154724}
+{"poly": "x^3 - x^2 + 8*x - 11", "disc": -3711, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 254.93268299102783}
+{"poly": "x^3 - 3*x - 12", "disc": -3780, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04749178886413574}
+{"poly": "x^3 - 9*x - 37", "disc": -3783, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.9554123878479}
+{"poly": "x^3 - x^2 - 3*x - 11", "disc": -3788, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.2936043739318848}
+{"poly": "x^3 - x^2 - 11", "disc": -3311, "N": 27, "consistent": true, "lw": "5/7*t^2 + 3/7*t + 2/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 822.1892840862274}
+{"poly": "x^3 - 10*x - 17", "disc": -3803, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 2.43344783782959}
+{"poly": "x^3 + 10*x - 20", "disc": -3700, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 312.8099277019501}
+{"poly": "x^3 - x^2 - 4*x - 11", "disc": -3831, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 27.99877619743347}
+{"poly": "x^3 - 17*x - 36", "disc": -3835, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 56.236417293548584}
+{"poly": "x^3 - x^2 + 24", "disc": -3864, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.039110660552978516}
+{"poly": "x^3 - 2*x - 24", "disc": -3880, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.03603482246398926}
+{"poly": "x^3 + x - 12", "disc": -3892, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.03776192665100098}
+{"poly": "x^3 - x^2 - 24", "disc": -3912, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.03600454330444336}
+{"poly": "x^3 + 5*x - 11", "disc": -3767, "N": 19, "consistent": true, "lw": "3/5*t^2 + 3/5*t + 1/10", "lw_m": 10, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 181.87102913856506}
+{"poly": "x^3 - x^2 + 8*x + 6", "disc": -3796, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 174.11507940292358}
+{"poly": "x^3 - x^2 - 11*x + 31", "disc": -3560, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 810.1937251091003}
+{"poly": "x^3 - x^2 + 9*x - 25", "disc": -3940, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.03646087646484375}
+{"poly": "x^3 - x^2 + 3*x + 11", "disc": -3916, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 114.16023683547974}
+{"poly": "x^3 - x^2 + 11*x - 23", "disc": -3756, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 348.53607988357544}
+{"poly": "x^3 - x^2 + 10*x - 5", "disc": -3695, "N": 27, "consistent": true, "lw": "2/5*t^2 + 1/2", "lw_m": 10, "lw_npts": 4, "lw_mmax": 24, "N_exact": true, "t": 706.9685890674591}
+{"poly": "x^3 - x^2 - 8*x + 18", "disc": -3972, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.03901362419128418}
+{"poly": "x^3 - x^2 - 10*x + 21", "disc": -3943, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 177.86158442497253}
+{"poly": "x^3 - x^2 + 10*x - 7", "disc": -3991, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.876610279083252}
+{"poly": "x^3 - x^2 - 5*x - 23", "disc": -3980, "N": 13, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 190.39861702919006}
+{"poly": "x^3 - x^2 - 10*x - 35", "disc": -3935, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 394.96101331710815}
+{"poly": "x^3 - x^2 - 4*x + 14", "disc": -3956, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 268.2482786178589}
+{"poly": "x^3 - x^2 + 3*x - 13", "disc": -4012, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 5.238423109054565}
+{"poly": "x^3 + 15*x - 29", "disc": -4023, "N": 17, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 4.697400093078613}
+{"poly": "x^3 - x^2 + 6*x - 13", "disc": -4039, "N": 9, "consistent": true, "lw": "5/7*t^2 + 2/7", "lw_m": 7, "lw_npts": 2, "lw_mmax": 24, "N_exact": true, "t": 18.031520128250122}
+{"poly": "x^3 - 6*x - 24", "disc": -3672, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1010.2130117416382}
+{"poly": "x^3 - x^2 - 2*x + 13", "disc": -4007, "N": 27, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 47.14812755584717}
+{"poly": "x^3 + 3*x - 24", "disc": -3915, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 522.9869322776794}
+{"poly": "x^3 - x^2 + 2*x + 24", "disc": -4087, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.08019495010375977}
+{"poly": "x^3 - x^2 + 11*x - 38", "disc": -4091, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.0884096622467041}
+{"poly": "x^3 - x^2 - 13*x - 18", "disc": -4075, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 53.49833822250366}
+{"poly": "x^3 - x^2 - 7*x + 27", "disc": -3688, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1076.4530732631683}
+{"poly": "x^3 - x^2 + 3*x + 36", "disc": -4099, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 95.6932532787323}
+{"poly": "x^3 - x^2 - 2*x - 24", "disc": -4119, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.0722959041595459}
+{"poly": "x^3 - x^2 - 11*x - 25", "disc": -4120, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.06909871101379395}
+{"poly": "x^3 - x^2 + x - 25", "disc": -4132, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.07751822471618652}
+{"poly": "x^3 - x^2 + 7*x - 36", "disc": -3547, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1420.1327888965607}
+{"poly": "x^3 - x^2 + 14*x - 20", "disc": -4155, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.13337349891662598}
+{"poly": "x^3 - x^2 - 15*x + 39", "disc": -4164, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.11200547218322754}
+{"poly": "x^3 - x^2 - x - 12", "disc": -4147, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 107.85708236694336}
+{"poly": "x^3 - x^2 - 7*x + 17", "disc": -4172, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 5.726664066314697}
+{"poly": "x^3 - 2*x - 11", "disc": -3235, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1963.2178058624268}
+{"poly": "x^3 + 7*x - 10", "disc": -4072, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 282.60929584503174}
+{"poly": "x^3 - x^2 + 2*x - 38", "disc": -4200, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04826927185058594}
+{"poly": "x^3 - x^2 + 15*x + 5", "disc": -3820, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 876.9537494182587}
+{"poly": "x^3 + 7*x - 24", "disc": -4231, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04574465751647949}
+{"poly": "x^3 - x^2 + 2*x - 13", "disc": -4175, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 85.42705464363098}
+{"poly": "x^3 + 9*x - 35", "disc": -3999, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 525.7878892421722}
+{"poly": "x^3 + 9*x - 7", "disc": -4239, "N": 17, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 14.22873854637146}
+{"poly": "x^3 - x^2 + 4*x + 11", "disc": -4255, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 6.1583802700042725}
+{"poly": "x^3 - x^2 - 4*x - 24", "disc": -4276, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.08454465866088867}
+{"poly": "x^3 + 10*x - 3", "disc": -4243, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 17.731457710266113}
+{"poly": "x^3 - x^2 - 6*x + 28", "disc": -4283, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 10.967580795288086}
+{"poly": "x^3 + 6*x - 24", "disc": -4104, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 323.72828698158264}
+{"poly": "x^3 - x^2 - 11*x - 15", "disc": -3660, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1434.175179719925}
+{"poly": "x^3 - 10*x - 28", "disc": -4292, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 51.75349712371826}
+{"poly": "x^3 - x^2 + 15*x - 36", "disc": -4299, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.1135399341583252}
+{"poly": "x^3 + 9*x - 36", "disc": -4212, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 192.34119820594788}
+{"poly": "x^3 - x^2 + 12*x - 24", "disc": -4308, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04974198341369629}
+{"poly": "x^3 - x^2 + 5*x + 10", "disc": -4035, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 571.4441509246826}
+{"poly": "x^3 - x^2 - 16*x - 23", "disc": -4359, "N": 9, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 39.993430852890015}
+{"poly": "x^3 - x^2 + 10*x + 2", "disc": -4360, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04622292518615723}
+{"poly": "x^3 - x^2 - 3*x + 14", "disc": -4363, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 32.861863136291504}
+{"poly": "x^3 - x^2 + 9*x - 11", "disc": -4364, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 1.232921838760376}
+{"poly": "x^3 + 5*x - 12", "disc": -4388, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04734063148498535}
+{"poly": "x^3 - 13*x - 22", "disc": -4280, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 285.8789927959442}
+{"poly": "x^3 - x^2 - 10*x + 32", "disc": -4415, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.10460758209228516}
+{"poly": "x^3 - x^2 + 16*x + 4", "disc": -4424, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.1074976921081543}
+{"poly": "x^3 + 9*x - 37", "disc": -4431, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 25.65977644920349}
+{"poly": "x^3 - x^2 + 4*x - 39", "disc": -4295, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 282.26135087013245}
+{"poly": "x^3 - x^2 - 11*x + 45", "disc": -4460, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04003620147705078}
+{"poly": "x^3 - 3*x - 13", "disc": -4455, "N": 11, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 85.41807222366333}
+{"poly": "x^3 - x^2 - 9*x + 20", "disc": -4483, "N": 5, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 52.09639644622803}
+{"poly": "x^3 - 14*x - 32", "disc": -4168, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 602.5217847824097}
+{"poly": "x^3 - x^2 - 3*x - 12", "disc": -4467, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 149.06844353675842}
+{"poly": "x^3 - x^2 + 7*x + 36", "disc": -4523, "N": 3, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.045517683029174805}
+{"poly": "x^3 - x^2 - 14*x + 29", "disc": -4111, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 765.3400521278381}
+{"poly": "x^3 - x^2 + 13*x - 39", "disc": -4524, "N": 6, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 59.19055104255676}
+{"poly": "x^3 - x^2 - 3*x - 25", "disc": -4552, "N": 4, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 0.04465436935424805}
+{"poly": "x^3 - 4*x - 13", "disc": -4307, "N": 8, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 464.4574146270752}
+{"poly": "x^3 - 2*x - 13", "disc": -4531, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 41.152409076690674}
+{"poly": "x^3 - x^2 - 15*x - 29", "disc": -4232, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 665.494250535965}
+{"poly": "x^3 + 15*x - 12", "disc": -4347, "N": 7, "consistent": true, "lw": null, "lw_m": null, "lw_npts": 0, "lw_mmax": 24, "N_exact": false, "t": 503.2467632293701}

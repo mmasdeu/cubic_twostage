@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+# full certificate sets are large (3.4 GB) and are not in the repository; see README
+data/certificates/
+data/certificates_k/
+data/antz9/certificates_k/
+# scratch output of the examples in the README
+work/
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+# developer notes for Claude Code; kept out of the repository
+CLAUDE.md

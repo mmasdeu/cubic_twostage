@@ -1,0 +1,16 @@
+{"poly": "x^3 - x^2 - 2*x - 3", "disc": -327, "witness": "5/11*t^2 + 20/33*t + 2/33", "m": 33, "n_prim": 4, "mmax": 80, "t": 2.076596260070801}
+{"poly": "x^3 - 4*x - 5", "disc": -419, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 566.2370834350586}
+{"poly": "x^3 - x^2 - 5*x + 8", "disc": -451, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 623.0406637191772}
+{"poly": "x^3 - x^2 + 5*x - 3", "disc": -460, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 180.48291993141174}
+{"poly": "x^3 + x - 4", "disc": -436, "witness": "43/78*t^2 + 77/78*t + 7/39", "m": 78, "n_prim": 2, "mmax": 80, "t": 405.10427689552307}
+{"poly": "x^3 - 5*x - 6", "disc": -472, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 674.7910702228546}
+{"poly": "x^3 - x^2 + 4*x + 2", "disc": -484, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 677.7300217151642}
+{"poly": "x^3 - x^2 + 3*x + 3", "disc": -492, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 327.22909808158875}
+{"poly": "x^3 - x^2 - 4*x + 7", "disc": -519, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 147.9592216014862}
+{"poly": "x^3 + 4*x - 3", "disc": -499, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 212.10802841186523}
+{"poly": "x^3 - x^2 + 2*x - 5", "disc": -543, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 125.20378732681274}
+{"poly": "x^3 - 3*x - 5", "disc": -567, "witness": "9/17*t^2 + 13/17*t + 5/17", "m": 17, "n_prim": 4, "mmax": 80, "t": 0.3025069236755371}
+{"poly": "x^3 - x^2 + 7*x + 5", "disc": -652, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 534.0917322635651}
+{"poly": "x^3 - x^2 + x - 9", "disc": -516, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 1246.5996131896973}
+{"poly": "x^3 - x^2 + 4*x + 3", "disc": -687, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 294.95704770088196}
+{"poly": "x^3 + 2*x - 5", "disc": -707, "witness": null, "m": 80, "n_prim": 0, "mmax": 80, "t": 391.0876808166504}

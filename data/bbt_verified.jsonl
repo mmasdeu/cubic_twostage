@@ -1,0 +1,492 @@
+{"poly": "x^3 - x^2 + 4*x - 1", "disc": -199, "kind": "b", "m": 7, "a": [4, 1, 3], "ok": true, "method": "translates", "nD": 28, "orbit": 2, "t": 0.19523954391479492}
+{"poly": "x^3 - x^2 + 4*x + 1", "disc": -335, "kind": "b", "m": 5, "a": [2, 0, 3], "ok": true, "method": "translates", "nD": 26, "orbit": 2, "t": 0.20433807373046875}
+{"poly": "x^3 + 4*x - 2", "disc": -364, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 44, "orbit": 1, "t": 0.08100533485412598}
+{"poly": "x^3 - x^2 + 2*x + 3", "disc": -367, "kind": "b", "m": 13, "a": [9, 8, 6], "ok": true, "method": "translates", "nD": 26, "orbit": 2, "t": 0.08670544624328613}
+{"poly": "x^3 + 3*x - 3", "disc": -351, "kind": "b", "m": 11, "a": [9, 1, 6], "ok": true, "method": "translates", "nD": 30, "orbit": 2, "t": 0.28722381591796875}
+{"poly": "x^3 - x^2 - x + 4", "disc": -339, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 46, "orbit": 1, "t": 0.294391393661499}
+{"poly": "x^3 - x^2 - 2*x - 3", "disc": -327, "kind": "n", "m": 33, "a": [13, 31, 15], "ok": true, "method": "translates", "nD": 34, "orbit": 4, "t": 0.29437923431396484}
+{"poly": "x^3 - x^2 + 3*x + 2", "disc": -307, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 52, "orbit": 1, "t": 0.2943909168243408}
+{"poly": "x^3 + x - 4", "disc": -436, "kind": "b", "m": 78, "a": [64, 1, 35], "ok": true, "method": "translates", "nD": 84, "orbit": 2, "t": 0.09347152709960938}
+{"poly": "x^3 - x^2 - 2*x + 5", "disc": -439, "kind": "b", "m": 5, "a": [0, 2, 2], "ok": true, "method": "translates", "nD": 42, "orbit": 2, "t": 0.10721230506896973}
+{"poly": "x^3 - x^2 + 3*x - 5", "disc": -524, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 50, "orbit": 1, "t": 0.08895397186279297}
+{"poly": "x^3 + 5*x - 1", "disc": -527, "kind": "b", "m": 5, "a": [3, 3, 3], "ok": true, "method": "translates", "nD": 20, "orbit": 2, "t": 0.12889814376831055}
+{"poly": "x^3 + 3*x - 8", "disc": -459, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 104, "orbit": 1, "t": 0.14939403533935547}
+{"poly": "x^3 - x^2 - 3*x - 4", "disc": -547, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 66, "orbit": 1, "t": 0.1474628448486328}
+{"poly": "x^3 - x^2 + 5", "disc": -655, "kind": "b", "m": 15, "a": [10, 5, 8], "ok": true, "method": "translates", "nD": 38, "orbit": 2, "t": 0.09556770324707031}
+{"poly": "x^3 - x^2 - 5*x - 5", "disc": -620, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 66, "orbit": 1, "t": 0.10372591018676758}
+{"poly": "x^3 - 3*x - 5", "disc": -567, "kind": "b", "m": 17, "a": [5, 13, 9], "ok": true, "method": "translates", "nD": 40, "orbit": 2, "t": 0.13465046882629395}
+{"poly": "x^3 - x - 5", "disc": -671, "kind": "b", "m": 5, "a": [0, 2, 2], "ok": true, "method": "translates", "nD": 38, "orbit": 2, "t": 0.14208245277404785}
+{"poly": "x^3 - 5", "disc": -675, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 80, "orbit": 1, "t": 0.14303255081176758}
+{"poly": "x^3 - x^2 - 6*x + 10", "disc": -680, "kind": "n", "m": 828394, "a": [551246, 643585, 300357], "ok": true, "method": "translates", "nD": 210, "orbit": 6, "t": 0.10536408424377441}
+{"poly": "x^3 + x - 5", "disc": -679, "kind": "b", "m": 5, "a": [0, 4, 2], "ok": true, "method": "translates", "nD": 52, "orbit": 2, "t": 0.15627002716064453}
+{"poly": "x^3 - x^2 - 5", "disc": -695, "kind": "b", "m": 5, "a": [0, 0, 2], "ok": true, "method": "translates", "nD": 40, "orbit": 2, "t": 0.11912655830383301}
+{"poly": "x^3 + 2*x - 5", "disc": -707, "kind": "b", "m": 480, "a": [9, 5, 307], "ok": true, "method": "translates", "nD": 62, "orbit": 4, "t": 0.16360163688659668}
+{"poly": "x^3 - x^2 + x + 5", "disc": -748, "kind": "b", "m": 51, "a": [23, 21, 29], "ok": true, "method": "translates", "nD": 72, "orbit": 2, "t": 0.10203266143798828}
+{"poly": "x^3 - 6*x - 12", "disc": -756, "kind": "b", "m": 586, "a": [300, 513, 298], "ok": true, "method": "translates", "nD": 186, "orbit": 2, "t": 0.11612367630004883}
+{"poly": "x^3 + 5*x - 3", "disc": -743, "kind": "b", "m": 27, "a": [15, 26, 11], "ok": true, "method": "translates", "nD": 64, "orbit": 2, "t": 0.14973139762878418}
+{"poly": "x^3 - 4*x - 6", "disc": -716, "kind": "b", "m": 327, "a": [90, 247, 185], "ok": true, "method": "translates", "nD": 162, "orbit": 2, "t": 0.16769909858703613}
+{"poly": "x^3 - x^2 + 5*x + 2", "disc": -755, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 86, "orbit": 1, "t": 0.1394357681274414}
+{"poly": "x^3 - x^2 - x - 5", "disc": -780, "kind": "b", "m": 498, "a": [331, 496, 295], "ok": true, "method": "translates", "nD": 120, "orbit": 2, "t": 0.09089946746826172}
+{"poly": "x^3 - x^2 + 6*x - 3", "disc": -759, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 40, "orbit": 1, "t": 0.1428368091583252}
+{"poly": "x^3 - x^2 + 4*x - 6", "disc": -804, "kind": "b", "m": 1284, "a": [1154, 808, 575], "ok": true, "method": "translates", "nD": 310, "orbit": 2, "t": 0.10424447059631348}
+{"poly": "x^3 - x^2 - x + 6", "disc": -835, "kind": "b", "m": 140, "a": [41, 113, 81], "ok": true, "method": "translates", "nD": 106, "orbit": 2, "t": 0.09606671333312988}
+{"poly": "x^3 - x^2 - 7*x - 7", "disc": -812, "kind": "b", "m": 31, "a": [2, 25, 11], "ok": true, "method": "translates", "nD": 76, "orbit": 2, "t": 0.14537286758422852}
+{"poly": "x^3 - 5*x - 7", "disc": -823, "kind": "b", "m": 5, "a": [3, 1, 2], "ok": true, "method": "translates", "nD": 56, "orbit": 2, "t": 0.14338016510009766}
+{"poly": "x^3 - x^2 + 2*x - 6", "disc": -808, "kind": "b", "m": 89, "a": [29, 15, 58], "ok": true, "method": "translates", "nD": 216, "orbit": 2, "t": 0.1774580478668213}
+{"poly": "x^3 - x^2 - 2*x - 5", "disc": -839, "kind": "b", "m": 5, "a": [1, 3, 2], "ok": true, "method": "translates", "nD": 46, "orbit": 2, "t": 0.1545553207397461}
+{"poly": "x^3 - x^2 - 2*x + 12", "disc": -843, "kind": "b", "m": 262, "a": [76, 162, 105], "ok": true, "method": "translates", "nD": 226, "orbit": 2, "t": 0.13164663314819336}
+{"poly": "x^3 - x^2 + x + 11", "disc": -856, "kind": "b", "m": 124, "a": [36, 15, 7], "ok": true, "method": "translates", "nD": 494, "orbit": 2, "t": 0.1506965160369873}
+{"poly": "x^3 - x^2 + 2*x + 5", "disc": -863, "kind": "b", "m": 5, "a": [1, 2, 3], "ok": true, "method": "translates", "nD": 28, "orbit": 2, "t": 0.15613508224487305}
+{"poly": "x^3 - x^2 + 6*x - 12", "disc": -867, "kind": "b", "m": 1028, "a": [556, 524, 485], "ok": true, "method": "translates", "nD": 270, "orbit": 2, "t": 0.19025349617004395}
+{"poly": "x^3 - x^2 + 2*x - 12", "disc": -883, "kind": "b", "m": 47, "a": [24, 5, 32], "ok": true, "method": "translates", "nD": 208, "orbit": 2, "t": 0.17555499076843262}
+{"poly": "x^3 - x^2 - 7*x + 12", "disc": -907, "kind": "b", "m": 187, "a": [133, 145, 72], "ok": true, "method": "translates", "nD": 214, "orbit": 2, "t": 0.14195537567138672}
+{"poly": "x^3 - 4*x - 12", "disc": -908, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 192, "orbit": 1, "t": 0.11322259902954102}
+{"poly": "x^3 - x^2 + 9*x + 3", "disc": -888, "kind": "b", "m": 2602, "a": [251, 2010, 728], "ok": true, "method": "translates", "nD": 2128, "orbit": 2, "t": 0.2074594497680664}
+{"poly": "x^3 + 5*x - 4", "disc": -932, "kind": "b", "m": 5, "a": [1, 0, 2], "ok": true, "method": "translates", "nD": 166, "orbit": 2, "t": 0.17236852645874023}
+{"poly": "x^3 - x^2 + 6*x + 1", "disc": -959, "kind": "b", "m": 7, "a": [3, 1, 3], "ok": true, "method": "translates", "nD": 28, "orbit": 2, "t": 0.1076347827911377}
+{"poly": "x^3 - 2*x - 6", "disc": -940, "kind": "b", "m": 55, "a": [43, 38, 32], "ok": true, "method": "translates", "nD": 108, "orbit": 2, "t": 0.15084242820739746}
+{"poly": "x^3 - 2*x - 12", "disc": -964, "kind": "b", "m": 762, "a": [46, 711, 362], "ok": true, "method": "translates", "nD": 230, "orbit": 2, "t": 0.1181638240814209}
+{"poly": "x^3 - x^2 + 6", "disc": -948, "kind": "b", "m": 1934, "a": [1664, 233, 836], "ok": true, "method": "translates", "nD": 590, "orbit": 2, "t": 0.18946599960327148}
+{"poly": "x^3 - x - 12", "disc": -971, "kind": "b", "m": 2334, "a": [825, 2206, 551], "ok": true, "method": "translates", "nD": 560, "orbit": 2, "t": 0.16116905212402344}
+{"poly": "x^3 - 12", "disc": -972, "kind": "b", "m": 18, "a": [6, 9, 2], "ok": true, "method": "translates", "nD": 80, "orbit": 2, "t": 0.1407327651977539}
+{"poly": "x^3 - x^2 + 6*x - 5", "disc": -983, "kind": "b", "m": 5, "a": [2, 3, 2], "ok": true, "method": "translates", "nD": 22, "orbit": 2, "t": 0.1424853801727295}
+{"poly": "x^3 - 6", "disc": -972, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 106, "orbit": 1, "t": 0.15886306762695312}
+{"poly": "x^3 - x^2 - 6", "disc": -996, "kind": "b", "m": 158, "a": [125, 15, 99], "ok": true, "method": "translates", "nD": 624, "orbit": 2, "t": 0.13404393196105957}
+{"poly": "x^3 - x^2 - 12", "disc": -984, "kind": "b", "m": 1214, "a": [861, 237, 787], "ok": true, "method": "translates", "nD": 1108, "orbit": 2, "t": 0.16938543319702148}
+{"poly": "x^3 + 4*x - 12", "disc": -1036, "kind": "b", "m": 87, "a": [49, 18, 56], "ok": true, "method": "translates", "nD": 92, "orbit": 2, "t": 0.09675455093383789}
+{"poly": "x^3 - x^2 - 2*x + 7", "disc": -1007, "kind": "b", "m": 7, "a": [0, 6, 4], "ok": true, "method": "translates", "nD": 40, "orbit": 2, "t": 0.15081000328063965}
+{"poly": "x^3 + 2*x - 6", "disc": -1004, "kind": "b", "m": 254, "a": [244, 238, 113], "ok": true, "method": "translates", "nD": 262, "orbit": 2, "t": 0.17114782333374023}
+{"poly": "x^3 + 3*x - 12", "disc": -999, "kind": "b", "m": 8446, "a": [881, 4917, 3825], "ok": true, "method": "translates", "nD": 4256, "orbit": 2, "t": 0.21504521369934082}
+{"poly": "x^3 - x^2 - 5*x - 6", "disc": -1011, "kind": "b", "m": 138, "a": [99, 77, 71], "ok": true, "method": "translates", "nD": 206, "orbit": 2, "t": 0.16959643363952637}
+{"poly": "x^3 - x^2 + 8*x - 12", "disc": -1048, "kind": "b", "m": 951, "a": [251, 826, 356], "ok": true, "method": "translates", "nD": 528, "orbit": 2, "t": 0.1821136474609375}
+{"poly": "x^3 - x^2 - x + 13", "disc": -1068, "kind": "b", "m": 30, "a": [28, 9, 25], "ok": true, "method": "translates", "nD": 332, "orbit": 2, "t": 0.11233949661254883}
+{"poly": "x^3 - x^2 - 6*x + 16", "disc": -1055, "kind": "b", "m": 5480, "a": [4968, 228, 1589], "ok": true, "method": "translates", "nD": 3800, "orbit": 2, "t": 0.15287494659423828}
+{"poly": "x^3 - 4*x - 7", "disc": -1067, "kind": "b", "m": 121, "a": [27, 96, 56], "ok": true, "method": "translates", "nD": 104, "orbit": 2, "t": 0.14972424507141113}
+{"poly": "x^3 - x^2 + x + 6", "disc": -1059, "kind": "b", "m": 103, "a": [49, 32, 61], "ok": true, "method": "translates", "nD": 210, "orbit": 2, "t": 0.16376495361328125}
+{"poly": "x^3 - x^2 + 2*x + 12", "disc": -1075, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 288, "orbit": 1, "t": 0.17060494422912598}
+{"poly": "x^3 - x^2 + 4*x - 7", "disc": -1087, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 50, "orbit": 1, "t": 0.16248440742492676}
+{"poly": "x^3 + 3*x - 6", "disc": -1080, "kind": "b", "m": 1250, "a": [1084, 9, 501], "ok": true, "method": "translates", "nD": 666, "orbit": 2, "t": 0.20941877365112305}
+{"poly": "x^3 - x^2 - 6*x + 11", "disc": -1135, "kind": "b", "m": 5, "a": [2, 0, 3], "ok": true, "method": "translates", "nD": 86, "orbit": 2, "t": 0.15103960037231445}
+{"poly": "x^3 - x^2 + x - 13", "disc": -1096, "kind": "b", "m": 398, "a": [219, 115, 197], "ok": true, "method": "translates", "nD": 878, "orbit": 2, "t": 0.20599079132080078}
+{"poly": "x^3 - x^2 - 8*x + 14", "disc": -1108, "kind": "b", "m": 274, "a": [95, 229, 115], "ok": true, "method": "translates", "nD": 834, "orbit": 2, "t": 0.22014880180358887}
+{"poly": "x^3 - x^2 + 6*x + 2", "disc": -1144, "kind": "b", "m": 94, "a": [74, 87, 45], "ok": true, "method": "translates", "nD": 476, "orbit": 2, "t": 0.20692968368530273}
+{"poly": "x^3 - x^2 + 5*x + 11", "disc": -1172, "kind": "b", "m": 242, "a": [88, 207, 19], "ok": true, "method": "translates", "nD": 732, "orbit": 2, "t": 0.14122700691223145}
+{"poly": "x^3 + 5*x - 5", "disc": -1175, "kind": "b", "m": 5, "a": [0, 0, 2], "ok": true, "method": "translates", "nD": 30, "orbit": 2, "t": 0.11894488334655762}
+{"poly": "x^3 - x^2 - 3*x + 8", "disc": -1147, "kind": "b", "m": 9, "a": [5, 1, 4], "ok": true, "method": "translates", "nD": 172, "orbit": 2, "t": 0.2015087604522705}
+{"poly": "x^3 - x^2 - x + 7", "disc": -1164, "kind": "b", "m": 51, "a": [11, 20, 35], "ok": true, "method": "translates", "nD": 142, "orbit": 2, "t": 0.19521427154541016}
+{"poly": "x^3 - x^2 + 7*x - 2", "disc": -1187, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 96, "orbit": 1, "t": 0.1748826503753662}
+{"poly": "x^3 - x^2 - 10*x - 11", "disc": -1191, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 110, "orbit": 1, "t": 0.1045536994934082}
+{"poly": "x^3 - x^2 + 5*x - 7", "disc": -1196, "kind": "b", "m": 29, "a": [9, 16, 14], "ok": true, "method": "translates", "nD": 54, "orbit": 2, "t": 0.11920166015625}
+{"poly": "x^3 + 6*x - 12", "disc": -1188, "kind": "b", "m": 302, "a": [142, 49, 153], "ok": true, "method": "translates", "nD": 550, "orbit": 2, "t": 0.19338035583496094}
+{"poly": "x^3 - x^2 - 6*x - 7", "disc": -1207, "kind": "b", "m": 7, "a": [3, 4, 3], "ok": true, "method": "translates", "nD": 68, "orbit": 2, "t": 0.1524488925933838}
+{"poly": "x^3 - 8*x - 11", "disc": -1219, "kind": "b", "m": 14, "a": [9, 1, 9], "ok": true, "method": "translates", "nD": 224, "orbit": 2, "t": 0.11847567558288574}
+{"poly": "x^3 - x^2 - 3*x - 6", "disc": -1203, "kind": "b", "m": 64, "a": [13, 19, 27], "ok": true, "method": "translates", "nD": 290, "orbit": 2, "t": 0.20181822776794434}
+{"poly": "x^3 - x^2 - 4*x + 9", "disc": -1231, "kind": "b", "m": 5, "a": [3, 0, 3], "ok": true, "method": "translates", "nD": 82, "orbit": 2, "t": 0.11017394065856934}
+{"poly": "x^3 - x^2 + 8*x + 8", "disc": -1208, "kind": "b", "m": 2, "a": [1, 1, 0], "ok": true, "method": "translates", "nD": 822, "orbit": 1, "t": 0.19270920753479004}
+{"poly": "x^3 - x^2 - 5*x + 10", "disc": -1235, "kind": "b", "m": 13, "a": [9, 5, 9], "ok": true, "method": "translates", "nD": 150, "orbit": 2, "t": 0.16376185417175293}
+{"poly": "x^3 - x^2 - 9*x + 16", "disc": -1259, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 190, "orbit": 1, "t": 0.11111092567443848}
+{"poly": "x^3 - x^2 + 7*x - 4", "disc": -1267, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 210, "orbit": 1, "t": 0.18952679634094238}
+{"poly": "x^3 - x^2 - 3*x + 15", "disc": -1272, "kind": "b", "m": 1024, "a": [963, 503, 793], "ok": true, "method": "translates", "nD": 2928, "orbit": 2, "t": 0.1868269443511963}
+{"poly": "x^3 - x^2 + 7", "disc": -1295, "kind": "b", "m": 5, "a": [3, 1, 3], "ok": true, "method": "translates", "nD": 46, "orbit": 2, "t": 0.10113215446472168}
+{"poly": "x^3 - x^2 + 4*x + 12", "disc": -1236, "kind": "b", "m": 2316, "a": [453, 1159, 1182], "ok": true, "method": "translates", "nD": 3382, "orbit": 2, "t": 0.25848388671875}
+{"poly": "x^3 - 10*x - 14", "disc": -1292, "kind": "b", "m": 41, "a": [24, 2, 29], "ok": true, "method": "translates", "nD": 130, "orbit": 2, "t": 0.16913580894470215}
+{"poly": "x^3 - 2*x - 7", "disc": -1291, "kind": "b", "m": 109, "a": [99, 96, 60], "ok": true, "method": "translates", "nD": 182, "orbit": 2, "t": 0.18594121932983398}
+{"poly": "x^3 - x^2 + 9*x + 7", "disc": -1316, "kind": "b", "m": 139, "a": [43, 40, 76], "ok": true, "method": "translates", "nD": 906, "orbit": 2, "t": 0.12205648422241211}
+{"poly": "x^3 + 7*x - 12", "disc": -1315, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 462, "orbit": 1, "t": 0.13132381439208984}
+{"poly": "x^3 - x - 7", "disc": -1319, "kind": "b", "m": 7, "a": [0, 3, 3], "ok": true, "method": "translates", "nD": 36, "orbit": 2, "t": 0.1492154598236084}
+{"poly": "x^3 + x - 7", "disc": -1327, "kind": "b", "m": 17, "a": [6, 1, 8], "ok": true, "method": "translates", "nD": 58, "orbit": 2, "t": 0.14203786849975586}
+{"poly": "x^3 - x^2 - 3*x - 13", "disc": -1300, "kind": "b", "m": 326, "a": [47, 59, 227], "ok": true, "method": "translates", "nD": 1272, "orbit": 2, "t": 0.21472597122192383}
+{"poly": "x^3 - x^2 - 7", "disc": -1351, "kind": "b", "m": 9, "a": [1, 8, 5], "ok": true, "method": "translates", "nD": 58, "orbit": 2, "t": 0.09664511680603027}
+{"poly": "x^3 - x^2 + 9*x - 13", "disc": -1336, "kind": "b", "m": 81, "a": [70, 22, 32], "ok": true, "method": "translates", "nD": 1140, "orbit": 2, "t": 0.1990346908569336}
+{"poly": "x^3 - x^2 - 7*x - 8", "disc": -1347, "kind": "b", "m": 10, "a": [7, 1, 7], "ok": true, "method": "translates", "nD": 500, "orbit": 2, "t": 0.12049508094787598}
+{"poly": "x^3 + 2*x - 7", "disc": -1355, "kind": "b", "m": 59, "a": [18, 23, 28], "ok": true, "method": "translates", "nD": 140, "orbit": 2, "t": 0.15285181999206543}
+{"poly": "x^3 - x^2 + 7*x - 5", "disc": -1388, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 62, "orbit": 1, "t": 0.09879922866821289}
+{"poly": "x^3 - x^2 - 9*x - 10", "disc": -1363, "kind": "b", "m": 51, "a": [35, 28, 16], "ok": true, "method": "translates", "nD": 286, "orbit": 2, "t": 0.17202067375183105}
+{"poly": "x^3 - x^2 + 6*x + 3", "disc": -1383, "kind": "b", "m": 19, "a": [4, 1, 8], "ok": true, "method": "translates", "nD": 98, "orbit": 2, "t": 0.14366865158081055}
+{"poly": "x^3 - x^2 + 10*x - 12", "disc": -1419, "kind": "b", "m": 296, "a": [292, 44, 171], "ok": true, "method": "translates", "nD": 406, "orbit": 2, "t": 0.11505699157714844}
+{"poly": "x^3 - x^2 - 8*x - 9", "disc": -1407, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 132, "orbit": 1, "t": 0.14583730697631836}
+{"poly": "x^3 - x^2 + 3*x - 8", "disc": -1427, "kind": "b", "m": 16, "a": [13, 1, 7], "ok": true, "method": "translates", "nD": 90, "orbit": 2, "t": 0.1005866527557373}
+{"poly": "x^3 + 3*x - 7", "disc": -1431, "kind": "b", "m": 33, "a": [31, 28, 16], "ok": true, "method": "translates", "nD": 60, "orbit": 2, "t": 0.14226818084716797}
+{"poly": "x^3 - x^2 - 5*x + 17", "disc": -1420, "kind": "b", "m": 22, "a": [20, 15, 5], "ok": true, "method": "translates", "nD": 472, "orbit": 2, "t": 0.18404126167297363}
+{"poly": "x^3 + 10*x - 8", "disc": -1432, "kind": "b", "m": 48, "a": [1, 26, 37], "ok": true, "method": "translates", "nD": 982, "orbit": 2, "t": 0.19271421432495117}
+{"poly": "x^3 + 11*x - 4", "disc": -1439, "kind": "b", "m": 866, "a": [471, 182, 531], "ok": true, "method": "translates", "nD": 3598, "orbit": 2, "t": 0.18926644325256348}
+{"poly": "x^3 - x^2 - 7*x + 13", "disc": -1452, "kind": "b", "m": 59, "a": [46, 10, 35], "ok": true, "method": "translates", "nD": 460, "orbit": 2, "t": 0.13177084922790527}
+{"poly": "x^3 + 5*x - 14", "disc": -1448, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 1048, "orbit": 1, "t": 0.19585609436035156}
+{"poly": "x^3 + 7*x - 2", "disc": -1480, "kind": "b", "m": 655, "a": [183, 381, 253], "ok": true, "method": "translates", "nD": 1280, "orbit": 2, "t": 0.18243861198425293}
+{"poly": "x^3 - 6*x - 16", "disc": -1512, "kind": "b", "m": 3257, "a": [2897, 46, 1727], "ok": true, "method": "translates", "nD": 1164, "orbit": 2, "t": 0.154937744140625}
+{"poly": "x^3 - x^2 + 6*x + 12", "disc": -1491, "kind": "b", "m": 2003, "a": [1684, 1606, 1319], "ok": true, "method": "translates", "nD": 1514, "orbit": 2, "t": 0.196152925491333}
+{"poly": "x^3 + 8*x - 12", "disc": -1484, "kind": "b", "m": 1777, "a": [1136, 1369, 575], "ok": true, "method": "translates", "nD": 752, "orbit": 2, "t": 0.20693564414978027}
+{"poly": "x^3 - x^2 + 5*x - 8", "disc": -1515, "kind": "b", "m": 1362, "a": [1139, 665, 395], "ok": true, "method": "translates", "nD": 684, "orbit": 2, "t": 0.2073819637298584}
+{"poly": "x^3 + 6*x - 5", "disc": -1539, "kind": "b", "m": 134, "a": [27, 127, 49], "ok": true, "method": "translates", "nD": 448, "orbit": 2, "t": 0.11592650413513184}
+{"poly": "x^3 - x^2 - x + 8", "disc": -1547, "kind": "b", "m": 7, "a": [5, 5, 4], "ok": true, "method": "translates", "nD": 116, "orbit": 2, "t": 0.11028289794921875}
+{"poly": "x^3 - x^2 - 7*x + 19", "disc": -1464, "kind": "b", "m": 2978, "a": [1682, 539, 37], "ok": true, "method": "translates", "nD": 6784, "orbit": 2, "t": 0.3833310604095459}
+{"poly": "x^3 - x^2 - 2*x - 7", "disc": -1567, "kind": "b", "m": 9, "a": [8, 0, 5], "ok": true, "method": "translates", "nD": 72, "orbit": 2, "t": 0.1492915153503418}
+{"poly": "x^3 - x^2 + 5*x + 5", "disc": -1580, "kind": "b", "m": 10, "a": [5, 0, 3], "ok": true, "method": "translates", "nD": 100, "orbit": 2, "t": 0.09846758842468262}
+{"poly": "x^3 - x^2 - 4*x - 7", "disc": -1583, "kind": "b", "m": 5, "a": [1, 1, 2], "ok": true, "method": "translates", "nD": 38, "orbit": 2, "t": 0.09461641311645508}
+{"poly": "x^3 + 4*x - 7", "disc": -1579, "kind": "b", "m": 9, "a": [5, 8, 4], "ok": true, "method": "translates", "nD": 226, "orbit": 2, "t": 0.1751413345336914}
+{"poly": "x^3 + 3*x - 23", "disc": -1599, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 284, "orbit": 1, "t": 0.152634859085083}
+{"poly": "x^3 - x^2 - 3*x - 7", "disc": -1612, "kind": "b", "m": 129, "a": [35, 16, 46], "ok": true, "method": "translates", "nD": 158, "orbit": 2, "t": 0.13378143310546875}
+{"poly": "x^3 - x^2 - 2*x + 16", "disc": -1559, "kind": "b", "m": 11, "a": [5, 4, 6], "ok": true, "method": "translates", "nD": 6126, "orbit": 2, "t": 0.3238391876220703}
+{"poly": "x^3 - 5*x - 16", "disc": -1603, "kind": "b", "m": 27, "a": [7, 26, 16], "ok": true, "method": "translates", "nD": 490, "orbit": 2, "t": 0.19155097007751465}
+{"poly": "x^3 + 7*x - 3", "disc": -1615, "kind": "b", "m": 15, "a": [8, 9, 8], "ok": true, "method": "translates", "nD": 54, "orbit": 2, "t": 0.15228700637817383}
+{"poly": "x^3 - 9*x - 13", "disc": -1647, "kind": "b", "m": 23, "a": [11, 5, 12], "ok": true, "method": "translates", "nD": 92, "orbit": 2, "t": 0.1301898956298828}
+{"poly": "x^3 - x^2 + x - 8", "disc": -1619, "kind": "b", "m": 7, "a": [4, 0, 4], "ok": true, "method": "translates", "nD": 104, "orbit": 2, "t": 0.1663064956665039}
+{"poly": "x^3 - x^2 + 2*x - 16", "disc": -1607, "kind": "b", "m": 60917, "a": [19108, 23554, 34388], "ok": true, "method": "translates", "nD": 12498, "orbit": 2, "t": 0.40584659576416016}
+{"poly": "x^3 - x^2 + 7*x + 2", "disc": -1675, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 424, "orbit": 1, "t": 0.231001615524292}
+{"poly": "x^3 - 5*x - 9", "disc": -1687, "kind": "b", "m": 5, "a": [2, 3, 2], "ok": true, "method": "translates", "nD": 78, "orbit": 2, "t": 0.24272894859313965}
+{"poly": "x^3 - x^2 + 12*x - 8", "disc": -1700, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 754, "orbit": 1, "t": 0.2040271759033203}
+{"poly": "x^3 - x^2 - 4*x + 10", "disc": -1668, "kind": "b", "m": 7653, "a": [2033, 1209, 3445], "ok": true, "method": "translates", "nD": 6286, "orbit": 2, "t": 0.3568379878997803}
+{"poly": "x^3 - x^2 - 5*x + 11", "disc": -1708, "kind": "b", "m": 22, "a": [1, 20, 13], "ok": true, "method": "translates", "nD": 296, "orbit": 2, "t": 0.1398303508758545}
+{"poly": "x^3 - x^2 + x - 24", "disc": -1691, "kind": "b", "m": 5651, "a": [3723, 3726, 3297], "ok": true, "method": "translates", "nD": 4072, "orbit": 2, "t": 0.2965126037597656}
+{"poly": "x^3 - x^2 + 5*x - 17", "disc": -1704, "kind": "b", "m": 7481, "a": [3741, 3690, 3365], "ok": true, "method": "translates", "nD": 9120, "orbit": 2, "t": 0.27442240715026855}
+{"poly": "x^3 - x^2 - 8*x + 15", "disc": -1743, "kind": "b", "m": 21, "a": [9, 14, 5], "ok": true, "method": "translates", "nD": 202, "orbit": 2, "t": 0.11345076560974121}
+{"poly": "x^3 + 2*x - 16", "disc": -1736, "kind": "b", "m": 53, "a": [9, 44, 29], "ok": true, "method": "translates", "nD": 370, "orbit": 2, "t": 0.17242836952209473}
+{"poly": "x^3 - 2*x - 16", "disc": -1720, "kind": "b", "m": 138, "a": [136, 37, 88], "ok": true, "method": "translates", "nD": 2066, "orbit": 2, "t": 0.24214792251586914}
+{"poly": "x^3 - x^2 - 5*x - 15", "disc": -1740, "kind": "b", "m": 353, "a": [300, 51, 291], "ok": true, "method": "translates", "nD": 1286, "orbit": 2, "t": 0.20209002494812012}
+{"poly": "x^3 + 3*x - 16", "disc": -1755, "kind": "b", "m": 2, "a": [0, 1, 0], "ok": true, "method": "translates", "nD": 886, "orbit": 1, "t": 0.13712024688720703}
+{"poly": "x^3 + 11*x - 8", "disc": -1763, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 168, "orbit": 1, "t": 0.17197728157043457}
+{"poly": "x^3 - x^2 - 4*x - 23", "disc": -1751, "kind": "b", "m": 9, "a": [2, 0, 6], "ok": true, "method": "translates", "nD": 606, "orbit": 2, "t": 0.19721508026123047}
+{"poly": "x^3 - x^2 + 3*x + 7", "disc": -1772, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 84, "orbit": 1, "t": 0.1611011028289795}
+{"poly": "x^3 - x^2 + 8*x - 3", "disc": -1807, "kind": "b", "m": 5, "a": [1, 0, 2], "ok": true, "method": "translates", "nD": 68, "orbit": 2, "t": 0.138047456741333}
+{"poly": "x^3 - x - 16", "disc": -1727, "kind": "b", "m": 356, "a": [240, 15, 180], "ok": true, "method": "translates", "nD": 13752, "orbit": 2, "t": 0.49740099906921387}
+{"poly": "x^3 - 7*x - 18", "disc": -1844, "kind": "n", "m": 6806934, "a": [828314, 617583, 4818757], "ok": null, "error": "modulus too large for the translate test", "t": 0.03382253646850586}
+{"poly": "x^3 - x^2 + 4*x - 9", "disc": -1815, "kind": "b", "m": 3, "a": [0, 2, 1], "ok": true, "method": "translates", "nD": 140, "orbit": 2, "t": 0.16176223754882812}
+{"poly": "x^3 - x^2 + x + 8", "disc": -1843, "kind": "b", "m": 431, "a": [321, 377, 233], "ok": true, "method": "translates", "nD": 374, "orbit": 2, "t": 0.1653590202331543}
+{"poly": "x^3 - x^2 + 7*x + 13", "disc": -1868, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 276, "orbit": 1, "t": 0.09993267059326172}
+{"poly": "x^3 - x^2 + 8*x - 1", "disc": -1871, "kind": "b", "m": 7, "a": [4, 0, 4], "ok": true, "method": "translates", "nD": 30, "orbit": 2, "t": 0.13388419151306152}
+{"poly": "x^3 - x^2 + 8*x - 2", "disc": -1812, "kind": "b", "m": 17293, "a": [4233, 11717, 10458], "ok": true, "method": "translates", "nD": 8462, "orbit": 2, "t": 0.2814779281616211}
+{"poly": "x^3 - x^2 - 6*x + 20", "disc": -1915, "kind": "b", "m": 280, "a": [4, 28, 67], "ok": true, "method": "translates", "nD": 1418, "orbit": 2, "t": 0.1224985122680664}
+{"poly": "x^3 - 7*x - 11", "disc": -1895, "kind": "b", "m": 5, "a": [3, 3, 2], "ok": true, "method": "translates", "nD": 68, "orbit": 2, "t": 0.13662099838256836}
+{"poly": "x^3 - x^2 + x - 17", "disc": -1892, "kind": "b", "m": 3163, "a": [1696, 1487, 829], "ok": true, "method": "translates", "nD": 1616, "orbit": 2, "t": 0.20927071571350098}
+{"poly": "x^3 - x^2 + 7*x + 3", "disc": -1932, "kind": "b", "m": 659, "a": [433, 81, 284], "ok": true, "method": "translates", "nD": 1056, "orbit": 2, "t": 0.17909598350524902}
+{"poly": "x^3 - x^2 - 5*x - 8", "disc": -1955, "kind": "b", "m": 13, "a": [9, 0, 6], "ok": true, "method": "translates", "nD": 204, "orbit": 4, "t": 0.11266589164733887}
+{"poly": "x^3 - x^2 + 8*x - 5", "disc": -1959, "kind": "b", "m": 13, "a": [1, 4, 7], "ok": true, "method": "translates", "nD": 186, "orbit": 2, "t": 0.16144132614135742}
+{"poly": "x^3 - x^2 + 9*x - 17", "disc": -1988, "kind": "b", "m": 2663, "a": [1049, 978, 1531], "ok": true, "method": "translates", "nD": 2242, "orbit": 2, "t": 0.1411581039428711}
+{"poly": "x^3 - x^2 + 2*x + 25", "disc": -1967, "kind": "b", "m": 7, "a": [4, 5, 1], "ok": true, "method": "translates", "nD": 1638, "orbit": 2, "t": 0.22040152549743652}
+{"poly": "x^3 - 9*x - 20", "disc": -1971, "kind": "b", "m": 50, "a": [40, 31, 43], "ok": true, "method": "translates", "nD": 1764, "orbit": 2, "t": 0.23324799537658691}
+{"poly": "x^3 - x^2 - 3*x + 10", "disc": -2003, "kind": "b", "m": 56, "a": [13, 35, 19], "ok": true, "method": "translates", "nD": 144, "orbit": 2, "t": 0.1598367691040039}
+{"poly": "x^3 - x^2 + 6*x + 5", "disc": -2023, "kind": "b", "m": 11, "a": [9, 8, 5], "ok": true, "method": "translates", "nD": 118, "orbit": 2, "t": 0.09921121597290039}
+{"poly": "x^3 - x^2 + 4*x + 7", "disc": -2039, "kind": "b", "m": 7, "a": [2, 3, 4], "ok": true, "method": "translates", "nD": 34, "orbit": 2, "t": 0.13219428062438965}
+{"poly": "x^3 + 7*x - 5", "disc": -2047, "kind": "b", "m": 9, "a": [1, 8, 5], "ok": true, "method": "translates", "nD": 58, "orbit": 2, "t": 0.13173532485961914}
+{"poly": "x^3 - x^2 + 13*x - 5", "disc": -2036, "kind": "b", "m": 250, "a": [5, 126, 86], "ok": true, "method": "translates", "nD": 5484, "orbit": 2, "t": 0.22881603240966797}
+{"poly": "x^3 + 7*x - 16", "disc": -2071, "kind": "n", "m": 112721348, "a": [52126806, 69998749, 60566306], "ok": null, "error": "modulus too large for the translate test", "t": 0.033994197845458984}
+{"poly": "x^3 + 9*x - 14", "disc": -2052, "kind": "b", "m": 14323, "a": [7003, 5571, 7317], "ok": true, "method": "translates", "nD": 6450, "orbit": 2, "t": 0.22226715087890625}
+{"poly": "x^3 - x^2 - 2*x + 27", "disc": -2063, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 428, "orbit": 1, "t": 0.17893695831298828}
+{"poly": "x^3 - x^2 - x - 26", "disc": -2091, "kind": "b", "m": 138, "a": [15, 53, 85], "ok": true, "method": "translates", "nD": 3302, "orbit": 2, "t": 0.15913796424865723}
+{"poly": "x^3 - x^2 - 3*x + 19", "disc": -2132, "kind": "b", "m": 116, "a": [89, 90, 100], "ok": true, "method": "translates", "nD": 1328, "orbit": 2, "t": 0.20975446701049805}
+{"poly": "x^3 - x^2 - 4*x + 11", "disc": -2159, "kind": "b", "m": 13, "a": [8, 8, 9], "ok": true, "method": "translates", "nD": 60, "orbit": 4, "t": 0.09385228157043457}
+{"poly": "x^3 - 2*x - 9", "disc": -2155, "kind": "b", "m": 9, "a": [1, 0, 4], "ok": true, "method": "translates", "nD": 656, "orbit": 2, "t": 0.2008965015411377}
+{"poly": "x^3 - x^2 - 12*x + 23", "disc": -2167, "kind": "b", "m": 23, "a": [4, 8, 15], "ok": true, "method": "translates", "nD": 168, "orbit": 2, "t": 0.15756487846374512}
+{"poly": "x^3 - x^2 - 3*x - 17", "disc": -2168, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 1222, "orbit": 1, "t": 0.15723252296447754}
+{"poly": "x^3 + 3*x - 27", "disc": -2199, "kind": "b", "m": 9, "a": [5, 0, 5], "ok": true, "method": "translates", "nD": 90, "orbit": 2, "t": 0.14014625549316406}
+{"poly": "x^3 - 5*x - 10", "disc": -2200, "kind": "b", "m": 678, "a": [478, 475, 287], "ok": true, "method": "translates", "nD": 4826, "orbit": 2, "t": 0.18746089935302734}
+{"poly": "x^3 - x^2 - 6*x + 13", "disc": -2207, "kind": "b", "m": 5, "a": [3, 3, 3], "ok": true, "method": "translates", "nD": 66, "orbit": 2, "t": 0.12690138816833496}
+{"poly": "x^3 - x^2 + 3*x + 8", "disc": -2227, "kind": "b", "m": 136, "a": [27, 7, 89], "ok": true, "method": "translates", "nD": 736, "orbit": 2, "t": 0.17627334594726562}
+{"poly": "x^3 - x^2 - 11*x + 21", "disc": -2220, "kind": "b", "m": 6, "a": [3, 4, 3], "ok": true, "method": "translates", "nD": 2520, "orbit": 2, "t": 0.22431588172912598}
+{"poly": "x^3 - x^2 - 7*x - 17", "disc": -2148, "kind": "b", "m": 576, "a": [137, 574, 366], "ok": true, "method": "translates", "nD": 25102, "orbit": 2, "t": 0.8753421306610107}
+{"poly": "x^3 + 5*x - 8", "disc": -2228, "kind": "b", "m": 23, "a": [14, 21, 13], "ok": true, "method": "translates", "nD": 950, "orbit": 2, "t": 0.17540907859802246}
+{"poly": "x^3 - x^2 - 5*x + 12", "disc": -2235, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 3702, "orbit": 1, "t": 0.17540383338928223}
+{"poly": "x^3 - x^2 + 10*x + 8", "disc": -1759, "kind": "b", "m": 134581, "a": [54951, 39143, 18310], "ok": true, "method": "translates", "nD": 151926, "orbit": 2, "t": 2.0653669834136963}
+{"poly": "x^3 - x^2 - 2*x + 10", "disc": -2264, "kind": "b", "m": 40, "a": [10, 12, 19], "ok": true, "method": "translates", "nD": 1886, "orbit": 2, "t": 0.2104642391204834}
+{"poly": "x^3 + 8*x - 3", "disc": -2291, "kind": "b", "m": 79357, "a": [36907, 33888, 42643], "ok": true, "method": "translates", "nD": 5658, "orbit": 2, "t": 0.16473650932312012}
+{"poly": "x^3 - x^2 - x + 28", "disc": -2283, "kind": "b", "m": 42, "a": [31, 15, 11], "ok": true, "method": "translates", "nD": 7630, "orbit": 2, "t": 0.24117422103881836}
+{"poly": "x^3 - x^2 + 4*x - 10", "disc": -2260, "kind": "b", "m": 270, "a": [80, 231, 113], "ok": true, "method": "translates", "nD": 7620, "orbit": 2, "t": 0.35358452796936035}
+{"poly": "x^3 - x^2 + 5*x - 10", "disc": -2315, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 220, "orbit": 1, "t": 0.15165305137634277}
+{"poly": "x^3 - x^2 + x + 9", "disc": -2316, "kind": "b", "m": 3, "a": [0, 2, 1], "ok": true, "method": "translates", "nD": 2114, "orbit": 2, "t": 0.13895606994628906}
+{"poly": "x^3 - x^2 - 6*x - 16", "disc": -1951, "kind": "b", "m": 74551, "a": [22597, 46625, 72322], "ok": true, "method": "translates", "nD": 72756, "orbit": 2, "t": 1.9654409885406494}
+{"poly": "x^3 + 7*x - 6", "disc": -2344, "kind": "b", "m": 231, "a": [229, 219, 145], "ok": true, "method": "translates", "nD": 7112, "orbit": 2, "t": 0.20365190505981445}
+{"poly": "x^3 - x^2 + 8*x + 2", "disc": -2372, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 1216, "orbit": 1, "t": 0.24440693855285645}
+{"poly": "x^3 - x^2 + 13*x - 9", "disc": -2184, "kind": "b", "m": 38977, "a": [16809, 28364, 6479], "ok": true, "method": "translates", "nD": 41774, "orbit": 2, "t": 1.3795194625854492}
+{"poly": "x^3 + 12*x - 23", "disc": -2355, "kind": "b", "m": 11117, "a": [1392, 11008, 8581], "ok": true, "method": "translates", "nD": 17210, "orbit": 2, "t": 0.43698740005493164}
+{"poly": "x^3 - 9*x - 14", "disc": -2376, "kind": "b", "m": 58, "a": [25, 11, 30], "ok": true, "method": "translates", "nD": 7408, "orbit": 2, "t": 0.43602895736694336}
+{"poly": "x^3 - x^2 - x - 9", "disc": -2380, "kind": "b", "m": 881, "a": [717, 122, 503], "ok": true, "method": "translates", "nD": 720, "orbit": 2, "t": 0.34894371032714844}
+{"poly": "x^3 - x^2 + 3*x + 27", "disc": -2348, "kind": "b", "m": 458, "a": [387, 408, 215], "ok": true, "method": "translates", "nD": 15770, "orbit": 2, "t": 0.703202486038208}
+{"poly": "x^3 - x^2 + 6*x - 20", "disc": -2387, "kind": "b", "m": 13, "a": [10, 12, 9], "ok": true, "method": "translates", "nD": 552, "orbit": 2, "t": 0.33086299896240234}
+{"poly": "x^3 - 6*x - 11", "disc": -2403, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 700, "orbit": 1, "t": 0.36241888999938965}
+{"poly": "x^3 - x^2 + 2*x - 10", "disc": -2408, "kind": "b", "m": 1747, "a": [157, 565, 1264], "ok": true, "method": "translates", "nD": 1468, "orbit": 2, "t": 0.4435150623321533}
+{"poly": "x^3 - x^2 + 2*x - 29", "disc": -2423, "kind": "b", "m": 39, "a": [2, 29, 31], "ok": true, "method": "translates", "nD": 2112, "orbit": 2, "t": 0.528583288192749}
+{"poly": "x^3 - x^2 + 4*x - 20", "disc": -2420, "kind": "b", "m": 74, "a": [55, 9, 16], "ok": true, "method": "translates", "nD": 2936, "orbit": 2, "t": 0.5930404663085938}
+{"poly": "x^3 - 4*x - 10", "disc": -2444, "kind": "b", "m": 389, "a": [187, 233, 163], "ok": true, "method": "translates", "nD": 240, "orbit": 2, "t": 0.4816453456878662}
+{"poly": "x^3 - x^2 - 7*x + 23", "disc": -2468, "kind": "b", "m": 2383, "a": [1189, 1113, 1088], "ok": true, "method": "translates", "nD": 3082, "orbit": 2, "t": 0.5517656803131104}
+{"poly": "x^3 - x^2 - 8*x + 24", "disc": -2472, "kind": "n", "m": 45336414, "a": [21311763, 16413587, 6975633], "ok": null, "error": "modulus too large for the translate test", "t": 0.08921933174133301}
+{"poly": "x^3 - x^2 + 6*x + 16", "disc": -2351, "kind": "b", "m": 2651, "a": [1748, 2537, 1138], "ok": true, "method": "translates", "nD": 56894, "orbit": 2, "t": 1.8688688278198242}
+{"poly": "x^3 - 11*x - 17", "disc": -2479, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 108, "orbit": 1, "t": 0.3123047351837158}
+{"poly": "x^3 - x^2 + 6*x + 6", "disc": -2424, "kind": "b", "m": 6287, "a": [3061, 2407, 3120], "ok": true, "method": "translates", "nD": 29910, "orbit": 2, "t": 1.2832398414611816}
+{"poly": "x^3 - x^2 - 9*x - 19", "disc": -2476, "kind": "b", "m": 1723, "a": [875, 645, 34], "ok": true, "method": "translates", "nD": 948, "orbit": 2, "t": 0.40192699432373047}
+{"poly": "x^3 - x^2 + 2*x + 9", "disc": -2503, "kind": "b", "m": 5, "a": [3, 1, 2], "ok": true, "method": "translates", "nD": 114, "orbit": 2, "t": 0.21294260025024414}
+{"poly": "x^3 + 13*x - 6", "disc": -2440, "kind": "b", "m": 501, "a": [422, 171, 263], "ok": true, "method": "translates", "nD": 21754, "orbit": 2, "t": 1.4756853580474854}
+{"poly": "x^3 - x^2 - 2*x + 20", "disc": -2491, "kind": "b", "m": 13, "a": [7, 12, 11], "ok": true, "method": "translates", "nD": 2528, "orbit": 2, "t": 0.5129966735839844}
+{"poly": "x^3 - 6*x - 20", "disc": -2484, "kind": "b", "m": 492, "a": [197, 241, 7], "ok": true, "method": "translates", "nD": 14376, "orbit": 2, "t": 0.7697796821594238}
+{"poly": "x^3 - x^2 - 5*x - 9", "disc": -2508, "kind": "b", "m": 186, "a": [85, 14, 127], "ok": true, "method": "translates", "nD": 1134, "orbit": 2, "t": 0.28297972679138184}
+{"poly": "x^3 - x^2 + x + 19", "disc": -2504, "kind": "b", "m": 155, "a": [101, 80, 115], "ok": true, "method": "translates", "nD": 7540, "orbit": 2, "t": 0.652332067489624}
+{"poly": "x^3 - x^2 - x - 19", "disc": -2540, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 366, "orbit": 1, "t": 0.27307558059692383}
+{"poly": "x^3 - x^2 + 14*x - 4", "disc": -2555, "kind": "b", "m": 173, "a": [102, 39, 36], "ok": true, "method": "translates", "nD": 1472, "orbit": 2, "t": 0.270554780960083}
+{"poly": "x^3 - 8*x - 13", "disc": -2515, "kind": "b", "m": 60, "a": [37, 49, 29], "ok": true, "method": "translates", "nD": 1738, "orbit": 2, "t": 0.45038533210754395}
+{"poly": "x^3 - x^2 - 7*x - 10", "disc": -2579, "kind": "b", "m": 359, "a": [320, 136, 210], "ok": true, "method": "translates", "nD": 512, "orbit": 2, "t": 0.23346400260925293}
+{"poly": "x^3 - x^2 - 4*x + 31", "disc": -2591, "kind": "b", "m": 47, "a": [18, 43, 41], "ok": true, "method": "translates", "nD": 964, "orbit": 2, "t": 0.27478837966918945}
+{"poly": "x^3 - x^2 - 4*x - 9", "disc": -2599, "kind": "b", "m": 9, "a": [2, 5, 4], "ok": true, "method": "translates", "nD": 76, "orbit": 2, "t": 0.2927865982055664}
+{"poly": "x^3 - x^2 + 9*x - 3", "disc": -2604, "kind": "b", "m": 3, "a": [2, 1, 1], "ok": true, "method": "translates", "nD": 1484, "orbit": 2, "t": 0.25710177421569824}
+{"poly": "x^3 - x^2 + 9*x - 2", "disc": -2627, "kind": "b", "m": 13, "a": [1, 1, 6], "ok": true, "method": "translates", "nD": 296, "orbit": 2, "t": 0.20285940170288086}
+{"poly": "x^3 - 4*x - 20", "disc": -2636, "kind": "b", "m": 85, "a": [45, 83, 38], "ok": true, "method": "translates", "nD": 232, "orbit": 2, "t": 0.23422884941101074}
+{"poly": "x^3 - x^2 + 9*x - 4", "disc": -2635, "kind": "b", "m": 58, "a": [55, 33, 15], "ok": true, "method": "translates", "nD": 1250, "orbit": 2, "t": 0.27611494064331055}
+{"poly": "x^3 - x^2 + 8*x + 3", "disc": -2647, "kind": "b", "m": 29, "a": [17, 6, 14], "ok": true, "method": "translates", "nD": 134, "orbit": 2, "t": 0.277742862701416}
+{"poly": "x^3 - x^2 + 10", "disc": -2660, "kind": "b", "m": 178, "a": [68, 75, 61], "ok": true, "method": "translates", "nD": 3952, "orbit": 2, "t": 0.4388718605041504}
+{"poly": "x^3 - 2*x - 10", "disc": -2668, "kind": "b", "m": 22, "a": [20, 2, 13], "ok": true, "method": "translates", "nD": 428, "orbit": 2, "t": 0.3429253101348877}
+{"poly": "x^3 - x^2 + 5*x - 21", "disc": -2644, "kind": "b", "m": 12, "a": [1, 0, 2], "ok": true, "method": "translates", "nD": 33022, "orbit": 2, "t": 1.3819396495819092}
+{"poly": "x^3 - x^2 + 20", "disc": -2680, "kind": "b", "m": 256, "a": [100, 104, 43], "ok": true, "method": "translates", "nD": 23892, "orbit": 2, "t": 1.7790706157684326}
+{"poly": "x^3 - x - 20", "disc": -2699, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 1460, "orbit": 1, "t": 0.42501187324523926}
+{"poly": "x^3 + 2*x - 20", "disc": -2708, "kind": "b", "m": 2, "a": [1, 1, 0], "ok": true, "method": "translates", "nD": 894, "orbit": 1, "t": 0.3698117733001709}
+{"poly": "x^3 + 8*x - 5", "disc": -2723, "kind": "b", "m": 13, "a": [3, 7, 5], "ok": true, "method": "translates", "nD": 316, "orbit": 2, "t": 0.3216898441314697}
+{"poly": "x^3 + 3*x - 20", "disc": -2727, "kind": "n", "m": 19010246898, "a": [17805466969, 12125429620, 16968358712], "ok": null, "error": "modulus too large for the translate test", "t": 0.047380924224853516}
+{"poly": "x^3 - x^2 + 13*x + 3", "disc": -2388, "kind": "b", "m": 590, "a": [181, 86, 58], "ok": true, "method": "translates", "nD": 181154, "orbit": 2, "t": 7.834854602813721}
+{"poly": "x^3 + 2*x - 10", "disc": -2732, "kind": "b", "m": 10, "a": [6, 0, 3], "ok": true, "method": "translates", "nD": 136, "orbit": 2, "t": 0.21861529350280762}
+{"poly": "x^3 + 10*x - 16", "disc": -2728, "kind": "b", "m": 121067, "a": [90710, 111682, 67958], "ok": true, "method": "translates", "nD": 10074, "orbit": 2, "t": 0.6992340087890625}
+{"poly": "x^3 - x^2 - 11*x - 21", "disc": -2676, "kind": "b", "m": 12, "a": [8, 5, 11], "ok": true, "method": "translates", "nD": 74630, "orbit": 2, "t": 3.9659719467163086}
+{"poly": "x^3 - x^2 + 4*x - 11", "disc": -2759, "kind": "b", "m": 7, "a": [5, 0, 3], "ok": true, "method": "translates", "nD": 38, "orbit": 2, "t": 0.20797300338745117}
+{"poly": "x^3 - x^2 - 2*x + 11", "disc": -2791, "kind": "b", "m": 23, "a": [18, 9, 16], "ok": true, "method": "translates", "nD": 54, "orbit": 2, "t": 0.17099380493164062}
+{"poly": "x^3 - x^2 - 10", "disc": -2740, "kind": "b", "m": 422, "a": [238, 403, 306], "ok": true, "method": "translates", "nD": 16330, "orbit": 2, "t": 0.6334545612335205}
+{"poly": "x^3 - x^2 + 10*x - 20", "disc": -2795, "kind": "b", "m": 10, "a": [0, 8, 5], "ok": true, "method": "translates", "nD": 782, "orbit": 2, "t": 0.2553141117095947}
+{"poly": "x^3 - x^2 + 5*x - 11", "disc": -2796, "kind": "b", "m": 3, "a": [0, 1, 2], "ok": true, "method": "translates", "nD": 738, "orbit": 2, "t": 0.22014951705932617}
+{"poly": "x^3 - x^2 + 7*x - 10", "disc": -2803, "kind": "b", "m": 38, "a": [29, 23, 13], "ok": true, "method": "translates", "nD": 788, "orbit": 2, "t": 0.2171645164489746}
+{"poly": "x^3 + 3*x - 10", "disc": -2808, "kind": "b", "m": 17162, "a": [6379, 11699, 11458], "ok": true, "method": "translates", "nD": 13888, "orbit": 4, "t": 0.5684788227081299}
+{"poly": "x^3 - 7*x - 12", "disc": -2516, "kind": "b", "m": 382, "a": [2, 156, 235], "ok": true, "method": "translates", "nD": 140942, "orbit": 2, "t": 7.455366849899292}
+{"poly": "x^3 + 14*x - 4", "disc": -2852, "kind": "b", "m": 2, "a": [1, 1, 0], "ok": true, "method": "translates", "nD": 942, "orbit": 1, "t": 0.3656585216522217}
+{"poly": "x^3 - x^2 - 10*x - 13", "disc": -2855, "kind": "b", "m": 5, "a": [4, 1, 2], "ok": true, "method": "translates", "nD": 76, "orbit": 2, "t": 0.3663971424102783}
+{"poly": "x^3 - x^2 + x + 30", "disc": -2747, "kind": "b", "m": 293, "a": [291, 110, 195], "ok": true, "method": "translates", "nD": 42702, "orbit": 2, "t": 1.9758524894714355}
+{"poly": "x^3 - x^2 - x + 21", "disc": -2860, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 2340, "orbit": 1, "t": 0.5475974082946777}
+{"poly": "x^3 - x^2 + 2*x + 20", "disc": -2867, "kind": "b", "m": 382, "a": [240, 170, 231], "ok": true, "method": "translates", "nD": 778, "orbit": 2, "t": 0.41004204750061035}
+{"poly": "x^3 - x^2 + 6*x + 7", "disc": -2879, "kind": "b", "m": 7, "a": [3, 3, 4], "ok": true, "method": "translates", "nD": 36, "orbit": 2, "t": 0.3056199550628662}
+{"poly": "x^3 - x^2 - 13*x - 17", "disc": -2892, "kind": "b", "m": 7607, "a": [5869, 2326, 2764], "ok": true, "method": "translates", "nD": 2798, "orbit": 2, "t": 0.5124521255493164}
+{"poly": "x^3 + 3*x - 31", "disc": -2895, "kind": "b", "m": 37, "a": [34, 30, 15], "ok": true, "method": "translates", "nD": 1114, "orbit": 2, "t": 0.3677856922149658}
+{"poly": "x^3 - x^2 - x - 10", "disc": -2915, "kind": "b", "m": 233, "a": [15, 44, 165], "ok": true, "method": "translates", "nD": 356, "orbit": 2, "t": 0.34400463104248047}
+{"poly": "x^3 - x^2 + 14*x - 12", "disc": -2923, "kind": "b", "m": 1193, "a": [51, 730, 1151], "ok": true, "method": "translates", "nD": 1702, "orbit": 2, "t": 0.42940711975097656}
+{"poly": "x^3 + 13*x - 10", "disc": -2872, "kind": "b", "m": 366, "a": [289, 344, 301], "ok": true, "method": "translates", "nD": 24932, "orbit": 2, "t": 1.5147175788879395}
+{"poly": "x^3 - x^2 + 6*x - 11", "disc": -2951, "kind": "b", "m": 5, "a": [4, 3, 3], "ok": true, "method": "translates", "nD": 102, "orbit": 2, "t": 0.3011915683746338}
+{"poly": "x^3 + 4*x - 10", "disc": -2956, "kind": "b", "m": 155, "a": [40, 102, 87], "ok": true, "method": "translates", "nD": 2102, "orbit": 2, "t": 0.45564842224121094}
+{"poly": "x^3 - x^2 - 5*x - 30", "disc": -2955, "kind": "b", "m": 33937, "a": [21896, 6430, 19220], "ok": true, "method": "translates", "nD": 21404, "orbit": 2, "t": 1.3253583908081055}
+{"poly": "x^3 - x^2 - 6*x - 10", "disc": -2920, "kind": "b", "m": 220, "a": [18, 168, 127], "ok": true, "method": "translates", "nD": 36594, "orbit": 2, "t": 2.1658735275268555}
+{"poly": "x^3 - x^2 - 6*x + 24", "disc": -2991, "kind": "b", "m": 9968, "a": [3219, 4423, 391], "ok": null, "error": "translate box too large (4.91e+07)", "t": 0.27106714248657227}
+{"poly": "x^3 - 4*x - 11", "disc": -3011, "kind": "b", "m": 29, "a": [4, 21, 11], "ok": true, "method": "translates", "nD": 178, "orbit": 2, "t": 0.3156144618988037}
+{"poly": "x^3 - x^2 + 7*x + 6", "disc": -3027, "kind": "b", "m": 42179, "a": [37337, 4958, 27177], "ok": true, "method": "translates", "nD": 6674, "orbit": 2, "t": 0.5710375308990479}
+{"poly": "x^3 - x^2 - 6*x - 20", "disc": -3035, "kind": "b", "m": 74, "a": [10, 58, 21], "ok": true, "method": "translates", "nD": 798, "orbit": 2, "t": 0.3485748767852783}
+{"poly": "x^3 - x^2 + 4*x + 9", "disc": -3039, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 174, "orbit": 1, "t": 0.32463884353637695}
+{"poly": "x^3 + 7*x - 20", "disc": -3043, "kind": "b", "m": 674, "a": [475, 96, 217], "ok": true, "method": "translates", "nD": 7624, "orbit": 2, "t": 0.6530742645263672}
+{"poly": "x^3 - x^2 + 10*x - 33", "disc": -3055, "kind": "b", "m": 5, "a": [2, 4, 3], "ok": true, "method": "translates", "nD": 434, "orbit": 2, "t": 0.33340907096862793}
+{"poly": "x^3 + 11*x - 16", "disc": -3059, "kind": "b", "m": 7, "a": [4, 4, 3], "ok": true, "method": "translates", "nD": 432, "orbit": 2, "t": 0.34279441833496094}
+{"poly": "x^3 - x^2 + 5*x + 19", "disc": -2964, "kind": "b", "m": 8896, "a": [1675, 5330, 6944], "ok": true, "method": "translates", "nD": 150182, "orbit": 4, "t": 4.883330345153809}
+{"poly": "x^3 - x^2 - 3*x + 12", "disc": -3075, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 5338, "orbit": 1, "t": 0.6089212894439697}
+{"poly": "x^3 - x^2 - 2*x - 10", "disc": -3064, "kind": "b", "m": 15, "a": [7, 11, 9], "ok": true, "method": "translates", "nD": 56006, "orbit": 2, "t": 2.394913673400879}
+{"poly": "x^3 - x^2 - 13*x + 26", "disc": -3107, "kind": "b", "m": 10, "a": [1, 9, 7], "ok": true, "method": "translates", "nD": 456, "orbit": 2, "t": 0.22974705696105957}
+{"poly": "x^3 - x^2 - 5*x - 10", "disc": -3115, "kind": "b", "m": 28019, "a": [10686, 16978, 18300], "ok": true, "method": "translates", "nD": 3548, "orbit": 2, "t": 0.30553483963012695}
+{"poly": "x^3 - x^2 + x - 11", "disc": -3116, "kind": "b", "m": 82, "a": [1, 61, 18], "ok": true, "method": "translates", "nD": 406, "orbit": 4, "t": 0.2137913703918457}
+{"poly": "x^3 - x^2 - 16*x + 33", "disc": -3127, "kind": "b", "m": 5, "a": [3, 3, 3], "ok": true, "method": "translates", "nD": 220, "orbit": 2, "t": 0.17728590965270996}
+{"poly": "x^3 - x^2 + 13*x - 17", "disc": -3128, "kind": "b", "m": 10, "a": [7, 3, 3], "ok": true, "method": "translates", "nD": 3338, "orbit": 2, "t": 0.24204325675964355}
+{"poly": "x^3 - x^2 - 13*x + 33", "disc": -3148, "kind": "b", "m": 10, "a": [8, 3, 9], "ok": true, "method": "translates", "nD": 2486, "orbit": 2, "t": 0.3167684078216553}
+{"poly": "x^3 - x^2 + 14*x - 8", "disc": -2631, "kind": "b", "m": 164019, "a": [20816, 4797, 46858], "ok": null, "error": "translate box too large (2.46e+07)", "t": 19.345023155212402}
+{"poly": "x^3 - x^2 - 4*x - 20", "disc": -3012, "kind": "b", "m": 42, "a": [6, 40, 11], "ok": true, "method": "translates", "nD": 237684, "orbit": 2, "t": 8.993589878082275}
+{"poly": "x^3 - 9*x - 15", "disc": -3159, "kind": "b", "m": 9, "a": [0, 3, 4], "ok": true, "method": "translates", "nD": 286, "orbit": 2, "t": 0.39780616760253906}
+{"poly": "x^3 + 9*x - 3", "disc": -3159, "kind": "b", "m": 3, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 56, "orbit": 2, "t": 0.28857898712158203}
+{"poly": "x^3 - x^2 - 11*x + 22", "disc": -3179, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 352, "orbit": 1, "t": 0.25199103355407715}
+{"poly": "x^3 + 14*x - 8", "disc": -3176, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 3066, "orbit": 1, "t": 0.4715135097503662}
+{"poly": "x^3 - 7*x - 13", "disc": -3191, "kind": "b", "m": 7, "a": [4, 6, 2], "ok": true, "method": "translates", "nD": 78, "orbit": 2, "t": 0.3023874759674072}
+{"poly": "x^3 - x^2 + 15*x - 3", "disc": -3180, "kind": "b", "m": 5, "a": [2, 3, 2], "ok": true, "method": "translates", "nD": 23484, "orbit": 2, "t": 0.6249370574951172}
+{"poly": "x^3 + 8*x - 20", "disc": -3212, "kind": "b", "m": 10, "a": [2, 0, 3], "ok": true, "method": "translates", "nD": 118, "orbit": 4, "t": 0.23070549964904785}
+{"poly": "x^3 - 2*x - 11", "disc": -3235, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 3466, "orbit": 1, "t": 0.5841383934020996}
+{"poly": "x^3 - x^2 - 3*x + 23", "disc": -3208, "kind": "b", "m": 271, "a": [217, 91, 89], "ok": true, "method": "translates", "nD": 31782, "orbit": 2, "t": 2.0387518405914307}
+{"poly": "x^3 - 8*x - 14", "disc": -3244, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 1222, "orbit": 1, "t": 0.4759387969970703}
+{"poly": "x^3 - 3*x - 22", "disc": -3240, "kind": "b", "m": 268, "a": [89, 124, 19], "ok": true, "method": "translates", "nD": 70616, "orbit": 2, "t": 3.589864492416382}
+{"poly": "x^3 - x^2 + 14*x + 22", "disc": -3256, "kind": "b", "m": 118, "a": [82, 53, 20], "ok": true, "method": "translates", "nD": 136608, "orbit": 2, "t": 3.8611555099487305}
+{"poly": "x^3 - x^2 + 9*x + 2", "disc": -3259, "kind": "b", "m": 9, "a": [1, 8, 5], "ok": true, "method": "translates", "nD": 1284, "orbit": 2, "t": 0.3665199279785156}
+{"poly": "x^3 - x - 11", "disc": -3263, "kind": "b", "m": 85, "a": [36, 24, 37], "ok": true, "method": "translates", "nD": 72, "orbit": 4, "t": 0.2941610813140869}
+{"poly": "x^3 - x^2 + 9*x + 15", "disc": -2820, "kind": "b", "m": 12, "a": [9, 9, 11], "ok": true, "method": "translates", "nD": 790250, "orbit": 2, "t": 24.216256618499756}
+{"poly": "x^3 + x - 22", "disc": -3268, "kind": "b", "m": 246, "a": [113, 112, 239], "ok": true, "method": "translates", "nD": 39558, "orbit": 2, "t": 1.9653215408325195}
+{"poly": "x^3 - 14*x - 23", "disc": -3307, "kind": "b", "m": 23, "a": [12, 0, 9], "ok": true, "method": "translates", "nD": 1804, "orbit": 2, "t": 0.4198732376098633}
+{"poly": "x^3 - x^2 + 3*x - 23", "disc": -3308, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 420, "orbit": 1, "t": 0.292208194732666}
+{"poly": "x^3 - x^2 - 11", "disc": -3311, "kind": "b", "m": 7, "a": [6, 3, 3], "ok": true, "method": "translates", "nD": 62, "orbit": 2, "t": 0.2655065059661865}
+{"poly": "x^3 - x^2 + 5*x - 12", "disc": -3331, "kind": "b", "m": 7, "a": [6, 0, 4], "ok": true, "method": "translates", "nD": 2398, "orbit": 2, "t": 0.43971991539001465}
+{"poly": "x^3 + 9*x - 4", "disc": -3348, "kind": "b", "m": 122, "a": [110, 103, 39], "ok": true, "method": "translates", "nD": 25732, "orbit": 2, "t": 1.0617995262145996}
+{"poly": "x^3 - x^2 + 8*x - 35", "disc": -3351, "kind": "b", "m": 3229, "a": [2944, 1417, 818], "ok": true, "method": "translates", "nD": 7560, "orbit": 2, "t": 0.6549050807952881}
+{"poly": "x^3 - x^2 + 8*x + 5", "disc": -3359, "kind": "b", "m": 5, "a": [0, 2, 2], "ok": true, "method": "translates", "nD": 96, "orbit": 2, "t": 0.2815132141113281}
+{"poly": "x^3 + 8*x - 7", "disc": -3371, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 188, "orbit": 1, "t": 0.3247373104095459}
+{"poly": "x^3 - x^2 + 3*x - 12", "disc": -3387, "kind": "b", "m": 51, "a": [37, 18, 32], "ok": true, "method": "translates", "nD": 6808, "orbit": 2, "t": 0.698594331741333}
+{"poly": "x^3 - x^2 + 15*x - 11", "disc": -3404, "kind": "b", "m": 109, "a": [61, 67, 5], "ok": true, "method": "translates", "nD": 198, "orbit": 2, "t": 0.271364688873291}
+{"poly": "x^3 - x^2 + 6*x + 20", "disc": -3427, "kind": "b", "m": 50, "a": [8, 14, 1], "ok": true, "method": "translates", "nD": 7012, "orbit": 2, "t": 0.6403803825378418}
+{"poly": "x^3 - x^2 - 14*x - 19", "disc": -3439, "kind": "b", "m": 43, "a": [41, 16, 14], "ok": true, "method": "translates", "nD": 198, "orbit": 2, "t": 0.28851962089538574}
+{"poly": "x^3 - 5*x - 20", "disc": -2575, "kind": "b", "m": 3938, "a": [1285, 3781, 3419], "ok": true, "method": "translates", "nD": 901890, "orbit": 2, "t": 40.22044515609741}
+{"poly": "x^3 - 9*x - 24", "disc": -3159, "kind": "b", "m": 18, "a": [15, 15, 16], "ok": null, "error": "translate box too large (2.39e+07)", "t": 22.69996213912964}
+{"poly": "x^3 - x^2 - 5*x + 14", "disc": -3451, "kind": "b", "m": 16, "a": [3, 15, 7], "ok": true, "method": "translates", "nD": 1574, "orbit": 2, "t": 0.26508259773254395}
+{"poly": "x^3 - x^2 + 6*x - 24", "disc": -3471, "kind": "b", "m": 38013, "a": [3972, 3983, 9763], "ok": null, "error": "translate box too large (9.71e+07)", "t": 0.16602468490600586}
+{"poly": "x^3 + 15*x - 4", "disc": -3483, "kind": "b", "m": 2, "a": [0, 1, 0], "ok": true, "method": "translates", "nD": 1946, "orbit": 1, "t": 0.2663588523864746}
+{"poly": "x^3 + 18*x - 17", "disc": -3459, "kind": "b", "m": 23971, "a": [12754, 3113, 9230], "ok": true, "method": "translates", "nD": 27970, "orbit": 2, "t": 0.7368271350860596}
+{"poly": "x^3 - x^2 - 6*x + 15", "disc": -3495, "kind": "b", "m": 9, "a": [3, 3, 7], "ok": true, "method": "translates", "nD": 516, "orbit": 2, "t": 0.19846534729003906}
+{"poly": "x^3 + 4*x - 11", "disc": -3523, "kind": "b", "m": 27409, "a": [1901, 1944, 13346], "ok": true, "method": "translates", "nD": 3242, "orbit": 2, "t": 0.28133320808410645}
+{"poly": "x^3 - x^2 + 4*x + 33", "disc": -3543, "kind": "b", "m": 23, "a": [21, 11, 7], "ok": true, "method": "translates", "nD": 978, "orbit": 2, "t": 0.214263916015625}
+{"poly": "x^3 - x^2 + 7*x - 36", "disc": -3547, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 4932, "orbit": 1, "t": 0.32597875595092773}
+{"poly": "x^3 - x^2 - 11*x + 31", "disc": -3560, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 24262, "orbit": 1, "t": 0.868912935256958}
+{"poly": "x^3 - x^2 - 8*x - 33", "disc": -3575, "kind": "b", "m": 13, "a": [5, 3, 1], "ok": true, "method": "translates", "nD": 1848, "orbit": 2, "t": 0.2932901382446289}
+{"poly": "x^3 + 9*x - 5", "disc": -3591, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 320, "orbit": 1, "t": 0.22694969177246094}
+{"poly": "x^3 - 13*x - 28", "disc": -3095, "kind": "b", "m": 2777, "a": [820, 1818, 2741], "ok": null, "error": "translate box too large (2.03e+07)", "t": 28.1303927898407}
+{"poly": "x^3 - x^2 - 9*x + 19", "disc": -3596, "kind": "b", "m": 643, "a": [162, 273, 500], "ok": true, "method": "translates", "nD": 470, "orbit": 2, "t": 0.34307146072387695}
+{"poly": "x^3 - x^2 - 6*x - 11", "disc": -3599, "kind": "b", "m": 17, "a": [15, 0, 6], "ok": true, "method": "translates", "nD": 58, "orbit": 4, "t": 0.27876782417297363}
+{"poly": "x^3 - x^2 - 3*x - 21", "disc": -3252, "kind": "b", "m": 478, "a": [249, 396, 200], "ok": true, "method": "translates", "nD": 444560, "orbit": 2, "t": 22.884496927261353}
+{"poly": "x^3 - x^2 + 10*x - 3", "disc": -3615, "kind": "b", "m": 59, "a": [23, 34, 43], "ok": true, "method": "translates", "nD": 994, "orbit": 2, "t": 0.3564612865447998}
+{"poly": "x^3 - x^2 - x + 12", "disc": -3619, "kind": "b", "m": 21, "a": [16, 19, 11], "ok": true, "method": "translates", "nD": 1908, "orbit": 2, "t": 0.4210684299468994}
+{"poly": "x^3 - x^2 + 13*x + 11", "disc": -3604, "kind": "b", "m": 8, "a": [5, 6, 4], "ok": true, "method": "translates", "nD": 74622, "orbit": 2, "t": 3.5159752368927}
+{"poly": "x^3 - x^2 + 4*x + 10", "disc": -3620, "kind": "b", "m": 46, "a": [42, 38, 29], "ok": true, "method": "translates", "nD": 12674, "orbit": 2, "t": 0.7457926273345947}
+{"poly": "x^3 - x^2 + 2*x + 34", "disc": -3592, "kind": "b", "m": 225, "a": [204, 206, 121], "ok": true, "method": "translates", "nD": 198132, "orbit": 2, "t": 4.9474937915802}
+{"poly": "x^3 - x^2 + 2*x + 11", "disc": -3647, "kind": "b", "m": 13, "a": [5, 0, 9], "ok": true, "method": "translates", "nD": 94, "orbit": 2, "t": 0.21300458908081055}
+{"poly": "x^3 - x^2 - 3*x + 36", "disc": -3643, "kind": "b", "m": 46, "a": [13, 39, 35], "ok": true, "method": "translates", "nD": 5004, "orbit": 2, "t": 0.6410589218139648}
+{"poly": "x^3 - x^2 + 10*x - 2", "disc": -3656, "kind": "b", "m": 34, "a": [10, 9, 19], "ok": true, "method": "translates", "nD": 1692, "orbit": 2, "t": 0.35239386558532715}
+{"poly": "x^3 - x^2 - 11*x - 15", "disc": -3660, "kind": "b", "m": 22, "a": [7, 20, 9], "ok": true, "method": "translates", "nD": 11760, "orbit": 2, "t": 0.8247768878936768}
+{"poly": "x^3 - x^2 - 2*x - 11", "disc": -3671, "kind": "b", "m": 11, "a": [0, 4, 4], "ok": true, "method": "translates", "nD": 48, "orbit": 2, "t": 0.25926947593688965}
+{"poly": "x^3 - x^2 + x + 23", "disc": -3652, "kind": "b", "m": 138, "a": [77, 42, 0], "ok": true, "method": "translates", "nD": 87308, "orbit": 2, "t": 3.072122812271118}
+{"poly": "x^3 - 6*x - 24", "disc": -3672, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 30506, "orbit": 1, "t": 1.7530710697174072}
+{"poly": "x^3 - x^2 - 8*x + 39", "disc": -3687, "kind": "b", "m": 47, "a": [26, 29, 32], "ok": true, "method": "translates", "nD": 590, "orbit": 2, "t": 0.35138416290283203}
+{"poly": "x^3 - x^2 - 3*x + 13", "disc": -3692, "kind": "b", "m": 761, "a": [604, 710, 417], "ok": true, "method": "translates", "nD": 546, "orbit": 4, "t": 0.34330248832702637}
+{"poly": "x^3 - x^2 + 10*x - 5", "disc": -3695, "kind": "b", "m": 5, "a": [0, 0, 2], "ok": true, "method": "translates", "nD": 42, "orbit": 2, "t": 0.2080090045928955}
+{"poly": "x^3 + 10*x - 20", "disc": -3700, "kind": "b", "m": 426, "a": [425, 163, 275], "ok": true, "method": "translates", "nD": 64354, "orbit": 2, "t": 1.9851081371307373}
+{"poly": "x^3 - x^2 + 8*x - 11", "disc": -3711, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 154, "orbit": 1, "t": 0.2626311779022217}
+{"poly": "x^3 - x^2 - 7*x + 27", "disc": -3688, "kind": "b", "m": 563, "a": [282, 140, 325], "ok": true, "method": "translates", "nD": 70418, "orbit": 2, "t": 3.4615724086761475}
+{"poly": "x^3 - x^2 + 12*x + 12", "disc": -3300, "kind": "b", "m": 78, "a": [1, 71, 30], "ok": true, "method": "translates", "nD": 980342, "orbit": 2, "t": 25.910714387893677}
+{"poly": "x^3 - x^2 - 12*x - 24", "disc": -3444, "kind": "b", "m": 31, "a": [27, 22, 28], "ok": true, "method": "translates", "nD": 355010, "orbit": 2, "t": 19.44719362258911}
+{"poly": "x^3 - x^2 + 11*x - 23", "disc": -3756, "kind": "b", "m": 2, "a": [1, 0, 0], "ok": true, "method": "translates", "nD": 5866, "orbit": 1, "t": 0.6271278858184814}
+{"poly": "x^3 - 5*x - 24", "disc": -3763, "kind": "b", "m": 16101, "a": [5398, 579, 13012], "ok": true, "method": "translates", "nD": 4744, "orbit": 6, "t": 0.4753251075744629}
+{"poly": "x^3 + 5*x - 11", "disc": -3767, "kind": "b", "m": 5, "a": [2, 2, 2], "ok": true, "method": "translates", "nD": 66, "orbit": 2, "t": 0.25920867919921875}
+{"poly": "x^3 - 9*x - 37", "disc": -3783, "kind": "b", "m": 9, "a": [7, 1, 2], "ok": true, "method": "translates", "nD": 490, "orbit": 2, "t": 0.353168249130249}
+{"poly": "x^3 - x^2 - 3*x - 11", "disc": -3788, "kind": "b", "m": 821, "a": [17, 744, 604], "ok": true, "method": "translates", "nD": 164, "orbit": 2, "t": 0.28493571281433105}
+{"poly": "x^3 - x^2 + 8*x + 6", "disc": -3796, "kind": "b", "m": 42, "a": [26, 14, 19], "ok": true, "method": "translates", "nD": 39910, "orbit": 2, "t": 0.9225854873657227}
+{"poly": "x^3 - 10*x - 17", "disc": -3803, "kind": "b", "m": 653, "a": [621, 161, 196], "ok": true, "method": "translates", "nD": 486, "orbit": 4, "t": 0.370147705078125}
+{"poly": "x^3 - x^2 + 15*x + 5", "disc": -3820, "kind": "b", "m": 3, "a": [1, 0, 0], "ok": true, "method": "translates", "nD": 7380, "orbit": 2, "t": 0.41027259826660156}
+{"poly": "x^3 - x^2 - 4*x - 11", "disc": -3831, "kind": "b", "m": 7, "a": [3, 2, 3], "ok": true, "method": "translates", "nD": 842, "orbit": 2, "t": 0.36420202255249023}
+{"poly": "x^3 - 17*x - 36", "disc": -3835, "kind": "b", "m": 93, "a": [26, 54, 2], "ok": true, "method": "translates", "nD": 12562, "orbit": 2, "t": 0.8677732944488525}
+{"poly": "x^3 - x^2 + 24", "disc": -3864, "kind": "n", "m": 2936566398, "a": [1162493412, 1295247080, 1538113039], "ok": null, "error": "modulus too large for the translate test", "t": 0.03642892837524414}
+{"poly": "x^3 - 3*x - 12", "disc": -3780, "kind": "b", "m": 562, "a": [336, 483, 275], "ok": true, "method": "translates", "nD": 141628, "orbit": 2, "t": 5.125276327133179}
+{"poly": "x^3 - 3*x - 36", "disc": -3876, "kind": "b", "m": 1006, "a": [486, 847, 601], "ok": true, "method": "translates", "nD": 123022, "orbit": 2, "t": 3.3158199787139893}
+{"poly": "x^3 - 2*x - 24", "disc": -3880, "kind": "b", "m": 59, "a": [47, 27, 51], "ok": true, "method": "translates", "nD": 150896, "orbit": 2, "t": 6.252297878265381}
+{"poly": "x^3 - x^2 + 14*x + 8", "disc": -3623, "kind": "b", "m": 116, "a": [36, 2, 83], "ok": null, "error": "translate box too large (3.08e+07)", "t": 21.45173978805542}
+{"poly": "x^3 + x - 12", "disc": -3892, "kind": "b", "m": 626, "a": [112, 159, 225], "ok": true, "method": "translates", "nD": 144356, "orbit": 2, "t": 4.745919466018677}
+{"poly": "x^3 - x^2 + 3*x + 11", "disc": -3916, "kind": "b", "m": 17, "a": [3, 6, 7], "ok": true, "method": "translates", "nD": 1876, "orbit": 2, "t": 0.4114100933074951}
+{"poly": "x^3 + 3*x - 24", "disc": -3915, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 13592, "orbit": 1, "t": 0.651064395904541}
+{"poly": "x^3 - x^2 - 10*x - 35", "disc": -3935, "kind": "b", "m": 21, "a": [12, 13, 14], "ok": true, "method": "translates", "nD": 6330, "orbit": 2, "t": 0.7755513191223145}
+{"poly": "x^3 - x^2 - 10*x + 21", "disc": -3943, "kind": "b", "m": 7, "a": [6, 2, 5], "ok": true, "method": "translates", "nD": 210, "orbit": 2, "t": 0.3144986629486084}
+{"poly": "x^3 - x^2 + 7*x + 21", "disc": -3948, "kind": "b", "m": 3, "a": [0, 1, 2], "ok": true, "method": "translates", "nD": 45028, "orbit": 2, "t": 1.8217105865478516}
+{"poly": "x^3 - x^2 - 4*x + 14", "disc": -3956, "kind": "b", "m": 14, "a": [8, 9, 5], "ok": true, "method": "translates", "nD": 25798, "orbit": 2, "t": 1.5949912071228027}
+{"poly": "x^3 - x^2 - 8*x + 18", "disc": -3972, "kind": "n", "m": 2205234140, "a": [972603458, 756203090, 932622279], "ok": null, "error": "modulus too large for the translate test", "t": 0.058387041091918945}
+{"poly": "x^3 - x^2 - 5*x - 23", "disc": -3980, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 782, "orbit": 1, "t": 0.4765784740447998}
+{"poly": "x^3 - x^2 + 10*x - 7", "disc": -3991, "kind": "b", "m": 101, "a": [5, 58, 84], "ok": true, "method": "translates", "nD": 90, "orbit": 4, "t": 0.31107044219970703}
+{"poly": "x^3 + 9*x - 35", "disc": -3999, "kind": "b", "m": 2, "a": [1, 1, 1], "ok": true, "method": "translates", "nD": 4986, "orbit": 1, "t": 0.5783340930938721}
+{"poly": "x^3 - x^2 - 2*x + 13", "disc": -4007, "kind": "b", "m": 5, "a": [3, 4, 2], "ok": true, "method": "translates", "nD": 48, "orbit": 2, "t": 0.27707433700561523}
+{"poly": "x^3 - x^2 + 3*x - 13", "disc": -4012, "kind": "b", "m": 31, "a": [18, 8, 15], "ok": true, "method": "translates", "nD": 996, "orbit": 2, "t": 0.4566459655761719}
+{"poly": "x^3 + 15*x - 29", "disc": -4023, "kind": "b", "m": 39, "a": [6, 1, 16], "ok": true, "method": "translates", "nD": 374, "orbit": 6, "t": 0.3736453056335449}
+{"poly": "x^3 - x^2 + 5*x + 10", "disc": -4035, "kind": "b", "m": 17, "a": [14, 16, 5], "ok": true, "method": "translates", "nD": 61652, "orbit": 2, "t": 2.365452766418457}
+{"poly": "x^3 - x^2 + 6*x - 13", "disc": -4039, "kind": "b", "m": 7, "a": [4, 0, 3], "ok": true, "method": "translates", "nD": 154, "orbit": 2, "t": 0.3223228454589844}
+{"poly": "x^3 + 7*x - 10", "disc": -4072, "kind": "b", "m": 50, "a": [8, 45, 19], "ok": true, "method": "translates", "nD": 53540, "orbit": 2, "t": 2.0156795978546143}
+{"poly": "x^3 - x^2 - 13*x - 18", "disc": -4075, "kind": "b", "m": 29, "a": [5, 22, 19], "ok": true, "method": "translates", "nD": 5972, "orbit": 2, "t": 0.6351380348205566}
+{"poly": "x^3 - x^2 + 11*x + 17", "disc": -4076, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 422, "orbit": 1, "t": 0.2906339168548584}
+{"poly": "x^3 - x^2 + 2*x + 24", "disc": -4087, "kind": "b", "m": 526, "a": [6, 53, 373], "ok": null, "error": "translate box too large (4.81e+07)", "t": 0.19328665733337402}
+{"poly": "x^3 - x^2 + 10*x + 30", "disc": -3720, "kind": "b", "m": 1966, "a": [954, 966, 1039], "ok": null, "error": "translate box too large (3.47e+07)", "t": 28.95878791809082}
+{"poly": "x^3 - x^2 + 9*x - 25", "disc": -3940, "kind": "b", "m": 44, "a": [27, 16, 16], "ok": true, "method": "translates", "nD": 660210, "orbit": 2, "t": 14.694357872009277}
+{"poly": "x^3 + 14*x - 12", "disc": -3716, "kind": "b", "m": 4909, "a": [2731, 2611, 1757], "ok": null, "error": "translate box too large (3.01e+07)", "t": 30.402658224105835}
+{"poly": "x^3 - x^2 + 3*x + 36", "disc": -4099, "kind": "b", "m": 36217, "a": [29696, 9850, 35705], "ok": true, "method": "translates", "nD": 8888, "orbit": 2, "t": 0.9048266410827637}
+{"poly": "x^3 - x^2 - 2*x - 24", "disc": -4119, "kind": "b", "m": 2396, "a": [10, 1899, 2162], "ok": null, "error": "translate box too large (8.75e+08)", "t": 0.28914785385131836}
+{"poly": "x^3 - x^2 - 14*x + 29", "disc": -4111, "kind": "b", "m": 5, "a": [4, 3, 3], "ok": true, "method": "translates", "nD": 614, "orbit": 2, "t": 0.42655301094055176}
+{"poly": "x^3 + 6*x - 24", "disc": -4104, "kind": "b", "m": 11, "a": [3, 10, 3], "ok": true, "method": "translates", "nD": 20570, "orbit": 2, "t": 0.9951388835906982}
+{"poly": "x^3 - x^2 - x - 12", "disc": -4147, "kind": "b", "m": 8, "a": [7, 7, 5], "ok": true, "method": "translates", "nD": 3326, "orbit": 2, "t": 0.49048399925231934}
+{"poly": "x^3 - x^2 + 4*x - 24", "disc": -3540, "kind": "b", "m": 925, "a": [683, 3, 684], "ok": true, "method": "translates", "nD": 1548074, "orbit": 2, "t": 45.01552414894104}
+{"poly": "x^3 - x^2 + x - 25", "disc": -4132, "kind": "b", "m": 31, "a": [28, 2, 22], "ok": true, "method": "translates", "nD": 227568, "orbit": 2, "t": 6.990076780319214}
+{"poly": "x^3 - x^2 + 14*x - 20", "disc": -4155, "kind": "b", "m": 10, "a": [8, 2, 5], "ok": true, "method": "translates", "nD": 95968, "orbit": 2, "t": 7.471936464309692}
+{"poly": "x^3 - x^2 - 7*x + 17", "disc": -4172, "kind": "b", "m": 2341, "a": [1635, 1239, 1645], "ok": true, "method": "translates", "nD": 378, "orbit": 2, "t": 0.33327507972717285}
+{"poly": "x^3 - x^2 + 2*x - 13", "disc": -4175, "kind": "b", "m": 5, "a": [3, 2, 2], "ok": true, "method": "translates", "nD": 74, "orbit": 2, "t": 0.22848892211914062}
+{"poly": "x^3 - 14*x - 32", "disc": -4168, "kind": "b", "m": 212, "a": [141, 52, 81], "ok": true, "method": "translates", "nD": 47762, "orbit": 2, "t": 2.059875965118408}
+{"poly": "x^3 - x^2 + 2*x - 38", "disc": -4200, "kind": "n", "m": 78534754314, "a": [57780268534, 58872888199, 24337085789], "ok": null, "error": "modulus too large for the translate test", "t": 0.04636120796203613}
+{"poly": "x^3 - x^2 - 12*x + 45", "disc": -4191, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 5550, "orbit": 1, "t": 0.574122428894043}
+{"poly": "x^3 + 9*x - 36", "disc": -4212, "kind": "b", "m": 1021, "a": [545, 428, 136], "ok": true, "method": "translates", "nD": 42900, "orbit": 2, "t": 1.4678971767425537}
+{"poly": "x^3 - x^2 - 15*x - 29", "disc": -4232, "kind": "b", "m": 10, "a": [9, 1, 9], "ok": true, "method": "translates", "nD": 24916, "orbit": 2, "t": 1.7485902309417725}
+{"poly": "x^3 + 9*x - 7", "disc": -4239, "kind": "b", "m": 3, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 76, "orbit": 6, "t": 0.27434706687927246}
+{"poly": "x^3 + 10*x - 3", "disc": -4243, "kind": "b", "m": 4788, "a": [2374, 327, 2347], "ok": true, "method": "translates", "nD": 3864, "orbit": 6, "t": 0.46167898178100586}
+{"poly": "x^3 - x^2 + 4*x + 11", "disc": -4255, "kind": "b", "m": 15, "a": [7, 6, 7], "ok": true, "method": "translates", "nD": 204, "orbit": 2, "t": 0.30130600929260254}
+{"poly": "x^3 - x^2 + 11*x - 38", "disc": -4091, "kind": "b", "m": 39, "a": [1, 37, 7], "ok": true, "method": "translates", "nD": 518416, "orbit": 2, "t": 16.624171018600464}
+{"poly": "x^3 - 13*x - 22", "disc": -4280, "kind": "b", "m": 95, "a": [44, 88, 29], "ok": true, "method": "translates", "nD": 13846, "orbit": 2, "t": 0.610349178314209}
+{"poly": "x^3 - x^2 - 6*x + 28", "disc": -4283, "kind": "b", "m": 206, "a": [178, 148, 71], "ok": true, "method": "translates", "nD": 2416, "orbit": 2, "t": 0.3301382064819336}
+{"poly": "x^3 - x^2 - 14*x - 28", "disc": -4291, "kind": "b", "m": 2, "a": [0, 1, 0], "ok": true, "method": "translates", "nD": 9380, "orbit": 1, "t": 0.5437240600585938}
+{"poly": "x^3 - 10*x - 28", "disc": -4292, "kind": "b", "m": 104, "a": [75, 41, 103], "ok": true, "method": "translates", "nD": 4042, "orbit": 2, "t": 0.37653470039367676}
+{"poly": "x^3 - x^2 + 4*x - 39", "disc": -4295, "kind": "b", "m": 9, "a": [4, 6, 5], "ok": true, "method": "translates", "nD": 13406, "orbit": 2, "t": 0.6410338878631592}
+{"poly": "x^3 - x^2 + 15*x - 36", "disc": -4299, "kind": "b", "m": 1213, "a": [1138, 1142, 647], "ok": true, "method": "translates", "nD": 63386, "orbit": 2, "t": 3.702890396118164}
+{"poly": "x^3 - 4*x - 13", "disc": -4307, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 482, "orbit": 1, "t": 0.3681306838989258}
+{"poly": "x^3 - x^2 - 24", "disc": -3912, "kind": "b", "m": 1686, "a": [1254, 1098, 755], "ok": true, "method": "translates", "nD": 1064924, "orbit": 2, "t": 40.63835000991821}
+{"poly": "x^3 + 15*x - 12", "disc": -4347, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 9284, "orbit": 1, "t": 0.8216643333435059}
+{"poly": "x^3 - x^2 - 16*x - 23", "disc": -4359, "kind": "b", "m": 11, "a": [2, 2, 5], "ok": true, "method": "translates", "nD": 352, "orbit": 2, "t": 0.30628347396850586}
+{"poly": "x^3 - x^2 - 11*x - 25", "disc": -4120, "kind": "b", "m": 155, "a": [107, 66, 138], "ok": true, "method": "translates", "nD": 495674, "orbit": 2, "t": 28.314433574676514}
+{"poly": "x^3 - x^2 - 3*x + 14", "disc": -4363, "kind": "b", "m": 2626, "a": [1907, 1049, 1769], "ok": true, "method": "translates", "nD": 6996, "orbit": 4, "t": 0.6718788146972656}
+{"poly": "x^3 - x^2 + 9*x - 11", "disc": -4364, "kind": "b", "m": 17, "a": [12, 5, 11], "ok": true, "method": "translates", "nD": 80, "orbit": 4, "t": 0.24906420707702637}
+{"poly": "x^3 - x^2 - 4*x - 24", "disc": -4276, "kind": "b", "m": 59, "a": [23, 18, 30], "ok": true, "method": "translates", "nD": 346590, "orbit": 2, "t": 15.931957006454468}
+{"poly": "x^3 + 5*x - 12", "disc": -4388, "kind": "b", "m": 1383, "a": [666, 701, 797], "ok": null, "error": "translate box too large (3.33e+07)", "t": 0.2430262565612793}
+{"poly": "x^3 - x^2 - 10*x + 32", "disc": -4415, "kind": "n", "m": 874391644732, "a": [555128236406, 281933758927, 425399436526], "ok": null, "error": "modulus too large for the translate test", "t": 0.057500362396240234}
+{"poly": "x^3 - x^2 + 14*x + 12", "disc": -4411, "kind": "b", "m": 12, "a": [0, 8, 5], "ok": true, "method": "translates", "nD": 17560, "orbit": 2, "t": 1.123868703842163}
+{"poly": "x^3 + 9*x - 37", "disc": -4431, "kind": "b", "m": 773, "a": [77, 518, 92], "ok": true, "method": "translates", "nD": 1842, "orbit": 4, "t": 0.3970046043395996}
+{"poly": "x^3 - 3*x - 13", "disc": -4455, "kind": "b", "m": 3, "a": [0, 1, 2], "ok": true, "method": "translates", "nD": 192, "orbit": 2, "t": 0.36367225646972656}
+{"poly": "x^3 - x^2 - 11*x + 45", "disc": -4460, "kind": "n", "m": 4073452710, "a": [3741219825, 3469637558, 1599191157], "ok": null, "error": "modulus too large for the translate test", "t": 0.05916428565979004}
+{"poly": "x^3 - x^2 - 3*x - 12", "disc": -4467, "kind": "b", "m": 258, "a": [111, 243, 65], "ok": true, "method": "translates", "nD": 33448, "orbit": 2, "t": 1.216153621673584}
+{"poly": "x^3 - x^2 - 9*x + 20", "disc": -4483, "kind": "b", "m": 71, "a": [44, 16, 56], "ok": true, "method": "translates", "nD": 7232, "orbit": 2, "t": 0.42426323890686035}
+{"poly": "x^3 - x^2 - 12*x - 17", "disc": -4487, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 120, "orbit": 1, "t": 0.2302241325378418}
+{"poly": "x^3 - x^2 + 13", "disc": -4511, "kind": "b", "m": 11, "a": [5, 6, 8], "ok": true, "method": "translates", "nD": 40, "orbit": 2, "t": 0.19992327690124512}
+{"poly": "x^3 + 7*x - 24", "disc": -4231, "kind": "b", "m": 571, "a": [319, 308, 3], "ok": null, "error": "translate box too large (2.85e+07)", "t": 24.663856267929077}
+{"poly": "x^3 - x^2 + 13*x - 39", "disc": -4524, "kind": "b", "m": 33, "a": [24, 6, 23], "ok": true, "method": "translates", "nD": 12532, "orbit": 2, "t": 0.9564604759216309}
+{"poly": "x^3 - x^2 + 10*x + 2", "disc": -4360, "kind": "b", "m": 115, "a": [57, 14, 27], "ok": true, "method": "translates", "nD": 410130, "orbit": 2, "t": 9.898311376571655}
+{"poly": "x^3 - 2*x - 13", "disc": -4531, "kind": "b", "m": 34, "a": [25, 9, 21], "ok": true, "method": "translates", "nD": 1978, "orbit": 2, "t": 0.4216306209564209}
+{"poly": "x^3 - x^2 + 10*x + 20", "disc": -4555, "kind": "b", "m": 2, "a": [1, 1, 0], "ok": true, "method": "translates", "nD": 54708, "orbit": 1, "t": 1.7954673767089844}
+{"poly": "x^3 - x^2 + 3*x + 25", "disc": -4556, "kind": "b", "m": 2, "a": [1, 0, 1], "ok": true, "method": "translates", "nD": 8612, "orbit": 1, "t": 0.6350171566009521}
+{"poly": "x^3 - x - 13", "disc": -4559, "kind": "b", "m": 7, "a": [2, 6, 3], "ok": true, "method": "translates", "nD": 62, "orbit": 2, "t": 0.2436504364013672}
+{"poly": "x^3 + x - 13", "disc": -4567, "kind": "b", "m": 19, "a": [9, 3, 10], "ok": true, "method": "translates", "nD": 242, "orbit": 2, "t": 0.2900888919830322}
+{"poly": "x^3 - 15*x - 45", "disc": -4575, "kind": "b", "m": 3, "a": [2, 0, 1], "ok": true, "method": "translates", "nD": 324, "orbit": 2, "t": 0.2293834686279297}
+{"poly": "x^3 - x^2 + 4*x - 14", "disc": -4580, "kind": "b", "m": 70, "a": [18, 69, 43], "ok": true, "method": "translates", "nD": 23214, "orbit": 2, "t": 1.196265459060669}
+{"poly": "x^3 - x^2 - 15*x + 39", "disc": -4164, "kind": "b", "m": 43, "a": [8, 30, 2], "ok": true, "method": "translates", "nD": 917768, "orbit": 2, "t": 39.184972047805786}
+{"poly": "x^3 - x^2 + 16*x + 4", "disc": -4424, "kind": "b", "m": 100, "a": [18, 90, 83], "ok": true, "method": "translates", "nD": 408918, "orbit": 2, "t": 10.73318076133728}
+{"poly": "x^3 - x^2 - 9*x - 14", "disc": -4619, "kind": "b", "m": 14, "a": [7, 11, 5], "ok": true, "method": "translates", "nD": 610, "orbit": 2, "t": 0.32505249977111816}
+{"poly": "x^3 - x^2 - 18*x + 39", "disc": -4623, "kind": "b", "m": 7, "a": [4, 5, 5], "ok": true, "method": "translates", "nD": 2264, "orbit": 2, "t": 0.4634711742401123}
+{"poly": "x^3 - x^2 + 3*x + 12", "disc": -4587, "kind": "b", "m": 2253, "a": [798, 423, 443], "ok": true, "method": "translates", "nD": 79158, "orbit": 2, "t": 3.328324556350708}
+{"poly": "x^3 + 7*x - 11", "disc": -4639, "kind": "b", "m": 9, "a": [2, 7, 4], "ok": true, "method": "translates", "nD": 130, "orbit": 2, "t": 0.26606035232543945}
+{"poly": "x^3 - x^2 + 6*x - 14", "disc": -4664, "kind": "b", "m": 31, "a": [13, 9, 18], "ok": true, "method": "translates", "nD": 3056, "orbit": 2, "t": 0.44223475456237793}
+{"poly": "x^3 - x^2 + 12*x - 24", "disc": -4308, "kind": "b", "m": 905, "a": [27, 901, 526], "ok": null, "error": "translate box too large (3.82e+07)", "t": 25.143446445465088}
+{"poly": "x^3 - x^2 - 17*x - 25", "disc": -4684, "kind": "b", "m": 31, "a": [23, 5, 24], "ok": true, "method": "translates", "nD": 14964, "orbit": 2, "t": 0.9744701385498047}
+{"poly": "x^3 - x^2 + 3*x - 14", "disc": -4691, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 322, "orbit": 1, "t": 0.3250548839569092}
+{"poly": "x^3 - x^2 - 3*x - 25", "disc": -4552, "kind": "b", "m": 182, "a": [76, 77, 115], "ok": true, "method": "translates", "nD": 380614, "orbit": 2, "t": 12.020917892456055}
+{"poly": "x^3 - x^2 + 7*x + 36", "disc": -4523, "kind": "b", "m": 123, "a": [75, 22, 67], "ok": null, "error": "translate box too large (3.27e+07)", "t": 18.527857303619385}
+{"poly": "x^3 - x^2 - 11*x - 16", "disc": -4699, "kind": "b", "m": 9, "a": [1, 0, 4], "ok": true, "method": "translates", "nD": 2526, "orbit": 2, "t": 0.3303346633911133}
+{"poly": "x^3 - x^2 - 7*x - 25", "disc": -4676, "kind": "b", "m": 40, "a": [15, 12, 24], "ok": true, "method": "translates", "nD": 248130, "orbit": 2, "t": 8.686143398284912}
+{"poly": "x^3 - 13*x - 32", "disc": -4715, "kind": "b", "m": 11, "a": [4, 3, 0], "ok": true, "method": "translates", "nD": 4620, "orbit": 2, "t": 0.7606120109558105}
+{"poly": "x^3 - x^2 - 7*x - 38", "disc": -4723, "kind": "b", "m": 445, "a": [412, 104, 409], "ok": true, "method": "translates", "nD": 11624, "orbit": 4, "t": 1.0518181324005127}
+{"poly": "x^3 - x^2 + 8*x - 13", "disc": -4727, "kind": "b", "m": 5, "a": [1, 0, 2], "ok": true, "method": "translates", "nD": 46, "orbit": 2, "t": 0.2678191661834717}
+{"poly": "x^3 - x^2 - 10*x - 15", "disc": -4735, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 720, "orbit": 1, "t": 0.37547755241394043}
+{"poly": "x^3 - x^2 - 2*x + 14", "disc": -4696, "kind": "b", "m": 234, "a": [106, 57, 79], "ok": true, "method": "translates", "nD": 201196, "orbit": 2, "t": 9.030658483505249}
+{"poly": "x^3 - x^2 + 6*x - 28", "disc": -4771, "kind": "b", "m": 2, "a": [1, 1, 0], "ok": true, "method": "translates", "nD": 12426, "orbit": 1, "t": 0.8039307594299316}
+{"poly": "x^3 + 18*x - 26", "disc": -4620, "kind": "b", "m": 30, "a": [22, 26, 17], "ok": true, "method": "translates", "nD": 409308, "orbit": 2, "t": 17.35824704170227}
+{"poly": "x^3 - x^2 + 17*x - 5", "disc": -4632, "kind": "b", "m": 426, "a": [74, 27, 250], "ok": null, "error": "translate box too large (2.09e+07)", "t": 17.79245400428772}
+{"poly": "x^3 - x^2 - 5*x + 42", "disc": -4795, "kind": "b", "m": 139, "a": [136, 90, 41], "ok": true, "method": "translates", "nD": 40966, "orbit": 2, "t": 1.823023796081543}
+{"poly": "x^3 + 4*x - 13", "disc": -4819, "kind": "b", "m": 29, "a": [16, 5, 13], "ok": true, "method": "translates", "nD": 2498, "orbit": 2, "t": 0.3515739440917969}
+{"poly": "x^3 - x^2 - 8*x + 19", "disc": -4823, "kind": "b", "m": 13, "a": [1, 8, 3], "ok": true, "method": "translates", "nD": 136, "orbit": 2, "t": 0.2265632152557373}
+{"poly": "x^3 - x^2 + 9*x - 12", "disc": -4827, "kind": "b", "m": 8, "a": [0, 5, 3], "ok": true, "method": "translates", "nD": 53312, "orbit": 2, "t": 1.4008455276489258}
+{"poly": "x^3 - x^2 + 16*x + 27", "disc": -4831, "kind": "b", "m": 103, "a": [102, 10, 65], "ok": true, "method": "translates", "nD": 458, "orbit": 2, "t": 0.20889544486999512}
+{"poly": "x^3 - 5*x - 14", "disc": -4792, "kind": "b", "m": 29, "a": [26, 9, 5], "ok": true, "method": "translates", "nD": 144578, "orbit": 2, "t": 5.376373767852783}
+{"poly": "x^3 - x^2 + 8*x - 28", "disc": -4808, "kind": "b", "m": 49, "a": [7, 31, 22], "ok": true, "method": "translates", "nD": 92374, "orbit": 2, "t": 4.002430200576782}
+{"poly": "x^3 - x^2 - x - 13", "disc": -4844, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 180, "orbit": 1, "t": 0.26666855812072754}
+{"poly": "x^3 - x^2 + 11*x - 4", "disc": -4859, "kind": "b", "m": 19, "a": [6, 8, 12], "ok": true, "method": "translates", "nD": 604, "orbit": 2, "t": 0.33779096603393555}
+{"poly": "x^3 - x^2 + 9*x + 6", "disc": -4755, "kind": "b", "m": 20, "a": [3, 9, 13], "ok": true, "method": "translates", "nD": 295764, "orbit": 2, "t": 8.033127069473267}
+{"poly": "x^3 - x^2 - 5*x + 16", "disc": -4883, "kind": "b", "m": 89, "a": [37, 21, 30], "ok": true, "method": "translates", "nD": 1248, "orbit": 2, "t": 0.40834689140319824}
+{"poly": "x^3 - x^2 + 8*x + 37", "disc": -4903, "kind": "b", "m": 13, "a": [9, 5, 0], "ok": true, "method": "translates", "nD": 920, "orbit": 2, "t": 0.35866618156433105}
+{"poly": "x^3 - x^2 + 10*x - 42", "disc": -4904, "kind": "b", "m": 16333, "a": [7701, 3427, 10834], "ok": null, "error": "translate box too large (9.74e+07)", "t": 0.36342954635620117}
+{"poly": "x^3 - x^2 + 11*x - 5", "disc": -4908, "kind": "b", "m": 2, "a": [0, 1, 1], "ok": true, "method": "translates", "nD": 13316, "orbit": 1, "t": 0.6656477451324463}
+{"poly": "x^3 - x^2 - 10*x + 22", "disc": -4920, "kind": "b", "m": 773, "a": [230, 77, 303], "ok": null, "error": "translate box too large (3.89e+07)", "t": 0.23210644721984863}
+{"poly": "x^3 - x^2 + 14*x + 31", "disc": -4935, "kind": "b", "m": 37, "a": [31, 1, 24], "ok": true, "method": "translates", "nD": 14840, "orbit": 2, "t": 0.6867852210998535}
+{"poly": "x^3 - x^2 - 4*x + 28", "disc": -4692, "kind": "b", "m": 9719, "a": [5236, 7277, 2839], "ok": null, "error": "translate box too large (2.33e+07)", "t": 20.555494785308838}
+{"poly": "x^3 - x^2 - 10*x + 46", "disc": -4952, "kind": "b", "m": 108, "a": [68, 64, 41], "ok": null, "error": "translate box too large (5.49e+08)", "t": 0.2607736587524414}
+{"poly": "x^3 - 20*x - 37", "disc": -4963, "kind": "b", "m": 7, "a": [6, 6, 2], "ok": true, "method": "translates", "nD": 18804, "orbit": 2, "t": 1.2982454299926758}
+{"poly": "x^3 + 10*x - 24", "disc": -4888, "kind": "b", "m": 89, "a": [22, 31, 66], "ok": true, "method": "translates", "nD": 409796, "orbit": 2, "t": 9.537513017654419}
+{"poly": "x^3 + 10*x - 6", "disc": -4972, "kind": "b", "m": 15, "a": [7, 3, 10], "ok": true, "method": "translates", "nD": 3850, "orbit": 2, "t": 0.345827579498291}
+{"poly": "x^3 - x^2 - 7*x + 18", "disc": -4987, "kind": "b", "m": 89, "a": [74, 13, 50], "ok": true, "method": "translates", "nD": 6466, "orbit": 2, "t": 0.46146345138549805}
+{"poly": "x^3 - 12*x - 21", "disc": -4995, "kind": "b", "m": 2, "a": [0, 0, 1], "ok": true, "method": "translates", "nD": 20434, "orbit": 1, "t": 0.6914942264556885}
+{"poly": "x^3 - x^2 + 9*x + 36", "disc": -4835, "kind": "b", "m": 1468, "a": [981, 493, 359], "ok": null, "error": "translate box too large (2.03e+07)", "t": 15.734924554824829}
+{"poly": "x^3 - x^2 + 2*x - 14", "disc": -4872, "kind": "b", "m": 129, "a": [92, 92, 38], "ok": null, "error": "translate box too large (2.31e+07)", "t": 16.27777338027954}
+{"poly": "x^3 + 15*x - 34", "disc": -4968, "kind": "b", "m": 619, "a": [346, 409, 230], "ok": true, "method": "translates", "nD": 528406, "orbit": 2, "t": 11.971639394760132}
+{"poly": "x^3 - x^2 + 17*x - 9", "disc": -4708, "kind": "b", "m": 1759, "a": [1613, 888, 1264], "ok": true, "method": "translates", "nD": 1002956, "orbit": 2, "t": 29.360827445983887}
+{"poly": "x^3 - x^2 + 13*x - 25", "disc": -4936, "kind": "b", "m": 90, "a": [70, 3, 81], "ok": null, "error": "translate box too large (2.52e+07)", "t": 19.108872890472412}
