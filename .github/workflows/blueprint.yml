@@ -1,0 +1,86 @@
+name: Build and deploy Lean Blueprint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - name: Install TeX and Graphviz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-luatex texlive-xetex texlive-latex-extra graphviz libgraphviz-dev
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install blueprint renderer
+        run: python -m pip install -r blueprint/requirements.txt
+
+      - name: Check LaTeX labels and DAG consistency
+        run: python blueprint/check_blueprint.py --structure-only
+
+      - name: Build LaTeX companion
+        working-directory: blueprint/src
+        run: latexmk -r latexmkrc print.tex
+
+      - name: Build Graphviz dependency graph
+        run: dot -Tsvg blueprint/dependency_graph.dot -o blueprint/dependency_graph.svg
+
+      - name: Build web blueprint
+        working-directory: blueprint/src
+        run: plastex --config plastex.cfg web.tex
+
+      - name: Assemble static site
+        run: |
+          mkdir -p blueprint/site
+          cp blueprint/index.html blueprint/site/index.html
+          cp blueprint/src/print.pdf blueprint/site/blueprint.pdf
+          cp blueprint/dependency_graph.svg blueprint/site/dependency_graph.svg
+          cp -R blueprint/web blueprint/site/web
+
+      - name: Upload blueprint artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: berend-blueprint
+          path: |
+            blueprint/src/print.pdf
+            blueprint/dependency_graph.svg
+            blueprint/web/
+
+      - name: Prepare GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: blueprint/site
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
