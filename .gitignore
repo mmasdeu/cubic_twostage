@@ -13,3 +13,20 @@ work/
 *.toc
 # developer notes for Claude Code; kept out of the repository
 CLAUDE.md
+
+# Lean/Blueprint build and agent scratch artifacts
+*.olean
+*.ilean
+.scratch/
+.ultramath/
+blueprint/web/
+blueprint/site/
+blueprint/lean_decls
+blueprint/src/*.paux
+blueprint/src/*.aux
+blueprint/src/*.log
+blueprint/src/*.out
+blueprint/src/*.toc
+blueprint/src/content.old
+blueprint/src/*.fdb_latexmk
+blueprint/src/*.fls

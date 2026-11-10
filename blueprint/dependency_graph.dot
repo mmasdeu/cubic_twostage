@@ -1,0 +1,55 @@
+digraph BerendBlueprint {
+  label="Completed canonical Berend proof";
+  labelloc=t;
+  rankdir=TB;
+  graph [fontname="Helvetica", nodesep=0.28, ranksep=0.52];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#1CAC78", color="#146C50"];
+  edge [color="#555555"];
+
+  def_unit_prime_residual [label="Unit-prime model\nand corrected residual"];
+  lem_unit_prime_independence [label="Independence\nand expansion"];
+  lem_canonical_b1 [label="Canonical B1"];
+  def_normalized_samples [label="Normalized samples\nand phase point"];
+  lem_phase_direction [label="Non-torsion and\ninteger directions"];
+  lem_backward_orbit [label="Backward-orbit\nsamples"];
+  thm_normalized_arc [label="Normalized arc"];
+  thm_arc_through [label="arcThrough interface"];
+  prop_ray_subgroup [label="Proposition 4.2\nray subgroup"];
+  lem_annihilator_rank [label="Annihilator\nrank drop"];
+  lem_no_character_cover [label="No finite\ncharacter cover"];
+  thm_unit_prime_net [label="Proposition 4.3\nnet"];
+  lem_translate_last_mile [label="Translate\nlast mile"];
+  thm_stage_one_arc [label="Stage I\nfrom an arc"];
+  lem_stage_one_split [label="Accumulation split"];
+  thm_canonical_stage_one [label="Canonical Stage I"];
+  thm_coprime_iv1 [label="Coprime\nProposition IV.1"];
+  thm_canonical_dichotomy [label="Canonical dichotomy"];
+  thm_canonical_uncovered [label="Canonical Theorem 3.6"];
+  cor_generic_paper [label="Corrected paper\nstatements"];
+
+  def_unit_prime_residual -> lem_unit_prime_independence;
+  lem_unit_prime_independence -> lem_canonical_b1;
+  def_normalized_samples -> lem_phase_direction;
+  def_normalized_samples -> lem_backward_orbit;
+  lem_phase_direction -> thm_normalized_arc;
+  lem_backward_orbit -> thm_normalized_arc;
+  thm_normalized_arc -> thm_arc_through;
+  thm_arc_through -> prop_ray_subgroup;
+  lem_annihilator_rank -> lem_no_character_cover;
+  lem_canonical_b1 -> lem_no_character_cover;
+  lem_no_character_cover -> thm_unit_prime_net;
+  thm_unit_prime_net -> lem_translate_last_mile;
+  thm_arc_through -> thm_stage_one_arc;
+  prop_ray_subgroup -> thm_stage_one_arc;
+  lem_translate_last_mile -> thm_stage_one_arc;
+  lem_unit_prime_independence -> lem_stage_one_split;
+  thm_normalized_arc -> thm_canonical_stage_one;
+  thm_arc_through -> thm_canonical_stage_one;
+  thm_stage_one_arc -> thm_canonical_stage_one;
+  lem_stage_one_split -> thm_canonical_stage_one;
+  thm_canonical_stage_one -> thm_canonical_dichotomy;
+  thm_coprime_iv1 -> thm_canonical_dichotomy;
+  thm_canonical_dichotomy -> thm_canonical_uncovered;
+  thm_coprime_iv1 -> thm_canonical_uncovered;
+  thm_canonical_dichotomy -> cor_generic_paper;
+}

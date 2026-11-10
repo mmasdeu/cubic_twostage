@@ -1,0 +1,352 @@
+\section{Scope and completed results}
+
+This blueprint records the \emph{proved} canonical Berend plan for a complex
+cubic field. It includes normalized arc placement, Propositions 4.2 and 4.3,
+canonical B1, coprime Proposition IV.1, the full multi-invariance dichotomy,
+and Theorem 3.6. Every declaration linked by a \texttt{\textbackslash lean}
+annotation is present in the current root and was compiled in the final project
+build.
+
+The statement termed an arbitrary-family corrected Berend theorem is not asserted
+separately in this blueprint. The generic introduction theorems use an explicit
+corrected proposition \(H\), while the canonical model constructs it. The two
+independent computational inputs in \texttt{Main.lean} are outside this proof
+and are not reported as mathematical theorems proved here.
+
+\begin{definition}[The corrected unit--prime model and residual]
+  \label{def:unit-prime-residual}
+  \lean{CubicTwoStage.UnitPrimeModel,CubicTwoStage.NumberFieldCubic.canonicalFieldModel}
+  \leanok
+  Let \(K\) be a complex cubic field with chosen unit \(\varepsilon\) and
+  \(\pi\in\mathcal O_K\). Write \(L\) for the canonical algebraic-integer
+  lattice and \(\mathbb T\) for \(Pt/L\). The unit--prime multipliers are
+  \(\mu_{u\pi^j}\), with \(u\in\mathcal O_K^\times\) and \(j\geq0\).
+  Stage I is the following statement: every nonempty closed forward-invariant
+  \(Y\subseteq\mathbb T\) satisfying
+  \(0\in\operatorname{closure}(Y\setminus\{0\})\) equals \(\mathbb T\).
+\end{definition}
+
+\begin{lemma}[Corrected independence and expansion]
+  \label{lem:unit-prime-independence}
+  \lean{CubicTwoStage.BerendModulusOneArc.multIndepPair_canonicalFieldModel,CubicTwoStage.BerendUnitNoncritical.exists_mult_margin_of_pow_ne_one}
+  \leanok
+  Corrected multiplicative independence follows from unit/prime arithmetic.
+  Infinite order of \(\varepsilon\) supplies a multiplier with real and
+  complex expansion margins.
+\end{lemma}
+\begin{proof}
+  The norm of an infinite-order unit prevents all absolute moduli from being
+  \(1\).  The infinite choose--expand argument in
+  \texttt{BerendUnitNoncritical.lean} supplies the margin.
+  Injectivity of the complex embedding pulls a multiplicative relation back to
+  the field; unit norms, the prime absolute norm, and non-torsion of the unit
+  then force both exponents to vanish.
+\end{proof}
+
+\begin{lemma}[Canonical B1]
+  \label{lem:canonical-b1}
+  \lean{CubicTwoStage.BerendCanonicalB1.exists_canonical_B1_intLact}
+  \leanok
+  \uses{lem:unit-prime-independence}
+  There is one of \((1,1)\) or \((\varepsilon,1)\) whose every positive power
+  has irreducible characteristic polynomial over \(\mathbb Z\).
+\end{lemma}
+\begin{proof}
+  If a prime-norm element \(\alpha\) has a positive rational power, absolute
+  norms and the real embedding imply \(\alpha^3=\pm p\). Applying this to both
+  \(\pi\) and \(\varepsilon\pi\) forces \(\varepsilon^6=1\), a contradiction.
+  One multiplier therefore has no positive rational power. Transport through
+  an integral lattice basis identifies the complexified characteristic
+  polynomial with the three embeddings. Absence of rational roots and cubic
+  degree give irreducibility over \(\mathbb Q\), and Gauss's lemma gives the
+  integral conclusion.
+\end{proof}
+
+\section{Stage I: normalized arcs and closed ray subgroups}
+
+\begin{definition}[Normalized samples and compact phase lattice]
+  \label{def:normalized-samples}
+  \lean{CubicTwoStage.BerendNormalizedCompactArc.normalizedPoint,CubicTwoStage.BerendNormalizedCompactArc.normalizedSample}
+  \leanok
+  For complex multipliers \(c,d\), set
+  \[
+    \alpha=\frac{\log\|d\|}{\log\|c\|},\qquad
+    \beta=\operatorname{phaseOf}(c),\qquad \delta=\operatorname{phaseOf}(d)-\alpha\beta.
+  \]
+  The normalized samples are \(c^{-\lfloor j\alpha\rfloor}d^j\), and
+  \(\operatorname{normalizedPoint}(\alpha,\delta)\) is the corresponding point
+  of \((\mathbb R/\mathbb Z)^2\).
+\end{definition}
+
+\begin{lemma}[Non-torsion and integer directions]
+  \label{lem:phase-direction}
+  \lean{CubicTwoStage.BerendNormalizedCompactArc.not_isOfFinAddOrder_normalizedPoint,CubicTwoStage.BerendNormalizedCompactArc.exists_integer_direction}
+  \leanok
+  \uses{def:normalized-samples}
+  Corrected B3 gives non-torsion of \(\operatorname{normalizedPoint}(\alpha,\delta)\).
+  The lift of its compact cyclic closure contains a nonzero integral direction
+  whose real line lies in that closure. In the irrational-rate case the radial
+  coefficient is strictly positive.
+\end{lemma}
+\begin{proof}
+  The log--phase exponent identity reduces a normalized rational relation to
+  multiplicative dependence, forbidden by B3. The full lift is closed and
+  non-discrete. The integral-functional separation theorem produces a real
+  line, while integer-valuedness on the standard lattice lets it be turned into
+  an integral direction. No phase-density predicate participates in this step.
+\end{proof}
+
+\begin{lemma}[Backward-orbit normalized samples]
+  \label{lem:backward-orbit}
+  \lean{CubicTwoStage.BerendNormalizedCompactArc.exists_backward_orbit_complex_of_acc,CubicTwoStage.BerendNormalizedCompactArc.normalizedSample_mul_basepoint_mem}
+  \leanok
+  \uses{def:normalized-samples}
+  A closed, forward-invariant subset of \(\mathbb C\) accumulating at zero
+  admits an expanding backward orbit \(c\,w_{j+1}=w_j\) inside it. Every
+  normalized sample times the basepoint belongs to the set.
+\end{lemma}
+\begin{proof}
+  First hitting times bound compact charts of bounded backward iterates.
+  Compactness has a convergent subnet, whose coordinatewise limits form the
+  required orbit. If \(c\neq0\), the explicit formula \(w_j=c^{-j}w_0\) makes
+  membership of the normalized samples follow by forward invariance under \(d\).
+\end{proof}
+
+\begin{theorem}[Normalized arc placement]
+  \label{thm:normalized-arc}
+  \lean{CubicTwoStage.BerendNormalizedCompactArc.exists_normalizedArc_canonical}
+  \leanok
+  \uses{lem:backward-orbit,lem:phase-direction}
+  With canonical unit--prime arithmetic and the corrected planar residual, a
+  nonzero normalized exponential arc on a positive-length interval belongs to
+  the invariant planar lift. The curve has an integer direction and the expanding
+  member produced above.
+\end{theorem}
+\begin{proof}
+  If \(\alpha\) is irrational, fractional-part convergence along the integer
+  line puts the normalized spiral in the closed set. If \(\alpha=p/q\) is
+  rational, the sample sequence at multiples of \(q\) reduces to a powers
+  sequence of one unit-modulus phase; clearing the denominator retains
+  non-torsion and yields the elliptic arc. Both proofs use actual membership of
+  the backward-orbit samples, not merely density in an abstract multiplier
+  group. This covers the modulus-one and non-modulus-one situations uniformly.
+\end{proof}
+
+\begin{theorem}[Exact arcThrough interface]
+  \label{thm:arc-through}
+  \lean{CubicTwoStage.BerendStageIAssembly.exists_arcThrough_of_normalizedArc_mem}
+  \leanok
+  \uses{thm:normalized-arc}
+  Every normalized arc is exactly an \texttt{arcThrough} arc after positive
+  rescaling of time.
+\end{theorem}
+\begin{proof}
+  With unrestricted rate \(z\), choose \(N\) such that
+  \(|\operatorname{Im}(z)|/N<\pi\). Then
+  \(\log(\exp(z/N))=z/N\), so
+  \(\operatorname{scaleFlow}(\exp(z/N))(Nt)=\exp(tz)\). Parameter translation
+  preserves both the positive interval and each membership hypothesis; no
+  approximation or weaker arc interface is used.
+\end{proof}
+
+\begin{proposition}[Infinite closed subgroup: Proposition 4.2]
+  \label{prop:ray-subgroup}
+  \lean{CubicTwoStage.BerendRaySubgroup.exists_translate_raySubgroup_of_arc}
+  \leanok
+  \uses{thm:arc-through}
+  The normalized arc yields an infinite closed additive subgroup \(H\) and a
+  basepoint \(b\) such that \(b+H\subseteq Y\).
+\end{proposition}
+\begin{proof}
+  Taylor estimates transform expanding images of the arc into arbitrarily fine
+  nets of arbitrarily long segments. Compactness gives a limiting ray. Closure
+  of a ray is an additive subgroup: a compact subsequence produces return times,
+  and predecessor times converge to inverses. Preconnectedness and discreteness
+  of the lattice give infinitude. The basepoint of the ray need not be planar,
+  and \(H\) is not asserted to be invariant.
+\end{proof}
+
+\section{Proposition 4.3: characters, van der Waerden, and nets}
+
+\begin{lemma}[Strict rank drop of the annihilator]
+  \label{lem:annihilator-rank}
+  \lean{CubicTwoStage.BerendProp43Canonical.CanonicalProp43.finrank_rationalAnnihilatorSpan_lt}
+  \leanok
+  The rational span of the character annihilator of an infinite subgroup has
+  dimension strictly below the ambient character-space dimension.
+\end{lemma}
+\begin{proof}
+  If the annihilator has finite index, coordinate characters restrict the
+  subgroup to a finite product of finite coordinate torsion sets. This makes
+  the subgroup finite. Hence an infinite subgroup has infinite annihilator
+  index. Rationalization is injective and carries this to the required strict
+  finite-rank inequality.
+\end{proof}
+
+\begin{lemma}[No finite character cover]
+  \label{lem:no-character-cover}
+  \lean{CubicTwoStage.BerendProp43Canonical.CanonicalProp43.not_finite_cover_latticeCharacter_annihilator}
+  \leanok
+  \uses{lem:canonical-b1,lem:annihilator-rank}
+  No finite family of nonzero lattice characters can have one of its members
+  annihilate every positive iterate of an infinite subgroup.
+\end{lemma}
+\begin{proof}
+  Apply van der Waerden to obtain a monochromatic arithmetic progression of
+  length equal to the ambient dimension. Shift to its initial point. B1 makes
+  the first dimension-many covector iterates linearly independent: a relation
+  would be a nonzero polynomial of smaller degree whose kernel is invariant,
+  contradicting irreducibility. They therefore cannot all lie in the
+  lower-dimensional annihilator span.
+\end{proof}
+
+\begin{theorem}[Proposition 4.3 in net form]
+  \label{thm:unit-prime-net}
+  \lean{CubicTwoStage.BerendProp43Canonical.CanonicalProp43.exists_canonical_unitPrime_net}
+  \leanok
+  \uses{lem:no-character-cover}
+  For canonical B1, each infinite closed \(H\) and each \(\delta>0\), some
+  iterate of \(H\) is a \(\delta\)-net of the entire torus.
+\end{theorem}
+\begin{proof}
+  Finite character prefixes and arbitrarily late good times give a strictly
+  increasing sequence on which every nonzero character is eventually nontrivial.
+  Normalized Haar measures on the compact image groups have vanishing nontrivial
+  character integrals. Stone--Weierstrass identifies approximations for all
+  continuous functions. A positive bump-supported ball argument converts this
+  into eventual intersection of every ball. Finitely many such balls cover the
+  compact torus, delivering one iterate that is a net. No invariance of \(H\)
+  is required.
+\end{proof}
+
+\begin{lemma}[Translated-subgroup last mile]
+  \label{lem:translate-last-mile}
+  \lean{CubicTwoStage.BerendStageIProp43.eq_univ_of_iterate_net_translate}
+  \leanok
+  \uses{thm:unit-prime-net}
+  If \(Y\) is closed and forward-invariant and contains an iterate of \(b+H\),
+  the subgroup nets force \(Y\) to be the whole torus.
+\end{lemma}
+\begin{proof}
+  Center the net at \(x-\sigma^n b\). Translation by \(\sigma^n b\) produces a
+  point of the iterate of \(b+H\) within \(\delta\) of \(x\). Forward invariance
+  keeps that iterate in \(Y\), so every ball around \(x\) meets \(Y\). Closedness
+  yields \(x\in Y\).
+\end{proof}
+
+\section{Stage I, full dichotomy, and Theorem 3.6}
+
+\begin{theorem}[Stage I from a normalized arc]
+  \label{thm:stage-one-arc}
+  \lean{CubicTwoStage.BerendStageIProp43.eq_univ_canonical_of_arcThrough}
+  \leanok
+  \uses{thm:arc-through,prop:ray-subgroup,lem:translate-last-mile}
+  An exact normalized arc in \(Y\) proves \(Y=\mathbb T\).
+\end{theorem}
+\begin{proof}
+  Use the tangent net and Proposition 4.2 to obtain \(b+H\), then the B1/net
+  endomorphism and the translated-subgroup last mile.
+\end{proof}
+
+\begin{lemma}[Off-plane versus on-plane accumulation]
+  \label{lem:stage-one-split}
+  \lean{CubicTwoStage.BerendStageIPlanarOnly.zeroNonisolatedFull_canonical_planarOnly'}
+  \leanok
+  \uses{lem:unit-prime-independence}
+  Canonical Stage I reduces to the corrected planar residual, without an
+  expansive-direction hypothesis.
+\end{lemma}
+\begin{proof}
+  Real multiplier density and coordinate-axis density handle off-plane
+  accumulation. Non-criticality supplies \(|\sigma_1\varepsilon|\neq1\), and
+  replacing \(\varepsilon\) by \(\varepsilon^{-1}\) if necessary handles either
+  expansion direction.
+\end{proof}
+
+\begin{theorem}[Completed canonical Stage I]
+  \label{thm:canonical-stage-one}
+  \lean{CubicTwoStage.BerendStageIAssembly.zeroNonisolatedFull_canonical}
+  \leanok
+  \uses{thm:normalized-arc,thm:arc-through,thm:stage-one-arc,lem:stage-one-split}
+  Every nonempty closed forward-invariant subset of the canonical torus that has
+  zero as a non-isolated point is the entire torus.
+\end{theorem}
+\begin{proof}
+  Apply the off-plane/on-plane split. On the complex plane, transport the
+  corrected residual to nonzero complex accumulation and use the normalized arc
+  and Propositions 4.2 and 4.3 established above.
+\end{proof}
+
+\begin{theorem}[Coprime Proposition IV.1]
+  \label{thm:coprime-iv1}
+  \lean{CubicTwoStage.BerendIV1Arith.propIV1_unitPrime'_canonical}
+  \leanok
+  Let \(p,q\) be distinct rational primes with \(\lvert\operatorname{Nm}\pi\rvert=p\).
+  Coprime Proposition IV.1 holds for the canonical unit--prime family.
+\end{theorem}
+\begin{proof}
+  Ideal norms supply coprimality and degree-one quotient representatives after
+  saturation on multiplicative levels. The unit--prime lift preserves these
+  representatives under coprime levels and gives the injectivity needed by
+  Proposition IV.1.
+\end{proof}
+
+\begin{theorem}[Full canonical multi-invariance]
+  \label{thm:canonical-dichotomy}
+  \lean{CubicTwoStage.BerendStageIAssembly.dichotomy_canonical}
+  \leanok
+  \uses{thm:canonical-stage-one,thm:coprime-iv1}
+  Every closed nonempty forward-invariant proper subset of the canonical torus is finite.
+\end{theorem}
+\begin{proof}
+  The expanding margin supplies finite kernels and finite torsion. Stage I,
+  Proposition IV.1, and the §5 propagation assembly therefore give the full
+  multi-invariance dichotomy.
+\end{proof}
+
+\begin{theorem}[Canonical Theorem 3.6]
+  \label{thm:canonical-uncovered}
+  \lean{CubicTwoStage.NumberFieldCubic.thm_uncovered_canonical}
+  \leanok
+  \uses{thm:canonical-dichotomy,thm:coprime-iv1}
+  If \(p\) is prime and the usual unit/prime, \(p\)-adic, B1, and B2 hypotheses hold,
+  the uncovered set lies in finitely many lattice classes, each having a field
+  representative.
+\end{theorem}
+\begin{proof}
+  Choose \(q\) prime and larger than \(p\). The canonical dichotomy and coprime
+  IV.1 construct the corrected proposition \(H\). Closure of the uncovered
+  orbit is finite by \(H\); injectivity of the unit action gives periodic
+  unit orbits, and solving the denominator equation produces field
+  representatives. The rational primality needed by IV.1 is explicit; a
+  composite absolute norm is not silently treated as prime.
+\end{proof}
+
+\begin{corollary}[Generic corrected paper statements]
+  \label{cor:generic-paper}
+  \lean{CubicTwoStage.thm_uncovered,CubicTwoStage.thm_uncovered_field,CubicTwoStage.thm_intro_equiv}
+  \leanok
+  \uses{thm:canonical-dichotomy}
+  The same closure-of-orbits, periodic-orbit, representative, and geometric
+  equivalence arguments prove the generic uncovered and introduction theorems
+  using an explicit corrected proposition \(H\).
+\end{corollary}
+\begin{proof}
+  This is precisely the corrected wrapper interface: arbitrary models accept
+  \(H\) as a hypothesis, while canonical models construct it using
+  Theorem~\ref{thm:canonical-dichotomy}.
+\end{proof}
+
+\section{Trust boundary and verification}
+
+Every Berend-facing declaration above audits with only \texttt{propext},
+\texttt{Classical.choice}, and \texttt{Quot.sound}. The old false literal axiom
+was removed together with its legacy consumers. No \texttt{sorry} or substitute
+axiom is used.
+
+The independent \texttt{thm\_main\_computational\_input} and
+\texttt{thm\_smooth\_computational\_input} remain only as the separately
+identified computational data in \texttt{Main.lean}; neither enters this proof.
+The complete project was validated by the zero-exit full build
+\texttt{jmw9uaao4}. The labels in this file supply the plasTeX dependency graph
+and the accompanying Graphviz graph.

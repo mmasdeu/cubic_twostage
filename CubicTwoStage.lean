@@ -1,0 +1,106 @@
+/-
+Formalization companion to M. Masdeu,
+*Two-stage Euclidean algorithms and continued fractions in complex cubic fields*.
+
+Every numbered statement of the paper is stated in the module listed below; see
+`FORMALIZATION.md` at the repository root for the correspondence between paper
+labels, Lean names and proof status.
+-/
+import CubicTwoStage.Basic
+import CubicTwoStage.Model
+import CubicTwoStage.Berend
+import CubicTwoStage.FieldModel
+import CubicTwoStage.Cooke
+import CubicTwoStage.Classes
+import CubicTwoStage.Box
+import CubicTwoStage.Normalize
+import CubicTwoStage.Equiv
+import CubicTwoStage.Setting
+import CubicTwoStage.Verify
+import CubicTwoStage.Witness
+import CubicTwoStage.Uncovered
+import CubicTwoStage.Periodic
+import CubicTwoStage.Representatives
+import CubicTwoStage.General
+import CubicTwoStage.Main
+import CubicTwoStage.ComplexCubic
+import CubicTwoStage.BerendAlgebra
+import CubicTwoStage.BerendMinimalTorus
+import CubicTwoStage.BerendSec4
+import CubicTwoStage.BerendTorsion
+import CubicTwoStage.BerendDerived
+import CubicTwoStage.BerendBridge
+import CubicTwoStage.ComplexCubicCorrected
+import CubicTwoStage.BerendDichotomy
+import CubicTwoStage.BerendInterface
+import CubicTwoStage.BerendSharpness
+import CubicTwoStage.BerendSharpGen
+import CubicTwoStage.BerendLiftSharp
+import CubicTwoStage.BerendCone
+import CubicTwoStage.BerendRankTwoDiag
+import CubicTwoStage.BerendFullCone
+import CubicTwoStage.BerendOrbit
+import CubicTwoStage.BerendRate
+import CubicTwoStage.BerendModulus
+import CubicTwoStage.BerendTorusLastMile
+import CubicTwoStage.BerendTransport
+import CubicTwoStage.BerendStageIDense
+import CubicTwoStage.BerendRadialFull
+import CubicTwoStage.BerendRadialStageI
+import CubicTwoStage.BerendA3
+import CubicTwoStage.BerendAxisDensity
+import CubicTwoStage.BerendModel
+import CubicTwoStage.BerendStageIClosure
+import CubicTwoStage.BerendStageILine
+import CubicTwoStage.BerendCoordDense
+import CubicTwoStage.BerendDensity
+import CubicTwoStage.BerendExpandingMember
+import CubicTwoStage.BerendIV1Congruence
+import CubicTwoStage.BerendBlockLastMile
+import CubicTwoStage.BerendTransitive
+import CubicTwoStage.BerendCofinality
+import CubicTwoStage.BerendCofinalityConcrete
+import CubicTwoStage.BerendLatticeIndex
+import CubicTwoStage.BerendFibre
+import CubicTwoStage.BerendUnitNoncritical
+import CubicTwoStage.BerendIV1Model
+import CubicTwoStage.BerendPrimeNorm
+import CubicTwoStage.BerendAssemblyCapstone
+
+import CubicTwoStage.BerendStageIBlockAxis
+import CubicTwoStage.BerendStageIScalar
+import CubicTwoStage.BerendAxisLattice
+import CubicTwoStage.BerendPlaneNet
+import CubicTwoStage.BerendPlanarOnly
+import CubicTwoStage.BerendPlanarArc
+import CubicTwoStage.BerendPhaseArc
+import CubicTwoStage.BerendProp43Line
+import CubicTwoStage.BerendTangentNet
+import CubicTwoStage.BerendQuotientLift
+import CubicTwoStage.BerendSegmentLift
+import CubicTwoStage.BerendRaySubgroup
+import CubicTwoStage.BerendVanDerWaerden
+import CubicTwoStage.BerendModulusOneArc
+import CubicTwoStage.BerendArcInterfaceAudit
+import CubicTwoStage.BerendCanonicalB1
+import CubicTwoStage.BerendProp43Algebra
+import CubicTwoStage.BerendProp43Annihilator
+import CubicTwoStage.BerendProp43Coloring
+import CubicTwoStage.BerendProp43Finite
+import CubicTwoStage.BerendProp43Rank
+import CubicTwoStage.BerendProp43RationalSpan
+import CubicTwoStage.BerendTorusCharacters
+import CubicTwoStage.BerendProp43Bridge
+import CubicTwoStage.BerendLatticeDensity
+import CubicTwoStage.BerendCanonicalAnnihilator
+import CubicTwoStage.BerendCanonicalProp43
+import CubicTwoStage.BerendCanonicalSubsequence
+import CubicTwoStage.BerendCanonicalUnitPrime
+import CubicTwoStage.BerendStageIProp43
+import CubicTwoStage.BerendNormalizedCompactArc
+import CubicTwoStage.BerendComplexBackwardOrbit
+import CubicTwoStage.BerendCanonicalNormalizedArc
+import CubicTwoStage.BerendNormalizedArcIntegration
+import CubicTwoStage.BerendCompleteStageI
+import CubicTwoStage.BerendCompleteDichotomy
+import CubicTwoStage.BerendCompleteCanonical
