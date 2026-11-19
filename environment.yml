@@ -9,6 +9,7 @@ dependencies:
   - python-build
   - contourpy
   - furo
+  - ipywidgets
   - isort
   - numpy
   - pip

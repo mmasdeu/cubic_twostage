@@ -27,6 +27,7 @@ jobs:
       - name: install dependencies
         shell: bash -l {0}
         run: |
+          sed -i 's/^  - python$/  - python=${{ matrix.python }}/' environment.yml
           conda env update --quiet -n test -f environment.yml
           conda list
       - name: install package
