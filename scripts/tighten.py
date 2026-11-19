@@ -3,7 +3,7 @@
 For each such field, try the ideal norms N' < N (largest first) with a stronger search
 (far centres K, L, W, deeper boxes); on success certify, write the certificate (replacing the
 old one) and an updated record; stop at the first N' that fails.
-usage: python3 tighten.py results_final.jsonl smooth.jsonl updates_out.jsonl [workers]
+usage: python3 scripts/tighten.py results_final.jsonl smooth.jsonl updates_out.jsonl [workers]
 env: CUBIC_MEM_GB (per-worker address-space cap), TIGHT_LEVEL="K:L:W:depth" (default 3:3000:60:16)"""
 import os
 for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
@@ -22,7 +22,7 @@ def init_worker():
 
 
 def run(r):
-    from twostage import TwoStage
+    from cubic_twostage import TwoStage
     t0 = time.time()
     S = TwoStage(r["poly"])
     norms = sorted(n for n, I in S.K.ideals_of_bdd_norm(r["N"] - 1).items() if I)

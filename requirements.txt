@@ -1,5 +1,7 @@
-# SageMath as a Python package (developed with passagemath 10.8.13 / Sage 10.9, Python 3.13-3.14);
-# a regular Sage installation works as well.
+# Without a Sage installation: `pip install -r requirements.txt` installs SageMath as a Python
+# package (passagemath; developed with passagemath 10.8.13 / Sage 10.9, Python 3.13-3.14) and
+# this package.  Inside an existing Sage, use `sage -pip install .` instead.
 passagemath-standard
 numpy
 contourpy      # only for writeup/gen_regions.py (figures)
+.

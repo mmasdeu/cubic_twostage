@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Merge batch4 outputs from several runs/machines into one final record per field.
-usage: python3 merge_results.py out.jsonl --results r1.jsonl r2.jsonl ... --updates u1.jsonl ...
+usage: python3 scripts/merge_results.py out.jsonl --results r1.jsonl r2.jsonl ... --updates u1.jsonl ...
 Rules: a record without "error" beats an error record; among good batch records the last one
 wins; update records (resolve_hard / manual notes) override batch records, last one wins.
 Then each record is checked against its certificate file: max class norm in the certificate

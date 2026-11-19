@@ -1,0 +1,2 @@
+include ChangeLog LICENSE README.md environment.yml
+recursive-include doc *.rst *.py Makefile

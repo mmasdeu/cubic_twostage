@@ -6,16 +6,20 @@ x = c/m with c in O_F.  min_g |Nm(x-g)| < 1  <=>  some y in c + mO_F has |Nm y| 
 <=> beta mod m lies in the orbit {u*c mod m : u in <-1, eps>}   (orbit is closed under u -> u^-1).
 Everything is done with integer coordinate vectors in the integral basis, mod m.
 """
+
 import itertools
+
 import numpy as np
-from sage.all import matrix, ZZ, QQ, vector
+from sage.all import QQ, ZZ, matrix, vector
 
 
 class FastWitness:
     def __init__(self, S, mmax=12):
+        if S.signature() != (1, 1):
+            raise NotImplementedError("implemented for complex cubic fields only")
         self.S = S
         K = S.K
-        B = max(mmax ** 3 - 1, 1)
+        B = max(mmax**3 - 1, 1)
         self.gens = []  # (norm, integer coord vector)
         for k, ideals in K.ideals_of_bdd_norm(B).items():
             for J in ideals:
@@ -29,8 +33,7 @@ class FastWitness:
 
     def residues(self, m):
         if m not in self._res:
-            self._res[m] = {tuple(v % m for v in g) for k, g in self.gens
-                            if k < m ** 3}
+            self._res[m] = {tuple(v % m for v in g) for k, g in self.gens if k < m**3}
         return self._res[m]
 
     def is_witness(self, a, m):

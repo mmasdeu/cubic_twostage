@@ -1,0 +1,25 @@
+=========================
+cubic_twostage Change Log
+=========================
+
+.. current developments
+
+v1.0
+====================
+
+**Added:**
+
+* The code is a pip-installable package, ``cubic_twostage``, with the layout of
+  ``darmonpoints`` (``pyproject.toml``, Sphinx documentation in ``doc/``, doctests, GitHub
+  workflows for tests, lint and documentation).
+* ``TwoStage`` works for number fields of any signature with class number one; it is tested
+  for real quadratic, complex cubic and totally real cubic fields.  Several fundamental units
+  are supported (unit images of centres, local centres, unit residues).
+* High level functions: ``TwoStage.find_covering``, ``TwoStage.save_certificate``,
+  ``TwoStage.from_certificate``, ``continued_fraction(x)`` for an element of a number field,
+  ``verify_certificate``; command line ``cubic-twostage cover|cf|verify``.
+
+**Changed:**
+
+* The pipeline scripts of the paper moved to ``scripts/`` and import the package; the
+  first-generation scripts moved to ``legacy/``.

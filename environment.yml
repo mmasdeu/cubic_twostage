@@ -1,0 +1,20 @@
+# This file lists the dependencies needed to build and test all of the package.
+# Create a conda environment with these dependencies preinstalled with:
+# conda env create -f environment.yml
+name: cubic-twostage-dev
+channels:
+  - conda-forge
+dependencies:
+  - black
+  - build
+  - contourpy
+  - furo
+  - isort
+  - numpy
+  - pip
+  - python
+  - rever
+  - sagelib
+  - sphinx
+  - twine
+  - wheel

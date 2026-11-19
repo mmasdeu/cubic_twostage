@@ -20,37 +20,50 @@ so the completeness of D was not proved.  This script re-checks every claimed po
     evaluated exactly with Python integers.
 The classes of centres (ideals of norm <= L via PARI, unit residues) are exact.
 
-usage: python3 certify_lower.py out.jsonl [workers]
-Re-checks:
-  (a) every ordinary witness of data/results_final_v2.jsonl (f(x) >= 1); two of them
-      (d = -4872, -4952) are false and were removed in data/results_final_v3.jsonl;
-  (b) every level witness of data/antz9/smooth_level_v2.jsonl that makes N_min exact
-      (x covered by no centre of norm <= N-1).
+Only for complex cubic fields (signature (1,1)).  The batch re-check of the paper's data
+is scripts/certify_lower.py.
 """
+
+import itertools
+import math
 import os
-for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
-    os.environ.setdefault(_v, '1')
-import sys, json, time, itertools, math
+
 import numpy as np
 
-MAX_D = int(float(os.environ.get("CUBIC_MAX_D", 2e7)))   # refuse larger translate boxes (time)
-ERR = 1e-13                  # relative error margin of float evaluations (see docstring)
+MAX_D = int(
+    float(os.environ.get("CUBIC_MAX_D", 2e7))
+)  # refuse larger translate boxes (time)
+ERR = 1e-13  # relative error margin of float evaluations (see docstring)
 
 
 class RigorousLower:
     def __init__(self, S, build_D=True):
-        from sage.all import (QQ, ZZ, PolynomialRing, matrix, RealIntervalField,
-                              ComplexIntervalField, pari)
+        if S.signature() != (1, 1):
+            raise NotImplementedError(
+                "RigorousLower is implemented for complex cubic fields only"
+            )
+        from sage.all import (
+            QQ,
+            ZZ,
+            ComplexIntervalField,
+            PolynomialRing,
+            RealIntervalField,
+            matrix,
+            pari,
+        )
+
         self.S = S
         K = S.K
         # --- exact norm form N(v) = Nm(sum v_j w_j)
-        R = PolynomialRing(ZZ, 'v0,v1,v2')
+        R = PolynomialRing(ZZ, "v0,v1,v2")
         v = R.gens()
         mult = [matrix(QQ, [S.coords(w * b) for b in S.basis]) for w in S.basis]
         Nf = sum(vi * mj.change_ring(ZZ) for vi, mj in zip(v, mult)).det()
-        self.terms = [(int(c), tuple(int(e) for e in mon.exponents()[0]))
-                      for c, mon in zip(Nf.coefficients(), Nf.monomials())]
-        assert all(sum(e) == 3 and abs(c) < 2 ** 50 for c, e in self.terms)
+        self.terms = [
+            (int(c), tuple(int(e) for e in mon.exponents()[0]))
+            for c, mon in zip(Nf.coefficients(), Nf.monomials())
+        ]
+        assert all(sum(e) == 3 and abs(c) < 2**50 for c, e in self.terms)
         # --- fundamental unit: certified by bnfcertify, compared through the regulator
         bnf = pari(K.defining_polynomial()).bnfinit(1)
         assert int(pari.bnfcertify(bnf)) == 1
@@ -77,15 +90,19 @@ class RigorousLower:
         cembs = K.embeddings(CIF)
         ire = min(cembs, key=lambda e: abs(e(K.gen()).imag().center()))
         icx = [e for e in cembs if e(K.gen()).imag().center() > 0][0]
-        self.MI = [[RIF(ire(w).real()) for w in S.basis],
-                   [RIF(icx(w).real()) for w in S.basis],
-                   [RIF(icx(w).imag()) for w in S.basis]]
+        self.MI = [
+            [RIF(ire(w).real()) for w in S.basis],
+            [RIF(icx(w).real()) for w in S.basis],
+            [RIF(icx(w).imag()) for w in S.basis],
+        ]
         T = matrix(QQ, 3, 3, [(wi * wj).trace() for wi in S.basis for wj in S.basis])
         Tinv = T.inverse()
         dual = [sum(Tinv[i, j] * S.basis[j] for j in range(3)) for i in range(3)]
         # a_j = Tr(x w_j*) = u s1(w_j*) + 2 Re(w s2(w_j*))
-        self.MinvI = [[RIF(ire(dj).real()), 2 * RIF(icx(dj).real()), -2 * RIF(icx(dj).imag())]
-                      for dj in dual]
+        self.MinvI = [
+            [RIF(ire(dj).real()), 2 * RIF(icx(dj).real()), -2 * RIF(icx(dj).imag())]
+            for dj in dual
+        ]
         # sanity: Minv * M = I
         for i in range(3):
             for j in range(3):
@@ -99,13 +116,14 @@ class RigorousLower:
         """Exact alternative to uncovered(a, m, 1) for small m (no translate set):
         a/m is covered iff some beta = a - m g has 0 < |Nm beta| < m^3 (or a = 0 mod m), and
         such beta is u*gamma with gamma a generator of an ideal of norm < m^3, u a unit.  So
-        a/m is a witness iff a mod m lies in no <-1,eps>-orbit of such generators mod m."""
+        a/m is a witness iff a mod m lies in no <-1,eps>-orbit of such generators mod m.
+        """
         a = tuple(int(x) % m for x in a)
         if a == (0, 0, 0):
             return False, 0
         K, S = self.S.K, self.S
         nchk = 0
-        for k, ideals in K.ideals_of_bdd_norm(m ** 3 - 1).items():
+        for k, ideals in K.ideals_of_bdd_norm(m**3 - 1).items():
             for I in ideals:
                 if k == 0:
                     continue
@@ -119,26 +137,27 @@ class RigorousLower:
 
     # ------------------------------------------------------------------ translate set
     def _build_D(self):
-        from sage.all import ZZ, QQ, matrix, pari, RealIntervalField
+        from sage.all import QQ, ZZ, RealIntervalField, matrix, pari
+
         RIF = RealIntervalField(256)
         b1, b2 = self.b1, self.b2
         Mf = self.Mf
         radc = np.abs(Mf).sum(axis=1) * 0.5
         r1, r2 = radc[0], math.hypot(radc[1], radc[2])
         i1 = int(math.ceil(math.log2(b1)))
-        while 2.0 ** i1 < b1:
+        while 2.0**i1 < b1:
             i1 += 1
-        i0 = min(i1, int(math.floor(math.log2(1 / b2 ** 2))) - 1)
-        pieces = [(2.0 ** i0 if i0 < i1 else b1, b2)]
+        i0 = min(i1, int(math.floor(math.log2(1 / b2**2))) - 1)
+        pieces = [(2.0**i0 if i0 < i1 else b1, b2)]
         for i in range(i0 + 1, i1 + 1):
-            pieces.append((2.0 ** i, min(b2, 2.0 ** (-(i - 1) / 2) * (1 + 1e-12))))
-        rcI = [sum(x.abs() for x in row) / 2 for row in self.MI]      # cube radii, rigorous
+            pieces.append((2.0**i, min(b2, 2.0 ** (-(i - 1) / 2) * (1 + 1e-12))))
+        rcI = [sum(x.abs() for x in row) / 2 for row in self.MI]  # cube radii, rigorous
         Ds, total = [], 0
         for A, Bw in pieces:
             # reduction matrix U: any unimodular U is correct; LLL makes the box tight
             Bas = np.diag([1 / (A + r1), 1 / (Bw + r2), 1 / (Bw + r2)]) @ Mf
             e = int(np.ceil(np.log2(1 / np.abs(Bas[Bas != 0]).min()))) + 40
-            Bi = matrix(ZZ, 3, 3, [int(round(x * 2.0 ** e)) for x in Bas.flatten()])
+            Bi = matrix(ZZ, 3, 3, [int(round(x * 2.0**e)) for x in Bas.flatten()])
             U = matrix(ZZ, pari(Bi).qflll().sage())
             assert abs(U.det()) == 1
             Ui = U.inverse().change_ring(ZZ)
@@ -148,24 +167,31 @@ class RigorousLower:
             h = [RIF(A) + rcI[0], RIF(Bw) + rcI[1], RIF(Bw) + rcI[2]]
             lo, hi = [], []
             for i in range(3):
-                G = [sum(Ui[i, j] * self.MinvI[j][k] for j in range(3)) for k in range(3)]
+                G = [
+                    sum(Ui[i, j] * self.MinvI[j][k] for j in range(3)) for k in range(3)
+                ]
                 s = sum(G[k].abs() * h[k] for k in range(3))
                 zc = RIF(sum(Ui[i, j] for j in range(3))) / 2
                 lo.append(int((zc - s).lower().floor()))
                 hi.append(int((zc + s).upper().ceil()))
             size = 1
             for a, b in zip(lo, hi):
-                size *= (b - a + 1)
+                size *= b - a + 1
             total += size
             if total > MAX_D:
                 raise MemoryError(f"translate box too large ({total:.2e})")
             Un = np.array(U, dtype=np.int64)
             # stream over slices z0 = const to keep memory proportional to the kept points
-            Z12 = np.array(list(itertools.product(range(lo[1], hi[1] + 1),
-                                                  range(lo[2], hi[2] + 1))), dtype=np.int64)
+            Z12 = np.array(
+                list(
+                    itertools.product(range(lo[1], hi[1] + 1), range(lo[2], hi[2] + 1))
+                ),
+                dtype=np.int64,
+            )
             for z0 in range(lo[0], hi[0] + 1):
                 Z = np.empty((len(Z12), 3), dtype=np.int64)
-                Z[:, 0] = z0; Z[:, 1:] = Z12
+                Z[:, 0] = z0
+                Z[:, 1:] = Z12
                 Dp = Z @ Un.T
                 Ds.append(Dp[self._keep(Dp)])
         D = np.unique(np.concatenate(Ds), axis=0)
@@ -181,8 +207,9 @@ class RigorousLower:
         mag = np.abs(X) @ np.abs(Mf).T + np.abs(Mf).sum(axis=1)
         rad = np.abs(Mf).sum(axis=1) * 0.5
         lo = np.maximum(np.abs(mid) - rad - 1e-12 * mag, 0)
-        miss_box = (lo[:, 0] > self.b1 * (1 + 1e-9)) | \
-                   (lo[:, 1] ** 2 + lo[:, 2] ** 2 > self.b2 ** 2 * (1 + 1e-9))
+        miss_box = (lo[:, 0] > self.b1 * (1 + 1e-9)) | (
+            lo[:, 1] ** 2 + lo[:, 2] ** 2 > self.b2**2 * (1 + 1e-9)
+        )
         miss_hyp = lo[:, 0] * (lo[:, 1] ** 2 + lo[:, 2] ** 2) > 1 + 1e-9
         return ~(miss_box | miss_hyp)
 
@@ -191,17 +218,21 @@ class RigorousLower:
         out = []
         for row in V:
             a, b, c = (int(x) for x in row)
-            out.append(sum(co * a ** e0 * b ** e1 * c ** e2 for co, (e0, e1, e2) in self.terms))
+            out.append(
+                sum(co * a**e0 * b**e1 * c**e2 for co, (e0, e1, e2) in self.terms)
+            )
         return out
 
     def covered_any(self, V, M, n):
         """True iff some row v of V (int64) has n |N(v)| < M^3 (rigorous)."""
-        assert np.abs(V).max() < 2 ** 52
+        assert np.abs(V).max() < 2**52
         F = V.astype(float)
-        val = np.zeros(len(V)); mag = np.zeros(len(V))
+        val = np.zeros(len(V))
+        mag = np.zeros(len(V))
         for c, (e0, e1, e2) in self.terms:
             t = float(c) * F[:, 0] ** e0 * F[:, 1] ** e1 * F[:, 2] ** e2
-            val += t; mag += np.abs(t)
+            val += t
+            mag += np.abs(t)
         err = ERR * mag + 1e-300
         thr = float(M) ** 3 / n
         if (np.abs(val) + err < thr * (1 - 1e-15)).any():
@@ -222,102 +253,19 @@ class RigorousLower:
         while tuple(v) not in seen:
             for w in (v, (-v) % M):
                 if tuple(w) not in seen:
-                    seen.add(tuple(w)); out.append(w.copy())
+                    seen.add(tuple(w))
+                    out.append(w.copy())
             v = (v @ Em) % M
         return np.array(out, dtype=np.int64)
 
-    def uncovered(self, b, M, n=1, chunk=4 * 10 ** 6):
+    def uncovered(self, b, M, n=1, chunk=4 * 10**6):
         """True iff f(b/M) >= 1/n, i.e. b/M lies in no V(g), g in O, of radius 1/n."""
         O = self.orbit(b, M)
         D = self.D
         per = max(1, chunk // max(1, len(D)))
         MD = M * D
         for s in range(0, len(O), per):
-            V = (O[s:s + per, None, :] - MD[None, :, :]).reshape(-1, 3)
+            V = (O[s : s + per, None, :] - MD[None, :, :]).reshape(-1, 3)
             if self.covered_any(V, M, n):
                 return False, len(O)
         return True, len(O)
-
-
-def check_field(job):
-    from twostage import TwoStage
-    from sage.all import QQ, sage_eval
-    t0 = time.time()
-    S = TwoStage(job["poly"])
-    out = dict(poly=job["poly"], disc=job["disc"], kind=job["kind"], m=job["m"], L=job["L"])
-    x = sage_eval(job["x"], locals={"t": S.K.gen()})
-    m = job["m"]
-    a = [QQ(c) * m for c in S.coords(S.K(x))]
-    assert all(c in QQ and c.denominator() == 1 for c in a)
-    a = [int(c) % m for c in a]
-    out["a"] = a
-    try:
-        RL = RigorousLower(S)
-    except MemoryError as e:
-        if job["kind"] == "witness" and m ** 3 <= 4096:
-            RL = RigorousLower(S, build_D=False)
-            ok, nid = RL.uncovered_ideals(a, m)
-            out.update(ok=ok, method="ideals", n_ideal_gens=nid, nD=None, loglam=RL.loglam,
-                       note=str(e), t=time.time() - t0)
-            return out
-        out.update(ok=None, error=str(e), t=time.time() - t0)
-        return out
-    out.update(nD=int(len(RL.D)), loglam=RL.loglam, method="translates")
-    if job["kind"] == "witness":
-        ok, osz = RL.uncovered(a, m, 1)
-        out.update(ok=ok, orbit=osz, nclasses=1)
-        if m ** 3 <= 512:                      # independent second method
-            out["ok_ideals"] = RL.uncovered_ideals(a, m)[0]
-    else:
-        L = job["L"]
-        cl = S.classes(L)
-        ok, osz_max = True, 0
-        for c, n, al, r in sorted(cl, key=lambda t: t[1]):
-            assert abs(al.norm()) == n
-            nc = [int(ci * n) for ci in c]
-            assert all(ci * n == v for ci, v in zip(c, nc))
-            b = [(n * ai - m * v) % (m * n) for ai, v in zip(a, nc)]
-            u, osz = RL.uncovered(b, m * n, n)
-            osz_max = max(osz_max, osz)
-            if not u:
-                ok = False
-                break
-        out.update(ok=ok, orbit=osz_max, nclasses=len(cl))
-    out["t"] = time.time() - t0
-    return out
-
-
-def jobs():
-    R = [json.loads(l) for l in open("data/results_final_v2.jsonl")]
-    Sm = {}
-    for l in open("data/antz9/smooth_level_v2.jsonl"):
-        s = json.loads(l)
-        if "error" not in s:
-            Sm[s["poly"]] = s
-    J = []
-    for r in R:
-        if r.get("witness"):
-            J.append(dict(poly=r["poly"], disc=r["disc"], kind="witness", x=r["witness"],
-                          m=r["wit_m"], L=0))
-        s = Sm.get(r["poly"])
-        if s and s.get("N") == r["N"] and s.get("lw"):
-            J.append(dict(poly=r["poly"], disc=r["disc"], kind="level", x=s["lw"],
-                          m=s["lw_m"], L=r["N"] - 1))
-    return J
-
-
-if __name__ == "__main__":
-    import multiprocessing as mp
-    out = sys.argv[1]
-    nw = int(sys.argv[2]) if len(sys.argv) > 2 else 4
-    J = jobs()
-    done = set()
-    if os.path.exists(out):
-        done = {(json.loads(l)["poly"], json.loads(l)["kind"]) for l in open(out)}
-    J = [j for j in J if (j["poly"], j["kind"]) not in done]
-    print(len(J), "checks", flush=True)
-    with open(out, "a") as fo, mp.get_context("fork").Pool(nw) as P:
-        for o in P.imap_unordered(check_field, J):
-            fo.write(json.dumps(o) + "\n"); fo.flush()
-            print(o["disc"], o["kind"], o.get("ok"), o.get("nD"), o.get("orbit"),
-                  "%.0fs" % o["t"], o.get("error", ""), flush=True)

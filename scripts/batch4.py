@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Timed pipeline over a list of complex cubic fields, parallel worker processes.
-usage: python3 batch4.py fieldlist.txt results.jsonl [workers=2]
+usage: python3 scripts/batch4.py fieldlist.txt results.jsonl [workers=2]
 Same as batch3.py but with far centres (unit orbits K, slabs L, W) and the exact orbit witness test.
 Certificates: data/certificates_k/cert_<|d|>_<a2>_<a1>_<a0>.pkl for x^3+a2x^2+a1x+a0
 (unique even when several fields share a discriminant).
@@ -27,8 +27,8 @@ WIT_RANGES = [(2, 16), (17, 40)]   # fields with |d| < ~1000 were run with (17, 
 
 
 def run_field(f):
-    from twostage import TwoStage, np
-    from witness_orbit import orbit_witness_search
+    from cubic_twostage import TwoStage
+    from cubic_twostage.witness_orbit import orbit_witness_search
     r = {"poly": f}
     t0 = time.time()
     S = TwoStage(f)

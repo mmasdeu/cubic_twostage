@@ -11,7 +11,7 @@ import numpy as np
 import contourpy
 import sage.all
 from sage.all import QQ, latex
-from twostage import TwoStage
+from cubic_twostage import TwoStage
 
 OUT = "writeup"
 R = {json.loads(l)["disc"]: json.loads(l) for l in open("data/results_final_v2.jsonl")}

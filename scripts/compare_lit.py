@@ -2,7 +2,7 @@
 """Compare our norm-euclidean results with Cavallar-Lemmermeyer's table (|d| <= 1219)
 and the completeness theorem of Bagger-Booker-Trudgian (arXiv:2610.38073: the 58 'E' fields
 are the only norm-euclidean complex cubic fields).
-usage: python3 compare_lit.py results.jsonl"""
+usage: python3 scripts/compare_lit.py results.jsonl"""
 import sys, json, csv
 R = [json.loads(l) for l in open(sys.argv[1])]
 R = [r for r in R if "error" not in r]

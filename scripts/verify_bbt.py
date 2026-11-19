@@ -9,7 +9,7 @@ We map alpha, beta into our model of the field (any field isomorphism), write
 x = alpha/beta = a/m with m the least positive integer with m x in O, and decide f(x) >= 1
 with the translate test (or the ideal test when the translate set is too large and m^3 is small).
 
-usage: python3 verify_bbt.py out.jsonl [workers]"""
+usage: python3 scripts/verify_bbt.py out.jsonl [workers]"""
 import os
 for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
     os.environ.setdefault(_v, '1')
@@ -25,8 +25,8 @@ def parse(line):
 
 def run(job):
     from sage.all import QQ, ZZ, PolynomialRing, NumberField, lcm
-    from twostage import TwoStage
-    from certify_lower import RigorousLower
+    from cubic_twostage import TwoStage
+    from cubic_twostage.certify_lower import RigorousLower
     t0 = time.time()
     rec, c = job["poly"], job["bbt"]
     out = dict(poly=rec, disc=c["disc"], kind=c["cert"][0])

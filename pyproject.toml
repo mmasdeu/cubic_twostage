@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cubic_twostage"
+version = "1.0"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+description = "Certified 2-stage Euclidean coverings and continued fractions in real quadratic and cubic fields"
+readme = "README.md"
+authors = [{ name = "Marc Masdeu" }]
+requires-python = ">=3.9"
+# SageMath is needed as well: a Sage installation, or `pip install passagemath-standard`
+# (the extra `passagemath`).  It is not a hard dependency, so that the package can be
+# installed into an existing Sage.
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+passagemath = ["passagemath-standard"]
+figures = ["contourpy"]
+
+[project.scripts]
+cubic-twostage = "cubic_twostage.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/mmasdeu/cubic_twostage"
+
+[tool.setuptools]
+packages = ["cubic_twostage"]
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+target-version = ["py39"]

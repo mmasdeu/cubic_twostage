@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Smooth level N_min: exactness per field and its relation to small ideal norms / splitting.
-usage: python3 analyze_smooth.py results_final.jsonl smooth.jsonl [out.csv]
+usage: python3 scripts/analyze_smooth.py results_final.jsonl smooth.jsonl [out.csv]
 N is the certified covering level (upper bound for N_min).  It is exact if
   - N = 1, or
   - smooth.jsonl has a level-(N-1) witness (a point covered by no centre of norm <= N-1), or

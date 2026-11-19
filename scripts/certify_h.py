@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Unconditional class numbers (PARI bnfcertify) for all complex cubic fields |d| <= B.
-usage: python3 certify_h.py B workers -> data/h_certified_<B>.jsonl  {poly, disc, h, certified}"""
+usage: python3 scripts/certify_h.py B workers -> data/h_certified_<B>.jsonl  {poly, disc, h, certified}"""
 import os
 for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS'):
     os.environ.setdefault(_v, '1')

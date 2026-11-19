@@ -30,3 +30,8 @@ blueprint/src/*.toc
 blueprint/src/content.old
 blueprint/src/*.fdb_latexmk
 blueprint/src/*.fls
+# Python packaging and documentation builds
+build/
+dist/
+*.egg-info/
+doc/_build/

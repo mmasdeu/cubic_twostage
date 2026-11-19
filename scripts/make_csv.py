@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """results.jsonl [+ updates.jsonl] -> CSV (one row per field, sorted by |d|).
-usage: python3 make_csv.py out.csv results.jsonl [updates.jsonl ...]
+usage: python3 scripts/make_csv.py out.csv results.jsonl [updates.jsonl ...]
 status: norm-euclidean (certified N=1 cover) | NOT norm-euclidean (exact witness, denominator m)
         | could not check (N=1) (gave up, see n1_note) | open (neither).  lit_status/lit_M: Cavallar-Lemmermeyer table (|d| <= 1219), where
         E/N/H as in their paper; '' = beyond their table."""

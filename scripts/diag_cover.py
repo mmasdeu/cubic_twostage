@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Diagnose why an N-covering fails: run cover() with given far-centre settings and report
 where the failed boxes are and a float estimate of f(x) = min_g |Nm(x - g)| there.
-usage: python3 diag_cover.py "poly" [--N 1] K:L:W:depth [K:L:W:depth ...]
+usage: python3 scripts/diag_cover.py "poly" [--N 1] K:L:W:depth [K:L:W:depth ...]
 f~ uses unit invariance: min over |k| <= 6 of min over |g| <= 4 of |Nm(eps^k x mod O - g)|
 (heuristic, an over-estimate of f). Failures at points with small f~ mean missing centres;
 failures where f~ is close to the radius mean the covering is genuinely tight there."""
@@ -10,7 +10,7 @@ for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
     os.environ.setdefault(_v, '1')
 import sys, time, itertools
 import numpy as np
-from twostage import TwoStage
+from cubic_twostage import TwoStage
 
 
 class FEstimate:

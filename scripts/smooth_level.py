@@ -2,7 +2,7 @@
 """Lower bounds for the smooth level (2-stage): for each field with certified covering level N,
 search an exact point x = a/m covered by no centre of norm <= N-1 (witness_orbit.level_witness_search).
 Found => N_min = N exactly.  Also re-checks consistency: no point may escape all centres of norm <= N.
-usage: python3 smooth_level.py out.jsonl results.jsonl [updates.jsonl ...] [--mmax 24] [--workers 4]"""
+usage: python3 scripts/smooth_level.py out.jsonl results.jsonl [updates.jsonl ...] [--mmax 24] [--workers 4]"""
 import os
 for _v in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
     os.environ.setdefault(_v, '1')
@@ -21,8 +21,8 @@ def init_worker():
 
 def run(args):
     r, mmax = args
-    from twostage import TwoStage
-    from witness_orbit import level_witness_search
+    from cubic_twostage import TwoStage
+    from cubic_twostage.witness_orbit import level_witness_search
     t = time.time()
     S = TwoStage(r["poly"])
     N = r["N"]

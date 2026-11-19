@@ -2,7 +2,7 @@
 """Extra N=1 covering attempts (larger far-centre sets, deeper boxes) for fields that batch4
 left undecided (no N=1 cover, no witness).  On success, certifies and writes an N=1
 certificate (replacing the batch4 one) and an updated record.
-usage: python3 resolve_hard.py results.jsonl updates.jsonl [workers=2] [K:L:W:depth ...]
+usage: python3 scripts/resolve_hard.py results.jsonl updates.jsonl [workers=2] [K:L:W:depth ...]
 Merge: records in updates.jsonl override those in results.jsonl (same poly)."""
 import os
 # one BLAS/OpenMP thread per worker process (otherwise 7 workers x 8 threads oversubscribe)
@@ -15,7 +15,7 @@ LEVELS = [(4, 20000, 150, 20)]
 
 def run(args):
     r, levels = args
-    from twostage import TwoStage
+    from cubic_twostage import TwoStage
     S = TwoStage(r["poly"])
     r = dict(r)
     t0 = time.time()

@@ -1,0 +1,24 @@
+name: Lint
+on:
+  push: { branches: [ "main" ] }
+  pull_request: { branches: [ "main" ] }
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python-linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install linters
+        run: pip install black isort
+      - name: black
+        run: black --check --diff cubic_twostage
+      - name: isort
+        run: isort --check --diff cubic_twostage --profile black

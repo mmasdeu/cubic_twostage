@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Complete list of complex cubic fields (signature (1,1)) with class number 1, |d| <= B.
-usage: python3 enum_fields.py [B]   (default 1500) -> data/h1_<B>.txt, sorted by |d|.
+usage: python3 scripts/enum_fields.py [B]   (default 1500) -> data/h1_<B>.txt, sorted by |d|.
 PARI nflist("S3",[1,B],1): all non-Galois cubics with 1 complex place (complex cubics are never cyclic)."""
 import sys
 from sage.all import pari, NumberField, PolynomialRing, QQ

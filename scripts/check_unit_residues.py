@@ -3,10 +3,10 @@
 (r/alpha, n) used in a certificate, |Nm(alpha)| = n and r is congruent mod alpha to a unit
 (+-eps^k).  Then r/alpha + g = [q1, q2] with q2 = alpha/u of norm n (Lemma lem:classes of the
 write-up).  Superseded: verify_all.py now checks this too.
-usage: python3 check_unit_residues.py certdir [--shard i/n]"""
+usage: python3 scripts/check_unit_residues.py certdir [--shard i/n]"""
 import os, sys, glob, pickle
 import sage.all
-from twostage import TwoStage
+from cubic_twostage import TwoStage
 
 args = sys.argv[1:]
 shard = (0, 1)

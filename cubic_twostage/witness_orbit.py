@@ -18,10 +18,12 @@ with b integral, and f is unit invariant, so `uncovered_mask(mn, n)` decides it 
 all b at once.  `level_witnesses(m, S.classes(L))`: points a/m covered by no centre of norm
 <= L, i.e. proofs that the smooth level is > L.
 """
-import itertools, math
-import numpy as np
-from sage.all import PolynomialRing, ZZ, QQ, matrix
 
+import itertools
+import math
+
+import numpy as np
+from sage.all import QQ, ZZ, PolynomialRing, matrix
 
 MAX_D_ESTIMATE = 3e6
 
@@ -32,24 +34,30 @@ class WitnessTooExpensive(Exception):
 
 class OrbitWitness:
     def __init__(self, S):
+        if S.signature() != (1, 1):
+            raise NotImplementedError("implemented for complex cubic fields only")
         self.S = S
         K = S.K
         # exact cubic norm form N(v) = Nm(sum v_j w_j), integer coefficients
-        R = PolynomialRing(ZZ, 'v0,v1,v2')
+        R = PolynomialRing(ZZ, "v0,v1,v2")
         v = R.gens()
         mult = [matrix(QQ, [S.coords(w * b) for b in S.basis]) for w in S.basis]
         Mv = sum(vi * mj.change_ring(ZZ) for vi, mj in zip(v, mult))
         Nf = Mv.det()
-        self.terms = [(int(c), tuple(int(e) for e in mon.exponents()[0]))
-                      for c, mon in zip(Nf.coefficients(), Nf.monomials())]
-        E = matrix(QQ, [S.coords(S.eps * w) for w in S.basis])   # coords(eps x) = coords(x) E
+        self.terms = [
+            (int(c), tuple(int(e) for e in mon.exponents()[0]))
+            for c, mon in zip(Nf.coefficients(), Nf.monomials())
+        ]
+        E = matrix(
+            QQ, [S.coords(S.eps * w) for w in S.basis]
+        )  # coords(eps x) = coords(x) E
         assert all(e in ZZ for e in E.list()) and abs(E.det()) == 1
         self.E = np.array(E, dtype=np.int64)
         # lam = |s1(eps)|^(+-1) = exp(regulator); from the regulator, since for huge units the
         # float embedding of eps underflows
         loglam = float(S.K.regulator())
-        lam = float(np.exp(min(loglam, 700))) * 1.01       # slack
-        b1, b2 = lam ** 0.5, lam ** 0.25
+        lam = float(np.exp(min(loglam, 700))) * 1.01  # slack
+        b1, b2 = lam**0.5, lam**0.25
         self.lam = lam
         # Candidate translates d.  y = x - d (x in the cube) must lie in the hyperbolic part of B:
         #   |y1| <= b1, |y2| <= b2, |y1| |y2|^2 < 1.
@@ -57,27 +65,43 @@ class OrbitWitness:
         # (|y1| in (2^{i-1}, 2^i] forces |y2| < 2^{-(i-1)/2}; the first box takes all |y1| <= 2^{i0}),
         # enlarge each by the cube's Minkowski radii and enumerate lattice points in an ellipsoid
         # containing it (LLL + Fincke-Pohst).  Size ~ lam^(1/2), not lam as for a bounding box.
-        from twostage import ellipsoid_points
+        from .twostage import ellipsoid_points
+
         radc = np.abs(S.M).sum(axis=1) * 0.5
         r1, r2 = radc[0] * 1.001 + 1e-9, np.hypot(radc[1], radc[2]) * 1.001 + 1e-9
-        cen = np.linalg.solve(S.M, S.M @ np.full(3, 0.5))     # lattice coords of the cube centre
-        i0 = int(np.floor(np.log2(1 / b2 ** 2))) - 1          # 2^i0 <= b1^-1 (= b2^-2)
+        cen = np.linalg.solve(
+            S.M, S.M @ np.full(3, 0.5)
+        )  # lattice coords of the cube centre
+        i0 = int(np.floor(np.log2(1 / b2**2))) - 1  # 2^i0 <= b1^-1 (= b2^-2)
         i1 = int(np.ceil(np.log2(b1))) + 1
         # estimated number of lattice points (ellipsoid volumes / covolume): refuse huge cases
         covol = float(abs(S.K.discriminant())) ** 0.5 / 2
-        est = sum(4 / 3 * np.pi * 3 ** 1.5 * (2.0 ** i + r1) *
-                  ((b2 if i == i0 else min(b2, 2.0 ** (-(i - 1) / 2))) + r2) ** 2
-                  for i in range(i0, i1 + 1)) / covol
+        est = (
+            sum(
+                4
+                / 3
+                * np.pi
+                * 3**1.5
+                * (2.0**i + r1)
+                * ((b2 if i == i0 else min(b2, 2.0 ** (-(i - 1) / 2))) + r2) ** 2
+                for i in range(i0, i1 + 1)
+            )
+            / covol
+        )
         if est > MAX_D_ESTIMATE:
             raise WitnessTooExpensive(f"|D| ~ {est:.2e} (log lam = {loglam:.1f})")
         Ds = []
         for i in range(i0, i1 + 1):
-            A = 2.0 ** i
+            A = 2.0**i
             Bw = b2 if i == i0 else min(b2, 2.0 ** (-(i - 1) / 2))
             Dg = np.diag([1 / (A + r1) ** 2, 1 / (Bw + r2) ** 2, 1 / (Bw + r2) ** 2])
             Bas = np.diag([1 / (A + r1), 1 / (Bw + r2), 1 / (Bw + r2)]) @ S.M
             Ds.append(ellipsoid_points(S.M.T @ Dg @ S.M, cen, 3.0 * 1.0001, basis=Bas))
-        D = np.unique(np.concatenate(Ds), axis=0) if Ds else np.zeros((0, 3), dtype=np.int64)
+        D = (
+            np.unique(np.concatenate(Ds), axis=0)
+            if Ds
+            else np.zeros((0, 3), dtype=np.int64)
+        )
         D = D.astype(np.int64)
         # keep d only if the cube [0,1]^3 - d can meet B (conservative interval test)
         mid = (0.5 - D) @ S.M.T
@@ -111,7 +135,7 @@ class OrbitWitness:
         #    float prefilter (generous), exact check of the few borderline hits.
         cov = np.zeros(len(A), bool)
         Mf = self.S.M
-        thr = M ** 3 / n
+        thr = M**3 / n
         for d in self.D:
             V = A - M * d
             Y = V @ Mf.T
@@ -121,13 +145,14 @@ class OrbitWitness:
             cov |= sure
             if maybe.any():
                 ii = np.where(maybe)[0]
-                ex = n * np.abs(self.norm(V[ii])) < M ** 3
+                ex = n * np.abs(self.norm(V[ii])) < M**3
                 cov[ii[ex.astype(bool)]] = True
         # 2. orbit closure: uncovered iff whole <-1,eps>-orbit is not directly covered
         pE = idx((A @ (self.E % M)) % M)
         pN = idx((-A) % M)
         # label every point by the minimal index in its eps-cycle (pointer doubling) ...
-        lab = np.arange(len(A)); P = pE.copy()
+        lab = np.arange(len(A))
+        P = pE.copy()
         while True:
             lab2 = np.minimum(lab, lab[P])
             P = P[P]
@@ -139,9 +164,9 @@ class OrbitWitness:
         # ... then merge each cycle with the cycle of -a: orbit of <-1, eps>
         lab = np.minimum(lab, lab[pN])
         bad = np.zeros(len(A), bool)
-        np.logical_or.at(bad, lab, cov)            # orbit contains a covered point
+        np.logical_or.at(bad, lab, cov)  # orbit contains a covered point
         U = ~bad[lab]
-        if M ** 3 <= 2 * 10 ** 6:
+        if M**3 <= 2 * 10**6:
             self._mask[key] = U
         return U
 
@@ -154,7 +179,8 @@ class OrbitWitness:
         """All a in (Z/m)^3 such that x = a/m is covered by NO centre of `classes`
         (output of TwoStage.classes(L): (coords of r/alpha mod 1, n=|Nm alpha|, alpha, r)),
         i.e. f(x - c) >= 1/n for every class c.  Such x proves: smooth level > L.
-        x - c = b/(mn) with b = n a - m (n c) integral, so it is a lookup in uncovered_mask(mn, n)."""
+        x - c = b/(mn) with b = n a - m (n c) integral, so it is a lookup in uncovered_mask(mn, n).
+        """
         A = np.array(list(itertools.product(range(m), repeat=3)), dtype=np.int64)
         ok = np.ones(len(A), bool)
         for c, n, al, r in sorted(classes, key=lambda t: t[1]):
@@ -162,7 +188,7 @@ class OrbitWitness:
             nc = [int(ci * n) for ci in c]
             assert all(ci * n == v for ci, v in zip(c, nc))
             B = (n * A - m * np.array(nc, dtype=np.int64)) % M
-            if M ** 3 <= 4 * 10 ** 6:
+            if M**3 <= 4 * 10**6:
                 U = self.uncovered_mask(M, n)
                 ok &= U[(B[:, 0] * M + B[:, 1]) * M + B[:, 2]]
             else:
@@ -178,10 +204,11 @@ class OrbitWitness:
         a = np.array([int(x) % m for x in a], dtype=np.int64)
         orbit, v = set(), a
         while tuple(v) not in orbit:
-            orbit.add(tuple(v)); orbit.add(tuple((-v) % m))
+            orbit.add(tuple(v))
+            orbit.add(tuple((-v) % m))
             v = (v @ (self.E % m)) % m
         V = np.array([np.array(o) - m * d for o in orbit for d in self.D])
-        return bool((n * np.abs(self.norm(V)) >= m ** 3).all())
+        return bool((n * np.abs(self.norm(V)) >= m**3).all())
 
     def verify_level(self, a, m, classes):
         """Exact re-check that a/m is covered by no centre in `classes`."""
@@ -196,10 +223,11 @@ class OrbitWitness:
 def orbit_witness_search(S, mmax=60, mmin=2):
     """First m in [mmin, mmax] with a primitive witness a/m. Returns (x, m, #primitive)."""
     from sage.all import QQ
+
     try:
         O = OrbitWitness(S)
     except WitnessTooExpensive:
-        return None, 0, 0                    # wit_m = 0 marks "skipped: unit too large"
+        return None, 0, 0  # wit_m = 0 marks "skipped: unit too large"
     for m in range(mmin, mmax + 1):
         prim = [a for a in O.witnesses(m) if math.gcd(*[int(x) for x in a], m) == 1]
         if prim:
@@ -211,17 +239,21 @@ def orbit_witness_search(S, mmax=60, mmin=2):
 
 def level_witness_search(S, L, mmax=20, mmin=2):
     """Smallest m in [mmin, mmax] with a point x = a/m covered by no centre of norm <= L.
-    Returns (x, m, #points) or (None, mmax, 0).  A witness proves: smooth level N_min > L."""
+    Returns (x, m, #points) or (None, mmax, 0).  A witness proves: smooth level N_min > L.
+    """
     from sage.all import QQ
+
     try:
         O = OrbitWitness(S)
     except WitnessTooExpensive:
-        return None, 0, 0                    # skipped: unit too large
+        return None, 0, 0  # skipped: unit too large
     cl = S.classes(L)
     for m in range(mmin, mmax + 1):
         W = O.level_witnesses(m, cl)
         if len(W):
             a = W[0]
-            assert O.verify_level(a, m, cl), "float prefilter disagreed with exact check"
+            assert O.verify_level(
+                a, m, cl
+            ), "float prefilter disagreed with exact check"
             return S.elt([QQ(int(x)) / m for x in a]), m, len(W)
     return None, mmax, 0
