@@ -6,7 +6,7 @@ channels:
   - conda-forge
 dependencies:
   - black
-  - build
+  - python-build
   - contourpy
   - furo
   - isort
