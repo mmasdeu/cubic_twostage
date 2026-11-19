@@ -36,7 +36,7 @@ jobs:
       - name: doctest
         shell: bash -l {0}
         run: |
-          sage -t cubic_twostage
+          python -m sage.doctest cubic_twostage
       - name: verify sample certificates
         shell: bash -l {0}
         run: |

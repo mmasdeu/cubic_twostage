@@ -121,7 +121,7 @@ level N proves N_min ≤ N. For hard fields see `cover_adaptive` and the pipelin
 The documentation is in `doc/` (Sphinx): `cd doc && make html`. The examples in the docstrings
 are doctests:
 
-    sage -t cubic_twostage            # or: python3 -m sage.doctest cubic_twostage
+    python3 -m sage.doctest cubic_twostage   # or: sage -t cubic_twostage (older Sage launchers)
 
 The GitHub workflows run the doctests and verify the sample certificates (`test.yml`), check
 the formatting with black and isort (`lint.yml`), and build the manual (`doc.yml`; GitHub
